@@ -8727,3 +8727,43 @@ li:hover + #overlay {
         }
     }
 }
+
+.title-price {
+    .custom-toggle {
+        width: 45px;
+        height: 24px;
+        background-color: #e5e5e5;
+        border-radius: 24px;
+        position: relative;
+        margin-left: 10px;
+        transition: background-color 0.3s;
+    }
+
+    .custom-toggle.active {
+        background-color: var(--base-color-two);
+    }
+
+    .toggle-circle {
+        width: 18px;
+        height: 18px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        left: 3px;
+        top: 3px;
+        transition: transform 0.3s;
+    }
+
+    .custom-toggle.active .toggle-circle {
+        transform: translateX(21px);
+    }
+}
+
+.choose-payment {
+    button{
+        transition: var(--ease);
+    }
+    .active {
+        border: 2px solid var(--base-color-two) !important;
+    }
+}

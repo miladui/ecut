@@ -545,7 +545,6 @@ $(document).ready(function () {
 
 
 
-
 setTimeout(function (){
     $('.loading-page').fadeOut()
 } , 2000)
