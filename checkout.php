@@ -10,8 +10,8 @@
             <div class="start max-[900px]:w-full gap-[1rem] flex flex-col items-center w-[57%]">
                 <div class="box-basket w-full border-[#d4d4d4] border-[1px] rounded-[8px] h-[548px] px-[1.5rem] py-[2rem] flex flex-col justify-between items-center">
                     <div class="title-basket flex items-center gap-[1rem]">
-                        <h4 class="font-bold mb-0 text-[15px]">بازبینی سبد خرید کالا</h4>
-                        <span class="bg-base-color-two relative top-[-1px] rounded-[5px] text-white text-[13px] py-[1px] px-[5px]">3 کالا</span>
+                        <h4 class="font-bold mb-0 text-[15px] max-[600px]:text-[14px]">بازبینی سبد خرید کالا</h4>
+                        <span class="bg-base-color-two relative top-[-1px] rounded-[5px] text-white text-[13px] max-[600px]:text-[12px] py-[1px] px-[5px]">3 کالا</span>
                     </div>
                     <div class="items-basket w-full flex justify-center items-center gap-[14px]">
                         <div class="cart-item flex flex-col items-center w-[19.5%]">
@@ -115,35 +115,35 @@
                 </div>
             </div>
             <div class="end max-[900px]:w-full max-[900px]:p-[1rem] w-[43%]  bg-[#f2f2f2] rounded-[8px] px-[3.2rem] py-[2rem]">
-                <h3 class="font-bold md:text-[15px] mb-[1rem] xl:text-[16px]">جمع سبد خرید شما</h3>
+                <h3 class="font-bold md:text-[15px] mb-[1rem] xl:text-[16px] max-[600px]:text-[14px]">جمع سبد خرید شما</h3>
                 <div class="item-simple w-full flex items-center mt-[12px] justify-between">
-                    <span class="font-bold text-[14px]">مبلغ محصولات :</span>
+                    <span class="font-bold text-[14px] max-[600px]:text-[13px]">مبلغ محصولات :</span>
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[20%]"></div>
                         <div class="price flex items-center w-[65%] justify-between">
-                            <strong class="text-[14px]">23,000,000</strong>
-                            <span class="text-[14px]">تومان</span>
+                            <strong class="text-[14px] max-[600px]:text-[13px]">23,000,000</strong>
+                            <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                         </div>
                     </div>
                 </div>
                 <div class="item-simple w-full flex items-center mt-[12px] justify-between">
-                    <span class="font-bold text-[14px]">هزینه ارسال : ( آدرس )</span>
+                    <span class="font-bold text-[14px] max-[600px]:text-[13px]">هزینه ارسال : ( آدرس )</span>
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[20%]"></div>
                         <div class="price flex items-center w-[65%] justify-between">
-                            <strong class="text-[14px]">100,000</strong>
-                            <span class="text-[14px]">تومان</span>
+                            <strong class="text-[14px] max-[600px]:text-[13px]">100,000</strong>
+                            <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                         </div>
                     </div>
                 </div>
                 <div class="my-[1rem] border-b-[1px] border-[#000] w-full"></div>
                 <div class="item-simple w-full flex items-center mt-[12px] justify-between">
-                    <span class="font-bold text-[14px]">جمع کل قابل پرداخت :</span>
+                    <span class="font-bold text-[14px] max-[600px]:text-[13px]">جمع کل قابل پرداخت :</span>
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[20%]"></div>
                         <div class="price flex items-center w-[65%] justify-between">
-                            <strong class="text-[14px]">23,100,000</strong>
-                            <span class="text-[14px]">تومان</span>
+                            <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
+                            <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                         </div>
                     </div>
                 </div>
@@ -157,19 +157,19 @@
                             <div class="custom-toggle cursor-pointer" onclick="toggleSwitch(this)">
                                 <div class="toggle-circle"></div>
                             </div>
-                            <span class="font-bold text-[14px]">ایکات کارت</span>
+                            <span class="font-bold text-[14px] max-[600px]:text-[13px]">ایکات کارت</span>
                         </div>
                     </div>
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[10%]">
-                            <span class="text-[14px] font-bold">مبلغ </span>
+                            <span class="text-[14px] font-bold max-[600px]:text-[13px]">مبلغ </span>
                         </div>
                         <div class="price flex items-center w-[90%] justify-between">
                             <div class="box-strong gap-[14px] w-[80%] h-[35px] rounded-[5px] bg-white flex items-center justify-center">
-                                <strong class="text-[14px]">23,100,000</strong>
-                                <span class="text-[14px]">تومان</span>
+                                <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
+                                <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] w-[18%] mr-[1rem]">ویرایش</button>
+                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem]">ویرایش</button>
                         </div>
                     </div>
                 </div>
@@ -180,19 +180,19 @@
                             <div class="custom-toggle cursor-pointer" onclick="toggleSwitch(this)">
                                 <div class="toggle-circle"></div>
                             </div>
-                            <span class="font-bold text-[14px]">اعتبار</span>
+                            <span class="font-bold text-[14px] max-[600px]:text-[13px]">اعتبار</span>
                         </div>
                     </div>
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[10%]">
-                            <span class="text-[14px] font-bold">مبلغ </span>
+                            <span class="text-[14px] font-bold max-[600px]:text-[13px]">مبلغ </span>
                         </div>
                         <div class="price flex items-center w-[90%] justify-between">
                             <div class="box-strong gap-[14px] w-[80%] h-[35px] rounded-[5px] bg-white flex items-center justify-center">
-                                <strong class="text-[14px]">23,100,000</strong>
-                                <span class="text-[14px]">تومان</span>
+                                <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
+                                <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] w-[18%] mr-[1rem]">ویرایش</button>
+                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem]">ویرایش</button>
                         </div>
                     </div>
                 </div>
@@ -203,19 +203,19 @@
                             <div class="custom-toggle cursor-pointer" onclick="toggleSwitch(this)">
                                 <div class="toggle-circle"></div>
                             </div>
-                            <span class="font-bold text-[14px]">کیف پول</span>
+                            <span class="font-bold text-[14px] max-[600px]:text-[13px]">کیف پول</span>
                         </div>
                     </div>
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[10%]">
-                            <span class="text-[14px] font-bold">مبلغ </span>
+                            <span class="text-[14px] font-bold max-[600px]:text-[13px]">مبلغ </span>
                         </div>
                         <div class="price flex items-center w-[90%] justify-between">
                             <div class="box-strong gap-[14px] w-[80%] h-[35px] rounded-[5px] bg-white flex items-center justify-center">
-                                <strong class="text-[14px]">23,100,000</strong>
-                                <span class="text-[14px]">تومان</span>
+                                <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
+                                <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] w-[18%] mr-[1rem]">ویرایش</button>
+                            <button class="text-[13px] w-[18%] mr-[1rem] max-[600px]:text-[12px]">ویرایش</button>
                         </div>
                     </div>
                 </div>
@@ -226,51 +226,51 @@
                             <div class="custom-toggle cursor-pointer" onclick="toggleSwitch(this)">
                                 <div class="toggle-circle"></div>
                             </div>
-                            <span class="font-bold text-[14px]">کد تخفیف</span>
+                            <span class="font-bold text-[14px] max-[600px]:text-[13px]">کد تخفیف</span>
                         </div>
                     </div>
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[10%]">
-                            <span class="text-[14px] font-bold">مبلغ </span>
+                            <span class="text-[14px] font-bold max-[600px]:text-[13px]">مبلغ </span>
                         </div>
                         <div class="price flex items-center w-[90%] justify-between">
                             <div class="box-strong gap-[14px] w-[80%] h-[35px] rounded-[5px] bg-white flex items-center justify-center">
-                                <strong class="text-[14px]">23,100,000</strong>
-                                <span class="text-[14px]">تومان</span>
+                                <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
+                                <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] w-[18%] mr-[1rem]">ویرایش</button>
+                            <button class="text-[13px] w-[18%] mr-[1rem] max-[600px]:text-[12px]">ویرایش</button>
                         </div>
                     </div>
                 </div>
                 <div class="item-advance border-t-[1px] border-b-[1px] border-[#000] py-[12px] mt-[12px] w-full flex items-center mt-[12px] justify-between">
                     <div class="title-price flex items-center justify-start">
-                        <span class="font-bold text-[14px]">جمع کل</span>
+                        <span class="font-bold text-[14px] max-[600px]:text-[13px]">جمع کل</span>
                     </div>
 
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[10%]"></div>
                         <div class="price flex items-center w-[90%] justify-between">
                             <div class="box-strong gap-[14px] w-[80%] h-[35px] rounded-[5px] bg-white flex items-center justify-center">
-                                <strong class="text-[14px]">24,100,000</strong>
-                                <span class="text-[14px]">تومان</span>
+                                <strong class="text-[14px] max-[600px]:text-[13px]">24,100,000</strong>
+                                <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <div class="mr-[1rem] text-[13px] invisible">ویرایش</div>
+                            <div class="mr-[1rem] text-[13px] max-[600px]:text-[12px] invisible ">ویرایش</div>
                         </div>
                     </div>
                 </div>
                 <div class="item-advance  border-b-[1px] border-[#000] py-[12px]  w-full flex items-center  justify-between">
                     <div class="title-price flex items-center justify-start">
-                        <span class="font-bold text-[14px] text-base-two">مانده قابل پرداخت :</span>
+                        <span class="font-bold text-[14px] max-[600px]:text-[13px] text-base-two">مانده قابل پرداخت :</span>
                     </div>
 
                     <div class="price-column flex items-center justify-end gap-[1rem] w-[50%]">
                         <div class="w-[10%]"></div>
                         <div class="price flex items-center w-[90%] justify-between">
                             <div class="box-strong gap-[14px] w-[80%] h-[35px] rounded-[5px] bg-white flex items-center justify-center">
-                                <strong class="text-[14px]">24,100,000</strong>
-                                <span class="text-[14px]">تومان</span>
+                                <strong class="text-[14px] max-[600px]:text-[13px]">24,100,000</strong>
+                                <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <div class="mr-[1rem] text-[13px] invisible">ویرایش</div>
+                            <div class="mr-[1rem] text-[13px] max-[600px]:text-[12px] invisible">ویرایش</div>
                         </div>
 
                     </div>
