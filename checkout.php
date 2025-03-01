@@ -113,9 +113,8 @@
 
                     </div>
                 </div>
-
             </div>
-            <div class="end max-[900px]:w-full w-[43%]  bg-[#f2f2f2] rounded-[8px] px-[3.2rem] py-[2rem]">
+            <div class="end max-[900px]:w-full max-[900px]:p-[1rem] w-[43%]  bg-[#f2f2f2] rounded-[8px] px-[3.2rem] py-[2rem]">
                 <h3 class="font-bold md:text-[15px] mb-[1rem] xl:text-[16px]">جمع سبد خرید شما</h3>
                 <div class="item-simple w-full flex items-center mt-[12px] justify-between">
                     <span class="font-bold text-[14px]">مبلغ محصولات :</span>
