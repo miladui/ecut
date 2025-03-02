@@ -73,7 +73,6 @@
                     </svg>
                 </div>
             </div>
-
             <div class="row-titles mt-[3rem] w-full flex flex-col items-center">
                 <h2 class="font-bold max-[800px]:text-[22px] text-[35px]">محصولات تک سایز</h2>
                 <p class="w-[36%] max-[700px]:w-full leading-[25px] max-[800px]:text-[13px] mt-[3rem] text-center font-normal text-[16px]">
@@ -292,7 +291,10 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <div class="flex items-center">
+                                        <img width="15" src="assets/images/vector_snake.svg" class="ml-[8px]" alt="" style="display: block">
+                                        <span class="text-[11px] text">تی شرت 1698</span>
+                                    </div>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -333,7 +335,10 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <div class="flex items-center">
+                                        <img width="15" src="assets/images/vector_snake.svg" class="ml-[8px]" alt="" style="display: block">
+                                        <span class="text-[11px] text">تی شرت 1698</span>
+                                    </div>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -376,7 +381,10 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <div class="flex items-center">
+                                        <img width="15" src="assets/images/vector_snake.svg" class="ml-[8px]" alt="" style="display: block">
+                                        <span class="text-[11px] text">تی شرت 1698</span>
+                                    </div>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -418,7 +426,10 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <div class="flex items-center">
+                                        <img width="15" src="assets/images/vector_snake.svg" class="ml-[8px]" alt="" style="display: block">
+                                        <span class="text-[11px] text">تی شرت 1698</span>
+                                    </div>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -462,7 +473,10 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <div class="flex items-center">
+                                        <img width="15" src="assets/images/vector_snake.svg" class="ml-[8px]" alt="" style="display: block">
+                                        <span class="text-[11px] text">تی شرت 1698</span>
+                                    </div>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -654,7 +668,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="pagination">
                             <ul>
                                 <li><span class="prev-pg"><a href="#">صفحه  قبل </a></span></li>

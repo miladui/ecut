@@ -7576,9 +7576,6 @@ i.ecut-instagram {
 }
 
 @media only screen and (min-width: 2400px) {
-    .c-container {
-        max-width: 2300px !important;
-    }
 
     .underMenu-box {
         height: 600px !important;
@@ -8459,8 +8456,26 @@ li:hover + #overlay {
 
 .buttons-tab {
     button {
-        border-right: 2px solid var(--dark);
-        border-left: 2px solid var(--dark);
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        &:after {
+            content: '';
+            border-left: 2px solid var(--base-color-two);
+            height: 10px;
+            position: absolute;
+            right: -10px;
+        }
+
+        &:before {
+            content: '';
+            border-left: 2px solid var(--base-color-two);
+            height: 10px;
+            position: absolute;
+            left: -10px;
+        }
+
         padding-inline: 14px;
         color: var(--dark);
     }
@@ -8711,33 +8726,105 @@ li:hover + #overlay {
     .box-basket {
         .items-basket {
             overflow-x: scroll;
-            display: -webkit-box !important;
+            overflow-y: hidden;
+            display: flex !important;
+            justify-content: flex-start;
             padding: 2rem 0 1rem 0 !important;
             margin-bottom: 1rem;
+
             .cart-item {
                 width: 160px !important;
 
                 .title-cart {
+                    width: 160px !important;
+                    margin-inline: 6px;
                 }
             }
         }
     }
+
+    #swiper-card {
+        width: 240px;
+        height: 400px;
+        padding-bottom: 3rem !important;
+        background: white;
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 18px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #fff;
+        }
+    }
+
+    #swiper-card-two {
+        width: 240px;
+        height: 400px;
+        padding-bottom: 3rem !important;
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 18px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #fff;
+            background: #f5f5f5 !important;
+
+        }
+    }
+
 }
 
 /*special-products*/
 .special-products {
     .thumbnail-product {
         .p-img {
-            transition: var(--ease);
-            border: 2px solid transparent;
+            position: relative;
+            border-width: 2px;
+            border-style: solid;
+            border-image: linear-gradient(to top, #C2B067, #C2B067) 1;
+        }
 
+        .p-img:before {
+            content: "";
+            position: absolute;
+            width: calc(100% + 6px);
+            height: calc(100% + 6px);
+            top: calc(3px / -1);
+            left: calc(3px / -1);
+            background: linear-gradient(to right, #C2B067 0%, #C2B067 100%), linear-gradient(to top, #C2B067 50%, transparent 50%), linear-gradient(to top, #C2B067 50%, transparent 50%), linear-gradient(to right, #C2B067 0%, #C2B067 100%), linear-gradient(to left, #C2B067 0%, #C2B067 100%);
+            background-size: 100% 2px, 2px 200%, 2px 200%, 0% 2px, 0% 2px;
+            background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+            background-repeat: no-repeat, no-repeat;
+            transition: transform 0.2s ease-in-out, background-position 0.2s ease-in-out, background-size 0.2s ease-in-out;
+            transform: scaleX(0) scaleY(1) rotate(180deg);
+            transition-delay: 0.4s, 0.2s, 0s;
+        }
+
+        .p-img:hover:before {
+            background-size: 200% 2px, 2px 400%, 2px 400%, 55% 2px, 55% 2px;
+            background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+            transform: scaleX(1) scaleY(1) rotate(180deg);
+            transition-delay: 0s, 0.2s, 0.4s;
+        }
+
+        .p-img {
+            border-width: 2px;
+            border-style: solid;
+            border-image: linear-gradient(to top, var(--base-color-two), var(--base-color)) 1;
         }
 
         &:hover {
             .p-img {
-                border-width: 2px;
-                border-style: solid;
-                border-image: linear-gradient(to top, var(--base-color-two), var(--base-color)) 1;
+                border-width: unset !important;
+                border-style: unset !important;
+                border-image: unset !important;
+                scale: 0.99;
             }
         }
     }
@@ -8751,7 +8838,7 @@ li:hover + #overlay {
         border-radius: 24px;
         position: relative;
         margin-left: 10px;
-        transition: background-color 0.3s;
+        transition: background-color 0.6s;
     }
 
     .custom-toggle.active {
@@ -8766,7 +8853,7 @@ li:hover + #overlay {
         position: absolute;
         left: 3px;
         top: 3px;
-        transition: transform 0.3s;
+        transition: transform 0.6s;
     }
 
     .custom-toggle.active .toggle-circle {
@@ -8797,6 +8884,10 @@ li:hover + #overlay {
 }
 
 .shipping-method {
+    .item-shipping {
+        transition: var(--ease);
+    }
+
     .active {
         background: #d4d4d4 !important;
 

@@ -118,9 +118,12 @@
                 <div class="swiper-slide">
                     <section class="bg-[#f2f2f2] w-full h-[100vh]">
                         <div class="flex relative z-[10px] tab-buttons pt-[2rem] gap-[1rem] buttons-tab w-[55%] mx-auto items-center justify-start">
-                            <button onclick="showTab('tab1')" class="cursor-pointer btn-one w-[150px] active">اکسسوری
+                            <button onclick="showTab('tab1')"
+                                    class="cursor-pointer px-[8px] bg-[#ccc] btn-one w-auto mx-[12px] active">اکسسوری
                             </button>
-                            <button onclick="showTab('tab2')" class="cursor-pointer btn-two w-[150px]">کفش</button>
+                            <button onclick="showTab('tab2')"
+                                    class="cursor-pointer px-[8px] bg-[#ccc] btn-two w-auto mx-[12px]">کفش
+                            </button>
                         </div>
                         <div id="tab1" class="tab-content w-full show-one mx-auto active">
                             <div class="w-full flex justify-center  mx-auto">
@@ -945,123 +948,40 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-[#f2f2f2] mt-[1rem] w-full h-auto">
-                <div class="flex relative z-[10px] tab-buttons pt-[2rem] gap-[1rem] buttons-tab w-full items-center justify-center">
-                    <button onclick="showTab('tab1-mobi')" class="btn-base cursor-pointer btn-one w-[150px] active">
+            <section class="bg-[#fff] mt-[1rem] w-full h-auto">
+                <div class="flex relative z-[10px] tab-buttons pt-[2rem] mb-[1rem] gap-[1rem] buttons-tab w-full items-center justify-center">
+                    <button onclick="showTab('tab1-mobi')" class="cursor-pointer btn-one bg-[#ededed] mx-2 active">
                         اکسسوری
                     </button>
-                    <button onclick="showTab('tab2-mobi')" class="btn-base cursor-pointer btn-two w-[150px]">کفش
+                    <button onclick="showTab('tab2-mobi')" class="cursor-pointer btn-two bg-[#ededed] mx-2">کفش
                     </button>
                 </div>
-                <div id="tab1-mobi" class="tab-content px-[10px] pt-[2rem] w-full show-one mx-auto active">
+                <div id="tab1-mobi" class="tab-content overflow-hidden px-[10px] pt-[2rem] w-full show-one mx-auto active">
                     <div class="w-full  mx-auto">
-                        <div class="w-full h-auto flex items-end justify-center">
-                            <div class="p-gallery  pb-[2rem] h-auto gap-[12px] w-full flex flex-col justify-end">
-                                <div class="row-top h-[29%] w-full grid grid-cols-2 gap-[12px]">
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style/70.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style/68.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                </div>
-                                <div class="row-center h-[29%] w-full grid grid-cols-3 gap-[12px]">
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style/75.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style/61.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style/51.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                </div>
-                                <div class="row-bottom h-[29%] w-full grid grid-cols-2 gap-[12px]">
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style/71.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style/69.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                </div>
+                        <div id="swiper-card" class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="assets/images/accessory/2.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/accessory/3.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/accessory/4.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/accessory/5.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/accessory/6.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/accessory/7.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/accessory/8.jpg" alt=""></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="tab2-mobi" style="display: none;"
-                     class="tab-content px-[10px] pt-[2rem] w-full show-one mx-auto ">
+                <div id="tab2-mobi" class="tab-content tab-two-shoes-mobi overflow-hidden px-[10px] pt-[2rem] w-full show-one mx-auto active">
                     <div class="w-full  mx-auto">
-                        <div class="w-full h-auto flex items-end justify-center">
-                            <div class="p-gallery  pb-[2rem] h-auto gap-[12px] w-full flex flex-col justify-end">
-                                <div class="row-top h-[29%] w-full grid grid-cols-2 gap-[12px]">
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style2/1.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style2/2.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                </div>
-                                <div class="row-center h-[29%] w-full grid grid-cols-3 gap-[12px]">
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style2/3.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style2/4.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style2/5.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                </div>
-                                <div class="row-bottom h-[29%] w-full grid grid-cols-2 gap-[12px]">
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style2/6.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                    <div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="assets/images/style2/7.jpg"
-                                             alt="">
-                                        <div class="details-img h-[10px] gap-[6px] w-full flex  items-center justify-center  bg-[#fb923c] absolute right-0 z-10"></div>
-                                    </div>
-                                </div>
+                        <div id="swiper-card-two" class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="assets/images/shoes/2.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/shoes/3.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/shoes/4.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/shoes/5.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/shoes/6.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/shoes/7.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="assets/images/shoes/8.jpg" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -1379,6 +1299,18 @@
         },
         autoplay: true,
         loop: true,
+        effect: "creative",
+        speed: 1000,
+        creativeEffect: {
+            prev: {
+                shadow: true,
+                translate: ["-120%", 0, -500],
+            },
+            next: {
+                shadow: true,
+                translate: ["120%", 0, -500],
+            },
+        },
     });
     var swiperBannerTwo = new Swiper(".swiper-banner-two", {
         pagination: {
@@ -1386,6 +1318,16 @@
         },
         autoplay: true,
         loop: true,
+        effect: "creative",
+        creativeEffect: {
+            prev: {
+                shadow: true,
+                translate: [0, 0, -400],
+            },
+            next: {
+                translate: ["100%", 0, 0],
+            },
+        },
 
     });
     var swiperCategory = new Swiper(".swiperCategory", {
@@ -1517,6 +1459,21 @@
         });
         event.target.classList.add('active');
     }
+
+        const swiperOneCard = new Swiper("#swiper-card", {
+            effect: "cards",
+            grabCursor: true,
+            speed: 300,
+        });
+        const swiperTwoCard = new Swiper("#swiper-card-two", {
+            effect: "cards",
+            grabCursor: true,
+            speed: 300,
+        });
+        $(document).ready(function (){
+            $('.tab-two-shoes-mobi').hide()
+        })
+
 </script>
 
 </body>

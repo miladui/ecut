@@ -630,17 +630,17 @@
 <!--header-->
 <div class="header-main relative w-full max-[900px]:hidden">
     <header class="header bg-base-color w-full">
-        <div class="w-full px-[5%]">
+        <div class="w-full px-[5%] max-[1400px]:px-[2%]">
             <div class="p-header flex items-center justify-between h-[85px] w-full mx-auto">
                 <ul class="links pt-[20px] h-full w-[40%] p-0 flex items-center">
                     <li><a onclick="window.location.replace('index.php')" href="#"
-                           class="link header-link flex indexPage items-center text-white text-[12px] px-[8px] mx-[4px]">صفحه
+                           class="link header-link flex indexPage items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">صفحه
                             اصلی </a>
                     </li>
                     <li onmouseover="showOverlay()" onmouseout="hideOverlay()"
                         class="h-full li-mega-menu flex items-center">
                         <div
-                                class="link p-link-underMenu h-[90px] flex items-center text-white text-[12px] h-full px-[8px] mx-[4px]">
+                                class="link p-link-underMenu h-[90px] flex items-center text-white text-[12px] max-[1400px]:text-[11px] h-full px-[8px] mx-[4px]">
                             <a   class="header-link">
                                 <span>محصولات</span>
                             </a>
@@ -968,22 +968,22 @@
                         </div>
                     </li>
                     <li><a onclick="window.location.replace('storeB.php')" href="#"
-                           class="link header-link storePage flex  items-center text-white text-[12px] px-[8px] mx-[4px]"
+                           class="link header-link storePage flex  items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]"
                         >فروشگاه </a>
                     </li>
                     <li><a onclick="window.location.replace('organizational.php')" href="#"
-                           class="link header-link organizationalPage flex items-center text-white text-[12px] px-[8px] mx-[4px]">فروش
+                           class="link header-link organizationalPage flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">فروش
                             سازمانی </a></li>
                     <li><a onclick="window.location.replace('contactUs.php')" href="#"
-                           class="link header-link contactUsPage flex items-center text-white text-[12px] px-[8px] mx-[4px]">تماس
+                           class="link header-link contactUsPage flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">تماس
                             با
                             ما </a>
                     </li>
                     <li><a onclick="window.location.replace('about-us.php')" href="#"
-                           class="link header-link aboutUsPage flex items-center text-white text-[12px] px-[8px] mx-[4px]">درباره
+                           class="link header-link aboutUsPage flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">درباره
                             ما </a></li>
                     <li><a onclick="window.location.replace('list-product-landing.php')" href="#"
-                           class="link header-link aboutUsPage  flex items-center text-white text-[12px] px-[8px] mx-[4px]">تک سایزها
+                           class="link header-link aboutUsPage  flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">تک سایزها
                         </a></li>
                 </ul>
                 <a href="" class="logo-header w-[20%] flex justify-center">
@@ -992,7 +992,11 @@
                 <div class="end-header pt-[20px] gap-[20px] flex items-center w-[40%] justify-end">
                     <a onclick="window.location.replace('special-products.php')" href="#"
                            class="link header-link aboutUsPage last-link flex items-center text-white text-[12px] px-[8px] mx-[4px]">
-                            <img  width="15" src="./assets/images/vector_snake.svg" class="ml-[8px]"  alt="" style="display: block;filter: invert(1)">
+                        <svg class="ml-[6px]" width="18" height="25" viewBox="0 0 83 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Layer_x0020_1">
+                                <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M35.3499 0.541538C31.1686 1.4931 28.4389 4.01439 27.338 7.79633C25.1223 14.2663 26.6434 20.948 29.9565 26.7373C23.0108 33.9157 18.826 46.4631 23.24 55.8815C10.5294 60.9171 1.96882 73.4263 0.249754 86.8003C-1.53529 99.8061 6.37239 110.357 19.9929 109.679C32.068 108.71 42.6325 101.532 51.2312 93.4543C55.482 89.2799 59.4202 84.7374 62.8757 79.8858C65.72 74.3292 60.3718 70.7765 55.2702 76.5241C48.3071 84.3658 42.2088 92.8291 31.9083 96.6527C16.7701 101.244 9.73759 89.332 15.2212 76.4407C17.9544 70.016 21.3161 66.491 27.1539 63.8933C27.9596 63.5356 28.1333 64.4594 28.8626 65.4283C32.3702 70.0785 36.8328 73.0686 42.5977 73.9924C49.8247 75.4753 56.6628 68.0851 54.1832 61.1984C51.2972 52.3148 38.847 49.1719 30.7761 52.2836C29.519 47.0569 31.9639 40.2467 35.5548 36.3501C45.9976 52.5579 67.5988 47.6994 77.9062 33.9608C80.7505 30.5539 82.6397 26.706 82.9627 22.2121C83.2648 18.0065 81.7333 14.5927 78.316 12.1166C67.0327 4.44502 49.3906 10.6093 39.5625 18.3573C36.9231 13.0264 40.5869 7.04619 44.9002 5.18127C43.9417 2.08348 40.2987 0.354004 37.0967 0.354004C36.4925 0.354004 35.9021 0.416515 35.3499 0.541538ZM41.278 30.863C47.807 24.9036 57.0031 19.736 65.9943 22.2781C69.8284 23.254 71.6447 27.5638 68.856 31.0054C65.1088 35.6312 59.6008 37.9094 54.3568 37.9094C49.0017 37.9094 43.9209 35.534 41.278 30.863ZM34.6102 60.1461C38.5067 59.8579 42.5665 59.3474 45.8518 61.7124C47.2444 62.7785 47.3625 65.0394 45.3968 65.529C44.9627 65.6367 44.5217 65.6888 44.0702 65.6888C40.5522 65.6888 36.7321 62.5841 34.6102 60.1461Z" fill="#fb923c"/>
+                            </g>
+                        </svg>
                             اکسکلوسیو
                         </a>
                     <button class="btn-search">
@@ -1228,7 +1232,7 @@
         </div>
         <div class="w-full mt-3 px-[1rem] grid grid-cols-2 gap-[10px]">
             <button class="btn-base w-full">سبد خرید</button>
-            <button class="btn-base w-full">تسویه حساب</button>
+            <button onclick="window.location.replace('checkout.php')" class="btn-base w-full">تسویه حساب</button>
         </div>
     </div>
 </div>
