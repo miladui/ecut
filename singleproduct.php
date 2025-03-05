@@ -22,61 +22,64 @@
 <div class="box-share">
     <div class="row-close w-full flex justify-between items-center px-[1.5rem]">
         <h3 class="title">اشتراک گذاری</h3>
-        <svg class="close-share" id="Icons" height="20" viewBox="0 0 64 64" width="20"
+        <svg class="close-share" id="Icons" height="16" viewBox="0 0 64 64" width="16"
              xmlns="http://www.w3.org/2000/svg" fill="#DE1F0D">
             <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
         </svg>
     </div>
     <div class="row-middle flex justify-between  items-center">
-        <img class="img-share" src="assets/images/3.jpg" alt="">
+        <img class="img-share " src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
         <div class="p-icons flex flex-col">
             <div class="title-product w-100 flex justify-center">
-                <h4 class="">کت تک 6036</h4>
+                <h4 class="text-[16px]">کت تک 6036</h4>
             </div>
-            <button onclick="copyLink('https://your-link.com/instagram')" class="btn-icon">اینستاگرام
-                <img src="assets/images/social-media/instagram-svgrepo-com.svg" alt="">
-            </button>
-            <button onclick="copyLink('https://your-link.com/telegram')" class="btn-icon">
-                تلگرام
-                <img src="assets/images/social-media/telegram-svgrepo-com%20(1).svg" alt="">
+            <div class="w-full flex gap-[6px] flex-col">
+                <button onclick="copyLink('https://your-link.com/instagram')" class="btn-icon">اینستاگرام
+                    <img src="assets/images/social-media/instagram-svgrepo-com.svg" alt="">
+                </button>
+                <button onclick="copyLink('https://your-link.com/telegram')" class="btn-icon">
+                    تلگرام
+                    <img src="assets/images/social-media/telegram-svgrepo-com%20(1).svg" alt="">
 
-            </button>
-            <button onclick="copyLink('https://your-link.com/facebook')" class="btn-icon">
-                فیس بوک
-                <img src="assets/images/social-media/facebook-svgrepo-com.svg" alt="">
-            </button>
-            <button onclick="copyLink('https://your-link.com/linkdin')" class="btn-icon">
-                لینکدین
-                <img src="assets/images/social-media/linkedin-svgrepo-com.svg" alt="">
-            </button>
-            <button onclick="copyLink('https://your-link.com/whatsapp')" class="btn-icon">
-                واتس اپ
-                <img src="assets/images/social-media/whatsapp-svgrepo-com%20(1).svg" alt="">
-            </button>
-            <button onclick="copyLink('https://your-link.com/sorosh')" class="btn-icon">
-                سروش
-                <img src="assets/images/social-media/سروش.png" alt="">
-            </button>
-            <button onclick="copyLink('https://your-link.com/eita')" class="btn-icon">
-                ایتا
-                <img src="assets/images/social-media/ایتا.png" alt="">
-            </button>
-            <button onclick="copyLink('https://your-link.com/bale')" class="btn-icon">
-                بله
-                <img src="assets/images/social-media/بله.png" alt="">
-            </button>
+                </button>
+                <button onclick="copyLink('https://your-link.com/facebook')" class="btn-icon">
+                    فیس بوک
+                    <img src="assets/images/social-media/facebook-svgrepo-com.svg" alt="">
+                </button>
+                <button onclick="copyLink('https://your-link.com/linkdin')" class="btn-icon">
+                    لینکدین
+                    <img src="assets/images/social-media/linkedin-svgrepo-com.svg" alt="">
+                </button>
+                <button onclick="copyLink('https://your-link.com/whatsapp')" class="btn-icon">
+                    واتس اپ
+                    <img src="assets/images/social-media/whatsapp-svgrepo-com%20(1).svg" alt="">
+                </button>
+                <button onclick="copyLink('https://your-link.com/sorosh')" class="btn-icon">
+                    سروش
+                    <img src="assets/images/social-media/سروش.png" alt="">
+                </button>
+                <button onclick="copyLink('https://your-link.com/eita')" class="btn-icon">
+                    ایتا
+                    <img src="assets/images/social-media/ایتا.png" alt="">
+                </button>
+                <button onclick="copyLink('https://your-link.com/bale')" class="btn-icon">
+                    بله
+                    <img src="assets/images/social-media/بله.png" alt="">
+                </button>
+            </div>
         </div>
     </div>
     <div class="row-end w-full flex flex-col items-center">
         <span>لینک محصول</span>
-        <a href="">https://ecut.shop/product/single-coat-xja1156036</a>
+        <a href="" class="copy-link">https://ecut.shop/product/single-coat-xja1156036</a>
+        <div class="copy-message bg-green-500 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]" style="display: none;">لینک با موفقیت کپی شد!</div>
     </div>
 </div>
 
 
 <section class="s-single-product mt-[55px]">
     <div class="p-single-product max-[900px]:hidden w-full h-[100vh] flex items-start">
-        <div class="start pt-[1rem] px-[2rem] h-full overflow-y-auto w-[38%]">
+        <div class="start pt-[1rem] px-[2rem] h-[95vh] overflow-y-auto w-[38%]">
             <div class="w-full flex flex-col max-[800px]:px-0 min-[1300px]:px-[3rem]  min-[1800px]:px-[6rem]">
                 <div class="breadcrum mt-[2rem] w-full mb-3">
                     <a class="text-[14px]" href="#">محصولات</a>
@@ -138,17 +141,17 @@
 
                 </div>
                 <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
-                    <button class="btn-size en-num  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                    <button class="btn-size en-num  bg-base-color text-white pt-[1.7px] w-[35px] h-[22px] rounded-[5px] text-[14px]">
                         50
                     </button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">48</button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">52</button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">54</button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">56</button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">58</button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">60</button>
-                    <button class="btn-size en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">62</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">48</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">50</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">52</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">54</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">56</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">58</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">60</button>
+                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">62</button>
                 </div>
                 <div class="w-full flex items-center justify-between mt-[2rem]">
                     <div class="flex items-center gap-[6px]">
@@ -1414,7 +1417,7 @@
         </div>
     </div>
 
-    <div class="row-five max-[900px]:px-[12px] mt-[10rem] max-[900px]:hidden row-five-product flex flex-col items-center justify-center w-full">
+    <div class="row-five max-[900px]:px-[12px] px-[3%] mt-[10rem] max-[900px]:hidden row-five-product flex flex-col items-center justify-center w-full">
         <div class="w-full mb-[2rem] title flex justify-center">
             <h2 class="text-[18px] px-[1rem]">محصولات مشابه</h2>
         </div>
@@ -1426,7 +1429,7 @@
                           fill="#777777"/>
                 </svg>
             </div>
-            <div class="swiper mb-[3rem] w-[90%] mx-[15px]  swiperProduct">
+            <div class="swiper mb-[3rem] w-[93%] mx-[15px]  swiperProduct">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
@@ -2394,10 +2397,22 @@
                                                             بسازید</p>
 
 
-                                                        <button class="btn-base btn-show-step-two w-[90%] "
+                                                        <button class="btn-base flex items-center justify-center btn-show-step-two w-[90%] "
                                                                 type="button"
                                                                 title="Next">
-                                                            افزودن نمایه جدید<i class="text-[20px] mr-[1rem]">+</i>
+                                                            افزودن نمایه جدید
+                                                            <i class="mr-[1rem]">
+                                                                <svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                     width="10" height="10" viewBox="0 0 45.402 45.402"
+                                                                     xml:space="preserve">
+<g>
+    <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141
+		c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27
+		c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435
+		c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"/>
+</g>
+</svg>
+                                                            </i>
                                                         </button>
                                                         <span>حداکثر 3 نمایه می‌توانید بسازید</span>
 
@@ -2770,6 +2785,12 @@
                 <div class="swiper w-full swiper-gallery-simulator">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
+                            <video id="myVideo" class="w-full" autoplay loop muted playsinline>
+                                <source src="https://media.ecut.shop/product/PJA/PJA1156130/PJA1156130.MP4"
+                                        type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="swiper-slide">
                             <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
@@ -2975,6 +2996,7 @@
         </div>
     </div>
 </div>
+<?php include 'footer.php'; ?>
 
 <?php include 'script-header.php'; ?>
 
@@ -3119,7 +3141,7 @@
     if (window.innerWidth > 901) {
         $(document).ready(function () {
             $('.btn-share').click(function () {
-                $(".box-share").css({display: "flex"}).animate({width: "33%"}, 400);
+                $(".box-share").css({display: "flex"}).animate({width: "34%"}, 400);
             })
             $('.close-share').click(function () {
                 $(".box-share").animate({width: "0"}, 400, function () {
@@ -3218,7 +3240,22 @@
         },
     });
 
+    $(document).ready(function() {
+        $('.copy-link').click(function(e) {
+            e.preventDefault();
 
+            navigator.clipboard.writeText($(this).text())
+                .then(() => {
+                    $('.copy-message')
+                        .fadeIn()
+                        .delay(3000)
+                        .fadeOut();
+                })
+                .catch(err => {
+                    console.error('خطا در کپی کردن متن:', err);
+                });
+        });
+    });
 </script>
 
 </body>

@@ -19,11 +19,14 @@
 <?php include 'loginModal.php'; ?>
 
 
-<div class="store-page  mt-[7rem] max-[900px]:mt-[5rem] mb-[1rem] w-full">
+<div class="store-page  mt-[6.5rem] max-[900px]:mt-[5rem] mb-[1rem] w-full">
     <div class="c-container-custom px-[1rem]">
-        <div class="breadcrum max-[800px]:px-[12px]">
-            <a href="#">ایکات</a> / <a href="#">فروشگاه ها</a></span>
+        <div class="breadcrum mb-3">
+            <a class="text-[14px]" href="#">ایکات</a>
+            <span class="mx-[2px] text-[14px]">/</span>
+            <span class="font-bold text-[14px]">فروشگاه ها </span>
         </div>
+
     </div>
 
     <div class="w-full max-[900px]:hidden mt-[1rem] relative z-20">
@@ -58,7 +61,7 @@
     <div class="c-container-custom">
         <div class="w-full max-[800px]:px-[12px] detail-text mt-[2.5rem] flex flex-col items-center">
             <h2 class="text-[26px] max-[800px]:text-[20px] font-bold">فروشگاه‌های پوشاک ایکات</h2>
-            <p class="leading-[26px] text-black text-[15px] w-[60%] mt-[1.5rem] text-center max-[800px]:w-full max-[800px]:text-[13px]">
+            <p class="leading-[26px] text-black text-[14px] w-[60%] mt-[1.5rem] text-center max-[800px]:w-full max-[800px]:text-[13px]">
                 فروشگاه‌های ایکات، با ارائه‌ی مجموعه‌ای از جدیدترین و با کیفیت‌ترین پوشاک مردانه و اکسسوری‌های روز، تجربه‌ای
                 بی‌نظیر از خرید را برای شما فراهم می‌کنند.
                 <br>
@@ -114,7 +117,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong>  <a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a> داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -212,7 +215,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong> <a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a> داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -299,7 +302,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong> <a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a> داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -403,7 +406,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong> <a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a> داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -500,7 +503,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong> <a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a> داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -596,7 +599,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong> داخلی<a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a>
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -692,7 +695,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong> <a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a> داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -788,7 +791,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong><a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a>  داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -884,7 +887,7 @@
                                                         پلاک 202</p>
                                                     <p class="item text-[14px]"><strong>ساعات کاری: </strong> 9:30 الی 21:30
                                                     </p>
-                                                    <p class="item text-[14px]"><strong>تلفن: </strong> 0202 9122-021 داخلی
+                                                    <p class="item text-[14px]"><strong>تلفن: </strong> <a class="mx-[2px]" href="tel:+02191220202"> 021-91220202</a> داخلی
                                                         200</p>
                                                     <p class="item text-[14px]">ساعت بازگشایی روزهای تعطیل 10 صبح
                                                         می‌باشد</p>
@@ -967,80 +970,8 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="main-footer">
-            <div class="top-footer">
-                <div class="footer1box">
-                    <div class="enamd-box">
-                        <div class="footer1boxs">
-                            <span>مجوز ها </span>
-                            <img src="assets/images/logos.png">
-                        </div>
-                    </div>
-                </div>
-                <div class="footer2box">
-                    <span>اطلاعات تماس </span>
-                    <ul>
-                        <li>تـــــلفن: <a href="">02122910202</a></li>
-                        <li>ایمیل: <a href="">info@ecut.ir</a></li>
-                        <li>نشانی: تهران، میردادماد</li>
-                        <li>نبش کـــــــازرون جنوبی</li>
-                        <li>ساختمان ایکات، پلاک 25</li>
-                    </ul>
-                </div>
-                <div class="footer3box">
-                    <ul>
-                        <li><a href="#">صفحه اصلی</a></li>
-                        <li><a href="#">تماس با ما</a></li>
-                        <li><a href="#">درباره‌ما</a></li>
-                        <li><a href="#">ورود/ثبت نام</a></li>
-                        <li><a href="#">ایکات کارت</a></li>
-                        <li><a href="#">فروش سازمانی</a></li>
-                        <li><a href="#">نقشه سایت</a></li>
-                    </ul>
-                </div>
-                <div class="footer4box">
-                    <ul>
-                        <li><a href="#">فروشگاه‌ها </a></li>
-                        <li><a href="#">سایز من چیست؟</a></li>
-                        <li><a href="#">رهگیری سفارش</a></li>
-                        <li><a href="#">شرایط بازگشت و تعویض کالا</a></li>
-                        <li><a href="#">سوالات متداول</a></li>
-                        <li><a href="#">حریم خصوصی</a></li>
-                        <li><a href="#">قوانین و مقررات</a></li>
-                    </ul>
+    <?php include 'footer.php'; ?>
 
-                </div>
-                <div class="footer5box">
-                    <p>مشترک شوید تا آخرین اخبار را دریافت کنید. <br>ما به شما تمامی اخبار و فروش‌های
-                        فوق‌العاده را
-                        اطلاع رسانی می‌کنیم</p>
-                    <form>
-                        <input type="text" name="email" placeholder="شماره همراه خود را وارد کنید.">
-                        <button>مشترک شوید</button>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-        <div class="social">
-            <div class="container-fluid">
-                <ul>
-                    <li class="telegram"><a href="#"><i class="ecut-telegram"></i></a></li>
-                    <li class="instagram"><a href="#"><i class="ecut-instagram"></i></a></li>
-                    <li class="aparat"><a href="#"><i class="ecut-aparat"></i></a></li>
-                    <li class="youtube"><a href="#"><i class="ecut-youtube"></i></a></li>
-                    <li class="pintres"><a href="#"><i class="ecut-pintres"></i></a></li>
-                    <li class="facebook"><a href="#"><i class="ecut-facebook"></i></a></li>
-                    <li class="x"><a href="#"><i class="ecut-x"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="ecut-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="copyright">
-            <p>کلیه حقوق محصولات و محتوای این وبگاه متعلق به ایکات است</p>
-        </div>
-    </footer>
 </div>
 
 

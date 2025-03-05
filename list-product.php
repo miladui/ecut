@@ -12,8 +12,8 @@
                 <span class="font-bold text-[14px]"> کت و شلوار </span>
             </div>
             <div class="row-titles mt-[3rem] w-full flex flex-col items-center">
-                <h2 class="font-bold text-[38px]">کلاسیک</h2>
-                <div class="row-link-title mt-[7px]  w-full flex items-center justify-center ">
+                <h2 class="font-bold text-[26px]">کلاسیک</h2>
+                <div class="row-link-title mt-[12px]  w-full flex items-center justify-center ">
                     <a class="link-title max-[600px]:text-[12px]" href="">کت و شلوار</a>
                     <div class="text-[15px] w-[2px] h-[10px] bg-base-color-two mx-[10px]"></div>
                     <a class="link-title max-[600px]:text-[12px]" href="">دامـادی</a>
@@ -22,7 +22,7 @@
                     <div class="text-[15px] w-[2px] h-[10px] bg-base-color-two mx-[10px]"></div>
                     <a class="link-title max-[600px]:text-[12px]" href="">شلوار فاستونی</a>
                 </div>
-                <p class="w-[36%] max-[700px]:w-full leading-[25px] max-[800px]:text-[13px] mt-[3rem] text-center font-normal text-[16px]">
+                <p class="w-[36%] max-[700px]:w-full leading-[25px] max-[800px]:text-[13px] mt-[3rem] text-center font-normal text-[14px]">
                     مجموعه کت و شلوار مردانه
                     ایکات، اصیل‌ترین الهام فصل را در خود جای داده است. نگرش و جذابیت
                     پارچه‌های دوخته شده با لباس‌های متمایز بلیزر و جزئیات شیک شلوار جفت شده است.
@@ -40,12 +40,12 @@
                         <i class="fa fa-angle-down mr-[5px]"></i>
                     </button>
                     <div class="flex items-center max-[850px]:w-full max-[850px]:justify-between justify-end gap-[1rem]">
-                        <select name="" id="">
+                        <select id="standard-select">
                             <option selected disabled value="">مرتب سازی</option>
-                            <option value="">قیمت از زیاد به کم</option>
-                            <option value="">قیمت از کم به زیاد</option>
-                            <option value="">پرفروش ترین ها</option>
-                            <option value="">جدید ترین ها</option>
+                            <option value="Option 1">قیمت از زیاد به کم</option>
+                            <option value="Option 2">قیمت از کم به زیاد</option>
+                            <option value="Option 3">پرفروش ترین ها</option>
+                            <option value="Option 4">جدید ترین ها</option>
                         </select>
                         <div class="quantity-product flex items-center">
                             <button>+</button>
@@ -156,17 +156,17 @@
                                         </div>
                                         <div class="acc-content">
                                             <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
-                                                <button class="btn-size border-[1px] border-[#000] en-num  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] en-num pt-[1.6px]  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    40
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">42</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">44</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">46</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">48</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">52</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">54</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">56</button>
                                             </div>
 
                                         </div>
@@ -295,8 +295,10 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] bg-[#D8D7D8]"
-                                                  onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[15px] h-[15px] "
+                                                  onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                                            </span>
                                     </div>
                                     <div class="flex items-center gap-[1rem]">
                                         <!--                                        <div class="discount py-[1px]  bg-base-color-two w-[70px] flex justify-center">-->
@@ -686,83 +688,8 @@
         </div>
     </div>
 </section>
-<footer>
-    <div class="main-footer">
-        <div class="top-footer">
-            <div class="footer1box">
-                <div class="enamd-box">
-                    <div class="footer1boxs">
-                        <span>مجوز ها </span>
-                        <img src="assets/images/logos.png">
-                    </div>
-                </div>
-            </div>
-            <div class="footer2box">
-                <span>اطلاعات تماس </span>
-                <ul>
-                    <li>تـــــلفن: <a href="">02122910202</a></li>
-                    <li>ایمیل: <a href="">info@ecut.ir</a></li>
-                    <li>نشانی: تهران، میردادماد</li>
-                    <li>نبش کـــــــازرون جنوبی</li>
-                    <li>ساختمان ایکات، پلاک 25</li>
-                </ul>
-            </div>
-            <div class="footer3box">
-                <ul>
-                    <li><a href="#">صفحه اصلی</a></li>
-                    <li><a href="#">تماس با ما</a></li>
-                    <li><a href="#">درباره‌ما</a></li>
-                    <li><a href="#">ورود/ثبت نام</a></li>
-                    <li><a href="#">ایکات کارت</a></li>
-                    <li><a href="#">فروش سازمانی</a></li>
-                    <li><a href="#">نقشه سایت</a></li>
-                </ul>
-            </div>
-            <div class="footer4box">
-                <ul>
-                    <li><a href="#">فروشگاه‌ها </a></li>
-                    <li><a href="#">سایز من چیست؟</a></li>
-                    <li><a href="#">رهگیری سفارش</a></li>
-                    <li><a href="#">شرایط بازگشت و تعویض کالا</a></li>
-                    <li><a href="#">سوالات متداول</a></li>
-                    <li><a href="#">حریم خصوصی</a></li>
-                    <li><a href="#">قوانین و مقررات</a></li>
-                </ul>
 
-            </div>
-            <div class="footer5box">
-                <p>مشترک شوید تا آخرین اخبار را دریافت کنید. <br>ما به شما تمامی اخبار و فروش‌های
-                    فوق‌العاده را
-                    اطلاع رسانی می‌کنیم</p>
-                <form>
-                    <input type="text" name="email" placeholder="شماره همراه خود را وارد کنید.">
-                    <button>مشترک شوید</button>
-                </form>
-            </div>
-        </div>
-
-    </div>
-    <div class="social">
-        <div class="container-fluid">
-            <ul>
-                <li class="telegram"><a href="#"><i class="ecut-telegram"></i></a></li>
-                <li class="instagram"><a href="#"><i class="ecut-instagram"></i></a></li>
-                <li class="aparat"><a href="#"><i class="ecut-aparat"></i></a></li>
-                <li class="youtube"><a href="#"><i class="ecut-youtube"></i></a></li>
-                <li class="pintres"><a href="#"><i class="ecut-pintres"></i></a></li>
-                <li class="facebook"><a href="#"><i class="ecut-facebook"></i></a></li>
-                <li class="x"><a href="#"><i class="ecut-x"></i></a></li>
-                <li class="linkedin"><a href="#"><i class="ecut-linkedin"></i></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="copyright">
-        <p>کلیه حقوق محصولات و محتوای این وبگاه متعلق به ایکات است</p>
-    </div>
-</footer>
-
-
-
+<?php include 'footer.php'; ?>
 <?php include 'script-header.php';?>
 
 <script>
