@@ -101,14 +101,23 @@
                                     <path
                                             d="m281.2 215.09h-50.298c-8.715 0-15.804 7.089-15.804 15.804v50.298c0 8.715 7.089 15.804 15.804 15.804h50.298c8.715 0 15.804-7.089 15.804-15.804v-50.298c0-8.714-7.089-15.804-15.804-15.804z"></path> </svg>
                             </button>
-                            <button id="show-four">
-                                <svg width="20" height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                            fill-rule="evenodd"
-                                            clip-rule="evenodd"
-                                            d="M2.14998 14V1H0.849976V14H2.14998ZM6.14998 14V1H4.84998V14H6.14998ZM10.15 1V14H8.84998V1H10.15ZM14.15 14V1H12.85V14H14.15Z"
-                                            fill="#000000"
-                                    />
+                            <button class="" id="show-four">
+                                <svg style="rotate: 90deg"  fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     width="20" height="20" viewBox="0 0 93.332 93.332"
+                                     xml:space="preserve">
+<g>
+    <g>
+        <rect x="4.46" width="35.686" height="10.98"/>
+        <rect x="53.185" width="35.687" height="10.98"/>
+        <rect x="4.46" y="27.449" width="35.686" height="10.98"/>
+        <rect x="53.185" y="27.449" width="35.687" height="10.98"/>
+        <rect x="4.46" y="54.9" width="35.686" height="10.979"/>
+        <rect x="53.185" y="54.9" width="35.687" height="10.979"/>
+        <rect x="4.46" y="82.352" width="35.686" height="10.98"/>
+        <rect x="53.185" y="82.352" width="35.687" height="10.98"/>
+    </g>
+</g>
+</svg>
                                 </svg>
                             </button>
 
@@ -336,7 +345,7 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -382,7 +391,7 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -390,7 +399,7 @@
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                               class="color-option flex items-center justify-center w-[17px] h-[17px] "
                                               onclick="changeImage('img-two', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                <img class="w-full h-full" src="assets/images/color2.jpg"
                                                      alt="">
                                             </span>
                                     </div>
@@ -429,7 +438,7 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -437,7 +446,7 @@
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                               class="color-option flex items-center justify-center w-[17px] h-[17px] "
                                               onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                <img class="w-full h-full" src="assets/images/color3.jpg"
                                                      alt="">
                                             </span>
                                     </div>
@@ -476,7 +485,7 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -484,7 +493,7 @@
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
                                               class="color-option flex items-center justify-center w-[17px] h-[17px] "
                                               onclick="changeImage('img-four', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                <img class="w-full h-full" src="assets/images/color4.jpg"
                                                      alt="">
                                             </span>
                                     </div>
@@ -524,7 +533,7 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -532,7 +541,7 @@
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
                                               class="color-option flex items-center justify-center w-[17px] h-[17px] "
                                               onclick="changeImage('img-five', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                <img class="w-full h-full" src="assets/images/color5.jpg"
                                                      alt="">
                                             </span>
                                     </div>
@@ -594,8 +603,11 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t1', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t1', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
@@ -635,8 +647,11 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t2', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t2', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
@@ -676,8 +691,11 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t3', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t3', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/color3.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
@@ -713,8 +731,11 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t4', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t4', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/color4.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
@@ -831,28 +852,37 @@
         $('#show-four').css('opacity', '0.2')
 
         $('#show-two').on('click', function () {
-            $('.list-product-items').removeClass('grid-cols-3 col-3-custom').addClass('grid-cols-2 col-2-custom');
+            $('.list-product-items').removeClass('grid-cols-3 col-3-custom grid-cols-4 col-4-custom').addClass('grid-cols-2 col-2-custom');
             $('#show-two').css('opacity', '1')
             $('#show-three').css('opacity', '0.2')
+            $('#show-four').css('opacity', '0.2')
         });
 
         $('#show-three').on('click', function () {
-            $('.list-product-items').removeClass('grid-cols-2 col-2-custom').addClass('grid-cols-3 col-3-custom');
+            $('.list-product-items').removeClass('grid-cols-2 col-2-custom grid-cols-4 col-4-custom').addClass('grid-cols-3 col-3-custom');
             $('#show-two').css('opacity', '0.2')
             $('#show-three').css('opacity', '1')
+            $('#show-four').css('opacity', '0.2')
+        });
+
+        $('#show-four').on('click', function () {
+            $('.list-product-items').removeClass('grid-cols-2 col-2-custom   grid-cols-3 col-3-custom').addClass('grid-cols-4 col-4-custom');
+            $('#show-two').css('opacity', '0.2')
+            $('#show-three').css('opacity', '0.2')
+            $('#show-four').css('opacity', '1')
         });
 
     });
-    $(document).ready(function() {
-        $('.option').click(function() {
+    $(document).ready(function () {
+        $('.option').click(function () {
             $('.fix-view span').text($(this).text());
             $('.box-options').hide();
         });
 
-        $('.fix-view').click(function() {
+        $('.fix-view').click(function () {
             $('.box-options').toggle();
         });
-        $(document).click(function(e) {
+        $(document).click(function (e) {
             if (!$(e.target).closest('.custom-select').length) {
                 $('.box-options').hide();
             }

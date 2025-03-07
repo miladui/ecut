@@ -3313,6 +3313,11 @@ footer {
                 height: 80vh !important;
             }
         }
+        .grid-cols-4 {
+            .p-img {
+                height: 60vh !important;
+            }
+        }
 
     }
 
@@ -3333,7 +3338,15 @@ footer {
             }
         }
     }
-
+    .col-4-custom {
+        .thumbnail-product {
+            .main-box-product {
+                .p-img {
+                    height: 70vh !important;
+                }
+            }
+        }
+    }
     .list-products {
         transition: var(--ease);
     }

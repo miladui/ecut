@@ -96,8 +96,11 @@
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156130/search/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#D8D7D8]"
-                                  onclick="changeImage('main-image-1', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image2 , this)"></span>
+                                  class="color-option flex items-center justify-center w-[17px] h-[17px]"
+                                  onclick="changeImage('main-image-1', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image2 , this)">
+                                       <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                            alt="">
+                            </span>
 
                         </div>
 
@@ -146,8 +149,11 @@
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156129/search/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#989BA2]"
-                                  onclick="changeImage('main-image-2', this.dataset.image , this);changeImage('main-image-2-sm', this.dataset.image2 , this)"></span>
+                                  class="color-option flex items-center justify-center w-[17px] h-[17px]"
+                                  onclick="changeImage('main-image-2', this.dataset.image , this);changeImage('main-image-2-sm', this.dataset.image2 , this)">
+                                     <img class="w-full h-full" src="assets/images/color2.jpg"
+                                          alt="">
+                            </span>
                         </div>
 
 
@@ -197,8 +203,11 @@
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156128/search/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#26252C]"
-                                  onclick="changeImage('main-image-3', this.dataset.image , this);changeImage('main-image-3-sm', this.dataset.image2 , this)"></span>
+                                  class="color-option  w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-3', this.dataset.image , this);changeImage('main-image-3-sm', this.dataset.image2 , this)">
+                                     <img class="w-full h-full" src="assets/images/color3.jpg"
+                                          alt="">
+                            </span>
                         </div>
 
                     </div>
@@ -247,8 +256,11 @@
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156127/search/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#A7B6BF]"
-                                  onclick="changeImage('main-image-4', this.dataset.image , this);changeImage('main-image-4-sm', this.dataset.image2 , this)"></span>
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-4', this.dataset.image , this);changeImage('main-image-4-sm', this.dataset.image2 , this)">
+                                     <img class="w-full h-full" src="assets/images/color4.jpg"
+                                          alt="">
+                            </span>
                         </div>
 
 
@@ -298,8 +310,11 @@
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156125/search/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#514552]"
-                                  onclick="changeImage('main-image-5', this.dataset.image , this);changeImage('main-image-5-sm', this.dataset.image2 , this)"></span>
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-5', this.dataset.image , this);changeImage('main-image-5-sm', this.dataset.image2 , this)">
+                                     <img class="w-full h-full" src="assets/images/color5.jpg"
+                                          alt="">
+                            </span>
 
                         </div>
 
@@ -333,8 +348,11 @@
                         </div>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#D8D7D8]"
-                                  onclick="changeImage('main-image-1-mobi', this.dataset.image , this) ; changeImage('main-image-1-sm', this.dataset.image , this)"></span>
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-1-mobi', this.dataset.image , this) ; changeImage('main-image-1-sm', this.dataset.image , this)">
+                                     <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                          alt="">
+                            </span>
                         </div>
 
                     </div>
@@ -366,8 +384,11 @@
                         </div>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#989BA2]"
-                                  onclick="changeImage('main-image-2-mobi', this.dataset.image , this)"></span>
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-2-mobi', this.dataset.image , this)">
+                                     <img class="w-full h-full" src="assets/images/color2.jpg"
+                                          alt="">
+                            </span>
                         </div>
 
                     </div>
@@ -396,8 +417,11 @@
                         </div>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#26252C]"
-                                  onclick="changeImage('main-image-3-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)"></span>
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-3-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)">
+                                     <img class="w-full h-full" src="assets/images/color3.jpg"
+                                          alt="">
+                            </span>
 
 
                         </div>
@@ -428,8 +452,11 @@
                         </div>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#A7B6BF]"
-                                  onclick="changeImage('main-image-4-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)"></span>
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-4-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)">
+                                     <img class="w-full h-full" src="assets/images/color4.jpg"
+                                          alt="">
+                            </span>
 
                         </div>
 
@@ -459,8 +486,11 @@
                         </div>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                  class="color-option w-[16px] h-[16px] bg-[#514552]"
-                                  onclick="changeImage('main-image-5-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)"></span>
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-5-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)">
+                                     <img class="w-full h-full" src="assets/images/color5.jpg"
+                                          alt="">
+                            </span>
 
                         </div>
 
@@ -1088,7 +1118,7 @@
         </div>
         <div class="w-full mt-3 px-[1rem] grid grid-cols-2 gap-[10px]">
             <button class="btn-base w-full">سبد خرید</button>
-            <a  href="./checkout.php"  class="btn-base w-full">تسویه حساب</a>
+            <a  href="./checkout.php"  class="btn-base flex items-center justify-center w-full">تسویه حساب</a>
         </div>
     </div>
 </div>
