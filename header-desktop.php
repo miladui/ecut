@@ -489,7 +489,7 @@
         <div class="w-full px-[5%] max-[1400px]:px-[2%]">
             <div class="p-header flex items-center justify-between h-[85px] w-full mx-auto">
                 <ul class="links pt-[20px] h-full w-[40%] p-0 flex items-center">
-                    <li><a onclick="window.location.replace('index.php')" href="#"
+                    <li><a  href="./index.php"
                            class="link header-link flex indexPage items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">صفحه
                             اصلی </a>
                     </li>
@@ -504,70 +504,70 @@
                                 <div class="w-full flex h-full  p-underLink-flex justify-between items-center">
                                     <div class="w-[60%] h-full p-[2rem] flex items-start gap-[1.2rem]">
                                         <div class="col-links h-full w-[120px]">
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="classic"
+                                            <a href="./list-product.php" category-slider="classic"
                                                class="title-link   text-black  text-[13px] font-bold">
                                                 <span class="w-[120px] h-[30px]">کــــــلاسیک </span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="classic-1"
+                                            <a href="./list-product.php" category-slider="classic-1"
                                                class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک 1</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="classic-2"
+                                            <a href="./list-product.php" category-slider="classic-2"
                                                class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک 2</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="classic-3"
+                                            <a href="./list-product.php" category-slider="classic-3"
                                                class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک 3</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="classic-4"
+                                            <a href="./list-product.php" category-slider="classic-4"
                                                class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک 4</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="classic-5"
+                                            <a href="./list-product.php" category-slider="classic-5"
                                                class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک 5</span>
                                             </a>
 
                                         </div>
                                         <div category-slider="casual" class="col-links w-[120px]">
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-1" class="title-link   text-black  text-[13px] font-bold">
+                                            <a href="./list-product.php" category-slider="product-1" class="title-link   text-black  text-[13px] font-bold">
                                                 <span class="w-[120px] h-[30px]">کالای فصلی</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-2" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-2" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-3" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-3" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-4" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-4" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-5" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-5" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-6" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-6" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
 
                                         </div>
                                         <div category-slider="shoe" class="col-links w-[120px]">
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-7" class="title-link   text-black  text-[13px] font-bold">
+                                            <a href="./list-product.php" category-slider="product-7" class="title-link   text-black  text-[13px] font-bold">
                                                 <span class="w-[120px] h-[30px]">اکسسوری</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-8" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-8" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-9" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-9" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-10" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-10" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-11" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-11" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" category-slider="product-12" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-12" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
 
@@ -674,22 +674,22 @@
 
                                         </div>
                                         <div category-slider="sports" class="col-links w-[120px]">
-                                            <a onclick="window.location.replace('list-product.php')" href="#" class="title-link   text-black  text-[13px] font-bold">
+                                            <a href="./list-product.php" class="title-link   text-black  text-[13px] font-bold">
                                                 <span class="w-[120px] h-[30px]">کــــــژوال</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a onclick="window.location.replace('list-product.php')" href="#" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
 
@@ -823,11 +823,11 @@
                             </div>
                         </div>
                     </li>
-                    <li><a onclick="window.location.replace('storeB.php')" href="#"
+                    <li><a  href="./storeB.php"
                            class="link header-link storePage flex  items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]"
                         >فروشگاه </a>
                     </li>
-                    <li><a onclick="window.location.replace('organizational.php')" href="#"
+                    <li><a  href="./organizational.php"
                            class="link header-link organizationalPage flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">فروش
                             سازمانی </a></li>
                     <li><a onclick="window.location.replace('contactUs.php')" href="#"
@@ -835,18 +835,18 @@
                             با
                             ما </a>
                     </li>
-                    <li><a onclick="window.location.replace('about-us.php')" href="#"
+                    <li><a  href="./about-us.php"
                            class="link header-link aboutUsPage flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">درباره
                             ما </a></li>
-                    <li><a onclick="window.location.replace('list-product-landing.php')" href="#"
+                    <li><a href="./list-product-landing.php"
                            class="link header-link aboutUsPage  flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">تک سایزها
                         </a></li>
                 </ul>
-                <a href="" class="logo-header w-[20%] flex justify-center">
+                <a href="./index.php" class="logo-header w-[20%] flex justify-center">
                     <img width="100" id="logoHeader" src="https://ecut.shop/uploads/setting/img-logo-154771900376273.png">
                 </a>
                 <div class="end-header pt-[20px] gap-[20px] flex items-center w-[40%] justify-end">
-                    <a onclick="window.location.replace('special-products.php')" href="#"
+                    <a  href="./special-products.php"
                            class="link header-link aboutUsPage last-link flex items-center text-white text-[12px] px-[8px] mx-[4px]">
                         <svg class="ml-[6px]" width="15" height="20" viewBox="0 0 83 110" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Layer_x0020_1">
@@ -1088,7 +1088,7 @@
         </div>
         <div class="w-full mt-3 px-[1rem] grid grid-cols-2 gap-[10px]">
             <button class="btn-base w-full">سبد خرید</button>
-            <button onclick="window.location.replace('checkout.php')" class="btn-base w-full">تسویه حساب</button>
+            <a  href="./checkout.php"  class="btn-base w-full">تسویه حساب</a>
         </div>
     </div>
 </div>

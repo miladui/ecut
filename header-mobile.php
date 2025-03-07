@@ -40,12 +40,11 @@
             <img src="assets/images/logo.png">
         </div>
         <ul>
-            <li><a onclick="window.location.replace('index.php')" href="#">صفحه اصلی </a></li>
-            <li><a style="display: flex !important;" class=" items-center border-b-[1px] border-[#88888826] justify-center gap-[12px]"  href="#">
+            <li><a href="./index.php">صفحه اصلی </a></li>
+            <li><a style="display: flex !important;" class=" items-center border-b-[1px] border-[#88888826] justify-center gap-[12px]"  href="./Special-products.php">
                     <img  width="15" src="./assets/images/vector_snake.svg" class="ml-[8px]"  alt="" style="display: block;filter: invert(1)">
                     اکسکلوسیو
                 </a></li>
-
             <li class="menu-item-has-children relative">
                 <div class="accordion ">
                     <h4  class="accordion__title text-white">
@@ -66,10 +65,10 @@
                             </h4><!-- end .accordion__title -->
                             <div class="accordion__content">
                                 <ul class="bg-[#263238] w-full under-links">
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">کت و شلوار</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">دامادی</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">کت‌تک</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">شلوار فاستونی</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">کت و شلوار</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">دامادی</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">کت‌تک</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">شلوار فاستونی</a></li>
                                 </ul>
                             </div><!-- end .accordion__content -->
                         </div>
@@ -83,12 +82,12 @@
                             </h4>
                             <div class="accordion__content">
                                 <ul class="bg-[#263238] w-full under-links">
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">پیراهن</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">تی شرت/پلوشرت</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">شلوار جین</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">شلوار کتان</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">شلوارک کتان </a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">ست کژوال </a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">پیراهن</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">تی شرت/پلوشرت</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">شلوار جین</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">شلوار کتان</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">شلوارک کتان </a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">ست کژوال </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -102,13 +101,13 @@
                             </h4>
                             <div class="accordion__content">
                                 <ul class="bg-[#263238] w-full under-links">
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">پالـــتو</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">کاپشن</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">بـــــارانی</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">ژاکــــت</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">پلیـــــور</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">ژیلـــــه</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">کت جین</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">پالـــتو</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">کاپشن</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">بـــــارانی</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">ژاکــــت</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">پلیـــــور</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">ژیلـــــه</a></li>
+                                    <li class="py-[7px] li-link w-full"><a href="./list-product.php">کت جین</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -122,13 +121,13 @@
                             </h4>
                             <div class="accordion__content">
                                 <ul class="bg-[#263238] w-full under-links">
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">دستکش</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">کمربند</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">کراوات</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">پاپیون</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">پوشت</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">شال گردن</a></li>
-                                    <li onclick="window.location.replace('list-product.php')" class="py-[7px] li-link w-full"><a href="#">دکمه سردست </a></li>
+                                    <li   class="py-[7px] li-link w-full"><a href="./list-product.php">دستکش</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">کمربند</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">کراوات</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">پاپیون</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">پوشت</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">شال گردن</a></li>
+                                    <li  class="py-[7px] li-link w-full"><a href="./list-product.php">دکمه سردست </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -150,10 +149,10 @@
                     </div>
                 </div>
             </li>
-            <li><a onclick="window.location.replace('storeB.php')" href="#">فروشگاه </a></li>
-            <li><a onclick="window.location.replace('organizational.php')" href="#">فروش سازمانی </a></li>
-            <li><a onclick="window.location.replace('contactUs.php')" href="#">تماس با ما </a></li>
-            <li><a onclick="window.location.replace('about-us.php')" href="#">درباره ما </a></li>
+            <li><a href="./storeB.php">فروشگاه </a></li>
+            <li><a href="./organizational.php">فروش سازمانی </a></li>
+            <li><a href="./contactUs.php">تماس با ما </a></li>
+            <li><a href="./about-us.php">درباره ما </a></li>
         </ul>
     </div>
 </div>

@@ -2372,7 +2372,11 @@
                                                                     <p>نمایه خودم <br/> 92 kg</p>
                                                                     <span>انتخاب نمایه </span>
                                                                     <div class="deletelist">
-                                                                        <i class="ecut-close"></i>
+                                                                        <i class="ecut-close flex items-center justify-center">
+                                                                            <svg class="close-share" id="Icons" height="10" viewBox="0 0 64 64" width="10" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+                                                                                <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
+                                                                            </svg>
+                                                                        </i>
                                                                     </div>
                                                                 </li>
                                                                 <li>
@@ -2380,7 +2384,11 @@
                                                                     <p>نمایه خودم <br/> 92 kg</p>
                                                                     <span>انتخاب نمایه </span>
                                                                     <div class="deletelist">
-                                                                        <i class="ecut-close"></i>
+                                                                        <i class="ecut-close flex items-center justify-center">
+                                                                            <svg class="close-share" id="Icons" height="10" viewBox="0 0 64 64" width="10" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+                                                                                <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
+                                                                            </svg>
+                                                                        </i>
                                                                     </div>
                                                                 </li>
 

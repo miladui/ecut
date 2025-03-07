@@ -1,5 +1,5 @@
-<?php include 'header-desktop.php';?>
-<?php include 'header-mobile.php';?>
+<?php include 'header-desktop.php'; ?>
+<?php include 'header-mobile.php'; ?>
 <?php include 'loginModal.php'; ?>
 <section class="s-list-product mt-[6rem] max-[800px]:px-[12px]">
     <div class="w-full px-[1.5rem]">
@@ -40,13 +40,26 @@
                         <i class="fa fa-angle-down mr-[5px]"></i>
                     </button>
                     <div class="flex items-center max-[850px]:w-full max-[850px]:justify-between justify-end gap-[1rem]">
-                        <select id="standard-select">
-                            <option selected disabled value="">مرتب سازی</option>
-                            <option value="Option 1">قیمت از زیاد به کم</option>
-                            <option value="Option 2">قیمت از کم به زیاد</option>
-                            <option value="Option 3">پرفروش ترین ها</option>
-                            <option value="Option 4">جدید ترین ها</option>
-                        </select>
+                        <div class="custom-select relative w-[140px]">
+                            <div class="fix-view cursor-pointer w-full flex items-center py-[8px] justify-between">
+                                <span class="text-[14px]">مرتب سازی</span>
+                                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     width="9" height="9" viewBox="0 0 30.727 30.727"
+                                     xml:space="preserve">
+<g>
+    <path d="M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0
+		l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z"/>
+</g>
+</svg>
+                            </div>
+                            <div class="box-options border-[1px] border-[#ccc] flex flex-col items-start gap-[8px] w-full p-[8px] rounded-[10px] absolute bottom-[30px] right-0 bg-white z-[10]">
+                                <div class="option cursor-pointer text-[14px]">قیمت از زیاد به کم</div>
+                                <div class="option cursor-pointer text-[14px]">قیمت از کم به زیاد</div>
+                                <div class="option cursor-pointer text-[14px]">پرفروش ترین ها</div>
+                                <div class="option cursor-pointer text-[14px]">جدید ترین ها</div>
+                            </div>
+                        </div>
                         <div class="quantity-product flex items-center">
                             <button>+</button>
                             <input class="input-box" value="2" min="12" max="36">
@@ -88,6 +101,16 @@
                                     <path
                                             d="m281.2 215.09h-50.298c-8.715 0-15.804 7.089-15.804 15.804v50.298c0 8.715 7.089 15.804 15.804 15.804h50.298c8.715 0 15.804-7.089 15.804-15.804v-50.298c0-8.714-7.089-15.804-15.804-15.804z"></path> </svg>
                             </button>
+                            <button id="show-four">
+                                <svg width="20" height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                            fill-rule="evenodd"
+                                            clip-rule="evenodd"
+                                            d="M2.14998 14V1H0.849976V14H2.14998ZM6.14998 14V1H4.84998V14H6.14998ZM10.15 1V14H8.84998V1H10.15ZM14.15 14V1H12.85V14H14.15Z"
+                                            fill="#000000"
+                                    />
+                                </svg>
+                            </button>
 
                         </div>
                     </div>
@@ -117,9 +140,15 @@
                                             <p>بازه قیمت </p>
                                         </div>
                                         <div class="acc-content">
-                                            <section class="range-slider" id="facet-price-range-slider"><div class="slider-thumb" style="left: 99.9808%; transform: translate(-99.9808%, 0px);"></div><div class="slider-thumb" style="left: 11.2828%; transform: translate(-11.2828%, 0px);"></div>
-                                                <input name="price_from" value="0" min="0" max="38997500" step="10000" type="range" data-gtm-form-interact-field-id="1">
-                                                <input name="price_to" value="38997500" min="0" max="38997500" step="10000" type="range">
+                                            <section class="range-slider" id="facet-price-range-slider">
+                                                <div class="slider-thumb"
+                                                     style="left: 99.9808%; transform: translate(-99.9808%, 0px);"></div>
+                                                <div class="slider-thumb"
+                                                     style="left: 11.2828%; transform: translate(-11.2828%, 0px);"></div>
+                                                <input name="price_from" value="0" min="0" max="38997500" step="10000"
+                                                       type="range" data-gtm-form-interact-field-id="1">
+                                                <input name="price_to" value="38997500" min="0" max="38997500"
+                                                       step="10000" type="range">
                                                 <span>بر حسب تومان </span>
                                         </div>
                                     </div>
@@ -159,14 +188,30 @@
                                                 <button class="btn-size border-[1px] border-[#000] en-num pt-[1.6px]  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
                                                     40
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">42</button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">44</button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">46</button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">48</button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">52</button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">54</button>
-                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">56</button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    42
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    44
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    46
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    48
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    50
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    52
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    54
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    56
+                                                </button>
                                             </div>
 
                                         </div>
@@ -278,12 +323,14 @@
 
                         </div>
                     </div>
-                    <div class="maincatdataflt list-products" id="maincatdataflt" style="width: calc(100% - 0px); transition: width 0.3s;">
+                    <div class="maincatdataflt list-products" id="maincatdataflt"
+                         style="width: calc(100% - 0px); transition: width 0.3s;">
                         <div class="w-full list-product-items mb-[2rem] grid gap-[1rem] max-[800px]:grid-cols-2 max-[900px]:hidden max-[900px]:grid-cols-2 grid-cols-3">
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh]  relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
                                     <img id="img-one" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img id="img-one-hover" class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                          alt="">
@@ -295,9 +342,10 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] "
+                                                  class="color-option flex items-center justify-center w-[17px] h-[17px] "
                                                   onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
                                             </span>
                                     </div>
                                     <div class="flex items-center gap-[1rem]">
@@ -323,10 +371,12 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-two" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                          alt="">
@@ -337,10 +387,12 @@
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
-                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg
-"
-                                              class="color-option w-[15px] h-[15px] bg-[#989BA2]"
-                                              onclick="changeImage('img-two', this.dataset.image ,this)"></span>
+                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-two', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -366,10 +418,12 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-three" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
                                          alt="">
@@ -381,8 +435,11 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                              class="color-option w-[15px] h-[15px] bg-[#26252C]"
-                                              onclick="changeImage('img-three', this.dataset.image ,this)"></span>
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -408,10 +465,12 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-four" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-02.jpg"
                                          alt="">
@@ -423,9 +482,11 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                              class="color-option w-[15px] h-[15px] bg-[#A7B6BF]"
-                                              onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-four', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -451,10 +512,12 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-five" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-02.jpg
 "
@@ -467,8 +530,11 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                              class="color-option w-[15px] h-[15px] bg-[#514552]"
-                                              onclick="changeImage('img-four', this.dataset.image ,this)"></span>
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-five', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -496,8 +562,8 @@
                             </div>
                         </div>
                         <div class="w-full list-product-items mb-[2rem] grid gap-[1rem] max-[800px]:grid-cols-2 min-[901px]:hidden max-[900px]:grid-cols-2 grid-cols-3">
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh]  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -533,8 +599,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -574,8 +640,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -615,8 +681,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')"  class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh]  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -679,8 +745,8 @@
                                     با حداکثر اطمینان کالای خود را انتخاب و خرید کنند. همواره بهترین انتخاب و بهترین
                                     خدمات، شایسته مشتریان فروشگاه است.</p>
                             </div>
-                            <button class="show-more-text ">بیشتر  </button>
-                            <button class="less-more-text ">کمتر  </button>
+                            <button class="show-more-text ">بیشتر</button>
+                            <button class="less-more-text ">کمتر</button>
                         </div>
                     </div>
                 </div>
@@ -690,7 +756,7 @@
 </section>
 
 <?php include 'footer.php'; ?>
-<?php include 'script-header.php';?>
+<?php include 'script-header.php'; ?>
 
 <script>
     $(document).ready(function () {
@@ -760,15 +826,38 @@
     });
 
     $(document).ready(function () {
+        $('#show-two').css('opacity', '0.2')
+        $('#show-three').css('opacity', '1')
+        $('#show-four').css('opacity', '0.2')
+
         $('#show-two').on('click', function () {
             $('.list-product-items').removeClass('grid-cols-3 col-3-custom').addClass('grid-cols-2 col-2-custom');
+            $('#show-two').css('opacity', '1')
+            $('#show-three').css('opacity', '0.2')
         });
 
         $('#show-three').on('click', function () {
             $('.list-product-items').removeClass('grid-cols-2 col-2-custom').addClass('grid-cols-3 col-3-custom');
+            $('#show-two').css('opacity', '0.2')
+            $('#show-three').css('opacity', '1')
+        });
+
+    });
+    $(document).ready(function() {
+        $('.option').click(function() {
+            $('.fix-view span').text($(this).text());
+            $('.box-options').hide();
+        });
+
+        $('.fix-view').click(function() {
+            $('.box-options').toggle();
+        });
+        $(document).click(function(e) {
+            if (!$(e.target).closest('.custom-select').length) {
+                $('.box-options').hide();
+            }
         });
     });
-
 
     (function () {
         const quantityContainer = document.querySelector(".quantity");

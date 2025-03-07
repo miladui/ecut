@@ -37,7 +37,7 @@ function changeImage(imageId, imageSrc, element) {
 
     element.classList.add('active');
     element.style.border = '2px solid #c7c7c7';
-    element.style.padding = '3px';
+    element.style.padding = '1px';
 }
 
 function changeImage2(imageId2, imageSrc2, element) {
@@ -548,3 +548,15 @@ $(document).ready(function () {
 setTimeout(function (){
     $('.loading-page').fadeOut()
 } , 2000)
+
+
+
+
+$(document).ready(function() {
+    $('a[href]').on('click', function(e) {
+        if ($(this).attr('href') !== '#' && $(this).attr('href') !== '') {
+            e.stopPropagation();
+            window.location.href = $(this).attr('href');
+        }
+    });
+});
