@@ -94,13 +94,26 @@
                         <i class="fa fa-angle-down mr-[5px]"></i>
                     </button>
                     <div class="flex items-center max-[850px]:w-full max-[850px]:justify-between justify-end gap-[1rem]">
-                        <select name="" id="">
-                            <option selected disabled value="">مرتب سازی</option>
-                            <option value="">قیمت از زیاد به کم</option>
-                            <option value="">قیمت از کم به زیاد</option>
-                            <option value="">پرفروش ترین ها</option>
-                            <option value="">جدید ترین ها</option>
-                        </select>
+                        <div class="custom-select relative w-[140px]">
+                            <div class="fix-view cursor-pointer w-full flex items-center py-[8px] justify-between">
+                                <span class="text-[14px]">مرتب سازی</span>
+                                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     width="9" height="9" viewBox="0 0 30.727 30.727"
+                                     xml:space="preserve">
+<g>
+    <path d="M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0
+		l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z"/>
+</g>
+</svg>
+                            </div>
+                            <div class="box-options border-[1px] border-[#ccc] flex flex-col items-start gap-[8px] w-full p-[8px] rounded-[10px] absolute bottom-[30px] right-0 bg-white z-[10]">
+                                <div class="option cursor-pointer text-[14px]">قیمت از زیاد به کم</div>
+                                <div class="option cursor-pointer text-[14px]">قیمت از کم به زیاد</div>
+                                <div class="option cursor-pointer text-[14px]">پرفروش ترین ها</div>
+                                <div class="option cursor-pointer text-[14px]">جدید ترین ها</div>
+                            </div>
+                        </div>
                         <div class="quantity-product flex items-center">
                             <button>+</button>
                             <input class="input-box" value="2" min="12" max="36">
@@ -141,6 +154,26 @@
                                             d="m173.65 215.09h-50.298c-8.715 0-15.804 7.089-15.804 15.804v50.298c0 8.715 7.089 15.804 15.804 15.804h50.298c8.715 0 15.804-7.089 15.804-15.804v-50.298c0-8.714-7.089-15.804-15.804-15.804z"></path>
                                     <path
                                             d="m281.2 215.09h-50.298c-8.715 0-15.804 7.089-15.804 15.804v50.298c0 8.715 7.089 15.804 15.804 15.804h50.298c8.715 0 15.804-7.089 15.804-15.804v-50.298c0-8.714-7.089-15.804-15.804-15.804z"></path> </svg>
+                            </button>
+                            <button class="" id="show-four">
+                                <svg style="rotate: 90deg" fill="#000000" version="1.1" id="Capa_1"
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     width="20" height="20" viewBox="0 0 93.332 93.332"
+                                     xml:space="preserve">
+<g>
+    <g>
+        <rect x="4.46" width="35.686" height="10.98"/>
+        <rect x="53.185" width="35.687" height="10.98"/>
+        <rect x="4.46" y="27.449" width="35.686" height="10.98"/>
+        <rect x="53.185" y="27.449" width="35.687" height="10.98"/>
+        <rect x="4.46" y="54.9" width="35.686" height="10.979"/>
+        <rect x="53.185" y="54.9" width="35.687" height="10.979"/>
+        <rect x="4.46" y="82.352" width="35.686" height="10.98"/>
+        <rect x="53.185" y="82.352" width="35.687" height="10.98"/>
+    </g>
+</g>
+</svg>
+                                </svg>
                             </button>
 
                         </div>
@@ -185,94 +218,168 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
-                                            <p>دسته بندی</p>
-                                        </div>
-                                        <div class="acc-content">
-                                            <div class="main-wrapper">
-                                                <div class="cutsom-checkbox-row">
-                                                    <input id="checkbox4" type="checkbox">
-                                                    <label for="checkbox4">تی شرت </label>
-
-                                                </div>
-                                                <div class="cutsom-checkbox-row">
-                                                    <input id="checkbox4" type="checkbox">
-                                                    <label for="checkbox4">کت تک</label>
-
-                                                </div>
-                                                <div class="cutsom-checkbox-row">
-                                                    <input id="checkbox4" type="checkbox">
-                                                    <label for="checkbox4"> شلوار</label>
-
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="acc">
-                                        <div class="acc-head">
-                                            <p>سایزبندی</p>
-                                        </div>
-                                        <div class="acc-content">
-                                            <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
-                                                <button class="btn-size border-[1px] border-[#000] en-num  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="acc">
-                                        <div class="acc-head">
-                                            <p>رنگ </p>
+                                            <p>طرح دار </p>
                                         </div>
                                         <div class="acc-content">
                                             <div class="main-wrapper">
                                                 <div class="cutsom-checkbox-row">
                                                     <input id="checkbox1" type="checkbox">
                                                     <label for="checkbox1">مشکی </label>
+                                                    <span class="nmbcl">64 محصول </span>
                                                     <span class="colorflt" style="background: black;"></span>
                                                 </div>
                                                 <div class="cutsom-checkbox-row">
                                                     <input id="checkbox2" type="checkbox">
                                                     <label for="checkbox2">قهوه ای </label>
+                                                    <span class="nmbcl">64 محصول </span>
                                                     <span class="colorflt" style="background: brown;"></span>
                                                 </div>
                                                 <div class="cutsom-checkbox-row">
                                                     <input id="checkbox3" type="checkbox">
                                                     <label for="checkbox3">سبز </label>
+                                                    <span class="nmbcl">64 محصول </span>
                                                     <span class="colorflt" style="background: green;"></span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="acc">
+                                        <div class="acc-head">
+                                            <p>سایزبندی</p>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
+                                                <button class="btn-size border-[1px] border-[#000] en-num pt-[1.6px]  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    40
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    42
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    44
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    46
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    48
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    50
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    52
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    54
+                                                </button>
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    56
+                                                </button>
+                                            </div>
 
+                                        </div>
+                                    </div>
+                                    <div class="acc">
+                                        <div class="acc-head">
+                                            <p>حالت برش </p>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="main-wrapper">
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox4" type="checkbox">
+                                                    <label for="checkbox4">اسلیم فیت </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox5" type="checkbox">
+                                                    <label for="checkbox5"> رگولار </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="acc">
+                                        <div class="acc-head">
+                                            <p>حالت برش </p>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="main-wrapper">
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox4" type="checkbox">
+                                                    <label for="checkbox4">اسلیم فیت </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox5" type="checkbox">
+                                                    <label for="checkbox5"> رگولار </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="acc">
+                                        <div class="acc-head">
+                                            <p>حالت برش </p>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="main-wrapper">
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox4" type="checkbox">
+                                                    <label for="checkbox4">اسلیم فیت </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox5" type="checkbox">
+                                                    <label for="checkbox5"> رگولار </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="acc">
+                                        <div class="acc-head">
+                                            <p>حالت برش </p>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="main-wrapper">
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox4" type="checkbox">
+                                                    <label for="checkbox4">اسلیم فیت </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox5" type="checkbox">
+                                                    <label for="checkbox5"> رگولار </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="acc">
+                                        <div class="acc-head">
+                                            <p>حالت برش </p>
+                                        </div>
+                                        <div class="acc-content">
+                                            <div class="main-wrapper">
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox4" type="checkbox">
+                                                    <label for="checkbox4">اسلیم فیت </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+                                                <div class="cutsom-checkbox-row">
+                                                    <input id="checkbox5" type="checkbox">
+                                                    <label for="checkbox5"> رگولار </label>
+                                                    <span class="nmbcl">64 محصول </span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <button class="w-full btn-base">فیلتر</button>
                             </div>
@@ -283,23 +390,27 @@
                     <div class="maincatdataflt list-products" id="maincatdataflt"
                          style="width: calc(100% - 0px); transition: width 0.3s;">
                         <div class="w-full list-product-items mb-[2rem] grid gap-[1rem] max-[800px]:grid-cols-2 max-[900px]:hidden max-[900px]:grid-cols-2 grid-cols-3">
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh]  relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
                                     <img id="img-one" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img id="img-one-hover" class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] bg-[#D8D7D8]"
-                                                  onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)"></span>
+                                                  class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                                  onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
                                     <div class="flex items-center gap-[1rem]">
                                         <!--                                        <div class="discount py-[1px]  bg-base-color-two w-[70px] flex justify-center">-->
@@ -324,24 +435,28 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-two" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
-                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg
-"
-                                              class="color-option w-[15px] h-[15px] bg-[#989BA2]"
-                                              onclick="changeImage('img-two', this.dataset.image ,this)"></span>
+                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-two', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -367,23 +482,28 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-three" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                              class="color-option w-[15px] h-[15px] bg-[#26252C]"
-                                              onclick="changeImage('img-three', this.dataset.image ,this)"></span>
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color3.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -409,24 +529,28 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-four" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-02.jpg"
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                              class="color-option w-[15px] h-[15px] bg-[#A7B6BF]"
-                                              onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-four', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color4.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -452,24 +576,29 @@
 
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative" href="">
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                   href="./singleproduct.php">
                                     <img id="img-five" class="w-full h-full img-main fade object-cover"
-                                         src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg" alt="">
+                                         src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
+                                         alt="">
                                     <img class="w-full h-full img-hover object-cover"
                                          src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-02.jpg
 "
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[11px] text">تی شرت 1698</span>
+                                    <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                         <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                              class="color-option w-[15px] h-[15px] bg-[#514552]"
-                                              onclick="changeImage('img-four', this.dataset.image ,this)"></span>
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-five', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color5.jpg"
+                                                     alt="">
+                                            </span>
                                     </div>
 
                                     <div class="flex items-center gap-[1rem]">
@@ -496,9 +625,10 @@
                                 </div>
                             </div>
                         </div>
+                        <!--mobile-->
                         <div class="w-full list-product-items mb-[2rem] grid gap-[1rem] max-[800px]:grid-cols-2 min-[901px]:hidden max-[900px]:grid-cols-2 grid-cols-3">
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh]  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -529,13 +659,16 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t1', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t1', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -570,13 +703,16 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t2', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t2', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')" class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh] overflow-hidden  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -611,13 +747,16 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t3', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t3', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/color3.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
-                            <div onclick="window.location.replace('singleproduct.php')"  class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[90vh]  relative" href="">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -648,12 +787,16 @@
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
                                             <span data-image="assets/images/img1.png"
-                                                  class="color-option w-[15px] h-[15px] bg-gray-400"
-                                                  onclick="changeImage('img-t4', this.dataset.image ,this)"></span>
+                                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                                  onclick="changeImage('img-t4', this.dataset.image ,this)">
+                                                     <img class="w-full h-full" src="assets/images/color4.jpg"
+                                                          alt="">
+                                            </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!--mobile-->
 
                         <div class="pagination">
                             <ul>
@@ -666,7 +809,7 @@
                                 <li><span class="next-pg"><a href="#">صفحه بعد </a></span></li>
                             </ul>
                         </div>
-                        <div style="margin-top: 12px !important;" id="descmore">
+                        <div id="descmore">
                             <div class="article article-text">
                                 <p>مشتریان فروشگاه می‏‏‌توانند با حق انتخابی بسیار بالا و با دریافت اطلاعاتی کامل برای
                                     انتخاب درست کالای مورد نظر خود، وب سایت ایکات را بررسی کنند و با حداکثر اطمینان
@@ -684,7 +827,6 @@
                             <button class="show-more-text ">بیشتر</button>
                             <button class="less-more-text ">کمتر</button>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -698,17 +840,6 @@
 <script src="themes.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
-    var swiperBanner = new Swiper(".swiper-top", {
-        pagination: {
-            el: ".swiper-pagination",
-        },
-        navigation: {
-            nextEl: ".swiper-button-next-banner-list",
-            prevEl: ".swiper-button-prev-banner-list",
-        },
-        autoplay: false,
-    });
-
     $(document).ready(function () {
         $('.less-more-text').hide()
         $('.show-more-text').on('click', function () {
@@ -745,6 +876,7 @@
         const filterContainer = $('#sidecatdataflt');
         const mainContainer = $('#maincatdataflt');
 
+
         button.on('click', function () {
             const isVisible = filterContainer.is(':visible');
             const newWidth = isVisible ? 'calc(100% - 0px)' : 'calc(75% - 0px)';
@@ -775,15 +907,47 @@
     });
 
     $(document).ready(function () {
+        $('#show-two').css('opacity', '0.2')
+        $('#show-three').css('opacity', '1')
+        $('#show-four').css('opacity', '0.2')
+
         $('#show-two').on('click', function () {
-            $('.list-product-items').removeClass('grid-cols-3 col-3-custom').addClass('grid-cols-2 col-2-custom');
+            $('.list-product-items').removeClass('grid-cols-3 col-3-custom grid-cols-4 col-4-custom').addClass('grid-cols-2 col-2-custom');
+            $('#show-two').css('opacity', '1')
+            $('#show-three').css('opacity', '0.2')
+            $('#show-four').css('opacity', '0.2')
         });
 
         $('#show-three').on('click', function () {
-            $('.list-product-items').removeClass('grid-cols-2 col-2-custom').addClass('grid-cols-3 col-3-custom');
+            $('.list-product-items').removeClass('grid-cols-2 col-2-custom grid-cols-4 col-4-custom').addClass('grid-cols-3 col-3-custom');
+            $('#show-two').css('opacity', '0.2')
+            $('#show-three').css('opacity', '1')
+            $('#show-four').css('opacity', '0.2')
+        });
+
+        $('#show-four').on('click', function () {
+            $('.list-product-items').removeClass('grid-cols-2 col-2-custom   grid-cols-3 col-3-custom').addClass('grid-cols-4 col-4-custom');
+            $('#show-two').css('opacity', '0.2')
+            $('#show-three').css('opacity', '0.2')
+            $('#show-four').css('opacity', '1')
+        });
+
+    });
+    $(document).ready(function () {
+        $('.option').click(function () {
+            $('.fix-view span').text($(this).text());
+            $('.box-options').hide();
+        });
+
+        $('.fix-view').click(function () {
+            $('.box-options').toggle();
+        });
+        $(document).click(function (e) {
+            if (!$(e.target).closest('.custom-select').length) {
+                $('.box-options').hide();
+            }
         });
     });
-
 
     (function () {
         const quantityContainer = document.querySelector(".quantity");

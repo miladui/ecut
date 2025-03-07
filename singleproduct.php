@@ -1429,11 +1429,11 @@
                           fill="#777777"/>
                 </svg>
             </div>
-            <div class="swiper mb-[3rem] w-[93%] mx-[15px]  swiperProduct">
+            <div class="swiper mb-[3rem] w-[94%] mx-[15px]  swiperProduct">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                            <a class="w-full p-img h-[67vh]  relative" href="">
+                            <a class="w-full p-img h-[67vh]  relative" href="./singleproduct.php">
                                 <img id="img-one" class="w-full h-full img-main fade object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                      alt="">
@@ -1442,27 +1442,17 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] text">تی شرت 1698</span>
+                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
                                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] bg-[#D8D7D8]"
-                                                  onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg
-"
-                                          class="color-option w-[15px] h-[15px] bg-[#989BA2]"
-                                          onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#26252C]"
-                                          onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#A7B6BF]"
-                                          onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#514552]"
-                                          onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)"></span>
+                                                  class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                                  onclick="changeImage('img-one', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
                                 </div>
                                 <div class="flex items-center gap-[1rem]">
                                     <!--                                        <div class="discount py-[1px]  bg-base-color-two w-[70px] flex justify-center">-->
@@ -1490,7 +1480,8 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative" href="">
+                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative"
+                               href="./singleproduct.php">
                                 <img id="img-two" class="w-full h-full img-main fade object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                      alt="">
@@ -1499,27 +1490,17 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] text">تی شرت 1698</span>
+                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
-                                            <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] bg-[#D8D7D8]"
-                                                  onclick="changeImage('img-two', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg
-"
-                                          class="color-option w-[15px] h-[15px] bg-[#989BA2]"
-                                          onclick="changeImage('img-two', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#26252C]"
-                                          onclick="changeImage('img-two', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#A7B6BF]"
-                                          onclick="changeImage('img-two', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#514552]"
-                                          onclick="changeImage('img-two', this.dataset.image ,this)"></span>
+                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-two', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                     alt="">
+                                            </span>
                                 </div>
 
                                 <div class="flex items-center gap-[1rem]">
@@ -1548,7 +1529,8 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative" href="">
+                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative"
+                               href="./singleproduct.php">
                                 <img id="img-three" class="w-full h-full img-main fade object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                      alt="">
@@ -1557,27 +1539,17 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] text">تی شرت 1698</span>
+                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
-                                            <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] bg-[#D8D7D8]"
-                                                  onclick="changeImage('img-three', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg
-"
-                                          class="color-option w-[15px] h-[15px] bg-[#989BA2]"
-                                          onclick="changeImage('img-three', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#26252C]"
-                                          onclick="changeImage('img-three', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#A7B6BF]"
-                                          onclick="changeImage('img-three', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#514552]"
-                                          onclick="changeImage('img-three', this.dataset.image ,this)"></span>
+                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color3.jpg"
+                                                     alt="">
+                                            </span>
                                 </div>
 
                                 <div class="flex items-center gap-[1rem]">
@@ -1606,7 +1578,8 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative" href="">
+                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative"
+                               href="./singleproduct.php">
                                 <img id="img-four" class="w-full h-full img-main fade object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
                                      alt="">
@@ -1615,27 +1588,17 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] text">تی شرت 1698</span>
+                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
-                                            <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] bg-[#D8D7D8]"
-                                                  onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg
-"
-                                          class="color-option w-[15px] h-[15px] bg-[#989BA2]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#26252C]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#A7B6BF]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#514552]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
+                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-four', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color4.jpg"
+                                                     alt="">
+                                            </span>
                                 </div>
 
                                 <div class="flex items-center gap-[1rem]">
@@ -1664,7 +1627,8 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
-                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative" href="">
+                            <a class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative"
+                               href="./singleproduct.php">
                                 <img id="img-five" class="w-full h-full img-main fade object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
                                      alt="">
@@ -1674,27 +1638,17 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] text">تی شرت 1698</span>
+                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
-                                            <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                                  class="color-option w-[15px] h-[15px] bg-[#D8D7D8]"
-                                                  onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg
-"
-                                          class="color-option w-[15px] h-[15px] bg-[#989BA2]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#26252C]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#A7B6BF]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
-                                    <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
-                                          class="color-option w-[15px] h-[15px] bg-[#514552]"
-                                          onclick="changeImage('img-four', this.dataset.image ,this)"></span>
+                                        <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
+                                              class="color-option flex items-center justify-center w-[17px] h-[17px] "
+                                              onclick="changeImage('img-five', this.dataset.image ,this) ; changeImage('img-one-hover', this.dataset.image ,this)">
+                                                <img class="w-full h-full" src="assets/images/color5.jpg"
+                                                     alt="">
+                                            </span>
                                 </div>
 
                                 <div class="flex items-center gap-[1rem]">
@@ -1720,6 +1674,7 @@
 
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -2345,8 +2300,8 @@
                             <div class="row">
                                 <div class="multisteps-form__progress"></div>
                                 <div class="w-full">
-                                    <form class="multisteps-form__form lg:top-[-70px] relative">
-                                        <div class="multisteps-form__panel step-one shadow p-4 rounded srt7 bg-white js-active"
+                                    <form class="multisteps-form__form">
+                                        <div class="multisteps-form__panel step-one shadow  rounded srt7 bg-white js-active"
                                              data-animation="fade">
                                             <div class="multisteps-form__content">
                                                 <div class="contenttabs">
@@ -2429,7 +2384,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="multisteps-form__panel step-two shadow p-4 rounded bg-white srt1 "
+                                        <div class="multisteps-form__panel step-two shadow  rounded bg-white srt1 "
                                              data-animation="fade">
                                             <div class="multisteps-form__content">
                                                 <div class="contenttabs w-full flex flex-col items-center">
@@ -2463,7 +2418,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="multisteps-form__panel step-three shadow p-4 rounded srt2 bg-white"
+                                        <div class="multisteps-form__panel step-three shadow  rounded srt2 bg-white"
                                              data-animation="fade">
                                             <div class="multisteps-form__content">
                                                 <div class="contenttabs">
@@ -2501,7 +2456,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="multisteps-form__panel step-four shadow p-4 rounded srt3 bg-white"
+                                        <div class="multisteps-form__panel step-four shadow  rounded srt3 bg-white"
                                              data-animation="fade">
                                             <div class="multisteps-form__content">
                                                 <div class="contenttabs">
@@ -2539,7 +2494,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="multisteps-form__panel step-five shadow p-4 rounded srt4 bg-white"
+                                        <div class="multisteps-form__panel step-five shadow  rounded srt4 bg-white"
                                              data-animation="fade">
                                             <div class="multisteps-form__content">
                                                 <div class="contenttabs">
@@ -2581,7 +2536,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="multisteps-form__panel step-six shadow p-4 lg:top-[-20px] rounded srt5 bg-white"
+                                        <div class="multisteps-form__panel step-six shadow  lg:top-[-20px] rounded srt5 bg-white"
                                              data-animation="fade">
                                             <div class="multisteps-form__content">
                                                 <div class="contenttabs w-full flex flex-col items-center">
@@ -2620,7 +2575,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="multisteps-form__panel step-seven shadow p-4 rounded srt6 bg-white "
+                                        <div class="multisteps-form__panel step-seven shadow  rounded srt6 bg-white "
                                              data-animation="fade">
                                             <div class="multisteps-form__content">
                                                 <div class="contenttabs">
@@ -2652,11 +2607,22 @@
                                                             داده‌ها
                                                         </button>
 
-                                                        <button class="btn-base w-full" type="button"
-                                                                title="Next">افزودن نمایه جدید<i class="ecut-plus">+</i>
+                                                        <button class="btn-base flex items-center justify-center  w-full " type="button"
+                                                                title="Next">افزودن نمایه جدید
+                                                            <i class="mr-[1rem]">
+                                                                <svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 45.402 45.402" xml:space="preserve">
+<g>
+    <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141
+		c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27
+		c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435
+		c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"></path>
+</g>
+</svg>
+                                                            </i>
                                                         </button>
 
-                                                        <button class="btn-base w-full btn-step-one"
+
+                                                        <button class="btn-base w-full mb-[12px] btn-step-one"
                                                                 type="button" title="Next">مدیریت نمایه‌ها
                                                         </button>
 

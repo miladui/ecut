@@ -102,7 +102,8 @@
                                             d="m281.2 215.09h-50.298c-8.715 0-15.804 7.089-15.804 15.804v50.298c0 8.715 7.089 15.804 15.804 15.804h50.298c8.715 0 15.804-7.089 15.804-15.804v-50.298c0-8.714-7.089-15.804-15.804-15.804z"></path> </svg>
                             </button>
                             <button class="" id="show-four">
-                                <svg style="rotate: 90deg"  fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                <svg style="rotate: 90deg" fill="#000000" version="1.1" id="Capa_1"
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                      width="20" height="20" viewBox="0 0 93.332 93.332"
                                      xml:space="preserve">
 <g>
@@ -570,6 +571,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!--mobile-->
                         <div class="w-full list-product-items mb-[2rem] grid gap-[1rem] max-[800px]:grid-cols-2 min-[901px]:hidden max-[900px]:grid-cols-2 grid-cols-3">
                             <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
                                 <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
@@ -740,6 +742,8 @@
                                 </div>
                             </div>
                         </div>
+                        <!--mobile-->
+
                         <div class="pagination">
                             <ul>
                                 <li><span class="prev-pg"><a href="#">صفحه  قبل </a></span></li>
