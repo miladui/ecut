@@ -72,7 +72,9 @@
     <div class="row-end w-full flex flex-col items-center">
         <span>لینک محصول</span>
         <a href="" class="copy-link">https://ecut.shop/product/single-coat-xja1156036</a>
-        <div class="copy-message bg-green-500 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]" style="display: none;">لینک با موفقیت کپی شد!</div>
+        <div class="copy-message bg-green-500 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]"
+             style="display: none;">لینک با موفقیت کپی شد!
+        </div>
     </div>
 </div>
 
@@ -109,14 +111,14 @@
 </g>
 </svg>
                         </button>
-                        <button onclick="window.location.replace('ProductComparison.php')" class="btn-comparison">
+                        <a href="./ProductComparison.php" class="btn-comparison">
                             <svg class="relative top-[4px]" width="43" height="43"
                                  xmlns="http://www.w3.org/2000/svg"
                                  data-name="Layer 1" viewBox="0 0 100 125" x="0px" y="0px">
                                 <path d="M50,80a2,2,0,0,1-2,2H44a2,2,0,0,1-2-2V76H30a6,6,0,0,1-6-6V30a6,6,0,0,1,6-6H42V20a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2Zm8-12a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H70a6,6,0,0,0,6-6V30a6,6,0,0,0-6-6H58a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H68V68Z"/>
 
                             </svg>
-                        </button>
+                        </a>
                         <button class="btn-favorite">
                             <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -133,11 +135,21 @@
                     </div>
                 </div>
                 <div class="row-colors tab-buttons mt-[3rem] flex items-center justify-start w-full gap-[6px]">
-                    <span onclick="showTab('tab1');" class="color active w-[16px] h-[16px] bg-[#D8D7D8]"></span>
-                    <span onclick="showTab('tab2');" class="color w-[16px] h-[16px] bg-[#989BA2]"></span>
-                    <span onclick="showTab('tab3');" class="color w-[16px] h-[16px] bg-[#26252C]"></span>
-                    <span onclick="showTab('tab4');" class="color w-[16px] h-[16px] bg-[#A7B6BF]"></span>
-                    <span onclick="showTab('tab5');" class="color w-[16px] h-[16px] bg-[#514552]"></span>
+                    <span onclick="showTab('tab1');" class="color active w-[16px] h-[16px] ">
+                        <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                    </span>
+                    <span onclick="showTab('tab2');" class="color w-[16px] h-[16px]">
+                      <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
+                    </span>
+                    <span onclick="showTab('tab3');" class="color w-[16px] h-[16px]">
+                        <img class="w-full h-full" src="assets/images/color3.jpg" alt="">
+                    </span>
+                    <span onclick="showTab('tab4');" class="color w-[16px] h-[16px]">
+                        <img class="w-full h-full" src="assets/images/color4.jpg" alt="">
+                    </span>
+                    <span onclick="showTab('tab5');" class="color w-[16px] h-[16px]">
+                        <img class="w-full h-full" src="assets/images/color5.jpg" alt="">
+                    </span>
 
                 </div>
                 <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
@@ -280,7 +292,7 @@
                 </div>
             </div>
         </div>
-        <div  class="w-[62%] tab-content tab1 active h-full">
+        <div class="w-[62%] tab-content tab1 active h-full">
             <div class="end  w-full pt-[1.8rem] grid grid-cols-2 relative h-full">
                 <div class="scroller-img h-[92vh] w-full overflow-y-auto h-full grid grid-cols-1">
                     <div class="swiper w-full h-[92vh]" id="swiper-scroller1">
@@ -407,7 +419,7 @@
                 </div>
             </div>
         </div>
-        <div style="display: none"  class="w-[62%] tab2 tab-content  h-full">
+        <div style="display: none" class="w-[62%] tab2 tab-content  h-full">
             <div class="end w-full pt-[1.8rem] grid grid-cols-2 relative h-full">
                 <div class="scroller-img h-[92vh] w-full overflow-y-auto h-full grid grid-cols-1">
                     <div class="swiper w-full h-[92vh]" id="swiper-scroller2">
@@ -659,7 +671,7 @@
                 </div>
             </div>
         </div>
-        <div  style="display: none" class="w-[62%] tab4 tab-content  h-full">
+        <div style="display: none" class="w-[62%] tab4 tab-content  h-full">
             <div class="end w-full pt-[1.8rem] grid grid-cols-2 relative h-full">
                 <div class="scroller-img h-[92vh] w-full overflow-y-auto h-full grid grid-cols-1">
                     <div class="swiper w-full h-[92vh]" id="swiper-scroller4">
@@ -786,7 +798,7 @@
                 </div>
             </div>
         </div>
-        <div  style="display: none" class="w-[62%] tab5 tab-content  h-full">
+        <div style="display: none" class="w-[62%] tab5 tab-content  h-full">
             <div class="end w-full pt-[1.8rem] grid grid-cols-2 relative h-full">
                 <div class="scroller-img h-[92vh] w-full overflow-y-auto h-full grid grid-cols-1">
                     <div class="swiper w-full h-[92vh]" id="swiper-scroller5">
@@ -914,7 +926,7 @@
         </div>
     </div>
     <div class="p-single-product-mobi p-single-product mt-[5rem] w-full flex flex-col items-center px-[12px] min-[901px]:hidden">
-        <div  class="w-full flex tab-content tab1 active flex-col items-center">
+        <div class="w-full flex tab-content tab1 active flex-col items-center">
             <div class="single-img w-full">
                 <a class="link-video"
                    data-fancybox="gallery1-mobi"
@@ -933,54 +945,61 @@
                    data-fancybox="gallery1-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156130/2000/single-coat-01.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-01.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-01.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery1-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156130/2000/single-coat-02.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-02.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-02.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery1-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156130/2000/single-coat-03.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-03.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-03.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery1-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156130/2000/single-coat-04.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-04.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-04.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery1-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156130/2000/single-coat-05.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-05.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-05.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery1-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156130/2000/single-coat-06.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-06.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-06.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery1-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156130/2000/single-coat-07.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-07.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-07.jpg" alt="">
 
                 </a>
             </div>
         </div>
-        <div style="display: none"  class="w-full tab2 flex tab-content  flex-col items-center">
+        <div style="display: none" class="w-full tab2 flex tab-content  flex-col items-center">
             <div class="single-img w-full">
                 <a class="link-video"
                    data-fancybox="gallery2-mobi"
@@ -999,54 +1018,61 @@
                    data-fancybox="gallery2-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156129/2000/single-coat-01.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-01.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-01.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery2-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156129/2000/single-coat-02.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-02.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-02.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery2-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156129/2000/single-coat-03.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-03.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-03.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery2-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156129/2000/single-coat-04.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-04.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-04.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery2-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156129/2000/single-coat-05.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-05.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-05.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery2-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156129/2000/single-coat-06.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-06.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-06.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery2-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156129/2000/single-coat-07.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-07.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-07.jpg" alt="">
 
                 </a>
             </div>
         </div>
-        <div style="display: none"  class="w-full tab3 flex tab-content  flex-col items-center">
+        <div style="display: none" class="w-full tab3 flex tab-content  flex-col items-center">
             <div class="single-img w-full">
                 <a class="link-video"
                    data-fancybox="gallery3-mobi"
@@ -1065,54 +1091,61 @@
                    data-fancybox="gallery3-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156128/2000/single-coat-01.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-01.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-01.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery3-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156128/2000/single-coat-02.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-02.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-02.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery3-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156128/2000/single-coat-03.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-03.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-03.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery3-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156128/2000/single-coat-04.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-04.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-04.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery3-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156128/2000/single-coat-05.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-05.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-05.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery3-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156128/2000/single-coat-06.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-06.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-06.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery3-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156128/2000/single-coat-07.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-07.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-07.jpg" alt="">
 
                 </a>
             </div>
         </div>
-        <div style="display: none"  class="w-full tab4 flex tab-content  flex-col items-center">
+        <div style="display: none" class="w-full tab4 flex tab-content  flex-col items-center">
             <div class="single-img w-full">
                 <a class="link-video"
                    data-fancybox="gallery4-mobi"
@@ -1131,54 +1164,61 @@
                    data-fancybox="gallery4-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156127/2000/single-coat-01.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-01.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-01.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery4-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156127/2000/single-coat-02.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-02.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-02.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery4-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156127/2000/single-coat-03.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-03.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-03.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery4-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156127/2000/single-coat-04.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-04.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-04.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery4-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156127/2000/single-coat-05.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-05.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-05.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery4-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156127/2000/single-coat-06.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-06.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-06.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery4-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156127/2000/single-coat-07.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-07.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-07.jpg" alt="">
 
                 </a>
             </div>
         </div>
-        <div style="display: none"  class="w-full tab5 flex tab-content  flex-col items-center">
+        <div style="display: none" class="w-full tab5 flex tab-content  flex-col items-center">
             <div class="single-img w-full">
                 <a class="link-video"
                    data-fancybox="gallery5-mobi"
@@ -1197,49 +1237,56 @@
                    data-fancybox="gallery5-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156125/2000/single-coat-01.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-01.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-01.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery5-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156125/2000/single-coat-02.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-02.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-02.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery5-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156125/2000/single-coat-03.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-03.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-03.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery5-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156125/2000/single-coat-04.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-04.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-04.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery5-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156125/2000/single-coat-05.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-05.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-05.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery5-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156125/2000/single-coat-06.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-06.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-06.jpg" alt="">
 
                 </a>
                 <a class="w-full"
                    data-fancybox="gallery5-mobi"
                    data-src="https://media.ecut.shop/product/PJA/PJA1156125/2000/single-coat-07.jpg"
                 >
-                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-07.jpg" alt="">
+                    <img class="rounded-[4px] mt-[1rem] w-full h-[110px] object-cover"
+                         src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-07.jpg" alt="">
 
                 </a>
             </div>
@@ -1296,22 +1343,32 @@
             </div>
         </div>
         <div class="row-colors tab-buttons mt-[3rem] flex items-center justify-start w-full gap-[6px]">
-            <span onclick="showTab('tab1')" class="color active w-[16px] h-[16px] bg-[#D8D7D8]"></span>
-            <span onclick="showTab('tab2')" class="color w-[16px] h-[16px] bg-[#989BA2]"></span>
-            <span onclick="showTab('tab3')" class="color w-[16px] h-[16px] bg-[#26252C]"></span>
-            <span onclick="showTab('tab4')" class="color w-[16px] h-[16px] bg-[#A7B6BF]"></span>
-            <span onclick="showTab('tab5')" class="color w-[16px] h-[16px] bg-[#514552]"></span>
+            <span onclick="showTab('tab1')" class="color active w-[16px] h-[16px]">
+                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+            </span>
+            <span onclick="showTab('tab2')" class="color w-[16px] h-[16px]">
+                <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
+            </span>
+            <span onclick="showTab('tab3')" class="color w-[16px] h-[16px]">
+                <img class="w-full h-full" src="assets/images/color3.jpg" alt="">
+            </span>
+            <span onclick="showTab('tab4')" class="color w-[16px] h-[16px]">
+                <img class="w-full h-full" src="assets/images/color4.jpg" alt="">
+            </span>
+            <span onclick="showTab('tab5')" class="color w-[16px] h-[16px]">
+                <img class="w-full h-full" src="assets/images/color5.jpg" alt="">
+            </span>
         </div>
         <div class="size mt-[1rem] en-num flex items-center justify-end w-full gap-[6px]">
-            <button class="btn-size bg-[#000] text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">42</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">44</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">46</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">48</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">52</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">54</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">56</button>
-            <button class="btn-size w-[35px] h-[22px] rounded-[5px] text-[14px]">58</button>
+            <button class="btn-size pt-[1.6px] bg-[#000] text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">42</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">44</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">46</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">48</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">50</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">52</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">54</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">56</button>
+            <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">58</button>
         </div>
         <div class="w-full flex items-center justify-start mt-[2rem]">
             <div class="flex flex-col items-center justify-center rounded-[8px] border-[#777] border-[1px] py-[1rem] px-[10px] gap-[6px]">
@@ -1968,7 +2025,7 @@
                     </div>
                 </div>
             </div>
-            <div style="display: none"  class="w-full tab2 tab-content">
+            <div style="display: none" class="w-full tab2 tab-content">
                 <div class="w-full  flex items-center justify-center">
                     <div class="p-gallery  py-[2rem]  gap-[12px] w-full grid ">
                         <div class="cols   w-full flex flex-col gap-[12px]">
@@ -2027,7 +2084,7 @@
                     </div>
                 </div>
             </div>
-            <div style="display: none"  class="w-full tab3 tab-content">
+            <div style="display: none" class="w-full tab3 tab-content">
                 <div class="w-full  flex items-center justify-center">
                     <div class="p-gallery  py-[2rem]  gap-[12px] w-full grid ">
                         <div class="cols   w-full flex flex-col gap-[12px]">
@@ -2086,7 +2143,7 @@
                     </div>
                 </div>
             </div>
-            <div style="display: none"  class="w-full tab4 tab-content">
+            <div style="display: none" class="w-full tab4 tab-content">
                 <div class="w-full  flex items-center justify-center">
                     <div class="p-gallery  py-[2rem]  gap-[12px] w-full grid ">
                         <div class="cols   w-full flex flex-col gap-[12px]">
@@ -2145,7 +2202,7 @@
                     </div>
                 </div>
             </div>
-            <div style="display: none"  class="w-full tab5 tab-content">
+            <div style="display: none" class="w-full tab5 tab-content">
                 <div class="w-full  flex items-center justify-center">
                     <div class="p-gallery  py-[2rem]  gap-[12px] w-full grid ">
                         <div class="cols   w-full flex flex-col gap-[12px]">
@@ -2328,7 +2385,11 @@
                                                                     <span>انتخاب نمایه </span>
                                                                     <div class="deletelist">
                                                                         <i class="ecut-close flex items-center justify-center">
-                                                                            <svg class="close-share" id="Icons" height="10" viewBox="0 0 64 64" width="10" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+                                                                            <svg class="close-share" id="Icons"
+                                                                                 height="10" viewBox="0 0 64 64"
+                                                                                 width="10"
+                                                                                 xmlns="http://www.w3.org/2000/svg"
+                                                                                 fill="#fff">
                                                                                 <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
                                                                             </svg>
                                                                         </i>
@@ -2340,7 +2401,11 @@
                                                                     <span>انتخاب نمایه </span>
                                                                     <div class="deletelist">
                                                                         <i class="ecut-close flex items-center justify-center">
-                                                                            <svg class="close-share" id="Icons" height="10" viewBox="0 0 64 64" width="10" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+                                                                            <svg class="close-share" id="Icons"
+                                                                                 height="10" viewBox="0 0 64 64"
+                                                                                 width="10"
+                                                                                 xmlns="http://www.w3.org/2000/svg"
+                                                                                 fill="#fff">
                                                                                 <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
                                                                             </svg>
                                                                         </i>
@@ -2365,7 +2430,9 @@
                                                                 title="Next">
                                                             افزودن نمایه جدید
                                                             <i class="mr-[1rem]">
-                                                                <svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                <svg fill="#fff" version="1.1" id="Capa_1"
+                                                                     xmlns="http://www.w3.org/2000/svg"
+                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
                                                                      width="10" height="10" viewBox="0 0 45.402 45.402"
                                                                      xml:space="preserve">
 <g>
@@ -2607,10 +2674,15 @@
                                                             داده‌ها
                                                         </button>
 
-                                                        <button class="btn-base flex items-center justify-center  w-full " type="button"
+                                                        <button class="btn-base flex items-center justify-center  w-full "
+                                                                type="button"
                                                                 title="Next">افزودن نمایه جدید
                                                             <i class="mr-[1rem]">
-                                                                <svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 45.402 45.402" xml:space="preserve">
+                                                                <svg fill="#fff" version="1.1" id="Capa_1"
+                                                                     xmlns="http://www.w3.org/2000/svg"
+                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                     width="10" height="10" viewBox="0 0 45.402 45.402"
+                                                                     xml:space="preserve">
 <g>
     <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141
 		c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27
@@ -2765,25 +2837,32 @@
                             </video>
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-01.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-02.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-03.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-03.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-04.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-04.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-05.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-05.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-06.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-06.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-07.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/1000/single-coat-07.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -2808,25 +2887,32 @@
                 <div class="swiper w-full swiper-gallery-simulator">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-01.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-02.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-03.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-03.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-04.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-04.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-05.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-05.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-06.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-06.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-07.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/1000/single-coat-07.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -2851,25 +2937,32 @@
                 <div class="swiper w-full swiper-gallery-simulator">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-01.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-02.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-03.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-03.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-04.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-04.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-05.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-05.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-06.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-06.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-07.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/1000/single-coat-07.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -2894,25 +2987,32 @@
                 <div class="swiper w-full swiper-gallery-simulator">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-01.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-02.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-03.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-03.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-04.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-04.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-05.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-05.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-06.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-06.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-07.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/1000/single-coat-07.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -2937,25 +3037,32 @@
                 <div class="swiper w-full swiper-gallery-simulator">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-01.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-01.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-02.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-02.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-03.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-03.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-04.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-04.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-05.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-05.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-06.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-06.jpg" alt="">
                         </div>
                         <div class="swiper-slide">
-                            <img class="w-full" src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-07.jpg" alt="">
+                            <img class="w-full"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/1000/single-coat-07.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -2982,6 +3089,7 @@
         $('.s-single-product .tab-buttons button').removeClass('active');
         $(event.target).addClass('active');
     }
+
     const swiper1 = new Swiper("#swiper-scroller1", {
         direction: "vertical",
         slidesPerView: 1,
@@ -3214,8 +3322,8 @@
         },
     });
 
-    $(document).ready(function() {
-        $('.copy-link').click(function(e) {
+    $(document).ready(function () {
+        $('.copy-link').click(function (e) {
             e.preventDefault();
 
             navigator.clipboard.writeText($(this).text())
