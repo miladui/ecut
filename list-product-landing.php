@@ -75,8 +75,8 @@
             </div>
 
             <div class="row-titles mt-[3rem] w-full flex flex-col items-center">
-                <h2 class="font-bold max-[800px]:text-[22px] text-[35px]">محصولات تک سایز</h2>
-                <p class="w-[36%] max-[700px]:w-full leading-[25px] max-[800px]:text-[13px] mt-[3rem] text-center font-normal text-[16px]">
+                <h2 class="font-bold max-[800px]:text-[22px] text-[26px]">محصولات تک سایز</h2>
+                <p class="w-[36%] max-[700px]:w-full leading-[25px] max-[800px]:text-[13px] mt-[3rem] text-center font-normal text-[14px]">
                     مجموعه کت و شلوار مردانه
                     ایکات، اصیل‌ترین الهام فصل را در خود جای داده است. نگرش و جذابیت
                     پارچه‌های دوخته شده با لباس‌های متمایز بلیزر و جزئیات شیک شلوار جفت شده است.
