@@ -947,7 +947,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
@@ -975,7 +974,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
@@ -1003,7 +1001,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
@@ -1031,7 +1028,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
@@ -1059,7 +1055,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
             </div>

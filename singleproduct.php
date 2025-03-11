@@ -73,7 +73,7 @@
         <div class="row-end w-full flex flex-col items-center">
             <span>لینک محصول</span>
             <a href="" class="copy-link">https://ecut.shop/product/single-coat-xja1156036</a>
-            <div class="copy-message bg-green-500 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]"
+            <div class="copy-message bg-green-300 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]"
                  style="display: none;">لینک با موفقیت کپی شد!
             </div>
         </div>
@@ -137,19 +137,19 @@
                     </div>
                 </div>
                 <div class="row-colors tab-buttons mt-[3rem] flex items-center justify-start w-full gap-[6px]">
-                    <span onclick="showTab('tab1');" class="color active w-[16px] h-[16px] ">
+                    <span onclick="showTab('tab1');" class="color active w-[24px] h-[24px] ">
                         <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
                     </span>
-                    <span onclick="showTab('tab2');" class="color w-[16px] h-[16px]">
+                    <span onclick="showTab('tab2');" class="color w-[24px] h-[24px]">
                       <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
                     </span>
-                    <span onclick="showTab('tab3');" class="color w-[16px] h-[16px]">
+                    <span onclick="showTab('tab3');" class="color w-[24px] h-[24px]">
                         <img class="w-full h-full" src="assets/images/color3.jpg" alt="">
                     </span>
-                    <span onclick="showTab('tab4');" class="color w-[16px] h-[16px]">
+                    <span onclick="showTab('tab4');" class="color w-[24px] h-[24px]">
                         <img class="w-full h-full" src="assets/images/color4.jpg" alt="">
                     </span>
-                    <span onclick="showTab('tab5');" class="color w-[16px] h-[16px]">
+                    <span onclick="showTab('tab5');" class="color w-[24px] h-[24px]">
                         <img class="w-full h-full" src="assets/images/color5.jpg" alt="">
                     </span>
 
@@ -928,7 +928,7 @@
         </div>
     </div>
     <div class="p-single-product-mobi p-single-product mt-[5rem] w-full flex flex-col items-center px-[12px] min-[901px]:hidden">
-        <div class="w-full flex tab-content tab1 active flex-col items-center">
+        <div class="w-[95%] flex tab-content tab1 active flex-col items-center">
             <div class="single-img w-full">
                 <a class="link-video"
                    data-fancybox="gallery1-mobi"
@@ -936,7 +936,7 @@
                    data-caption="Hello world"
                    data-fullscreen="true"
                 >
-                    <video id="myVideo" class="w-full rounded-[5px]" poster="assets/images/4.jpg" autoplay loop muted>
+                    <video id="myVideo" class="w-full rounded-[5px]" autoplay loop muted>
                         <source src="https://media.ecut.shop/product/PJA/PJA1156130/PJA1156130.MP4"
                                 type="video/mp4">
                     </video>
@@ -1009,7 +1009,7 @@
                    data-caption="Hello world"
                    data-fullscreen="true"
                 >
-                    <video id="myVideo" class="w-full rounded-[5px]" poster="assets/images/4.jpg" autoplay loop muted>
+                    <video id="myVideo" class="w-full rounded-[5px]" autoplay loop muted>
                         <source src="https://media.ecut.shop/product/PJA/PJA1156129/PJA1156129.MP4"
                                 type="video/mp4">
                     </video>
@@ -1082,7 +1082,7 @@
                    data-caption="Hello world"
                    data-fullscreen="true"
                 >
-                    <video id="myVideo" class="w-full rounded-[5px]" poster="assets/images/4.jpg" autoplay loop muted>
+                    <video id="myVideo" class="w-full rounded-[5px]"  autoplay loop muted>
                         <source src="https://media.ecut.shop/product/PJA/PJA1156128/PJA1156128.MP4"
                                 type="video/mp4">
                     </video>
@@ -1155,7 +1155,7 @@
                    data-caption="Hello world"
                    data-fullscreen="true"
                 >
-                    <video id="myVideo" class="w-full rounded-[5px]" poster="assets/images/4.jpg" autoplay loop muted>
+                    <video id="myVideo" class="w-full rounded-[5px]" autoplay loop muted>
                         <source src="https://media.ecut.shop/product/PJA/PJA1156127/PJA1156127.MP4"
                                 type="video/mp4">
                     </video>
@@ -1228,7 +1228,7 @@
                    data-caption="Hello world"
                    data-fullscreen="true"
                 >
-                    <video id="myVideo" class="w-full rounded-[5px]" poster="assets/images/4.jpg" autoplay loop muted>
+                    <video id="myVideo" class="w-full rounded-[5px]" autoplay loop muted>
                         <source src="https://media.ecut.shop/product/PJA/PJA1156125/PJA1156125.MP4"
                                 type="video/mp4">
                     </video>
@@ -1345,23 +1345,23 @@
             </div>
         </div>
         <div class="row-colors tab-buttons mt-[3rem] flex items-center justify-start w-full gap-[6px]">
-            <span onclick="showTab('tab1')" class="color active w-[16px] h-[16px]">
+            <span onclick="showTab('tab1')" class="color active w-[24px] h-[24px]">
                 <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
             </span>
-            <span onclick="showTab('tab2')" class="color w-[16px] h-[16px]">
+            <span onclick="showTab('tab2')" class="color w-[24px] h-[24px]">
                 <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
             </span>
-            <span onclick="showTab('tab3')" class="color w-[16px] h-[16px]">
+            <span onclick="showTab('tab3')" class="color w-[24px] h-[24px]">
                 <img class="w-full h-full" src="assets/images/color3.jpg" alt="">
             </span>
-            <span onclick="showTab('tab4')" class="color w-[16px] h-[16px]">
+            <span onclick="showTab('tab4')" class="color w-[24px] h-[24px]">
                 <img class="w-full h-full" src="assets/images/color4.jpg" alt="">
             </span>
-            <span onclick="showTab('tab5')" class="color w-[16px] h-[16px]">
+            <span onclick="showTab('tab5')" class="color w-[24px] h-[24px]">
                 <img class="w-full h-full" src="assets/images/color5.jpg" alt="">
             </span>
         </div>
-        <div class="size mt-[1rem] en-num flex items-center justify-end w-full gap-[6px]">
+        <div class="size mt-[1rem] en-num flex items-center justify-center w-full gap-[6px]">
             <button class="btn-size pt-[1.6px] bg-[#000] text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">42</button>
             <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">44</button>
             <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">46</button>
@@ -1372,19 +1372,32 @@
             <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">56</button>
             <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">58</button>
         </div>
-        <div class="w-full flex items-center justify-start mt-[2rem]">
-            <div class="flex flex-col items-center justify-center rounded-[8px] border-[#777] border-[1px] py-[1rem] px-[10px] gap-[6px]">
+        <div class="w-full flex items-center justify-between mt-[2rem]">
+            <div class="flex items-center gap-[6px]">
+                <span class="text-[16px]">جدول سایزبندی</span>
+                <button class="btn-ruler">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="17" viewBox="0 0 80 17" fill="none">
+                        <g clip-path="url(#clip0_517_2614)">
+                            <path d="M-0.0195312 17.0033H79.9805V16.0127V1.11154V0.107883H-0.0195312V1.11154V16.0127V17.0033ZM76.2772 16.0127V12.1485H75.5321V16.0127H72.6966V8.78442H71.9418V16.0127H69.1063V12.1485H68.3611V16.0127H65.516V8.78442H64.7708V16.0127H61.9353V12.1485H61.1805V16.0127H58.345V8.78442H57.5998V16.0127H54.7547V12.1485H54.0095V16.0127H51.174V8.78442H50.4289V16.0127H47.5837V12.1485H46.8385V16.0127H44.003V8.78442H43.2482V16.0127H40.4127V12.1485H39.6676V16.0127H36.8321V8.78442H36.0772V16.0127H33.2418V12.1485H32.4966V16.0127H29.6514V8.78442H28.9063V16.0127H26.0708V12.1485H25.316V16.0127H22.4805V8.78442H21.7353V16.0127H18.8901V12.1485H18.145V16.0127H15.3095V8.78442H14.5643V16.0127H11.7192V12.1485H10.974V16.0127H8.13853V8.78442H7.38369V16.0127H4.54821V12.1485H3.80305V16.0127H0.967565V1.10827H78.9998V16.0127H76.2772Z" fill="#373435"></path>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_517_2614">
+                                <rect width="80" height="17" fill="white"></rect>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+            </div>
+            <div class="flex items-center gap-[6px]">
                 <span class="text-[16px]">سایز خود را پیدا کنید </span>
-                <button class="btn-metter mt-3">
+                <button class="btn-metter">
                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="23" viewBox="0 0 34 23" fill="none">
                         <g clip-path="url(#clip0_517_2618)">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                  d="M8.52662 5.02646C8.84681 7.54049 21.1132 7.59799 20.3738 4.47063C20.0272 2.97882 15.9175 2.56035 14.1416 2.60188C12.8806 2.62104 11.6262 2.77118 10.5204 3.14813C9.67535 3.42604 8.39458 4.04257 8.52662 5.02646ZM13.0324 9.44757H33.2377L33.1486 22.2445L29.3987 22.2541V15.2295H28.547V22.2541L24.6056 22.2445V18.4591H23.7408V22.2349L19.8291 22.2541V15.2295H18.9676V22.1838L15.0064 22.2445V18.4591H14.1416V22.2445C12.633 22.203 11.5965 22.2158 10.2299 22.0848V15.2295H9.36836V21.9953C8.32196 21.8676 7.04778 21.6695 5.28176 21.3213V18.4591H4.43011V21.1424C3.39361 20.8645 1.9973 20.1681 1.43283 19.6826C0.303898 18.7178 0.6505 17.5742 0.6505 15.7758C0.6505 13.0637 0.406228 8.98118 0.68351 6.4384C2.50895 8.17618 9.43108 9.72549 13.0324 9.44757ZM11.1971 0.883266C20.8888 -0.0207621 33.8847 3.54424 25.2922 7.1316C19.9546 9.36771 7.06759 9.1984 2.50895 6.56618C1.72001 6.10938 0.24118 5.28521 1.08293 4.0234C2.48914 1.90549 8.73128 1.11327 11.1971 0.883266ZM28.7847 8.83104C28.7847 4.80604 29.7684 3.10021 24.401 1.42952C18.5583 -0.37854 9.27594 -0.359373 3.57846 1.7266C-0.887752 3.35577 -0.0162959 4.8284 -0.0162959 9.73507C-0.0162959 11.6517 -0.0162959 13.562 -0.0162959 15.4787C-0.0162959 17.7244 -0.30348 18.967 1.18526 20.0691C3.3738 21.6983 7.04778 22.3947 10.3322 22.7013C14.4816 23.0974 28.7616 22.8898 33.9177 22.8898V8.86299L28.7847 8.83104Z"
-                                  fill="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.52662 5.02646C8.84681 7.54049 21.1132 7.59799 20.3738 4.47063C20.0272 2.97882 15.9175 2.56035 14.1416 2.60188C12.8806 2.62104 11.6262 2.77118 10.5204 3.14813C9.67535 3.42604 8.39458 4.04257 8.52662 5.02646ZM13.0324 9.44757H33.2377L33.1486 22.2445L29.3987 22.2541V15.2295H28.547V22.2541L24.6056 22.2445V18.4591H23.7408V22.2349L19.8291 22.2541V15.2295H18.9676V22.1838L15.0064 22.2445V18.4591H14.1416V22.2445C12.633 22.203 11.5965 22.2158 10.2299 22.0848V15.2295H9.36836V21.9953C8.32196 21.8676 7.04778 21.6695 5.28176 21.3213V18.4591H4.43011V21.1424C3.39361 20.8645 1.9973 20.1681 1.43283 19.6826C0.303898 18.7178 0.6505 17.5742 0.6505 15.7758C0.6505 13.0637 0.406228 8.98118 0.68351 6.4384C2.50895 8.17618 9.43108 9.72549 13.0324 9.44757ZM11.1971 0.883266C20.8888 -0.0207621 33.8847 3.54424 25.2922 7.1316C19.9546 9.36771 7.06759 9.1984 2.50895 6.56618C1.72001 6.10938 0.24118 5.28521 1.08293 4.0234C2.48914 1.90549 8.73128 1.11327 11.1971 0.883266ZM28.7847 8.83104C28.7847 4.80604 29.7684 3.10021 24.401 1.42952C18.5583 -0.37854 9.27594 -0.359373 3.57846 1.7266C-0.887752 3.35577 -0.0162959 4.8284 -0.0162959 9.73507C-0.0162959 11.6517 -0.0162959 13.562 -0.0162959 15.4787C-0.0162959 17.7244 -0.30348 18.967 1.18526 20.0691C3.3738 21.6983 7.04778 22.3947 10.3322 22.7013C14.4816 23.0974 28.7616 22.8898 33.9177 22.8898V8.86299L28.7847 8.83104Z" fill="black"></path>
                         </g>
                         <defs>
                             <clipPath id="clip0_517_2618">
-                                <rect width="34" height="23" fill="white"/>
+                                <rect width="34" height="23" fill="white"></rect>
                             </clipPath>
                         </defs>
                     </svg>
@@ -1410,6 +1423,7 @@
         <div class="acc-container">
             <div class="acc">
                 <div class="acc-head">
+                    <div class="after"></div>
                     <p>مشخصات محصول</p>
                 </div>
                 <div class="acc-content">
@@ -1426,6 +1440,7 @@
             </div>
             <div class="acc">
                 <div class="acc-head">
+                    <div class="after"></div>
                     <p>روش‌های ارسل </p>
                 </div>
                 <div class="acc-content">
@@ -1442,6 +1457,7 @@
             </div>
             <div class="acc">
                 <div class="acc-head">
+                    <div class="after"></div>
                     <p>روش نگهداری</p>
                 </div>
                 <div class="acc-content">
@@ -1458,6 +1474,7 @@
             </div>
             <div class="acc">
                 <div class="acc-head">
+                    <div class="after"></div>
                     <p>مرجوعی کالا</p>
                 </div>
                 <div class="acc-content">
@@ -2577,19 +2594,16 @@
                                                         <label class="radio-button-label">
                                                             <input type="radio" name="radio-control" value="lsbs"/>
                                                             <img src="assets/images/size7.png">
-                                                            <span class="relative right-[-90px]"> Slim fit </span>
                                                         </label>
 
                                                         <label class="radio-button-label">
                                                             <input type="radio" name="radio-control" value="nosbd"/>
                                                             <img src="assets/images/size8.png">
-                                                            <span class="relative right-[-90px]"> Average </span>
                                                         </label>
 
                                                         <label class="radio-button-label">
                                                             <input type="radio" name="radio-control" value="rsbf"/>
                                                             <img src="assets/images/size9.png">
-                                                            <span class="relative right-[-90px]"> Looser </span>
                                                         </label>
                                                     </div>
                                                     <div class="button-row flex w-full items-center justify-center gap-[1rem] mt-[1rem]">

@@ -1572,6 +1572,7 @@ footer {
                     border: none;
                     outline: none;
                     background: unset;
+                    font-size: 14px;
                 }
             }
         }
@@ -1663,7 +1664,6 @@ footer {
 
 
     .col-titles {
-        gap: 20px;
         border-left: 1px solid #ccc;
         padding-bottom: 10px;
 
@@ -1766,17 +1766,21 @@ footer {
             }
 
             .detail {
-                gap: 20px;
-                padding-top: 10px;
-
                 h2 {
                     font-size: 16px;
                     font-weight: 600;
+                    margin-top: 1rem;
                 }
 
                 span {
                     color: #646464;
                     font-size: 16px;
+                    height: 45px;
+                    width: 100%;
+                    border-bottom: 1px solid #ccc;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
             }
         }
@@ -3178,6 +3182,7 @@ footer {
     .copyrightm {
         text-align: center;
         padding: 11px 0;
+        font-family: 'IRANYekanEN' !important;
     }
 
 }
@@ -4634,7 +4639,8 @@ footer {
 
             .title-product {
                 h4 {
-                    color: red;
+                    color: var(--base-color-two);
+                    font-weight: bold;
                 }
             }
 
@@ -4649,7 +4655,6 @@ footer {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                font-weight: 600;
                 cursor: pointer;
                 background: #f0f0f0;
 
@@ -5841,6 +5846,7 @@ footer {
                     border: none;
                     outline: none;
                     background: unset;
+                    font-size: 14px;
                 }
             }
         }
@@ -6431,7 +6437,7 @@ footer {
         right: 0 !important;
         top: 0 !important;
         background: white !important;
-        width: 90% !important;
+        width: 100% !important;
         z-index: 9999999;
         height: 100vh !important;
         overflow-y: auto;
@@ -8667,6 +8673,7 @@ li:hover + #overlay {
         position: relative;
         display: flex;
         align-items: center;
+        height: 37px;
 
         &:after {
             content: '';
@@ -8689,7 +8696,8 @@ li:hover + #overlay {
     }
 
     .active {
-        color: var(--base-color-two) !important;
+        background: var(--base-color-two) !important;
+        color: var(--white) !important;
     }
 }
 
@@ -8927,10 +8935,17 @@ li:hover + #overlay {
 
 
 @media only screen and (max-width: 800px) {
+    .footer5box{
+        border: none !important;
+    }
     .title-checkout {
         font-size: 14px !important;
     }
-
+    .modal-ruler {
+        .box-ruler {
+            width: 100%;
+        }
+    }
     .box-basket {
         .items-basket {
             overflow-x: scroll;
@@ -8950,7 +8965,9 @@ li:hover + #overlay {
             }
         }
     }
-
+    .p-product-comparison {
+        margin-top: 5rem;
+    }
     #swiper-card {
         width: 240px;
         height: 400px;
@@ -8961,7 +8978,7 @@ li:hover + #overlay {
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 18px;
+            border-radius: 10px;
             font-size: 22px;
             font-weight: bold;
             color: #fff;
@@ -8977,12 +8994,48 @@ li:hover + #overlay {
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 18px;
+            border-radius: 10px;
             font-size: 22px;
             font-weight: bold;
             color: #fff;
             background: #f5f5f5 !important;
 
+        }
+    }
+    .box-share {
+
+        .row-middle {
+
+
+            .img-share {
+                height: 35vh;
+            }
+
+            .p-icons {
+                height: 35vh;
+            }
+        }
+
+        .row-end {
+            border-top: 1px solid #ccc;
+            margin-top: 1rem;
+            padding-top: 1rem;
+
+            span {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            a {
+                width: 80%;
+                border-radius: 10px;
+                background: #ccc;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 1rem;
+            }
         }
     }
 

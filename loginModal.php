@@ -53,7 +53,7 @@
                 </ul>
 
             </div>
-            <div class="copyrightm">
+            <div class="copyrightm en-num">
                 1991 - 2024 Ecut. All rights reserved
             </div>
         </div>

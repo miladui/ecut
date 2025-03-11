@@ -107,7 +107,7 @@
     <div class="p-product-comparison ">
         <div class="flex mb-[1rem] w-full justify-between items-center">
             <div class="breadcrum">
-                <a href="#">محصولات</a> / <a href="#">کلاسیک</a> / <span> کت وشلوار </span>
+                <a href="#">ایکات</a> / <a href="#">محصولات</a> / <span>  مقایسه محصول </span>
             </div>
         </div>
         <div class="row-main w-full mb-[2rem] flex items-start justify-between">
@@ -119,18 +119,18 @@
                     <div class="row-shimmer"></div>
                     <button class="btn-select-product">انتخاب کالا</button>
                 </div>
-                <h2>مشخصات کلی</h2>
-                <span>تنوع</span>
-                <span>یقه</span>
-                <span>جیب</span>
-                <span>آستین</span>
-                <span>الگوی برش</span>
-                <span>جنس پارچه</span>
-                <span>نحوه شستشو</span>
-                <span>برگه یقه</span>
-                <span>قابک</span>
-                <span>پشت</span>
-                <span>سرمچ</span>
+                <h2 class="mt-[1rem]">مشخصات کلی</h2>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">تنوع</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">یقه</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">جیب</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">آستین</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">الگوی برش</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">جنس پارچه</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">نحوه شستشو</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">برگه یقه</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">قابک</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">پشت</span>
+                <span class="border-b-[1px] border-[#ccc] w-full h-[45px] flex items-center">سرمچ</span>
 
             </div>
             <div class="col-products w-[83%] flex items-start">

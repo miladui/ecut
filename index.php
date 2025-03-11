@@ -870,7 +870,7 @@
                     </div>
                 </div>
             </div>
-            <section class="bg-[#fff] mt-[1rem] w-full h-auto">
+            <section class="bg-[#fff] mt-[1rem] index-mobi-card w-full h-auto">
                 <div class="flex relative z-[10px] tab-buttons pt-[2rem] mb-[1rem] gap-[1rem] buttons-tab w-full items-center justify-center">
                     <button onclick="showTab('tab1-mobi')" class="cursor-pointer btn-one bg-[#ededed] mx-2 active">
                         اکسسوری
