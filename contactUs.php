@@ -135,40 +135,20 @@
                     </ul>
                     <div class="row-social-media">
                         <span>شبکات اجتماعی</span>
-                        <ul class="contact-scoial-list flex justify-center gap-[8px] list-unstyled">
-                            <li class="contact-social-item">
-                                <a href="https://t.me/Ecutco" target="_blank" rel="nofollow" aria-label="تلگرام">
-                                    <img src="assets/images/social-media/telegram-svgrepo-com%20(1).svg" alt="">
-                                </a>
-                            </li>
-                            <li class="contact-social-item">
-                                <a href="https://instagram.com/_ecut_" target="_blank" rel="nofollow" aria-label="اینستاگرام">
-                                    <img src="assets/images/social-media/instagram-svgrepo-com.svg" alt="">
-                                </a>
-                            </li>
-                            <li class="contact-social-item">
-                                <a href="https://linkedin.com/company/ecutco" target="_blank" rel="nofollow" aria-label="linkedin">
-                                    <img src="assets/images/social-media/linkedin-svgrepo-com.svg" alt="">
-                                </a>
-                            </li>
-                            <li class="contact-social-item">
-                                <a href="https://www.pinterest.com/ecutco/" target="_blank" rel="nofollow" aria-label="pinterest"><img
-                                            src="assets/images/social-media/pinterest-svgrepo-com.svg" alt=""> </a>
-                            </li>
-                            <li class="contact-social-item">
-                                <a href="https://www.aparat.com/ecut" target="_blank" rel="nofollow" aria-label="aparat">
-                                    <img src="assets/images/social-media/aparat-svgrepo-com.svg" alt="">
-                                </a>
-                            </li>
-                            <li class="contact-social-item">
-                                <a href="https://www.youtube.com/channel/UCzU-IJVMkn4kv4mieQbMmvg" target="_blank" rel="nofollow" aria-label="youtube"><img
-                                            src="assets/images/social-media/youtube-color-svgrepo-com.svg" alt=""> </a>
-                            </li>
-                            <li class="contact-social-item">
-                                <a href="https://www.facebook.com/ecut.ir/" target="_blank" rel="nofollow" aria-label="facebook"><img
-                                            src="assets/images/social-media/facebook-svgrepo-com.svg" alt=""> </a>
-                            </li>
-                        </ul>
+                        <div class="social">
+                            <div class="container-fluid">
+                                <ul>
+                                    <li class="telegram"><a href="#"><i class="ecut-telegram"></i></a></li>
+                                    <li class="instagram"><a href="#"><i class="ecut-instagram"></i></a></li>
+                                    <li class="aparat"><a href="#"><i class="ecut-aparat"></i></a></li>
+                                    <li class="youtube"><a href="#"><i class="ecut-youtube"></i></a></li>
+                                    <li class="pintres"><a href="#"><i class="ecut-pintres"></i></a></li>
+                                    <li class="facebook"><a href="#"><i class="ecut-facebook"></i></a></li>
+                                    <li class="x"><a href="#"><i class="ecut-x"></i></a></li>
+                                    <li class="linkedin"><a href="#"><i class="ecut-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

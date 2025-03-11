@@ -42,7 +42,6 @@
         <ul>
             <li><a href="./index.php">صفحه اصلی </a></li>
             <li><a style="display: flex !important;" class=" items-center border-b-[1px] border-[#88888826] justify-center gap-[12px]"  href="./Special-products.php">
-                    <img  width="15" src="./assets/images/vector_snake.svg" class="ml-[8px]"  alt="" style="display: block;filter: invert(1)">
                     اکسکلوسیو
                 </a></li>
             <li class="menu-item-has-children relative">

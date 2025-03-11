@@ -19,61 +19,63 @@
 <?php include 'loginModal.php'; ?>
 
 <!--box-share-->
-<div class="box-share">
-    <div class="row-close w-full flex justify-between items-center px-[1.5rem]">
-        <h3 class="title">اشتراک گذاری</h3>
-        <svg class="close-share" id="Icons" height="16" viewBox="0 0 64 64" width="16"
-             xmlns="http://www.w3.org/2000/svg" fill="#DE1F0D">
-            <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
-        </svg>
-    </div>
-    <div class="row-middle flex justify-between  items-center">
-        <img class="img-share " src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
-        <div class="p-icons flex flex-col">
-            <div class="title-product w-100 flex justify-center">
-                <h4 class="text-[16px]">کت تک 6036</h4>
-            </div>
-            <div class="w-full flex gap-[6px] flex-col">
-                <button onclick="copyLink('https://your-link.com/instagram')" class="btn-icon">اینستاگرام
-                    <img src="assets/images/social-media/instagram-svgrepo-com.svg" alt="">
-                </button>
-                <button onclick="copyLink('https://your-link.com/telegram')" class="btn-icon">
-                    تلگرام
-                    <img src="assets/images/social-media/telegram-svgrepo-com%20(1).svg" alt="">
+<div class="p-box-share bg-[#00000099] z-[99999999] w-full h-[100vh] fixed right-0 top-0">
+    <div class="box-share w-[34%] max-[900px]:w-full">
+        <div class="row-close w-full flex justify-between items-center px-[1.5rem]">
+            <h3 class="title">اشتراک گذاری</h3>
+            <svg class="close-share" id="Icons" height="16" viewBox="0 0 64 64" width="16"
+                 xmlns="http://www.w3.org/2000/svg" fill="#DE1F0D">
+                <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
+            </svg>
+        </div>
+        <div class="row-middle flex justify-between  items-center">
+            <img class="img-share " src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
+            <div class="p-icons flex flex-col">
+                <div class="title-product w-100 flex justify-center">
+                    <h4 class="text-[16px]">کت تک 6036</h4>
+                </div>
+                <div class="w-full flex gap-[6px] flex-col">
+                    <button onclick="copyLink('https://your-link.com/instagram')" class="btn-icon">اینستاگرام
+                        <img src="assets/images/social-media/instagram-svgrepo-com.svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/telegram')" class="btn-icon">
+                        تلگرام
+                        <img src="assets/images/social-media/telegram-svgrepo-com%20(1).svg" alt="">
 
-                </button>
-                <button onclick="copyLink('https://your-link.com/facebook')" class="btn-icon">
-                    فیس بوک
-                    <img src="assets/images/social-media/facebook-svgrepo-com.svg" alt="">
-                </button>
-                <button onclick="copyLink('https://your-link.com/linkdin')" class="btn-icon">
-                    لینکدین
-                    <img src="assets/images/social-media/linkedin-svgrepo-com.svg" alt="">
-                </button>
-                <button onclick="copyLink('https://your-link.com/whatsapp')" class="btn-icon">
-                    واتس اپ
-                    <img src="assets/images/social-media/whatsapp-svgrepo-com%20(1).svg" alt="">
-                </button>
-                <button onclick="copyLink('https://your-link.com/sorosh')" class="btn-icon">
-                    سروش
-                    <img src="assets/images/social-media/سروش.png" alt="">
-                </button>
-                <button onclick="copyLink('https://your-link.com/eita')" class="btn-icon">
-                    ایتا
-                    <img src="assets/images/social-media/ایتا.png" alt="">
-                </button>
-                <button onclick="copyLink('https://your-link.com/bale')" class="btn-icon">
-                    بله
-                    <img src="assets/images/social-media/بله.png" alt="">
-                </button>
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/facebook')" class="btn-icon">
+                        فیس بوک
+                        <img src="assets/images/social-media/facebook-svgrepo-com.svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/linkdin')" class="btn-icon">
+                        لینکدین
+                        <img src="assets/images/social-media/linkedin-svgrepo-com.svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/whatsapp')" class="btn-icon">
+                        واتس اپ
+                        <img src="assets/images/social-media/whatsapp-svgrepo-com%20(1).svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/sorosh')" class="btn-icon">
+                        سروش
+                        <img src="assets/images/social-media/سروش.png" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/eita')" class="btn-icon">
+                        ایتا
+                        <img src="assets/images/social-media/ایتا.png" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/bale')" class="btn-icon">
+                        بله
+                        <img src="assets/images/social-media/بله.png" alt="">
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row-end w-full flex flex-col items-center">
-        <span>لینک محصول</span>
-        <a href="" class="copy-link">https://ecut.shop/product/single-coat-xja1156036</a>
-        <div class="copy-message bg-green-500 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]"
-             style="display: none;">لینک با موفقیت کپی شد!
+        <div class="row-end w-full flex flex-col items-center">
+            <span>لینک محصول</span>
+            <a href="" class="copy-link">https://ecut.shop/product/single-coat-xja1156036</a>
+            <div class="copy-message bg-green-500 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]"
+                 style="display: none;">لینک با موفقیت کپی شد!
+            </div>
         </div>
     </div>
 </div>
@@ -153,17 +155,17 @@
 
                 </div>
                 <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
-                    <button class="btn-size en-num  bg-base-color text-white pt-[1.7px] w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                    <button class="btn-size en-num  bg-base-color text-white grid pt-[0.8px] w-[35px] h-[22px] rounded-[5px] text-[14px]">
                         50
                     </button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">48</button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">52</button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">54</button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">56</button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">58</button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">60</button>
-                    <button class="btn-size en-num w-[35px] pt-[1.7px] h-[22px] rounded-[5px] text-[14px]">62</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">48</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">50</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">52</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">54</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">56</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">58</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">60</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px]  h-[22px] rounded-[5px] text-[14px]">62</button>
                 </div>
                 <div class="w-full flex items-center justify-between mt-[2rem]">
                     <div class="flex items-center gap-[6px]">
@@ -3220,32 +3222,16 @@
 
 
     // box-share
-    if (window.innerWidth > 901) {
-        $(document).ready(function () {
-            $('.btn-share').click(function () {
-                $(".box-share").css({display: "flex"}).animate({width: "34%"}, 400);
-            })
-            $('.close-share').click(function () {
-                $(".box-share").animate({width: "0"}, 400, function () {
-                    $(this).css({display: "none"});
-                });
-            })
+    $(document).ready(function () {
+        $('.p-box-share').hide()
+        $('.btn-share').click(function () {
+            $(".p-box-share").fadeIn()
         })
-    } else if (window.innerWidth < 900) {
-        $(document).ready(function () {
-            $('.btn-share').click(function () {
-                $(".box-share").css({display: "flex"}).animate({width: "100%"}, 400); // انیمیشن عرض
-            })
-            $('.close-share').click(function () {
-                $(".box-share").animate({width: "0"}, 400, function () {
-                    $(this).css({display: "none"}); // مخفی کردن بعد از انیمیشن
-                    $(this).animate({opacity: "0.5"}); // مخفی کردن بعد از انیمیشن
-                });
-            })
+        $('.close-share').click(function () {
+            $(".p-box-share").fadeOut()
         })
-
-    }
-
+    })
+    // box-share
     function copyLink(link) {
         navigator.clipboard.writeText(link).then(function () {
             console.log('لینک کپی شد: ' + link)
@@ -3254,7 +3240,7 @@
         });
     }
 
-    // box-share
+
 
 
     $(document).ready(function () {

@@ -61,7 +61,7 @@
     <div class="c-container-custom">
         <div class="w-full max-[800px]:px-[12px] detail-text mt-[2.5rem] flex flex-col items-center">
             <h2 class="text-[26px] max-[800px]:text-[20px] font-bold">فروشگاه‌های پوشاک ایکات</h2>
-            <p class="leading-[26px] text-black text-[14px] w-[60%] mt-[1.5rem] text-center max-[800px]:w-full max-[800px]:text-[13px]">
+            <p class="leading-[26px] max-[900px]:hidden text-black text-[14px] w-[60%] mt-[1.5rem] text-center max-[800px]:w-full max-[800px]:text-[13px]">
                 فروشگاه‌های ایکات، با ارائه‌ی مجموعه‌ای از جدیدترین و با کیفیت‌ترین پوشاک مردانه و اکسسوری‌های روز، تجربه‌ای
                 بی‌نظیر از خرید را برای شما فراهم می‌کنند.
                 <br>
@@ -76,6 +76,29 @@
                     خرید از ایکات تنها یک خرید نیست، بلکه یک تجربه‌ی منحصر به ‌فرد&nbsp;است.
                 </b>
             </p>
+           <div class="w-full  min-[901px]:hidden">
+               <div  id="descmore"  class="article article-text">
+                   <p class="leading-[26px]  text-black text-[14px] w-[60%] mt-[1.5rem] text-center max-[800px]:w-full max-[800px]:text-[13px]">
+                       فروشگاه‌های ایکات، با ارائه‌ی مجموعه‌ای از جدیدترین و با کیفیت‌ترین پوشاک مردانه و اکسسوری‌های روز، تجربه‌ای
+                       بی‌نظیر از خرید را برای شما فراهم می‌کنند.
+                       <br>
+                       شعب&nbsp;ایکات در&nbsp;سراسر کشور&nbsp;آماده‌ی خدمت‌ رسانی به شما هستند تا با محصولات متنوع و قیمت‌های
+                       مناسب، ظاهری جذاب و متمایز را تجربه کنید.
+                       <br>
+                       در فروشگاه‌های ایکات، شما می‌توانید از بین انواع لباس‌های مردانه و اکسسوری‌های مختلف انتخاب کنید. از کت و&nbsp;شلوارهای
+                       شیک و کلاسیک گرفته تا پوشاک کژوال و راحتی، همگی با بهترین کیفیت و جدیدترین طرح‌ها موجود&nbsp;هستند.&nbsp;
+                       <br>
+
+                       <b>
+                           خرید از ایکات تنها یک خرید نیست، بلکه یک تجربه‌ی منحصر به ‌فرد&nbsp;است.
+                       </b>
+                   </p>
+               </div>
+               <div class="w-full flex justify-center">
+                   <button class="show-more-text ">بیشتر</button>
+                   <button class="less-more-text ">کمتر</button>
+               </div>
+           </div>
         </div>
         <!-- Slider main container -->
         <div class="c-container">
@@ -1090,6 +1113,24 @@
             initialSize: "cover",
         },
     };
+
+
+    $(document).ready(function () {
+        $('.less-more-text').hide()
+        $('.show-more-text').on('click', function () {
+            $('.article-text').addClass('show-full-h')
+            $('.less-more-text').show()
+            $('.show-more-text').hide()
+        });
+        $('.less-more-text').on('click', function () {
+            $('.article-text').removeClass('show-full-h')
+            $('.show-more-text').show()
+            $('.less-more-text').hide()
+
+
+        });
+    })
+
 </script>
 </body>
 </html>

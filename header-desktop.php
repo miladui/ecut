@@ -908,7 +908,7 @@
     <div class="bg-overly-ecut"></div>
     <div class="box-ecut-modal">
         <div class="row-close pt-[1rem] px-[2rem] flex justify-between w-full">
-            <h6 class="text-[15px] text-[#646464] font-bold">سبد خرید شما</h6>
+            <h6 class="text-[15px] text-[#646464] font-bold"> پیش نمایش سبد خرید </h6>
             <button class="close-modal-ecut">
                 <svg xmlns="http://www.w3.org/2000/svg" width="12.724" height="12.707" viewBox="0 0 12.724 12.707">
                     <g id="Close_standard" transform="translate(0.354 0.354)">
@@ -947,15 +947,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <div class="item mt-2 flex items-center gap-[12px] justify-center">
-                            <span class="text-[13px] text-[#646464] font-bold">تعداد :</span>
-                            <div class="flex p-count items-center justify-center gap-[4px]">
-                                <button class="btn-increase" onclick="changeQuantity(1)">+</button>
-                                <input id="quantity-input" onchange="updatePrice()" value="1" type="text" placeholder=""
-                                       disabled>
-                                <button class="btn-decrease" onclick="changeQuantity(-1)">-</button>
-                            </div>
-                        </div>
                         <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
@@ -983,15 +974,6 @@
                         <div class="w-full mt-2 flex items-center justify-start gap-[4px]">
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
-                        </div>
-                        <div class="item mt-2 flex items-center gap-[12px] justify-center">
-                            <span class="text-[13px] text-[#646464] font-bold">تعداد :</span>
-                            <div class="flex p-count items-center justify-center gap-[4px]">
-                                <button class="btn-increase" onclick="changeQuantity(1)">+</button>
-                                <input id="quantity-input" onchange="updatePrice()" value="1" type="text" placeholder=""
-                                       disabled>
-                                <button class="btn-decrease" onclick="changeQuantity(-1)">-</button>
-                            </div>
                         </div>
                         <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
@@ -1021,15 +1003,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <div class="item mt-2 flex items-center gap-[12px] justify-center">
-                            <span class="text-[13px] text-[#646464] font-bold">تعداد :</span>
-                            <div class="flex p-count items-center justify-center gap-[4px]">
-                                <button class="btn-increase" onclick="changeQuantity(1)">+</button>
-                                <input id="quantity-input" onchange="updatePrice()" value="1" type="text" placeholder=""
-                                       disabled>
-                                <button class="btn-decrease" onclick="changeQuantity(-1)">-</button>
-                            </div>
-                        </div>
                         <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
@@ -1058,15 +1031,6 @@
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
                         </div>
-                        <div class="item mt-2 flex items-center gap-[12px] justify-center">
-                            <span class="text-[13px] text-[#646464] font-bold">تعداد :</span>
-                            <div class="flex p-count items-center justify-center gap-[4px]">
-                                <button class="btn-increase" onclick="changeQuantity(1)">+</button>
-                                <input id="quantity-input" onchange="updatePrice()" value="1" type="text" placeholder=""
-                                       disabled>
-                                <button class="btn-decrease" onclick="changeQuantity(-1)">-</button>
-                            </div>
-                        </div>
                         <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
                 </div>
@@ -1094,15 +1058,6 @@
                         <div class="w-full mt-2 flex items-center justify-start gap-[4px]">
                             <strong class="text-[18px] text-[#198754]">11,857,800</strong>
                             <span class="text-[13px] text-[#198754]">تومان</span>
-                        </div>
-                        <div class="item mt-2 flex items-center gap-[12px] justify-center">
-                            <span class="text-[13px] text-[#646464] font-bold">تعداد :</span>
-                            <div class="flex p-count items-center justify-center gap-[4px]">
-                                <button class="btn-increase" onclick="changeQuantity(1)">+</button>
-                                <input id="quantity-input" onchange="updatePrice()" value="1" type="text" placeholder=""
-                                       disabled>
-                                <button class="btn-decrease" onclick="changeQuantity(-1)">-</button>
-                            </div>
                         </div>
                         <small class="text-red-700 mt-2 text-[12px]"> تنها 1 عدد در انبار باقی است</small>
                     </div>
