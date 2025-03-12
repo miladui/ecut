@@ -103,4 +103,5 @@
             loop: true
         }
     });
+
 </script>

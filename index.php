@@ -1073,7 +1073,7 @@
                                              alt="">
 
                                         <span class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
-                                     <span class="text-[11px] text-white">تی شرت 1698</span>
+                                     <span class="text-[12px] text-white">تی شرت 1698</span>
                                     </span>
                                     </a>
                                     <div class="w-full flex mt-[1rem] items-center justify-center">
@@ -1139,7 +1139,7 @@
                                              src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                              alt="">
                                         <span class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
-                                     <span class="text-[11px] text-white ">کت و شلوار و ژیله 1468</span>
+                                     <span class="text-[12px] text-white ">کت و شلوار و ژیله 1468</span>
                                     </span>
                                     </a>
                                     <div class="w-full flex mt-[1rem] items-center justify-center">
@@ -1205,7 +1205,7 @@
                                              src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
                                              alt="">
                                         <span class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
-                                     <span class="text-[11px] text-white ">کت و شلوار و ژیله 1468</span>
+                                     <span class="text-[12px] text-white ">کت و شلوار و ژیله 1468</span>
                                     </span>
                                     </a>
                                     <div class="w-full flex mt-[1rem] items-center justify-center">
@@ -1272,7 +1272,7 @@
                                              src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-02.jpg"
                                              alt="">
                                         <span class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
-                                     <span class="text-[11px] text-white ">کت و شلوار و ژیله 1468</span>
+                                     <span class="text-[12px] text-white ">کت و شلوار و ژیله 1468</span>
                                     </span>
                                     </a>
                                     <div class="w-full flex mt-[1rem] items-center justify-center">
@@ -1338,7 +1338,7 @@
                                              src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-02.jpg"
                                              alt="">
                                         <span class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
-                                     <span class="text-[11px] text-white ">کت و شلوار و ژیله 1468</span>
+                                     <span class="text-[12px] text-white ">کت و شلوار و ژیله 1468</span>
                                     </span>
                                     </a>
                                     <div class="w-full flex mt-[1rem] items-center justify-center">
