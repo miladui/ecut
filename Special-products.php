@@ -201,6 +201,9 @@
                                 <div class="acc-container">
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>بازه قیمت </p>
                                         </div>
                                         <div class="acc-content">
@@ -218,6 +221,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>دسته بندی</p>
                                         </div>
                                         <div class="acc-content">
@@ -242,9 +248,11 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>سایزبندی</p>
                                         </div>
                                         <div class="acc-content">
@@ -282,6 +290,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>رنگ </p>
                                         </div>
                                         <div class="acc-content">
@@ -304,10 +315,8 @@
                                             </div>
                                         </div>
                                     </div>
-
-
                                 </div>
-                                <button class="w-full btn-base">فیلتر</button>
+                                <button class="w-full btn-base mt-[12px]">فیلتر</button>
                             </div>
 
 

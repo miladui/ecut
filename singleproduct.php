@@ -227,6 +227,9 @@
                     <div class="acc-head">
                         <div class="after"></div>
                         <p>مشخصات محصول</p>
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
                     </div>
                     <div class="acc-content">
                         <ul>
@@ -242,6 +245,10 @@
                 </div>
                 <div class="acc">
                     <div class="acc-head">
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
+
                         <div class="after"></div>
                         <p>روش‌های ارسل </p>
                     </div>
@@ -259,6 +266,10 @@
                 </div>
                 <div class="acc">
                     <div class="acc-head">
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
+
                         <div class="after"></div>
                         <p>روش نگهداری</p>
                     </div>
@@ -276,6 +287,9 @@
                 </div>
                 <div class="acc">
                     <div class="acc-head">
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
                         <div class="after"></div>
                         <p>مرجوعی کالا</p>
                     </div>
@@ -2910,6 +2924,9 @@
             <div class="acc-container">
                 <div class="acc">
                     <div class="acc-head">
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
                         <p>توضیحات محصول</p>
                     </div>
                     <div class="acc-content">
@@ -2926,6 +2943,9 @@
                 </div>
                 <div class="acc">
                     <div class="acc-head">
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
                         <p>ویژگی های محصول</p>
                     </div>
                     <div class="acc-content">
@@ -2942,6 +2962,9 @@
                 </div>
                 <div class="acc">
                     <div class="acc-head">
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
                         <p>روش نگهداری</p>
                     </div>
                     <div class="acc-content">
@@ -2958,6 +2981,9 @@
                 </div>
                 <div class="acc">
                     <div class="acc-head">
+                        <div class="arrow absolute right-[5px]">
+                            <img src="assets/images/Icons/arrow-down.svg" alt="">
+                        </div>
                         <p>مرجوعی کالا</p>
                     </div>
                     <div class="acc-content">

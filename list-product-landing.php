@@ -201,6 +201,9 @@
                                 <div class="acc-container">
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>بازه قیمت </p>
                                         </div>
                                         <div class="acc-content">
@@ -218,6 +221,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>طرح دار </p>
                                         </div>
                                         <div class="acc-content">
@@ -245,6 +251,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>سایزبندی</p>
                                         </div>
                                         <div class="acc-content">
@@ -282,6 +291,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>حالت برش </p>
                                         </div>
                                         <div class="acc-content">
@@ -302,6 +314,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>حالت برش </p>
                                         </div>
                                         <div class="acc-content">
@@ -322,6 +337,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>حالت برش </p>
                                         </div>
                                         <div class="acc-content">
@@ -342,6 +360,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>حالت برش </p>
                                         </div>
                                         <div class="acc-content">
@@ -362,6 +383,9 @@
                                     </div>
                                     <div class="acc">
                                         <div class="acc-head">
+                                            <div class="arrow absolute left-[5px]">
+                                                <img src="assets/images/Icons/arrow-down.svg" alt="">
+                                            </div>
                                             <p>حالت برش </p>
                                         </div>
                                         <div class="acc-content">

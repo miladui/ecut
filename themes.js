@@ -55,6 +55,7 @@ function changeImage2(imageId2, imageSrc2, element) {
     element.style.border = '2px solid #c7c7c7';
     element.style.padding = '3px';
 }
+
 $(document).ready(function () {
     $('.moreless-button').click(function () {
         if ($('.moreless-button').text() == "کمتر ") {
@@ -525,9 +526,9 @@ $(document).ready(function () {
 });
 
 
+const pricePerItem = 147000000;
 
-    const pricePerItem = 147000000;
-    function changeQuantity(amount) {
+function changeQuantity(amount) {
     const quantityInput = document.getElementById('quantity-input');
     let currentQuantity = parseInt(quantityInput.value);
     currentQuantity += amount;
@@ -536,7 +537,7 @@ $(document).ready(function () {
     updatePrice();
 }
 
-    function updatePrice() {
+function updatePrice() {
     const quantityInput = document.getElementById('quantity-input');
     const totalPriceElement = document.getElementById('total-price');
     const totalPrice = pricePerItem * parseInt(quantityInput.value);
@@ -544,21 +545,19 @@ $(document).ready(function () {
 }
 
 
-
-setTimeout(function (){
+setTimeout(function () {
     $('.loading-page').fadeOut()
-} , 2000)
+}, 2000)
 
 
-
-
-$(document).ready(function() {
-    $('a[href]').on('click', function(e) {
+$(document).ready(function () {
+    $('a[href]').on('click', function (e) {
         if ($(this).attr('href') !== '#' && $(this).attr('href') !== '') {
             e.stopPropagation();
             window.location.href = $(this).attr('href');
         }
     });
 });
+
 
 

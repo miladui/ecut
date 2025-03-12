@@ -879,7 +879,7 @@
                 <a href="./index.php" class="logo-header w-[20%] flex justify-center">
                     <img width="100" id="logoHeader" src="https://ecut.shop/uploads/setting/img-logo-154771900376273.png">
                 </a>
-                <div class="end-header pt-[20px] gap-[20px] flex items-center w-[40%] justify-end">
+                <div class="end-header h-full pt-[20px] gap-[20px] flex items-center w-[40%] justify-end">
                     <a  href="./special-products.php"
                            class="link header-link aboutUsPage last-link flex items-center text-white text-[12px] px-[8px] mx-[4px]">
                         <svg class="ml-[6px]" width="15" height="20" viewBox="0 0 83 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -892,11 +892,22 @@
                     <button class="btn-search">
                         <i class="fa fa-search text-white"></i>
                     </button>
+                    <div  class="link-auth relative flex items-center openMenuProfile h-full">
+                        <a href="#" class="text-[12px] text-white">پروفایل</a>
+                        <ul class="menu-profile  p-[10px] w-[180px] absolute right-0 top-[64px] h-auto bg-white">
+                            <li class="h-[30px] w-full flex items-center justify-start border-b-[1px] border-[#d4d4d4]"><a class="text-[14px] text-base-color" href="">جزییات حساب</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start"><a class="text-[14px] text-base-color" href="">سفارشات آنلاین</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start"><a class="text-[14px] text-base-color" href="">علاقه مندی ها</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start border-b-[1px] border-[#d4d4d4]"><a class="text-[14px] text-base-color" href="">رفتن به پنل ادمین</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start"><a class="text-[14px] text-base-color" href="">خروح سریع</a></li>
+                        </ul>
+                    </div>
                     <a href="#" class="link-auth flex items-center openModal">
                         <span class="text-[12px] text-white">ورود</span>
                         <div class="line-between h-[11px] w-[1.5px] bg-base-color-two mx-[8px]"></div>
                         <span class="text-[12px] text-white">عضویت</span>
                     </a>
+
                     <div class="cart basket-button  relative">
                         <i class=""></i>
                         <span class="count absolute cart bottom-[0px] bg-base-color-two w-[17px] pt-[4px] text-[11px] left-[-4px] text-white h-[17px] rounded-[50%] flex items-center justify-center">0</span>
