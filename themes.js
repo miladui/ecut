@@ -1,3 +1,4 @@
+
 $('[data-megamenu]:not([data-megamenu=""])').each(function () {
     let navLink = this;
     let target = $(navLink).attr('data-megamenu');
@@ -523,7 +524,8 @@ $(document).ready(function () {
             $(this).toggleClass('active');
         }
     });
-});
+
+})
 
 
 const pricePerItem = 147000000;

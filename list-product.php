@@ -643,7 +643,7 @@
                                 </div>
                             </div>
                             <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[32vh]  relative" href="./list-product.php">
+                                <a class="w-full p-img h-[32vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -682,7 +682,7 @@
                                 </div>
                             </div>
                             <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[32vh]  relative" href="./list-product.php">
+                                <a class="w-full p-img h-[32vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -721,7 +721,7 @@
                                 </div>
                             </div>
                             <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[32vh]  relative" href="./list-product.php">
+                                <a class="w-full p-img h-[32vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"
@@ -758,9 +758,8 @@
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
                             </div>
-
                             <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                                <a class="w-full p-img h-[32vh]  relative" href="./list-product.php">
+                                <a class="w-full p-img h-[32vh]  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                         <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                              xmlns="http://www.w3.org/2000/svg"

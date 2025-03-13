@@ -3548,8 +3548,9 @@ footer {
 
             .acc-container {
                 width: 100%;
+
                 .active {
-                    .arrow{
+                    .arrow {
                         transform: rotate(180deg);
                     }
                 }
@@ -3564,7 +3565,8 @@ footer {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                .arrow{
+
+                .arrow {
                     transition: var(--ease);
                 }
 
@@ -4436,8 +4438,9 @@ footer {
 
     .acc-container {
         width: 100%;
+
         .active {
-            .arrow{
+            .arrow {
                 transform: rotate(180deg);
             }
         }
@@ -4452,7 +4455,8 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        .arrow{
+
+        .arrow {
             transition: var(--ease);
         }
 
@@ -5472,75 +5476,91 @@ footer {
     background-color: #263238;
     transition: 450ms cubic-bezier(0.10, 0.0, 0, 1);
     z-index: 99999999;
-
-    .accordion__title {
-        cursor: pointer;
-        margin: 0;
-        position: relative;
+    .btn-open-product{
+        svg{
+            fill: var(--base-color-two) !important;
+            width: 15px !important;
+            height: 15px !important;
+            transition: var(--ease);
+        }
     }
-
-    .accordion__icon {
-        position: absolute;
-        top: 50%;
-        left: 24px;
-        transform: translateY(-50%);
+    .acc-container {
+        width: 100%;
+        background: #212a2f;
 
         svg {
             fill: var(--base-color-two) !important;
-            transition: var(--ease);
             width: 15px !important;
             height: 15px !important;
         }
+
+        .arrow {
+            transition: var(--ease);
+        }
+
+        .active {
+            .arrow {
+                transform: rotate(180deg);
+            }
+        }
     }
 
-    .accordion__icon .line-01,
-    .accordion__icon .line-02 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 16px;
-        height: 2px;
-        background-color: var(--base-color-two);
-        transition: 0.3s;
+    .acc-head {
+        padding: 15px 10px;
+        font-size: 22px;
+        position: relative;
+        cursor: pointer;
+        border-bottom: 1px solid #9B9B9B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .arrow {
+            transition: var(--ease);
+        }
+
+        p {
+            position: relative;
+            z-index: 10;
+        }
+
+        .after {
+            content: '';
+            background: #fb923c;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: all 0.5s;
+            border-radius: 0;
+        }
+
+        &:active {
+            .after {
+                content: '';
+                background: #fb923c;
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                opacity: 0.8;
+                transition: 0s;
+            }
+        }
+
     }
 
-    .accordion__icon .line-02 {
-        transform: rotate(90deg);
+
+    .acc-head p {
+        font-size: 13px !important;
     }
 
-    .accordion__content {
+    .acc-content {
         display: none;
+
     }
 
-    .accordion--open > .accordion__title .accordion__icon svg {
-        transform: rotate(180deg);
-    }
-
-    .accordion {
-        margin-top: -1px;
-        border-top: 1px solid #272343;
-        border-bottom: 1px solid #272343;
-    }
-
-    .accordion__title {
-        padding: 10px 16px;
-        font-size: 16px;
-        transition: 0.2s;
-    }
-
-    .accordion__title:hover .line-01,
-    .accordion__title:hover .line-02 {
-        background-color: var(--base-color-two);
-    }
-
-    .accordion--open > .accordion__title .line-01,
-    .accordion--open > .accordion__title .line-02 {
-        background-color: var(--base-color-two);
-    }
-
-    .accordion--nested .accordion__title {
-        padding: 16px;
-        font-size: 14px;
+    .acc-head.active::before {
+        transform: rotate(90deg);
     }
 
     .under-links {
@@ -5914,7 +5934,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
     .p-gallery {
-        grid-template-columns: 2fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
         direction: ltr;
 
         h3 {
@@ -8046,8 +8066,9 @@ li:hover + #overlay {
 
     .acc-container {
         width: 100%;
+
         .active {
-            .arrow{
+            .arrow {
                 transform: rotate(180deg);
             }
         }
@@ -8062,7 +8083,8 @@ li:hover + #overlay {
         display: flex;
         justify-content: center;
         align-items: center;
-        .arrow{
+
+        .arrow {
             transition: var(--ease);
         }
 
@@ -9225,19 +9247,64 @@ li:hover + #overlay {
     display: none;
 }
 
-.openMenuProfile{
-    .menu-profile{
+.openMenuProfile {
+    .menu-profile {
         opacity: 0;
         visibility: hidden;
         transition: var(--ease);
         display: none;
     }
-    &:hover{
-        .menu-profile{
+
+    &:hover {
+        .menu-profile {
             opacity: 1;
             visibility: unset;
             z-index: 9999;
             display: block;
         }
+    }
+}
+
+.swiper-two-cols {
+    height: 300px;
+
+    .img-gallery {
+        height: 145px !important;
+    }
+}
+
+.mobile-style {
+    .swiper-button-next-style {
+        width: 26px;
+        height: 40px;
+        opacity: 1;
+        background: #d9d9d9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        svg {
+            scale: 0.8;
+        }
+    }
+
+    .swiper-button-prev-style {
+        width: 26px;
+        height: 40px;
+        opacity: 1;
+        background: #d9d9d9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            scale: 0.8;
+            rotate: 180deg;
+        }
+    }
+
+    .swiper-button-disabled {
+        opacity: 0.5 !important;
     }
 }
