@@ -12,7 +12,7 @@
             <i class="fa fa-search text-white"></i>
         </button>
     </div>
-    <a href="" class="logo-header  flex justify-center">
+    <a href="./indexMobi.php" class="logo-header  flex justify-center">
         <img width="118" id="logoHeader" src="assets/images/ECUT-LOGO-.png">
     </a>
     <div class="end-header gap-[4px] flex items-center  justify-end">
@@ -40,7 +40,7 @@
             <img src="assets/images/logo.png">
         </div>
         <ul>
-            <li><a href="./index.php">صفحه اصلی </a></li>
+            <li><a href="./indexMobi.php">صفحه اصلی </a></li>
             <li><a style="display: flex !important;" class=" items-center border-b-[1px] border-[#88888826] justify-center gap-[12px]"  href="./Special-products.php">
                     اکسکلوسیو
                 </a></li>
@@ -186,14 +186,32 @@
         </ul>
     </div>
 </div>
-<script src="assets/js/jquery-3.7.1.js"></script>
+<?php include 'script-header.php'; ?>
+
 <script>
 
     $(document).ready(function () {
-        $('.acc-container-nested').hide()
-        $('.btn-open-product').click(function (){
-            $('.acc-container-nested').toggle()
-            $('.btn-open-product svg').css('rotate' , '180deg')
+        $('.open_menu.acc-container-nested').hide()
+        $('.open_menu.btn-open-product').click(function (){
+            $('.open_menu.acc-container-nested').toggle()
+            $('.open_menu .btn-open-product svg').css('rotate' , '180deg')
         })
+    });
+
+</script>
+<script>
+    $(document).ready(function () {
+        $('.open_menu .acc-head').on('click', function () {
+            if ($(this).hasClass('active')) {
+                $(this).siblings('.open_menu .acc-content').slideUp();
+                $(this).removeClass('active');
+            } else {
+                $('.open_menu .acc-content').slideUp();
+                $('.open_menu .acc-head').removeClass('active');
+                $(this).siblings('.open_menu .acc-content').slideToggle();
+                $(this).toggleClass('active');
+            }
+        });
+
     });
 </script>

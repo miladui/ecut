@@ -56,15 +56,15 @@
                     </button>
                     <button onclick="copyLink('https://your-link.com/sorosh')" class="btn-icon">
                         سروش
-                        <img src="assets/images/social-media/سروش.png" alt="">
+                        <img src="assets/images/social-media/sorosh.png" alt="">
                     </button>
                     <button onclick="copyLink('https://your-link.com/eita')" class="btn-icon">
                         ایتا
-                        <img src="assets/images/social-media/ایتا.png" alt="">
+                        <img src="assets/images/social-media/eta.png" alt="">
                     </button>
                     <button onclick="copyLink('https://your-link.com/bale')" class="btn-icon">
                         بله
-                        <img src="assets/images/social-media/بله.png" alt="">
+                        <img src="assets/images/social-media/bale.png" alt="">
                     </button>
                 </div>
             </div>
