@@ -1542,7 +1542,7 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
+                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -1590,7 +1590,7 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
+                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -1639,7 +1639,7 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
+                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -1688,7 +1688,7 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
+                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -1738,7 +1738,7 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[11px] font-bold text">تی شرت 1698</span>
+                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">

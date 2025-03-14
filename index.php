@@ -359,7 +359,7 @@
                                                      alt="">
                                             </a>
                                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                                <span class="text-[11px] text">تی شرت 1698</span>
+                                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                                             </div>
                                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -420,7 +420,7 @@
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <div  class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                        <div  class="thumbnail-product  relative w-full flex flex-col items-center justify-center">
                                             <a  class="w-full p-img h-[67vh] max-[800px]:h-[395px] relative" href="./singleproduct.php">
                                                 <img id="img-two" class="w-full h-full img-main fade object-cover"
                                                      src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg" alt="">
@@ -429,7 +429,7 @@
                                                      alt="">
                                             </a>
                                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                                <span class="text-[11px] text">تی شرت 1698</span>
+                                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                                             </div>
                                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -499,7 +499,7 @@
                                                      alt="">
                                             </a>
                                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                                <span class="text-[11px] text">تی شرت 1698</span>
+                                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                                             </div>
                                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -569,7 +569,7 @@
                                                      alt="">
                                             </a>
                                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                                <span class="text-[11px] text">تی شرت 1698</span>
+                                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                                             </div>
                                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
@@ -641,7 +641,7 @@
                                                      alt="">
                                             </a>
                                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                                <span class="text-[11px] text">تی شرت 1698</span>
+                                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
                                                 <strong class="text-[12px] price">1,385,300 تومان</strong>
                                             </div>
                                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
