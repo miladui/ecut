@@ -1,5 +1,8 @@
-<div class="loginModal w-full h-[100vh]">
-    <div class="modal-content w-[30%] max-[900px]:w-full bg-white">
+
+<!--box-share-->
+<div class="p-box-login flex justify-end z-[9999] w-full h-[100vh]  fixed right-0 top-0">
+    <div class="bg-overly-login absolute z-0 right-0 top-0 h-full w-full bg-[#00000090]"></div>
+    <div class="modal-content relative  z-10 w-[30%] max-[900px]:w-full min-[2000px]:w-[20%] h-full bg-white flex flex-col">
         <div class="head-auth flex items-center justify-center relative w-full h-[85px] bg-base-color">
             <span class="close absolute text-white right-[10px] closeModal">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,11 +14,11 @@
                      xmlns:xlink="http://www.w3.org/1999/xlink"
                      viewBox="0 0 60.671 60.671" xml:space="preserve">
 <g>
-	<g>
-		<ellipse style="fill:#fff;" cx="30.336" cy="12.097" rx="11.997" ry="12.097"/>
+    <g>
+        <ellipse style="fill:#fff;" cx="30.336" cy="12.097" rx="11.997" ry="12.097"/>
         <path style="fill:#fff;" d="M35.64,30.079H25.031c-7.021,0-12.714,5.739-12.714,12.821v17.771h36.037V42.9
 			C48.354,35.818,42.661,30.079,35.64,30.079z"/>
-	</g>
+    </g>
 </g>
 </svg>
                 <h2 class="text-[19px] text-white font-bold">ورود یا ثبت نام</h2>
@@ -45,13 +48,13 @@
                     ما بهره مند شوید.</p>
                 <ul>
                     <li class="text-right mr-[6px]">موارد دلخواه خود را در همه دستگاه‌ها ذخیره کنید. <i
-                            class="ecut-snf1"></i></li>
+                                class="ecut-snf1"></i></li>
                     <li class="text-right mr-[6px]">برای سفارشات بعدی در زمان پرداخت صرفه‌جویی کنید.<i
-                            class="ecut-snf2"></i></li>
+                                class="ecut-snf2"></i></li>
                     <li class="text-right mr-[6px]">خریدهای خود را در تایخچه سفارشات مدیریت کنید.<i
-                            class="ecut-snf3"></i></li>
+                                class="ecut-snf3"></i></li>
                     <li class="text-right mr-[6px]">امکان ذخیره سازی اطلاعات راهنمای هوشمند سایز در پروفایل. <i
-                            class="ecut-snf4"></i></li>
+                                class="ecut-snf4"></i></li>
                     <li class="text-right mr-[6px]">برای بهره‌مندی از پیشنهادات ویژه، عضو باشگاه مشتریان شوید.
                         <i class="ecut-snf5"></i></li>
                 </ul>
@@ -66,3 +69,22 @@
     </div>
 </div>
 
+<script>
+    $(document).ready(function () {
+        $('.p-box-login').hide()
+        $('.openModal').click(function () {
+            $('.p-box-login').fadeIn()
+            $('.p-box-login').addClass('active-login')
+
+        })
+        $('.closeModal').click(function () {
+            $('.p-box-login').fadeOut()
+            $('.p-box-login').removeClass('active-login')
+
+        })
+        $('.bg-overly-login').click(function () {
+            $('.p-box-login').fadeOut()
+            $('.p-box-login').removeClass('active-login')
+        })
+    })
+</script>

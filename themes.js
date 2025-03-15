@@ -124,16 +124,6 @@ $(document).ready(function () {
 })
 
 
-$(document).ready(function () {
-    $('.loginModal').hide()
-
-    $('.openModal').click(function () {
-        $('.loginModal').fadeIn()
-    })
-    $('.closeModal').click(function () {
-        $('.loginModal').fadeOut()
-    })
-})
 
 
 $(document).ready(function () {

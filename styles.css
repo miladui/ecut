@@ -1539,7 +1539,7 @@ footer {
     }
 }
 
-.loginModal {
+.p-box-share {
     display: none;
     position: fixed;
     z-index: 9999999999999;
@@ -4612,18 +4612,6 @@ footer {
 
 
 .box-share {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background: #fdfdfd;
-    z-index: 99999999;
-    position: fixed;
-    right: 0;
-    top: 0;
-    animation: open-share 0.5s forwards;
-    border-left: 2px solid #e0e0e0;
-
     .row-close {
         border-bottom: 1px solid #ccc;
         height: 45px;
@@ -8198,14 +8186,137 @@ li:hover + #overlay {
 
     }
 }
+.p-modal-ruler {
+    .box-ruler {
+        transform: translateX(100%);
+        transition: 0.3s ease;
+        overflow-y: auto;
+        .p-sizing {
+            overflow-x: scroll;
 
+            .title-size {
+                .item {
+                    background: #707070;
+                    font-size: 13px;
+                }
+            }
+
+            .col-items {
+                &:hover {
+                    .item {
+                        background-color: #707070;
+                        color: var(--white);
+                    }
+                }
+
+                .item-head {
+                    background: #707070;
+                    font-size: 13px;
+                }
+
+                .item {
+                    background-color: #eee;
+                    color: #000;
+                    transition: var(--ease);
+                    font-size: 12px !important;
+                }
+            }
+        }
+
+    }
+
+}
+.p-modal-size {
+    .modal-size {
+        transform: translateX(100%);
+        transition: 0.3s ease;
+        overflow-y: auto;
+        .open_menu4{
+            max-width: 100% !important;
+            position: unset !important;
+        }
+        .p-sizing {
+            overflow-x: scroll;
+
+            .title-size {
+                .item {
+                    background: #707070;
+                    font-size: 13px;
+                }
+            }
+
+            .col-items {
+                &:hover {
+                    .item {
+                        background-color: #707070;
+                        color: var(--white);
+                    }
+                }
+
+                .item-head {
+                    background: #707070;
+                    font-size: 13px;
+                }
+
+                .item {
+                    background-color: #eee;
+                    color: #000;
+                    transition: var(--ease);
+                    font-size: 12px !important;
+                }
+            }
+        }
+
+    }
+
+}
+.p-box-share {
+    .box-share {
+        transform: translateX(100%);
+        transition: 0.3s ease;
+        overflow-y: auto;
+    }
+
+}
+.p-box-login {
+    .modal-content {
+        transform: translateX(-100%);
+        transition: 0.3s ease;
+        overflow-y: auto;
+    }
+
+}
+
+.active-ruler {
+    .box-ruler {
+        transform: translateX(0);
+        transition: 0.3s ease;
+    }
+}
 .active-gallery {
     .modal-gallery-product {
         transform: translateX(0);
         transition: 0.3s ease;
     }
 }
-
+.active-size {
+    .modal-size {
+        transform: translateX(0);
+        transition: 0.3s ease;
+    }
+}
+.active-share {
+    .box-share {
+        transform: translateX(0);
+        transition: 0.3s ease;
+    }
+}
+.active-login {
+    .modal-content {
+        transform: translateX(0);
+        transition: 0.3s ease;
+    }
+}
 .bg-end-box-about {
     /*background: url("assets/images/Layer_x0020_1.png") !important;*/
 
@@ -9067,6 +9178,7 @@ li:hover + #overlay {
     .box-share {
 
         .row-middle {
+            align-items: flex-start !important;
 
 
             .img-share {
@@ -9074,7 +9186,7 @@ li:hover + #overlay {
             }
 
             .p-icons {
-                height: 35vh;
+                height: 45vh;
             }
         }
 

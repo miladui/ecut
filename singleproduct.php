@@ -18,66 +18,7 @@
 <?php include 'header-mobile.php'; ?>
 <?php include 'loginModal.php'; ?>
 
-<!--box-share-->
-<div class="p-box-share bg-[#00000099] z-[99999999] w-full h-[100vh] fixed right-0 top-0">
-    <div class="box-share w-[34%] max-[900px]:w-full">
-        <div class="row-close w-full flex justify-between items-center px-[1.5rem]">
-            <h3 class="title">اشتراک گذاری</h3>
-            <svg  class="close-share" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
-            </svg>
-        </div>
-        <div class="row-middle flex justify-between  items-center">
-            <img class="img-share " src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
-            <div class="p-icons flex flex-col">
-                <div class="title-product w-100 flex justify-center">
-                    <h4 class="text-[16px]">کت تک 6036</h4>
-                </div>
-                <div class="w-full flex gap-[6px] flex-col">
-                    <button onclick="copyLink('https://your-link.com/instagram')" class="btn-icon">اینستاگرام
-                        <img src="assets/images/social-media/instagram-svgrepo-com.svg" alt="">
-                    </button>
-                    <button onclick="copyLink('https://your-link.com/telegram')" class="btn-icon">
-                        تلگرام
-                        <img src="assets/images/social-media/telegram-svgrepo-com%20(1).svg" alt="">
 
-                    </button>
-                    <button onclick="copyLink('https://your-link.com/facebook')" class="btn-icon">
-                        فیس بوک
-                        <img src="assets/images/social-media/facebook-svgrepo-com.svg" alt="">
-                    </button>
-                    <button onclick="copyLink('https://your-link.com/linkdin')" class="btn-icon">
-                        لینکدین
-                        <img src="assets/images/social-media/linkedin-svgrepo-com.svg" alt="">
-                    </button>
-                    <button onclick="copyLink('https://your-link.com/whatsapp')" class="btn-icon">
-                        واتس اپ
-                        <img src="assets/images/social-media/whatsapp-svgrepo-com%20(1).svg" alt="">
-                    </button>
-                    <button onclick="copyLink('https://your-link.com/sorosh')" class="btn-icon">
-                        سروش
-                        <img src="assets/images/social-media/sorosh.png" alt="">
-                    </button>
-                    <button onclick="copyLink('https://your-link.com/eita')" class="btn-icon">
-                        ایتا
-                        <img src="assets/images/social-media/eta.png" alt="">
-                    </button>
-                    <button onclick="copyLink('https://your-link.com/bale')" class="btn-icon">
-                        بله
-                        <img src="assets/images/social-media/bale.png" alt="">
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="row-end w-full flex flex-col items-center">
-            <span>لینک محصول</span>
-            <a href="" class="copy-link">https://ecut.shop/product/single-coat-xja1156036</a>
-            <div class="copy-message bg-green-300 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]"
-                 style="display: none;">لینک با موفقیت کپی شد!
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <section class="s-single-product mt-[55px]">
@@ -2996,8 +2937,9 @@
 </section>
 
 <!--modal-ruler-->
-<div class="modal-ruler">
-    <div class="box-ruler p-[1rem] flex flex-col items-center">
+<div class="p-modal-ruler z-[9999] w-full h-[100vh]  fixed right-0 top-0">
+    <div class="bg-overly-ruler absolute z-0 right-0 top-0 h-full w-full bg-[#00000090]"></div>
+    <div class="box-ruler relative  p-[1rem] z-10 w-[33%] max-[900px]:w-full min-[2000px]:w-[20%] h-full bg-white flex flex-col items-center">
         <div class="row-close mb-[3rem] w-full flex justify-end">
             <button class="btn-close-modal-ruler p-[4px]">
                 <svg  width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3066,103 +3008,105 @@
             <img class="w-4/5" src="assets/images/table2.png">
         </div>
     </div>
+
 </div>
 
-
 <!--  size find  -->
-<div class="modal-size">
-    <div class="open_menu4">
-        <div class="menu-content4">
-            <div class="menu-btn4 close-modal-size">
-                <svg  width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
-                </svg>
-            </div>
-            <div class="content">
-                <div class="content__inner">
-                    <div class="container overflow-hidden">
-                        <div class="multisteps-form">
-                            <div class="row">
-                                <div class="multisteps-form__progress"></div>
-                                <div class="w-full">
-                                    <form class="multisteps-form__form">
-                                        <div class="multisteps-form__panel step-one shadow  rounded srt7 bg-white js-active"
-                                             data-animation="fade">
-                                            <div class="multisteps-form__content">
-                                                <div class="contenttabs">
-                                                    <div class="titleboxtab">
-                                                        <span>مدیریت نمایه‌ها</span>
-                                                        <p>در اینجا می‌توانید نمایه خود یا شخص دیگری که برایش خرید <br/>می‌کنید
-                                                            را انتخاب کرده و یا نمایه جدیدی بسازید.</p>
-                                                    </div>
-                                                    <div class="namaboxs">
-                                                        <span>انتخاب نمابه</span>
-                                                        <p>توجه: بر روی هر یک از نمایه‌های زیر کلیک کنید <br/>آن نمایه
-                                                            فعال
-                                                            می‌شود.</p>
-                                                        <div class="namabox">
-                                                            <ul id="navbar__list">
-                                                                <li class="active">
-                                                                    <i class="cute-user"></i>
-                                                                    <p>نمایه خودم <br/> 92 kg</p>
-                                                                    <span>انتخاب شده  </span>
-                                                                </li>
-                                                                <li>
-                                                                    <i class="cute-user"></i>
-                                                                    <p>نمایه خودم <br/> 92 kg</p>
-                                                                    <span>انتخاب نمایه </span>
-                                                                    <div class="deletelist">
-                                                                        <i class="ecut-close flex items-center justify-center">
-                                                                            <svg class="close-share" id="Icons"
-                                                                                 height="10" viewBox="0 0 64 64"
-                                                                                 width="10"
-                                                                                 xmlns="http://www.w3.org/2000/svg"
-                                                                                 fill="#fff">
-                                                                                <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
-                                                                            </svg>
-                                                                        </i>
-                                                                    </div>
-                                                                </li>
-                                                                <li>
-                                                                    <i class="cute-user"></i>
-                                                                    <p>نمایه خودم <br/> 92 kg</p>
-                                                                    <span>انتخاب نمایه </span>
-                                                                    <div class="deletelist">
-                                                                        <i class="ecut-close flex items-center justify-center">
-                                                                            <svg class="close-share" id="Icons"
-                                                                                 height="10" viewBox="0 0 64 64"
-                                                                                 width="10"
-                                                                                 xmlns="http://www.w3.org/2000/svg"
-                                                                                 fill="#fff">
-                                                                                <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
-                                                                            </svg>
-                                                                        </i>
-                                                                    </div>
-                                                                </li>
+<div class="p-modal-size z-[9999] w-full h-[100vh]  fixed right-0 top-0">
+    <div class="bg-overly-size absolute z-0 right-0 top-0 h-full w-full bg-[#00000090]"></div>
+    <div class="modal-size relative  p-[1rem] z-10 w-[33%] max-[900px]:w-full min-[2000px]:w-[20%] h-full bg-white flex flex-col">
+        <div class="open_menu4">
+            <div class="menu-content4">
+                <div class="menu-btn4 close-modal-size">
+                    <svg  width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
+                    </svg>
+                </div>
+                <div class="content">
+                    <div class="content__inner">
+                        <div class="container overflow-hidden">
+                            <div class="multisteps-form">
+                                <div class="row">
+                                    <div class="multisteps-form__progress"></div>
+                                    <div class="w-full">
+                                        <form class="multisteps-form__form">
+                                            <div class="multisteps-form__panel step-one shadow  rounded srt7 bg-white js-active"
+                                                 data-animation="fade">
+                                                <div class="multisteps-form__content">
+                                                    <div class="contenttabs">
+                                                        <div class="titleboxtab">
+                                                            <span>مدیریت نمایه‌ها</span>
+                                                            <p>در اینجا می‌توانید نمایه خود یا شخص دیگری که برایش خرید <br/>می‌کنید
+                                                                را انتخاب کرده و یا نمایه جدیدی بسازید.</p>
+                                                        </div>
+                                                        <div class="namaboxs">
+                                                            <span>انتخاب نمابه</span>
+                                                            <p>توجه: بر روی هر یک از نمایه‌های زیر کلیک کنید <br/>آن نمایه
+                                                                فعال
+                                                                می‌شود.</p>
+                                                            <div class="namabox">
+                                                                <ul id="navbar__list">
+                                                                    <li class="active">
+                                                                        <i class="cute-user"></i>
+                                                                        <p>نمایه خودم <br/> 92 kg</p>
+                                                                        <span>انتخاب شده  </span>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="cute-user"></i>
+                                                                        <p>نمایه خودم <br/> 92 kg</p>
+                                                                        <span>انتخاب نمایه </span>
+                                                                        <div class="deletelist">
+                                                                            <i class="ecut-close flex items-center justify-center">
+                                                                                <svg class="close-share" id="Icons"
+                                                                                     height="10" viewBox="0 0 64 64"
+                                                                                     width="10"
+                                                                                     xmlns="http://www.w3.org/2000/svg"
+                                                                                     fill="#fff">
+                                                                                    <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
+                                                                                </svg>
+                                                                            </i>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="cute-user"></i>
+                                                                        <p>نمایه خودم <br/> 92 kg</p>
+                                                                        <span>انتخاب نمایه </span>
+                                                                        <div class="deletelist">
+                                                                            <i class="ecut-close flex items-center justify-center">
+                                                                                <svg class="close-share" id="Icons"
+                                                                                     height="10" viewBox="0 0 64 64"
+                                                                                     width="10"
+                                                                                     xmlns="http://www.w3.org/2000/svg"
+                                                                                     fill="#fff">
+                                                                                    <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"></path>
+                                                                                </svg>
+                                                                            </i>
+                                                                        </div>
+                                                                    </li>
 
-                                                            </ul>
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
 
-                                                    </div>
+
+                                                        <div class="button-row mt-[1rem] showdatambl">
+                                                            <p>اگر می‌خواهید برای شخص دیگری خــــرید کنید می‌توانید با کلیک
+                                                                بر
+                                                                روی دکمه "افــزودن نمایه جدید" یک نمایه با نام و مشخصات وی
+                                                                بسازید</p>
 
 
-                                                    <div class="button-row mt-[1rem] showdatambl">
-                                                        <p>اگر می‌خواهید برای شخص دیگری خــــرید کنید می‌توانید با کلیک
-                                                            بر
-                                                            روی دکمه "افــزودن نمایه جدید" یک نمایه با نام و مشخصات وی
-                                                            بسازید</p>
-
-
-                                                        <button class="btn-base flex items-center justify-center btn-show-step-two w-[90%] "
-                                                                type="button"
-                                                                title="Next">
-                                                            افزودن نمایه جدید
-                                                            <i class="mr-[1rem]">
-                                                                <svg fill="#fff" version="1.1" id="Capa_1"
-                                                                     xmlns="http://www.w3.org/2000/svg"
-                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                     width="10" height="10" viewBox="0 0 45.402 45.402"
-                                                                     xml:space="preserve">
+                                                            <button class="btn-base flex items-center justify-center btn-show-step-two w-[90%] "
+                                                                    type="button"
+                                                                    title="Next">
+                                                                افزودن نمایه جدید
+                                                                <i class="mr-[1rem]">
+                                                                    <svg fill="#fff" version="1.1" id="Capa_1"
+                                                                         xmlns="http://www.w3.org/2000/svg"
+                                                                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                         width="10" height="10" viewBox="0 0 45.402 45.402"
+                                                                         xml:space="preserve">
 <g>
     <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141
 		c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27
@@ -3170,244 +3114,244 @@
 		c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"/>
 </g>
 </svg>
-                                                            </i>
-                                                        </button>
-                                                        <span>حداکثر 3 نمایه می‌توانید بسازید</span>
+                                                                </i>
+                                                            </button>
+                                                            <span>حداکثر 3 نمایه می‌توانید بسازید</span>
 
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="multisteps-form__panel step-two shadow  rounded bg-white srt1 "
-                                             data-animation="fade">
-                                            <div class="multisteps-form__content">
-                                                <div class="contenttabs w-full flex flex-col items-center">
-                                                    <img class="firsttbimg" src="assets/images/snimg1.png">
-                                                    <div class="titleboxtab">
-                                                        <span>سایز من چیست؟</span>
-                                                        <p>لطفا بــــه چند پرسش ســـاده پــاسخ دهیـــد تا <br/>نزدیکترین
-                                                            سایز مناسب شما را پیشنهاد دهیـم</p>
-                                                    </div>
-
-                                                    <div class="firstdata">
-                                                        <div class="firstdatabox">
-                                                            <label>نمایه </label>
-                                                            <input type="text" placeholder="نمایه " name="name">
-                                                        </div>
-
-                                                        <div class="firstdatabox">
-                                                            <label>قــد شما</label>
-                                                            <input type="text" placeholder="cm" name="dt1">
-                                                        </div>
-
-                                                        <div class="firstdatabox">
-                                                            <label>وزن شما </label>
-                                                            <input type="text" placeholder="km" name="dt2">
                                                         </div>
                                                     </div>
-                                                    <button class="btn-base btn-step-two w-[70%]" type="button">
-                                                        ادامـــــه
-                                                    </button>
-
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="multisteps-form__panel step-three shadow  rounded srt2 bg-white"
-                                             data-animation="fade">
-                                            <div class="multisteps-form__content">
-                                                <div class="contenttabs">
-                                                    <div class="titleboxtab">
-                                                        <span>فرم سینه شما </span>
-                                                        <p>از میان سه فرم سینه زیر یکی که به بدن شما <br/>نزدیکتر است را
-                                                            انتخاب کنید</p>
-                                                    </div>
-                                                    <div class="image_radio_button_control w-full flex flex-col items-center">
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="lsb"/>
-                                                            <img src="assets/images/size1.png">
-                                                        </label>
+                                            <div class="multisteps-form__panel step-two shadow  rounded bg-white srt1 "
+                                                 data-animation="fade">
+                                                <div class="multisteps-form__content">
+                                                    <div class="contenttabs w-full flex flex-col items-center">
+                                                        <img class="firsttbimg" src="assets/images/snimg1.png">
+                                                        <div class="titleboxtab">
+                                                            <span>سایز من چیست؟</span>
+                                                            <p>لطفا بــــه چند پرسش ســـاده پــاسخ دهیـــد تا <br/>نزدیکترین
+                                                                سایز مناسب شما را پیشنهاد دهیـم</p>
+                                                        </div>
 
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="nosb"/>
-                                                            <img src="assets/images/size2.png">
-                                                        </label>
+                                                        <div class="firstdata">
+                                                            <div class="firstdatabox">
+                                                                <label>نمایه </label>
+                                                                <input type="text" placeholder="نمایه " name="name">
+                                                            </div>
 
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="rsb"/>
-                                                            <img src="assets/images/size3.png">
-                                                        </label>
-                                                    </div>
-                                                    <div class="button-row flex w-full justify-center items-center gap-[1rem] mt-[1rem]">
-                                                        <button class="btn-disable sm:w-[40%] btn-sep-four px-[1rem]"
-                                                                type="button"
-                                                                title="Next">ادامـــــه
+                                                            <div class="firstdatabox">
+                                                                <label>قــد شما</label>
+                                                                <input type="text" placeholder="cm" name="dt1">
+                                                            </div>
+
+                                                            <div class="firstdatabox">
+                                                                <label>وزن شما </label>
+                                                                <input type="text" placeholder="km" name="dt2">
+                                                            </div>
+                                                        </div>
+                                                        <button class="btn-base btn-step-two w-[70%]" type="button">
+                                                            ادامـــــه
                                                         </button>
-                                                        <button class="btn-base sm:w-[40%] back-step-two px-[1rem]"
-                                                                type="button"
-                                                                title="Prev">بازگشت
-                                                        </button>
+
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="multisteps-form__panel step-four shadow  rounded srt3 bg-white"
-                                             data-animation="fade">
-                                            <div class="multisteps-form__content">
-                                                <div class="contenttabs">
-                                                    <div class="titleboxtab">
-                                                        <span>فرم شکم شما</span>
-                                                        <p>از میان سه فرم شکمی زیر یکی که به بدن شما <br/>نزدیکتر است را
-                                                            انتخاب کنید</p>
-                                                    </div>
-                                                    <div class="image_radio_button_control w-full flex flex-col items-center">
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="lsbs"/>
-                                                            <img src="assets/images/size4.png">
-                                                        </label>
+                                            <div class="multisteps-form__panel step-three shadow  rounded srt2 bg-white"
+                                                 data-animation="fade">
+                                                <div class="multisteps-form__content">
+                                                    <div class="contenttabs">
+                                                        <div class="titleboxtab">
+                                                            <span>فرم سینه شما </span>
+                                                            <p>از میان سه فرم سینه زیر یکی که به بدن شما <br/>نزدیکتر است را
+                                                                انتخاب کنید</p>
+                                                        </div>
+                                                        <div class="image_radio_button_control w-full flex flex-col items-center">
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="lsb"/>
+                                                                <img src="assets/images/size1.png">
+                                                            </label>
 
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="nosbd"/>
-                                                            <img src="assets/images/size5.png">
-                                                        </label>
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="nosb"/>
+                                                                <img src="assets/images/size2.png">
+                                                            </label>
 
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="rsbf"/>
-                                                            <img src="assets/images/size6.png">
-                                                        </label>
-                                                    </div>
-                                                    <div class="button-row flex mt-[1rem] w-full items-center gap-[1rem] justify-center">
-                                                        <button class="btn-base sm:w-[40%] px-[1rem] btn-step-five"
-                                                                type="button"
-                                                                title="Next">ادامـــــه
-                                                        </button>
-                                                        <button class="btn-base sm:w-[40%] px-[1rem] btn-step-three"
-                                                                type="button"
-                                                                title="Prev">بازگشت
-                                                        </button>
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="rsb"/>
+                                                                <img src="assets/images/size3.png">
+                                                            </label>
+                                                        </div>
+                                                        <div class="button-row flex w-full justify-center items-center gap-[1rem] mt-[1rem]">
+                                                            <button class="btn-disable sm:w-[40%] btn-sep-four px-[1rem]"
+                                                                    type="button"
+                                                                    title="Next">ادامـــــه
+                                                            </button>
+                                                            <button class="btn-base sm:w-[40%] back-step-two px-[1rem]"
+                                                                    type="button"
+                                                                    title="Prev">بازگشت
+                                                            </button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="multisteps-form__panel step-five shadow  rounded srt4 bg-white"
-                                             data-animation="fade">
-                                            <div class="multisteps-form__content">
-                                                <div class="contenttabs">
-                                                    <div class="titleboxtab">
-                                                        <span>حالت و سبک لباس</span>
-                                                        <p>چه نوع برشی را برای لباس انتخابی خود می‌پسندید <br/>از میان
-                                                            حالات
-                                                            زیر یکی را انتخاب کنید</p>
-                                                    </div>
-                                                    <div class="image_radio_button_control w-full flex flex-col items-enter">
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="lsbs"/>
-                                                            <img src="assets/images/size7.png">
-                                                        </label>
+                                            <div class="multisteps-form__panel step-four shadow  rounded srt3 bg-white"
+                                                 data-animation="fade">
+                                                <div class="multisteps-form__content">
+                                                    <div class="contenttabs">
+                                                        <div class="titleboxtab">
+                                                            <span>فرم شکم شما</span>
+                                                            <p>از میان سه فرم شکمی زیر یکی که به بدن شما <br/>نزدیکتر است را
+                                                                انتخاب کنید</p>
+                                                        </div>
+                                                        <div class="image_radio_button_control w-full flex flex-col items-center">
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="lsbs"/>
+                                                                <img src="assets/images/size4.png">
+                                                            </label>
 
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="nosbd"/>
-                                                            <img src="assets/images/size8.png">
-                                                        </label>
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="nosbd"/>
+                                                                <img src="assets/images/size5.png">
+                                                            </label>
 
-                                                        <label class="radio-button-label">
-                                                            <input type="radio" name="radio-control" value="rsbf"/>
-                                                            <img src="assets/images/size9.png">
-                                                        </label>
-                                                    </div>
-                                                    <div class="button-row flex w-full items-center justify-center gap-[1rem] mt-[1rem]">
-                                                        <button class="btn-base sm:w-[40%] bt-step-six px-[1rem]"
-                                                                type="button"
-                                                                title="Next">ادامـــــه
-                                                        </button>
-                                                        <button class="btn-base sm:w-[40%] btn-back-step-four px-[1rem]"
-                                                                type="button"
-                                                                title="Prev">بازگشت
-                                                        </button>
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="rsbf"/>
+                                                                <img src="assets/images/size6.png">
+                                                            </label>
+                                                        </div>
+                                                        <div class="button-row flex mt-[1rem] w-full items-center gap-[1rem] justify-center">
+                                                            <button class="btn-base sm:w-[40%] px-[1rem] btn-step-five"
+                                                                    type="button"
+                                                                    title="Next">ادامـــــه
+                                                            </button>
+                                                            <button class="btn-base sm:w-[40%] px-[1rem] btn-step-three"
+                                                                    type="button"
+                                                                    title="Prev">بازگشت
+                                                            </button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="multisteps-form__panel step-six shadow  lg:top-[-20px] rounded srt5 bg-white"
-                                             data-animation="fade">
-                                            <div class="multisteps-form__content">
-                                                <div class="contenttabs w-full flex flex-col items-center">
-                                                    <img class="firsttbimg" src="assets/images/snimg1.png">
-                                                    <div class="titleboxtab">
-                                                        <span>سایز پیشنهادی برای شما</span>
+                                            <div class="multisteps-form__panel step-five shadow  rounded srt4 bg-white"
+                                                 data-animation="fade">
+                                                <div class="multisteps-form__content">
+                                                    <div class="contenttabs">
+                                                        <div class="titleboxtab">
+                                                            <span>حالت و سبک لباس</span>
+                                                            <p>چه نوع برشی را برای لباس انتخابی خود می‌پسندید <br/>از میان
+                                                                حالات
+                                                                زیر یکی را انتخاب کنید</p>
+                                                        </div>
+                                                        <div class="image_radio_button_control w-full flex flex-col items-enter">
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="lsbs"/>
+                                                                <img src="assets/images/size7.png">
+                                                            </label>
+
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="nosbd"/>
+                                                                <img src="assets/images/size8.png">
+                                                            </label>
+
+                                                            <label class="radio-button-label">
+                                                                <input type="radio" name="radio-control" value="rsbf"/>
+                                                                <img src="assets/images/size9.png">
+                                                            </label>
+                                                        </div>
+                                                        <div class="button-row flex w-full items-center justify-center gap-[1rem] mt-[1rem]">
+                                                            <button class="btn-base sm:w-[40%] bt-step-six px-[1rem]"
+                                                                    type="button"
+                                                                    title="Next">ادامـــــه
+                                                            </button>
+                                                            <button class="btn-base sm:w-[40%] btn-back-step-four px-[1rem]"
+                                                                    type="button"
+                                                                    title="Prev">بازگشت
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                    <div class="sizefinal w-[70%]">
-                                                        <span>برآورد سایز برای کت و شلوار </span>
-                                                        <div style="width: 100% !important;" class="sizefinalbox">
+                                                </div>
+                                            </div>
+                                            <div class="multisteps-form__panel step-six shadow  lg:top-[-20px] rounded srt5 bg-white"
+                                                 data-animation="fade">
+                                                <div class="multisteps-form__content">
+                                                    <div class="contenttabs w-full flex flex-col items-center">
+                                                        <img class="firsttbimg" src="assets/images/snimg1.png">
+                                                        <div class="titleboxtab">
+                                                            <span>سایز پیشنهادی برای شما</span>
+                                                        </div>
+                                                        <div class="sizefinal w-[70%]">
+                                                            <span>برآورد سایز برای کت و شلوار </span>
+                                                            <div style="width: 100% !important;" class="sizefinalbox">
+                                                                <ul>
+                                                                    <li>52</li>
+                                                                    <li>54</li>
+                                                                    <li>56</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sizedesc">
+                                                            توجه: <br/>
+                                                            این سایز صرفا یک توصیه است که
+                                                            یز اساس اطلاعات دریافتی از شما و
+                                                            مقایسه با خرید هزاران کاربر دیگـــر
+                                                            به شما پیشنهاد شده است.
+                                                        </div>
+                                                        <div class="button-row flex flex-col items-center gap-[1rem] justify-center mt-[1rem]">
+                                                            <button class="btn-base flex items-center max-[1600px]:text-[14px] justify-center px-[1rem] w-1/2  btn-cart"
+                                                                    type="button"
+                                                                    title="Next">افزودن به سبد خرید <i
+                                                                        class="ecut-arrow"></i>
+                                                            </button>
+                                                            <button class="btn-base flex items-center justify-center px-[1rem]  max-[1600px]:text-[14px] w-1/2  btn-show-step-seven"
+                                                                    type="button" title="Prev">
+                                                                ویرایش اطلاعات
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="multisteps-form__panel step-seven shadow  rounded srt6 bg-white "
+                                                 data-animation="fade">
+                                                <div class="multisteps-form__content">
+                                                    <div class="contenttabs">
+                                                        <div class="titleboxtab">
+                                                            <span>اطلاعات دریافتی از شما</span>
+                                                            <p>این اطلاعات به عنوان راهنمایی برای پیشنهاد سایز مناسب به شما
+                                                                استفاده می‌شود.</p>
+                                                        </div>
+                                                        <div class="datatablesize">
+                                                            <span>ویرایش اطلاعات </span>
+                                                            <p>برای ویرایش بر روی هر کدام از موارد زیر کلیک کنید</p>
                                                             <ul>
-                                                                <li>52</li>
-                                                                <li>54</li>
-                                                                <li>56</li>
+                                                                <li><span>قد شما</span><span> 185 </span></li>
+                                                                <li><span>وزن شما</span><span> 92 </span></li>
+                                                                <li><span>فرم سینه</span><span> متوسط </span></li>
+                                                                <li><span>گردتر</span><span> 185 </span></li>
+                                                                <li><span>سبک مورد علاقه</span><span> آزاد </span></li>
                                                             </ul>
                                                         </div>
-                                                    </div>
-                                                    <div class="sizedesc">
-                                                        توجه: <br/>
-                                                        این سایز صرفا یک توصیه است که
-                                                        یز اساس اطلاعات دریافتی از شما و
-                                                        مقایسه با خرید هزاران کاربر دیگـــر
-                                                        به شما پیشنهاد شده است.
-                                                    </div>
-                                                    <div class="button-row flex flex-col items-center gap-[1rem] justify-center mt-[1rem]">
-                                                        <button class="btn-base flex items-center max-[1600px]:text-[14px] justify-center px-[1rem] w-1/2  btn-cart"
-                                                                type="button"
-                                                                title="Next">افزودن به سبد خرید <i
-                                                                    class="ecut-arrow"></i>
-                                                        </button>
-                                                        <button class="btn-base flex items-center justify-center px-[1rem]  max-[1600px]:text-[14px] w-1/2  btn-show-step-seven"
-                                                                type="button" title="Prev">
-                                                            ویرایش اطلاعات
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="multisteps-form__panel step-seven shadow  rounded srt6 bg-white "
-                                             data-animation="fade">
-                                            <div class="multisteps-form__content">
-                                                <div class="contenttabs">
-                                                    <div class="titleboxtab">
-                                                        <span>اطلاعات دریافتی از شما</span>
-                                                        <p>این اطلاعات به عنوان راهنمایی برای پیشنهاد سایز مناسب به شما
-                                                            استفاده می‌شود.</p>
-                                                    </div>
-                                                    <div class="datatablesize">
-                                                        <span>ویرایش اطلاعات </span>
-                                                        <p>برای ویرایش بر روی هر کدام از موارد زیر کلیک کنید</p>
-                                                        <ul>
-                                                            <li><span>قد شما</span><span> 185 </span></li>
-                                                            <li><span>وزن شما</span><span> 92 </span></li>
-                                                            <li><span>فرم سینه</span><span> متوسط </span></li>
-                                                            <li><span>گردتر</span><span> 185 </span></li>
-                                                            <li><span>سبک مورد علاقه</span><span> آزاد </span></li>
-                                                        </ul>
-                                                    </div>
 
 
-                                                    <div class="button-row flex flex-col w-full mt-[1rem] showdatadff">
-                                                        <p>تــوجــه: <br/>
-                                                            با کـــلیک بــر روی این دکـــــمه زیر بــــه شروع
-                                                            این برنامه بازمی‌گردید. </p>
+                                                        <div class="button-row flex flex-col w-full mt-[1rem] showdatadff">
+                                                            <p>تــوجــه: <br/>
+                                                                با کـــلیک بــر روی این دکـــــمه زیر بــــه شروع
+                                                                این برنامه بازمی‌گردید. </p>
 
-                                                        <button class="btn-base w-full" type="button"
-                                                                title="Prev"><i class="ecut-arrow"></i>پاک کردن همه
-                                                            داده‌ها
-                                                        </button>
+                                                            <button class="btn-base w-full" type="button"
+                                                                    title="Prev"><i class="ecut-arrow"></i>پاک کردن همه
+                                                                داده‌ها
+                                                            </button>
 
-                                                        <button class="btn-base flex items-center justify-center  w-full "
-                                                                type="button"
-                                                                title="Next">افزودن نمایه جدید
-                                                            <i class="mr-[1rem]">
-                                                                <svg fill="#fff" version="1.1" id="Capa_1"
-                                                                     xmlns="http://www.w3.org/2000/svg"
-                                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                     width="10" height="10" viewBox="0 0 45.402 45.402"
-                                                                     xml:space="preserve">
+                                                            <button class="btn-base flex items-center justify-center  w-full "
+                                                                    type="button"
+                                                                    title="Next">افزودن نمایه جدید
+                                                                <i class="mr-[1rem]">
+                                                                    <svg fill="#fff" version="1.1" id="Capa_1"
+                                                                         xmlns="http://www.w3.org/2000/svg"
+                                                                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                         width="10" height="10" viewBox="0 0 45.402 45.402"
+                                                                         xml:space="preserve">
 <g>
     <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141
 		c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27
@@ -3415,24 +3359,88 @@
 		c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"></path>
 </g>
 </svg>
-                                                            </i>
-                                                        </button>
+                                                                </i>
+                                                            </button>
 
 
-                                                        <button class="btn-base w-full mb-[12px] btn-step-one"
-                                                                type="button" title="Next">مدیریت نمایه‌ها
-                                                        </button>
+                                                            <button class="btn-base w-full mb-[12px] btn-step-one"
+                                                                    type="button" title="Next">مدیریت نمایه‌ها
+                                                            </button>
 
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--box-share-->
+<div class="p-box-share z-[9999] w-full h-[100vh]  fixed right-0 top-0">
+    <div class="bg-overly-share absolute z-0 right-0 top-0 h-full w-full bg-[#00000090]"></div>
+
+    <div class="box-share relative  p-[1rem] z-10 w-[33%] max-[900px]:w-full min-[2000px]:w-[20%] h-full bg-white flex flex-col">
+        <div class="row-close w-full flex justify-between items-center px-[1.5rem]">
+            <h3 class="title">اشتراک گذاری</h3>
+            <svg  class="close-share" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
+            </svg>
+        </div>
+        <div class="row-middle flex justify-between  items-center">
+            <img class="img-share " src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
+            <div class="p-icons flex flex-col">
+                <div class="title-product w-100 flex justify-center">
+                    <h4 class="text-[16px]">کت تک 6036</h4>
+                </div>
+                <div class="w-full flex gap-[6px] flex-col">
+                    <button onclick="copyLink('https://your-link.com/instagram')" class="btn-icon">اینستاگرام
+                        <img src="assets/images/social-media/instagram-svgrepo-com.svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/telegram')" class="btn-icon">
+                        تلگرام
+                        <img src="assets/images/social-media/telegram-svgrepo-com%20(1).svg" alt="">
+
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/facebook')" class="btn-icon">
+                        فیس بوک
+                        <img src="assets/images/social-media/facebook-svgrepo-com.svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/linkdin')" class="btn-icon">
+                        لینکدین
+                        <img src="assets/images/social-media/linkedin-svgrepo-com.svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/whatsapp')" class="btn-icon">
+                        واتس اپ
+                        <img src="assets/images/social-media/whatsapp-svgrepo-com%20(1).svg" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/sorosh')" class="btn-icon">
+                        سروش
+                        <img src="assets/images/social-media/sorosh.png" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/eita')" class="btn-icon">
+                        ایتا
+                        <img src="assets/images/social-media/eta.png" alt="">
+                    </button>
+                    <button onclick="copyLink('https://your-link.com/bale')" class="btn-icon">
+                        بله
+                        <img src="assets/images/social-media/bale.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row-end w-full flex flex-col items-center">
+            <span>لینک محصول</span>
+            <a href="" class="copy-link">https://ecut.shop/product/single-coat-xja1156036</a>
+            <div class="copy-message bg-green-300 text-[#fff] rounded-[4px] px-[1rem] py-[4px] mt-[12px]"
+                 style="display: none;">لینک با موفقیت کپی شد!
             </div>
         </div>
     </div>
@@ -3951,16 +3959,7 @@
     });
 
 
-    // box-share
-    $(document).ready(function () {
-        $('.p-box-share').hide()
-        $('.btn-share').click(function () {
-            $(".p-box-share").fadeIn()
-        })
-        $('.close-share').click(function () {
-            $(".p-box-share").fadeOut()
-        })
-    })
+
     // box-share
     function copyLink(link) {
         navigator.clipboard.writeText(link).then(function () {
@@ -3974,24 +3973,62 @@
 
 
     $(document).ready(function () {
+        $('.p-modal-ruler').hide()
         $('.btn-ruler').click(function () {
-            $('.modal-ruler').fadeIn({queue: false, duration: 'normal'})
+            $('.p-modal-ruler').fadeIn()
+            $('.p-modal-ruler').addClass('active-ruler')
+
         })
         $('.btn-close-modal-ruler').click(function () {
-            $('.modal-ruler').fadeOut({queue: false, duration: 'normal'})
+            $('.p-modal-ruler').fadeOut()
+            $('.p-modal-ruler').removeClass('active-ruler')
+
         })
-        setTimeout(function () {
-            $('.box-ruler').fadeIn({queue: false, duration: 'normal'});
-        }, 2000);
+        $('.bg-overly-ruler').click(function () {
+            $('.p-modal-ruler').fadeOut()
+            $('.p-modal-ruler').removeClass('active-ruler')
+
+        })
     })
 
+    $(document).ready(function () {
+        $('.p-modal-size').hide()
+        $('.btn-metter').click(function () {
+            $('.p-modal-size').fadeIn()
+            $('.p-modal-size').addClass('active-size')
+
+        })
+        $('.close-modal-size').click(function () {
+            $('.p-modal-size').fadeOut()
+            $('.p-modal-size').removeClass('active-size')
+
+        })
+        $('.bg-overly-size').click(function () {
+            $('.p-modal-size').fadeOut()
+            $('.p-modal-size').removeClass('active-size')
+
+        })
+    })
+
+    // box-share
 
     $(document).ready(function () {
-        $(".btn-metter").click(function () {
-            $(".open_menu4").toggleClass("opened");
-            $(".btn-metter").toggleClass("toOpened");
-        });
-    });
+        $('.p-box-share').hide()
+        $('.btn-share').click(function () {
+            $('.p-box-share').fadeIn()
+            $('.p-box-share').addClass('active-share')
+
+        })
+        $('.close-share').click(function () {
+            $('.p-box-share').fadeOut()
+            $('.p-box-share').removeClass('active-share')
+
+        })
+        $('.bg-overly-share').click(function () {
+            $('.p-box-share').fadeOut()
+            $('.p-box-share').removeClass('active-share')
+        })
+    })
 
 
     const options = {
@@ -4000,8 +4037,6 @@
         },
     };
     $(document).ready(function () {
-
-
         Fancybox.bind("[data-fancybox]", {
             buttons: [
                 "zoom",
