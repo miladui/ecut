@@ -552,4 +552,20 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    $('.p-box-login').hide()
+    $('.openModal').click(function () {
+        $('.p-box-login').fadeIn()
+        $('.p-box-login').addClass('active-login')
 
+    })
+    $('.closeModal').click(function () {
+        $('.p-box-login').fadeOut()
+        $('.p-box-login').removeClass('active-login')
+
+    })
+    $('.bg-overly-login').click(function () {
+        $('.p-box-login').fadeOut()
+        $('.p-box-login').removeClass('active-login')
+    })
+})

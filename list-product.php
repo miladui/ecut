@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>محصولات   </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+</head>
+<body>
 <?php include 'header-desktop.php'; ?>
 <?php include 'header-mobile.php'; ?>
 <?php include 'loginModal.php'; ?>
@@ -893,16 +909,16 @@
     });
 
     $(document).ready(function () {
-        $('.acc-container .acc:nth-child(1) .acc-head').addClass('active');
-        $('.acc-container .acc:nth-child(1) .acc-content').slideDown();
-        $('.acc-head').on('click', function () {
+        $('.s-list-product .acc-container .acc:nth-child(1) .acc-head').addClass('active');
+        $('.s-list-product .acc-container .acc:nth-child(1) .acc-content').slideDown();
+        $('.s-list-product .acc-head').on('click', function () {
             if ($(this).hasClass('active')) {
-                $(this).siblings('.acc-content').slideUp();
+                $(this).siblings('.s-list-product .acc-content').slideUp();
                 $(this).removeClass('active');
             } else {
-                $('.acc-content').slideUp();
-                $('.acc-head').removeClass('active');
-                $(this).siblings('.acc-content').slideToggle();
+                $('.s-list-product .acc-content').slideUp();
+                $('.s-list-product .acc-head').removeClass('active');
+                $(this).siblings('.s-list-product .acc-content').slideToggle();
                 $(this).toggleClass('active');
             }
         });

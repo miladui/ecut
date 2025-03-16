@@ -191,9 +191,9 @@
 <script>
 
     $(document).ready(function () {
-        $('.open_menu.acc-container-nested').hide()
-        $('.open_menu.btn-open-product').click(function (){
-            $('.open_menu.acc-container-nested').toggle()
+        $('.open_menu .acc-container-nested').hide()
+        $('.open_menu .btn-open-product').click(function (){
+            $('.open_menu .acc-container-nested').toggle()
             $('.open_menu .btn-open-product svg').css('rotate' , '180deg')
         })
     });
