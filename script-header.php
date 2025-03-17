@@ -39,7 +39,6 @@
         },
     });
 </script>
-
 <script>
     $(document).ready(function () {
 
@@ -73,11 +72,7 @@
 
     });
 </script>
-
 <script>
-
-
-
     function showTab(tabId) {
         const tabs = document.querySelectorAll('.tab-content');
         tabs.forEach(tab => {

@@ -324,7 +324,7 @@
                 </div>
             </div>
             <div class="left-mobi pb-[2rem] w-full grid grid-cols-2 px-[12px] gap-[1rem] list-product-search min-[901px]:hidden">
-                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[300px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -357,7 +357,7 @@
 
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[300px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -393,7 +393,7 @@
 
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[300px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -427,7 +427,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[300px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -460,7 +460,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[300px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -1088,3 +1088,5 @@
     </div>
 </div>
 
+</body>
+</html>

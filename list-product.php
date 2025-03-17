@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>محصولات   </title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 
-</head>
-<body>
 <?php include 'header-desktop.php'; ?>
 <?php include 'header-mobile.php'; ?>
 <?php include 'loginModal.php'; ?>
-<section class="s-list-product mt-[6rem] max-[800px]:px-[12px]">
+<section class="s-list-product mt-[5rem] max-[800px]:px-[12px]">
     <div class="w-full px-[1.5rem] max-[900px]:px-0">
         <div class="p-list-product w-full mx-auto">
             <div class="breadcrum mb-3">
@@ -49,7 +34,6 @@
                         <i style="transition: 0.5s ease" class="fa fa-angle-left"></i>
                     </button>
                 </div>
-
                 <div class="row-option-product w-full flex items-center pb-[18px] justify-between my-[1rem]">
                     <button id="btnside" class="show-filtering max-[850px]:hidden btnside text-[16px]">
                         نمایش فیلترینگ
@@ -1019,6 +1003,3 @@
 
 
 </script>
-
-</body>
-</html>
