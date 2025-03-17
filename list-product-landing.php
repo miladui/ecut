@@ -424,8 +424,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px]  text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -470,8 +470,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px]  text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -517,8 +517,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px] text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -564,8 +564,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px] text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -612,8 +612,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px] text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">

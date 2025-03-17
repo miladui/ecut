@@ -18,7 +18,7 @@
 <?php include 'header-mobile.php'; ?>
 <?php include 'loginModal.php'; ?>
 <section class="s-list-product mt-[6rem] max-[800px]:px-[12px]">
-    <div class="w-full px-[1.5rem]">
+    <div class="w-full px-[1.5rem] max-[900px]:px-0">
         <div class="p-list-product w-full mx-auto">
             <div class="breadcrum mb-3">
                 <a class="text-[14px]" href="#">صفحه نخست</a>
@@ -30,13 +30,13 @@
             <div class="row-titles mt-[3rem] w-full flex flex-col items-center">
                 <h2 class="font-bold text-[26px]">کلاسیک</h2>
                 <div class="row-link-title mt-[12px]  w-full flex items-center justify-center ">
-                    <a class="link-title max-[600px]:text-[12px]" href="">کت و شلوار</a>
+                    <a class="link-title max-[600px]:text-[11px]" href="">کت و شلوار</a>
                     <div class="text-[15px] w-[2px] h-[10px] bg-base-color-two mx-[10px]"></div>
-                    <a class="link-title max-[600px]:text-[12px]" href="">دامـادی</a>
+                    <a class="link-title max-[600px]:text-[11px]" href="">دامـادی</a>
                     <div class="text-[15px] w-[2px] h-[10px] bg-base-color-two mx-[10px]"></div>
-                    <a class="link-title max-[600px]:text-[12px]" href="">کت تک</a>
+                    <a class="link-title max-[600px]:text-[11px]" href="">کت تک</a>
                     <div class="text-[15px] w-[2px] h-[10px] bg-base-color-two mx-[10px]"></div>
-                    <a class="link-title max-[600px]:text-[12px]" href="">شلوار فاستونی</a>
+                    <a class="link-title max-[600px]:text-[11px]" href="">شلوار فاستونی</a>
                 </div>
                 <p class="w-[36%] max-[700px]:w-full leading-[25px] max-[800px]:text-[13px] mt-[3rem] text-center font-normal text-[14px]">
                     مجموعه کت و شلوار مردانه
@@ -386,8 +386,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px]  text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -432,8 +432,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px]  text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -479,8 +479,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px] text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -526,8 +526,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px] text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">
@@ -574,8 +574,8 @@
                                          alt="">
                                 </a>
                                 <div class="w-full flex mt-[1rem] items-center justify-between">
-                                    <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                    <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    <span class="text-[14px]  text">تی شرت 1698</span>
+                                    <strong class="text-[14px] price">1,385,300 تومان</strong>
                                 </div>
                                 <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                     <div class="colors flex items-center gap-[12px]">

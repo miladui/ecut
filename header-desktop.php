@@ -85,14 +85,14 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative h-[320px]">
+                        <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
                             <img id="main-image-1" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] text-[#777]  flex items-center justify-center w-full bg-[#ffffff8f] ">
                                     165,000,000 ریال
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156130/search/single-coat-01.jpg"
@@ -134,7 +134,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative h-[320px]">
+                        <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
                             <img id="main-image-2" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
@@ -145,7 +145,7 @@
                                     <span class="text-[16px] text-two-promo text-[#fff]">25%</span>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156129/search/single-coat-01.jpg"
@@ -188,7 +188,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative h-[320px]">
+                        <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
                             <img id="main-image-3" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
@@ -199,7 +199,7 @@
                                     <span class="text-[16px] text-two-promo text-[#fff]">25%</span>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156128/search/single-coat-01.jpg"
@@ -241,7 +241,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative h-[320px]">
+                        <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
                             <img id="main-image-4" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
@@ -252,7 +252,7 @@
                                     <span class="text-[16px] text-two-promo text-[#fff]">25%</span>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156127/search/single-coat-01.jpg"
@@ -295,7 +295,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative h-[320px]">
+                        <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
                             <img id="main-image-5" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
@@ -306,7 +306,7 @@
                                     <span class="text-[16px] text-two-promo text-[#fff]">25%</span>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
                                   data-image2="https://media.ecut.shop/product/PJA/PJA1156125/search/single-coat-01.jpg"
@@ -324,7 +324,7 @@
                 </div>
             </div>
             <div class="left-mobi pb-[2rem] w-full grid grid-cols-2 px-[12px] gap-[1rem] list-product-search min-[901px]:hidden">
-                <div class="product-search relative w-full flex flex-col items-center h-[345px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -334,7 +334,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative">
+                        <a href="./singleproduct.php" class="img w-full z0 relative">
                             <img width="100%" id="main-image-1-mobi" class=" main-image-1"
                                  src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
@@ -342,22 +342,22 @@
                                     <span class="text-[11px] text-[#000]">تی شرت 1698</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="w-full flex mt-3 items-center justify-center">
-                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
-                        </div>
-                        <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
+                        </a>
+                        <div class="w-full flex mt-3 items-center justify-between">
+                            <div class="colors flex   items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                   class="color-option w-[17px] h-[17px] flex items-center justify-center"
                                   onclick="changeImage('main-image-1-mobi', this.dataset.image , this) ; changeImage('main-image-1-sm', this.dataset.image , this)">
                                      <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
                                           alt="">
                             </span>
+                            </div>
+                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
                         </div>
 
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[345px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -370,7 +370,7 @@
                         <div class="discount-search-mobi">
                             <h6 class="text-[#fff]">25%</h6>
                         </div>
-                        <div class="img w-full z0 relative">
+                        <a href="./singleproduct.php" class="img w-full z0 relative">
                             <img width="100%" id="main-image-2-mobi" class="main-image-2-mobi"
                                  src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
@@ -378,22 +378,22 @@
                                     <span class="text-[11px] text-[#000]">تی شرت 1698</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="w-full flex mt-3 items-center justify-center">
-                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
-                        </div>
-                        <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
+                        </a>
+                        <div class="w-full flex mt-3 items-center justify-between">
+                            <div class="colors flex  items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                   class="color-option w-[17px] h-[17px] flex items-center justify-center"
                                   onclick="changeImage('main-image-2-mobi', this.dataset.image , this)">
                                      <img class="w-full h-full" src="assets/images/color2.jpg"
                                           alt="">
                             </span>
+                            </div>
+                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
                         </div>
 
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[345px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -403,7 +403,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative">
+                        <a href="./singleproduct.php" class="img w-full z0 relative">
                             <img width="100%" id="main-image-3-mobi" class=" main-image-1"
                                  src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
@@ -411,11 +411,9 @@
                                     <span class="text-[11px] text-[#000]">تی شرت 1698</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="w-full flex mt-3 items-center justify-center">
-                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
-                        </div>
-                        <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
+                        </a>
+                        <div class="w-full flex mt-3 items-center justify-between">
+                            <div class="colors flex items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                   class="color-option w-[17px] h-[17px] flex items-center justify-center"
                                   onclick="changeImage('main-image-3-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)">
@@ -424,11 +422,12 @@
                             </span>
 
 
+                            </div>
+                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
                         </div>
-
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[345px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -438,7 +437,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative">
+                        <a href="./singleproduct.php" class="img w-full z0 relative">
                             <img width="100%" id="main-image-4-mobi" class=" main-image-1"
                                  src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
@@ -446,11 +445,9 @@
                                     <span class="text-[11px] text-[#000]">تی شرت 1698</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="w-full flex mt-3 items-center justify-center">
-                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
-                        </div>
-                        <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
+                        </a>
+                        <div class="w-full flex mt-3 items-center justify-between">
+                            <div class="colors flex  items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
                                   class="color-option w-[17px] h-[17px] flex items-center justify-center"
                                   onclick="changeImage('main-image-4-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)">
@@ -458,11 +455,12 @@
                                           alt="">
                             </span>
 
+                            </div>
+                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
                         </div>
-
                     </div>
                 </div>
-                <div class="product-search relative w-full flex flex-col items-center h-[345px]">
+                <div class="product-search relative w-full flex flex-col items-center h-[280px]">
                     <div class="box-fix absolute top-0 w-full">
                         <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
                             <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
@@ -472,7 +470,7 @@
                                       fill="black"/>
                             </svg>
                         </button>
-                        <div class="img w-full z0 relative">
+                        <a href="./singleproduct.php" class="img w-full z0 relative">
                             <img width="100%" id="main-image-5-mobi" class=" main-image-1"
                                  src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
@@ -480,11 +478,9 @@
                                     <span class="text-[11px] text-[#000]">تی شرت 1698</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="w-full flex mt-3 items-center justify-center">
-                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
-                        </div>
-                        <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
+                        </a>
+                        <div class="w-full flex mt-3 items-center justify-between">
+                            <div class="colors flex  items-center gap-[12px]">
                             <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
                                   class="color-option w-[17px] h-[17px] flex items-center justify-center"
                                   onclick="changeImage('main-image-5-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)">
@@ -492,8 +488,9 @@
                                           alt="">
                             </span>
 
+                            </div>
+                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
                         </div>
-
                     </div>
                 </div>
 
@@ -909,7 +906,15 @@
                     </a>
 
                     <div class="cart basket-button  relative">
-                        <i class=""></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="30" height="30" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                             viewBox="0 0 121 166.36"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"
+                             xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+                            <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <path id="cart.svg" class="fil0" d="M96.34 59.86c-0.93,18.33 -15.38,32.89 -33.08,32.89 -17.69,0 -32.15,-14.56 -33.07,-32.89l6.5 0c0.43,7.13 3.35,13.53 7.84,18.25 4.8,5.03 11.43,8.14 18.73,8.14 7.31,0 13.93,-3.11 18.73,-8.14 4.49,-4.72 7.41,-11.12 7.84,-18.25l6.51 0zm-90.43 -20.01l3.72 0 -0.27 -0.56 -9.81 -25.65 33.31 -12.89 12.61 32.99 53.55 -25.37 15.03 31.48 6.5 0 0 127.26 -114.64 0 0 -127.26zm11.66 0l21.99 0 -0.05 -0.3 -11.17 -29.01 -19.13 7.36 8.36 21.95 0 0zm32.57 0l55.44 0 -10.21 -21.44 -45.23 21.44zm63.92 6.49l-101.66 0 0 114.28 101.66 0 0 -114.28z"/>
+                            </g>
+</svg>
                         <span class="count absolute cart bottom-[0px] bg-base-color-two w-[17px] pt-[4px] text-[11px] left-[-4px] text-white h-[17px] rounded-[50%] flex items-center justify-center">0</span>
                     </div>
                 </div>

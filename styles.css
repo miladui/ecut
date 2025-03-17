@@ -545,6 +545,16 @@ body {
             transform: rotate(180deg);
         }
     }
+    .basket-button{
+        cursor: pointer;
+        svg{
+            fill: white;
+            transition: var(--ease);
+            &:hover{
+                fill: var(--base-color-two);
+            }
+        }
+    }
 }
 
 .btn-search {
@@ -568,6 +578,7 @@ body {
     display: block;
     top: 0;
     background-repeat: no-repeat;
+
 }
 
 .link-auth {
@@ -2398,7 +2409,7 @@ footer {
     }
 
     input.nmmf::placeholder {
-        font-size: 17px;
+        font-size: 14px;
         padding: 5px 0;
     }
 
@@ -2612,7 +2623,7 @@ footer {
 
 
     .form-container.tb2 .form-group {
-        padding: 0px 15px;
+        padding: 0 !important;
     }
 
 
@@ -6390,23 +6401,43 @@ footer {
             width: 100% !important;
         }
     }
-
+    .s-form {
+        & .steps {
+            ul li.active:nth-child(2):after, ul li.active:nth-child(3):after {
+                background: var(--base-color-two) !important;
+                right: -65px !important;
+            }
+        }
+        .tabs li.active-tab:after {
+            display: flex !important;
+            background: var(--base-color-two) !important;
+        }
+    }
     .s-form {
         & .steps {
             .tabs {
                 display: flex;
-                flex-direction: column;
-                margin: 0 !important;
-
+                margin: 0 0 2rem 0 !important;
+                background: #F5F5F5;
+                .li-last{
+                    border-radius: 0 !important;
+                }
                 li {
-                    background: white;
-                    border: 1px solid #646464;
-                    color: #646464;
+                    color: var(--dark);
+                    background: #F5F5F5;
+                    height: 55px;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 0 0 0 50px !important;
+                    font-size: 14px;
+                    font-weight: bold;
                 }
 
                 .active {
-                    background: #646464;
-                    color: #fff !important;
+                    background: var(--base-color-two);
+                    color: var(--dark) !important;
 
                 }
             }
@@ -8186,11 +8217,13 @@ li:hover + #overlay {
 
     }
 }
+
 .p-modal-ruler {
     .box-ruler {
         transform: translateX(100%);
         transition: 0.3s ease;
         overflow-y: auto;
+
         .p-sizing {
             overflow-x: scroll;
 
@@ -8226,15 +8259,18 @@ li:hover + #overlay {
     }
 
 }
+
 .p-modal-size {
     .modal-size {
         transform: translateX(100%);
         transition: 0.3s ease;
         overflow-y: auto;
-        .open_menu4{
+
+        .open_menu4 {
             max-width: 100% !important;
             position: unset !important;
         }
+
         .p-sizing {
             overflow-x: scroll;
 
@@ -8270,6 +8306,7 @@ li:hover + #overlay {
     }
 
 }
+
 .p-box-share {
     .box-share {
         transform: translateX(100%);
@@ -8278,6 +8315,7 @@ li:hover + #overlay {
     }
 
 }
+
 .p-box-login {
     .modal-content {
         transform: translateX(-100%);
@@ -8293,30 +8331,35 @@ li:hover + #overlay {
         transition: 0.3s ease;
     }
 }
+
 .active-gallery {
     .modal-gallery-product {
         transform: translateX(0);
         transition: 0.3s ease;
     }
 }
+
 .active-size {
     .modal-size {
         transform: translateX(0);
         transition: 0.3s ease;
     }
 }
+
 .active-share {
     .box-share {
         transform: translateX(0);
         transition: 0.3s ease;
     }
 }
+
 .active-login {
     .modal-content {
         transform: translateX(0);
         transition: 0.3s ease;
     }
 }
+
 .bg-end-box-about {
     /*background: url("assets/images/Layer_x0020_1.png") !important;*/
 
@@ -9395,5 +9438,20 @@ li:hover + #overlay {
 
     .swiper-button-disabled {
         opacity: 0.5 !important;
+    }
+}
+
+.row-address{
+    .col-details{
+        input{
+            outline: none;
+            &::placeholder{
+                font-size: 13px;
+            }
+        }
+        select{
+            outline: none;
+        }
+
     }
 }

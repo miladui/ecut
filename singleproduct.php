@@ -19,8 +19,6 @@
 <?php include 'loginModal.php'; ?>
 
 
-
-
 <section class="s-single-product mt-[55px]">
     <div class="p-single-product max-[900px]:hidden w-full h-[100vh] flex items-start">
         <div class="start pt-[1rem] px-[2rem] h-[95vh] overflow-y-auto w-[38%]">
@@ -98,14 +96,22 @@
                     <button class="btn-size en-num  bg-base-color text-white grid pt-[0.8px] w-[35px] h-[22px] rounded-[5px] text-[14px]">
                         50
                     </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">48</button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">50</button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">52</button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">54</button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">56</button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">58</button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">60</button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px]  h-[22px] rounded-[5px] text-[14px]">62</button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">48
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">50
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">52
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">54
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">56
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">58
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">60
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px]  h-[22px] rounded-[5px] text-[14px]">62
+                    </button>
                 </div>
                 <div class="w-full flex items-center justify-between mt-[2rem]">
                     <div class="flex items-center gap-[6px]">
@@ -882,6 +888,16 @@
         </div>
     </div>
     <div class="p-single-product-mobi p-single-product mt-[5rem] w-full flex flex-col items-center px-[12px] min-[901px]:hidden">
+        <div class="breadcrum  w-full mb-3">
+            <a class="text-[14px]" href="#">محصولات</a>
+            <span class="mx-[2px] text-[14px]">/</span>
+            <a class="text-[14px]" href="#">کلاسیک</a>
+            <span class="mx-[2px] text-[14px]">/</span>
+            <a class="text-[14px]" href="#"> کت وشلوار </a>
+            <span class="mx-[2px] text-[14px]">/</span>
+            <span class="font-bold en-num text-[14px]">کت و شلوار مدل PSU1153332</span>
+        </div>
+
         <div class="w-[95%] flex tab-content tab1 active flex-col items-center">
             <div class="single-img w-full">
                 <a class="link-video"
@@ -1036,7 +1052,7 @@
                    data-caption="Hello world"
                    data-fullscreen="true"
                 >
-                    <video id="myVideo" class="w-full rounded-[5px]"  autoplay loop muted>
+                    <video id="myVideo" class="w-full rounded-[5px]" autoplay loop muted>
                         <source src="https://media.ecut.shop/product/PJA/PJA1156128/PJA1156128.MP4"
                                 type="video/mp4">
                     </video>
@@ -1248,15 +1264,6 @@
             </div>
         </div>
 
-        <div class="breadcrum mt-[2rem] w-full mb-3">
-            <a class="text-[14px]" href="#">محصولات</a>
-            <span class="mx-[2px] text-[14px]">/</span>
-            <a class="text-[14px]" href="#">کلاسیک</a>
-            <span class="mx-[2px] text-[14px]">/</span>
-            <a class="text-[14px]" href="#"> کت وشلوار </a>
-            <span class="mx-[2px] text-[14px]">/</span>
-            <span class="font-bold en-num text-[14px]">کت و شلوار مدل PSU1153332</span>
-        </div>
         <div class="title-product mt-[2rem] w-full flex items-center justify-between">
             <h2 class="text-[20px] en-num font-bold">کت و شلوار مدل PSU1153332</h2>
             <div class="icons flex items-center gap-[8px]">
@@ -1276,13 +1283,13 @@
 </g>
 </svg>
                 </button>
-                <button class="btn-comparison">
+                <a href="./ProductComparison.php" class="btn-comparison">
                     <svg class="relative top-[4px]" width="43" height="43" xmlns="http://www.w3.org/2000/svg"
                          data-name="Layer 1" viewBox="0 0 100 125" x="0px" y="0px">
                         <path d="M50,80a2,2,0,0,1-2,2H44a2,2,0,0,1-2-2V76H30a6,6,0,0,1-6-6V30a6,6,0,0,1,6-6H42V20a2,2,0,0,1,2-2h4a2,2,0,0,1,2,2Zm8-12a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H70a6,6,0,0,0,6-6V30a6,6,0,0,0-6-6H58a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H68V68Z"/>
 
                     </svg>
-                </button>
+                </a>
                 <button class="btn-favorite">
                     <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1316,7 +1323,8 @@
             </span>
         </div>
         <div class="size mt-[1rem] en-num flex items-center justify-center w-full gap-[6px]">
-            <button class="btn-size pt-[1.6px] bg-[#000] text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">42</button>
+            <button class="btn-size pt-[1.6px] bg-[#000] text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">42
+            </button>
             <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">44</button>
             <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">46</button>
             <button class="btn-size pt-[1.6px] w-[35px] h-[22px] rounded-[5px] text-[14px]">48</button>
@@ -1332,7 +1340,8 @@
                 <button class="btn-ruler">
                     <svg xmlns="http://www.w3.org/2000/svg" width="70" height="17" viewBox="0 0 80 17" fill="none">
                         <g clip-path="url(#clip0_517_2614)">
-                            <path d="M-0.0195312 17.0033H79.9805V16.0127V1.11154V0.107883H-0.0195312V1.11154V16.0127V17.0033ZM76.2772 16.0127V12.1485H75.5321V16.0127H72.6966V8.78442H71.9418V16.0127H69.1063V12.1485H68.3611V16.0127H65.516V8.78442H64.7708V16.0127H61.9353V12.1485H61.1805V16.0127H58.345V8.78442H57.5998V16.0127H54.7547V12.1485H54.0095V16.0127H51.174V8.78442H50.4289V16.0127H47.5837V12.1485H46.8385V16.0127H44.003V8.78442H43.2482V16.0127H40.4127V12.1485H39.6676V16.0127H36.8321V8.78442H36.0772V16.0127H33.2418V12.1485H32.4966V16.0127H29.6514V8.78442H28.9063V16.0127H26.0708V12.1485H25.316V16.0127H22.4805V8.78442H21.7353V16.0127H18.8901V12.1485H18.145V16.0127H15.3095V8.78442H14.5643V16.0127H11.7192V12.1485H10.974V16.0127H8.13853V8.78442H7.38369V16.0127H4.54821V12.1485H3.80305V16.0127H0.967565V1.10827H78.9998V16.0127H76.2772Z" fill="#373435"></path>
+                            <path d="M-0.0195312 17.0033H79.9805V16.0127V1.11154V0.107883H-0.0195312V1.11154V16.0127V17.0033ZM76.2772 16.0127V12.1485H75.5321V16.0127H72.6966V8.78442H71.9418V16.0127H69.1063V12.1485H68.3611V16.0127H65.516V8.78442H64.7708V16.0127H61.9353V12.1485H61.1805V16.0127H58.345V8.78442H57.5998V16.0127H54.7547V12.1485H54.0095V16.0127H51.174V8.78442H50.4289V16.0127H47.5837V12.1485H46.8385V16.0127H44.003V8.78442H43.2482V16.0127H40.4127V12.1485H39.6676V16.0127H36.8321V8.78442H36.0772V16.0127H33.2418V12.1485H32.4966V16.0127H29.6514V8.78442H28.9063V16.0127H26.0708V12.1485H25.316V16.0127H22.4805V8.78442H21.7353V16.0127H18.8901V12.1485H18.145V16.0127H15.3095V8.78442H14.5643V16.0127H11.7192V12.1485H10.974V16.0127H8.13853V8.78442H7.38369V16.0127H4.54821V12.1485H3.80305V16.0127H0.967565V1.10827H78.9998V16.0127H76.2772Z"
+                                  fill="#373435"></path>
                         </g>
                         <defs>
                             <clipPath id="clip0_517_2614">
@@ -1347,7 +1356,9 @@
                 <button class="btn-metter">
                     <svg xmlns="http://www.w3.org/2000/svg" width="34" height="23" viewBox="0 0 34 23" fill="none">
                         <g clip-path="url(#clip0_517_2618)">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.52662 5.02646C8.84681 7.54049 21.1132 7.59799 20.3738 4.47063C20.0272 2.97882 15.9175 2.56035 14.1416 2.60188C12.8806 2.62104 11.6262 2.77118 10.5204 3.14813C9.67535 3.42604 8.39458 4.04257 8.52662 5.02646ZM13.0324 9.44757H33.2377L33.1486 22.2445L29.3987 22.2541V15.2295H28.547V22.2541L24.6056 22.2445V18.4591H23.7408V22.2349L19.8291 22.2541V15.2295H18.9676V22.1838L15.0064 22.2445V18.4591H14.1416V22.2445C12.633 22.203 11.5965 22.2158 10.2299 22.0848V15.2295H9.36836V21.9953C8.32196 21.8676 7.04778 21.6695 5.28176 21.3213V18.4591H4.43011V21.1424C3.39361 20.8645 1.9973 20.1681 1.43283 19.6826C0.303898 18.7178 0.6505 17.5742 0.6505 15.7758C0.6505 13.0637 0.406228 8.98118 0.68351 6.4384C2.50895 8.17618 9.43108 9.72549 13.0324 9.44757ZM11.1971 0.883266C20.8888 -0.0207621 33.8847 3.54424 25.2922 7.1316C19.9546 9.36771 7.06759 9.1984 2.50895 6.56618C1.72001 6.10938 0.24118 5.28521 1.08293 4.0234C2.48914 1.90549 8.73128 1.11327 11.1971 0.883266ZM28.7847 8.83104C28.7847 4.80604 29.7684 3.10021 24.401 1.42952C18.5583 -0.37854 9.27594 -0.359373 3.57846 1.7266C-0.887752 3.35577 -0.0162959 4.8284 -0.0162959 9.73507C-0.0162959 11.6517 -0.0162959 13.562 -0.0162959 15.4787C-0.0162959 17.7244 -0.30348 18.967 1.18526 20.0691C3.3738 21.6983 7.04778 22.3947 10.3322 22.7013C14.4816 23.0974 28.7616 22.8898 33.9177 22.8898V8.86299L28.7847 8.83104Z" fill="black"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M8.52662 5.02646C8.84681 7.54049 21.1132 7.59799 20.3738 4.47063C20.0272 2.97882 15.9175 2.56035 14.1416 2.60188C12.8806 2.62104 11.6262 2.77118 10.5204 3.14813C9.67535 3.42604 8.39458 4.04257 8.52662 5.02646ZM13.0324 9.44757H33.2377L33.1486 22.2445L29.3987 22.2541V15.2295H28.547V22.2541L24.6056 22.2445V18.4591H23.7408V22.2349L19.8291 22.2541V15.2295H18.9676V22.1838L15.0064 22.2445V18.4591H14.1416V22.2445C12.633 22.203 11.5965 22.2158 10.2299 22.0848V15.2295H9.36836V21.9953C8.32196 21.8676 7.04778 21.6695 5.28176 21.3213V18.4591H4.43011V21.1424C3.39361 20.8645 1.9973 20.1681 1.43283 19.6826C0.303898 18.7178 0.6505 17.5742 0.6505 15.7758C0.6505 13.0637 0.406228 8.98118 0.68351 6.4384C2.50895 8.17618 9.43108 9.72549 13.0324 9.44757ZM11.1971 0.883266C20.8888 -0.0207621 33.8847 3.54424 25.2922 7.1316C19.9546 9.36771 7.06759 9.1984 2.50895 6.56618C1.72001 6.10938 0.24118 5.28521 1.08293 4.0234C2.48914 1.90549 8.73128 1.11327 11.1971 0.883266ZM28.7847 8.83104C28.7847 4.80604 29.7684 3.10021 24.401 1.42952C18.5583 -0.37854 9.27594 -0.359373 3.57846 1.7266C-0.887752 3.35577 -0.0162959 4.8284 -0.0162959 9.73507C-0.0162959 11.6517 -0.0162959 13.562 -0.0162959 15.4787C-0.0162959 17.7244 -0.30348 18.967 1.18526 20.0691C3.3738 21.6983 7.04778 22.3947 10.3322 22.7013C14.4816 23.0974 28.7616 22.8898 33.9177 22.8898V8.86299L28.7847 8.83104Z"
+                                  fill="black"></path>
                         </g>
                         <defs>
                             <clipPath id="clip0_517_2618">
@@ -1483,8 +1494,8 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                <span class="text-[14px] text">تی شرت 1698</span>
+                                <strong class="text-[14px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
@@ -1531,8 +1542,8 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                <span class="text-[14px]  text">تی شرت 1698</span>
+                                <strong class="text-[14px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
@@ -1580,8 +1591,8 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                <span class="text-[14px]  text">تی شرت 1698</span>
+                                <strong class="text-[14px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
@@ -1629,8 +1640,8 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                <span class="text-[14px] text">تی شرت 1698</span>
+                                <strong class="text-[14px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
@@ -1679,8 +1690,8 @@
                                      alt="">
                             </a>
                             <div class="w-full flex mt-[1rem] items-center justify-between">
-                                <span class="text-[12px] font-bold text">تی شرت 1698</span>
-                                <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                <span class="text-[14px]  text">تی شرت 1698</span>
+                                <strong class="text-[14px] price">1,385,300 تومان</strong>
                             </div>
                             <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
                                 <div class="colors flex items-center gap-[12px]">
@@ -1738,7 +1749,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
-                            <a  class="w-full p-img h-[32vh] overflow-hidden  relative" href="./singleproduct.php">
+                            <a class="w-full p-img h-[32vh] overflow-hidden  relative" href="./singleproduct.php">
                                 <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
                                     <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
                                          xmlns="http://www.w3.org/2000/svg"
@@ -1758,7 +1769,8 @@
                                 </div>
 
                                 <img id="img-t2" class="w-full h-full img-main fade object-cover"
-                                     src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
+                                     src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
+                                     alt="">
                                 <img id="img-t2-hover" class="w-full h-full img-hover object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                      alt="">
@@ -1776,13 +1788,15 @@
                                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                                           class="color-option w-[15px] h-[15px]"
                                                           onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-three-hover', this.dataset.image2 ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
                                             </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                           class="color-option w-[15px] h-[15px]"
                                           onclick="changeImage('img-t2', this.dataset.image ,this) ; changeImage('img-t2-hover', this.dataset.image2 ,this)">
-                                                        <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
+                                                        <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                             alt="">
                                                     </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
@@ -1825,7 +1839,8 @@
                                 </div>
 
                                 <img id="img-t1" class="w-full h-full img-main fade object-cover"
-                                     src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg" alt="">
+                                     src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
+                                     alt="">
                                 <img id="img-t1-hover" class="w-full h-full img-hover object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                      alt="">
@@ -1842,13 +1857,15 @@
                                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                                           class="color-option w-[15px] h-[15px]"
                                                           onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-three-hover', this.dataset.image2 ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
                                             </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                           class="color-option w-[15px] h-[15px]"
                                           onclick="changeImage('img-t1', this.dataset.image ,this) ; changeImage('img-t1-hover', this.dataset.image2 ,this)">
-                                                        <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
+                                                        <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                             alt="">
                                                     </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
@@ -1891,7 +1908,8 @@
                                 </div>
 
                                 <img id="img-t3" class="w-full h-full img-main fade object-cover"
-                                     src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg" alt="">
+                                     src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
+                                     alt="">
                                 <img id="img-t3-hover" class="w-full h-full img-hover object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
                                      alt="">
@@ -1908,13 +1926,15 @@
                                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                                           class="color-option w-[15px] h-[15px]"
                                                           onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-three-hover', this.dataset.image2 ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
                                             </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                           class="color-option w-[15px] h-[15px]"
                                           onclick="changeImage('img-t3', this.dataset.image ,this) ; changeImage('img-t3-hover', this.dataset.image2 ,this)">
-                                                        <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
+                                                        <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                             alt="">
                                                     </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
@@ -1958,7 +1978,8 @@
                                 </div>
 
                                 <img id="img-t4" class="w-full h-full img-main fade object-cover"
-                                     src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg" alt="">
+                                     src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
+                                     alt="">
                                 <img id="img-t4-hover" class="w-full h-full img-hover object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-02.jpg"
                                      alt="">
@@ -1975,13 +1996,15 @@
                                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                                           class="color-option w-[15px] h-[15px]"
                                                           onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-three-hover', this.dataset.image2 ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
                                             </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                           class="color-option w-[15px] h-[15px]"
                                           onclick="changeImage('img-t4', this.dataset.image ,this) ; changeImage('img-t4-hover', this.dataset.image2 ,this)">
-                                                        <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
+                                                        <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                             alt="">
                                                     </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
@@ -2024,7 +2047,8 @@
                                 </div>
 
                                 <img id="img-t5" class="w-full h-full img-main fade object-cover"
-                                     src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg" alt="">
+                                     src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
+                                     alt="">
                                 <img id="img-t5-hover" class="w-full h-full img-hover object-cover"
                                      src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-02.jpg"
                                      alt="">
@@ -2041,13 +2065,15 @@
                                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
                                                           class="color-option w-[15px] h-[15px]"
                                                           onclick="changeImage('img-three', this.dataset.image ,this) ; changeImage('img-three-hover', this.dataset.image2 ,this)">
-                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg" alt="">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
                                             </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
                                           class="color-option w-[15px] h-[15px]"
                                           onclick="changeImage('img-t5', this.dataset.image ,this) ; changeImage('img-t5-hover', this.dataset.image2 ,this)">
-                                                        <img class="w-full h-full" src="assets/images/color2.jpg" alt="">
+                                                        <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                             alt="">
                                                     </span>
                                     <span data-image="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
                                           data-image2="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
@@ -2094,6 +2120,7 @@
         </div>
 
     </div>
+    <!--style-desktop-->
     <div class="w-full max-[900px]:hidden row-five mb-[5rem] mt-[2rem]">
         <div class="w-[60%] max-[900px]:w-full max-[900px]:px-[6px] flex flex-col items-center mx-auto">
             <div class="w-full mb-[2rem] title flex justify-center">
@@ -2396,6 +2423,7 @@
             </div>
         </div>
     </div>
+    <!--style-mobile-->
     <div class="w-full min-[901px]:hidden mobile-style row-five mb-[5rem] mt-[2rem]">
         <div class="w-[60%] max-[900px]:w-full max-[900px]:px-[6px] flex flex-col items-center mx-auto">
             <div class="w-full mb-[2rem] title flex justify-center">
@@ -2414,78 +2442,54 @@
                         </div>
                         <div class="swiper w-full overflow-hidden swiper-two-cols">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
                                             <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
-                                        </div>
-                                    </div></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2520,78 +2524,54 @@
                         </div>
                         <div class="swiper w-full overflow-hidden swiper-two-cols">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
                                             <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
-                                        </div>
-                                    </div></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2626,78 +2606,54 @@
                         </div>
                         <div class="swiper w-full overflow-hidden swiper-two-cols">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
                                             <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
-                                        </div>
-                                    </div></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2732,78 +2688,54 @@
                         </div>
                         <div class="swiper w-full overflow-hidden swiper-two-cols">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
                                             <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
-                                        </div>
-                                    </div></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2838,78 +2770,54 @@
                         </div>
                         <div class="swiper w-full overflow-hidden swiper-two-cols">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
                                              alt="">
 
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
+                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a>
+                                            </h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img-gallery  overflow-hidden relative h-full w-full">
                                         <img class="object-cover h-full w-full"
                                              src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
                                              alt="">
                                         <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
                                             <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
                                         </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
-                                             alt="">
-
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XST/XST1157095/cover/Shirt-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">پیراهن پشمی 7095</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/XTR/XTR1156252/cover/pants-02.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">شلوار فاستونی 6252</a></h3>
-                                        </div>
-                                    </div></div>
-                                <div class="swiper-slide"><div class="img-gallery  overflow-hidden relative h-full w-full">
-                                        <img class="object-cover h-full w-full"
-                                             src="https://media.ecut.shop/product/PSH/PSH1155512/cover/shoes-01.jpg"
-                                             alt="">
-                                        <div class="details-img h-[70px] gap-[6px] w-full flex flex-col items-center justify-center p-[1rem] bg-[#ffffff95] absolute right-0 z-10">
-                                            <h3 class="en-num font-bold text-[14px]"><a href="">کفش کلاسیک 5512</a></h3>
-                                        </div>
-                                    </div></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2942,8 +2850,9 @@
     <div class="box-ruler relative  p-[1rem] z-10 w-[33%] max-[900px]:w-full min-[2000px]:w-[20%] h-full bg-white flex flex-col items-center">
         <div class="row-close mb-[3rem] w-full flex justify-end">
             <button class="btn-close-modal-ruler p-[4px]">
-                <svg  width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                          fill="#777777"></path>
                 </svg>
             </button>
         </div>
@@ -3018,8 +2927,9 @@
         <div class="open_menu4">
             <div class="menu-content4">
                 <div class="menu-btn4 close-modal-size">
-                    <svg  width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                              fill="#777777"></path>
                     </svg>
                 </div>
                 <div class="content">
@@ -3036,12 +2946,14 @@
                                                     <div class="contenttabs">
                                                         <div class="titleboxtab">
                                                             <span>مدیریت نمایه‌ها</span>
-                                                            <p>در اینجا می‌توانید نمایه خود یا شخص دیگری که برایش خرید <br/>می‌کنید
+                                                            <p>در اینجا می‌توانید نمایه خود یا شخص دیگری که برایش خرید
+                                                                <br/>می‌کنید
                                                                 را انتخاب کرده و یا نمایه جدیدی بسازید.</p>
                                                         </div>
                                                         <div class="namaboxs">
                                                             <span>انتخاب نمابه</span>
-                                                            <p>توجه: بر روی هر یک از نمایه‌های زیر کلیک کنید <br/>آن نمایه
+                                                            <p>توجه: بر روی هر یک از نمایه‌های زیر کلیک کنید <br/>آن
+                                                                نمایه
                                                                 فعال
                                                                 می‌شود.</p>
                                                             <div class="namabox">
@@ -3091,9 +3003,11 @@
 
 
                                                         <div class="button-row mt-[1rem] showdatambl">
-                                                            <p>اگر می‌خواهید برای شخص دیگری خــــرید کنید می‌توانید با کلیک
+                                                            <p>اگر می‌خواهید برای شخص دیگری خــــرید کنید می‌توانید با
+                                                                کلیک
                                                                 بر
-                                                                روی دکمه "افــزودن نمایه جدید" یک نمایه با نام و مشخصات وی
+                                                                روی دکمه "افــزودن نمایه جدید" یک نمایه با نام و مشخصات
+                                                                وی
                                                                 بسازید</p>
 
 
@@ -3105,7 +3019,8 @@
                                                                     <svg fill="#fff" version="1.1" id="Capa_1"
                                                                          xmlns="http://www.w3.org/2000/svg"
                                                                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                         width="10" height="10" viewBox="0 0 45.402 45.402"
+                                                                         width="10" height="10"
+                                                                         viewBox="0 0 45.402 45.402"
                                                                          xml:space="preserve">
 <g>
     <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141
@@ -3163,7 +3078,8 @@
                                                     <div class="contenttabs">
                                                         <div class="titleboxtab">
                                                             <span>فرم سینه شما </span>
-                                                            <p>از میان سه فرم سینه زیر یکی که به بدن شما <br/>نزدیکتر است را
+                                                            <p>از میان سه فرم سینه زیر یکی که به بدن شما <br/>نزدیکتر
+                                                                است را
                                                                 انتخاب کنید</p>
                                                         </div>
                                                         <div class="image_radio_button_control w-full flex flex-col items-center">
@@ -3201,7 +3117,8 @@
                                                     <div class="contenttabs">
                                                         <div class="titleboxtab">
                                                             <span>فرم شکم شما</span>
-                                                            <p>از میان سه فرم شکمی زیر یکی که به بدن شما <br/>نزدیکتر است را
+                                                            <p>از میان سه فرم شکمی زیر یکی که به بدن شما <br/>نزدیکتر
+                                                                است را
                                                                 انتخاب کنید</p>
                                                         </div>
                                                         <div class="image_radio_button_control w-full flex flex-col items-center">
@@ -3239,7 +3156,8 @@
                                                     <div class="contenttabs">
                                                         <div class="titleboxtab">
                                                             <span>حالت و سبک لباس</span>
-                                                            <p>چه نوع برشی را برای لباس انتخابی خود می‌پسندید <br/>از میان
+                                                            <p>چه نوع برشی را برای لباس انتخابی خود می‌پسندید <br/>از
+                                                                میان
                                                                 حالات
                                                                 زیر یکی را انتخاب کنید</p>
                                                         </div>
@@ -3317,7 +3235,8 @@
                                                     <div class="contenttabs">
                                                         <div class="titleboxtab">
                                                             <span>اطلاعات دریافتی از شما</span>
-                                                            <p>این اطلاعات به عنوان راهنمایی برای پیشنهاد سایز مناسب به شما
+                                                            <p>این اطلاعات به عنوان راهنمایی برای پیشنهاد سایز مناسب به
+                                                                شما
                                                                 استفاده می‌شود.</p>
                                                         </div>
                                                         <div class="datatablesize">
@@ -3350,7 +3269,8 @@
                                                                     <svg fill="#fff" version="1.1" id="Capa_1"
                                                                          xmlns="http://www.w3.org/2000/svg"
                                                                          xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                         width="10" height="10" viewBox="0 0 45.402 45.402"
+                                                                         width="10" height="10"
+                                                                         viewBox="0 0 45.402 45.402"
                                                                          xml:space="preserve">
 <g>
     <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141
@@ -3390,12 +3310,15 @@
     <div class="box-share relative  p-[1rem] z-10 w-[33%] max-[900px]:w-full min-[2000px]:w-[20%] h-full bg-white flex flex-col">
         <div class="row-close w-full flex justify-between items-center px-[1.5rem]">
             <h3 class="title">اشتراک گذاری</h3>
-            <svg  class="close-share" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
+            <svg class="close-share" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                      fill="#777777"></path>
             </svg>
         </div>
         <div class="row-middle flex justify-between  items-center">
-            <img class="img-share " src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg" alt="">
+            <img class="img-share " src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
+                 alt="">
             <div class="p-icons flex flex-col">
                 <div class="title-product w-100 flex justify-center">
                     <h4 class="text-[16px]">کت تک 6036</h4>
@@ -3452,8 +3375,9 @@
     <div class="modal-gallery-product relative  p-[1rem] z-10 w-[27%] max-[900px]:w-full min-[2000px]:w-[20%] h-full bg-white flex flex-col">
         <div class="row-close flex justify-end w-full">
             <button class="close-modal-gallery">
-                <svg  width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                          fill="#777777"></path>
                 </svg>
             </button>
         </div>
@@ -3959,7 +3883,6 @@
     });
 
 
-
     // box-share
     function copyLink(link) {
         navigator.clipboard.writeText(link).then(function () {
@@ -3968,8 +3891,6 @@
             console.error('خطا در کپی لینک: ', err);
         });
     }
-
-
 
 
     $(document).ready(function () {

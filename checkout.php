@@ -90,7 +90,8 @@
                             <span class="text-[#777777] text-[14px]">تلفن :</span>
                             <span class="text-[#777777] text-[14px]">09121266804</span>
                         </div>
-                        <button class="btn-base-two btn-address px-[1.3rem] h-[45px] text-[13px] mt-[1rem]">تغییر یا ویرایش آدرس
+                        <button class="btn-base-two btn-address px-[1.3rem] h-[45px] text-[13px] mt-[1rem]">تغییر یا
+                            ویرایش آدرس
                         </button>
                     </div>
                     <div class="shipping-method max-[900px]:mt-[1.5rem] w-[37%] max-[900px]:w-full flex flex-col items-center">
@@ -101,7 +102,8 @@
 
                             </div>
                             <div class="img rounded-[4px] mx-[13px] overflow-hidden bg-base-color-two flex items-center justify-center w-[45px] h-[45px]">
-                                <img width="60%" style="filter: invert(1)" src="assets/images/Icons/truck-minus-outline.png" alt="">
+                                <img width="60%" style="filter: invert(1)"
+                                     src="assets/images/Icons/truck-minus-outline.png" alt="">
                             </div>
                             <span class="text-[#777777] text-[14px]">ارسال با پست پیشتاز</span>
                         </div>
@@ -112,7 +114,8 @@
 
                             </div>
                             <div class="img rounded-[4px] mx-[13px] overflow-hidden bg-base-color-two flex items-center justify-center w-[45px] h-[45px]">
-                                <img width="60%" style="filter: invert(1)" src="assets/images/Icons/human-dolly.svg" alt="">
+                                <img width="60%" style="filter: invert(1)" src="assets/images/Icons/human-dolly.svg"
+                                     alt="">
                             </div>
                             <span class="text-[#777777] text-[14px]">ارسال توسط پیک</span>
                         </div>
@@ -176,7 +179,11 @@
                                 <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
                                 <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z" /></svg></button>
+                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                                    <path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z"/>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -199,7 +206,11 @@
                                 <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
                                 <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z" /></svg></button>
+                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                                    <path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z"/>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -222,7 +233,11 @@
                                 <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
                                 <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z" /></svg></button>
+                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                                    <path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z"/>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -245,7 +260,11 @@
                                 <strong class="text-[14px] max-[600px]:text-[13px]">23,100,000</strong>
                                 <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z" /></svg></button>
+                            <button class="text-[13px] max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                                    <path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z"/>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -261,7 +280,11 @@
                                 <strong class="text-[14px] max-[600px]:text-[13px]">24,100,000</strong>
                                 <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] invisible max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z" /></svg></button>
+                            <button class="text-[13px] invisible max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                                    <path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z"/>
+                                </svg>
+                            </button>
 
                         </div>
                     </div>
@@ -278,7 +301,11 @@
                                 <strong class="text-[14px] max-[600px]:text-[13px]">24,100,000</strong>
                                 <span class="text-[14px] max-[600px]:text-[13px]">تومان</span>
                             </div>
-                            <button class="text-[13px] invisible max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z" /></svg></button>
+                            <button class="text-[13px] invisible max-[600px]:text-[12px] w-[18%] mr-[1rem] flex justify-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                                    <path d="M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19H5V5H12V3H5M17.78,4C17.61,4 17.43,4.07 17.3,4.2L16.08,5.41L18.58,7.91L19.8,6.7C20.06,6.44 20.06,6 19.8,5.75L18.25,4.2C18.12,4.07 17.95,4 17.78,4M15.37,6.12L8,13.5V16H10.5L17.87,8.62L15.37,6.12Z"/>
+                                </svg>
+                            </button>
                         </div>
 
                     </div>
@@ -294,7 +321,9 @@
                         سامان
                     </button>
                 </div>
-                <button onclick="window.location.replace('Unsuccessful.php')" class="w-full btn-payment h-[40px] rounded-[6px] mt-[1rem] btn-base-two">پرداخت</button>
+                <button onclick="window.location.replace('Unsuccessful.php')"
+                        class="w-full btn-payment h-[40px] rounded-[6px] mt-[1rem] btn-base-two">پرداخت
+                </button>
             </div>
         </div>
     </div>
@@ -305,8 +334,9 @@
     <div class="modal-one w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
         <div class="row-close-modal flex items-center justify-end w-full">
             <button class="close-modal-one">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#ff0000"/>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                          fill="#777777"></path>
                 </svg>
             </button>
         </div>
@@ -318,8 +348,9 @@
     <div class="modal-two w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
         <div class="row-close-modal flex items-center justify-end w-full">
             <button class="close-modal-two">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#ff0000"/>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                          fill="#777777"></path>
                 </svg>
             </button>
         </div>
@@ -331,8 +362,9 @@
     <div class="modal-three w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
         <div class="row-close-modal flex items-center justify-end w-full">
             <button class="close-modal-three">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#ff0000"/>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                          fill="#777777"></path>
                 </svg>
             </button>
         </div>
@@ -344,8 +376,9 @@
     <div class="modal-four w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
         <div class="row-close-modal flex items-center justify-end w-full">
             <button class="close-modal-four">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#ff0000"/>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                          fill="#777777"></path>
                 </svg>
             </button>
             <h1>کد تخفیف </h1>
@@ -354,16 +387,63 @@
 </div>
 <div class="p-modal-address  flex items-start pt-[2rem] justify-center fixed z-[9999] right-0 top-0 h-[100vh] w-full">
     <div class="bg-dark-fix absolute w-full h-full right-0 top-0 z-[-1px] bg-[#00000099]"></div>
-    <div class="modal-address w-[30%] relative z-[10px] h-[300px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
-        <div class="row-close-modal border-b-[1px] border-[#777] pb-[1rem] flex items-center justify-between w-full">
-            <h4 class="font-bold text-base-color text-[16px]">افزودن آدرس</h4>
-            <button class="close-modal-address">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#ff0000"/>
-                </svg>
-            </button>
-        </div>
+    <div class="modal-address w-full absolute top-0 z-[10px] h-[100vh] bg-white flex flex-col items-center justify-start">
+        <div class="row-address w-full grid grid-cols-2">
+            <div class="col-map border-l-[1px] border-[#000] w-full h-[full] flex flex-col items-start">
+                <div class="top h-[10vh] border-b-[1px] border-[#000] w-full flex items-center justify-center">
+                    <span class="w-full text-[14px] text-center text-[#ccc] pt-[12px]">جستجوی مکان مورد نظر روی نقشه</span>
+                </div>
+                <div class="bottom w-full h-[90vh]">
+                    <iframe class="w-full h-full"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.637503204209!2d51.43061927559551!3d35.759713572562035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e069f765661e5%3A0x171db066b87b3816!2sEcut!5e0!3m2!1sen!2snl!4v1742192840659!5m2!1sen!2snl"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-details  w-full h-[full] flex flex-col items-start">
+                <div class="top h-[10vh] border-b-[1px] border-[#000] w-full flex items-center justify-center">
+                    <h3 class="w-full text-[16px] text-center text-[#000]">جزییات آدرس</h3>
+                </div>
+                <div class="bottom flex mt-[10px] flex-col w-full  h-[90vh]">
+                    <div class="invalid-row flex w-full font-bold justify-center text-[15px] text-red-500">نام و مشخصات
+                        معتبر خود را وارد کنید
+                    </div>
+                    <form class="form px-[2rem] mt-[1.5rem] gap-[2rem] w-full flex items-start justify-between"
+                          action="">
+                        <div class="start w-1/3">
+                            <div class="inp flex flex-col items-center gap-[5px]">
+                                <label class="text-[15px]" for="">نام و نام خانوادگی <span
+                                            class="text-red-500 relative top-[2px]">*</span></label>
+                                <input class="text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]"
+                                       type="text" placeholder="نام خود را وارد کنید">
+                            </div>
+                            <div class="select flex mt-[2rem] flex-col items-center gap-[5px]">
+                                <label class="text-[15px]" for=""> استان <span class="text-red-500 relative top-[2px]">*</span></label>
+                                <select class="bg-[#f4f4f4] text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]" name="" id="">
+                                    <option selected disabled value="">انتخاب استان</option>
+                                    <option  value="">تهران</option>
+                                    <option  value="">تهران</option>
+                                    <option  value="">تهران</option>
+                                    <option  value="">تهران</option>
+                                </select>
+                            </div>
+                            <div class="select flex mt-[2rem] flex-col items-center gap-[5px]">
+                                <label class="text-[15px]" for=""> شهر <span class="text-red-500 relative top-[2px]">*</span></label>
+                                <select class="bg-[#f4f4f4] text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]" name="" id="">
+                                    <option selected disabled value="">انتخاب شهر</option>
+                                    <option  value="">تهران</option>
+                                    <option  value="">تهران</option>
+                                    <option  value="">تهران</option>
+                                    <option  value="">تهران</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="end w-1/3"></div>
+                    </form>
+                </div>
+            </div>
 
+        </div>
     </div>
 </div>
 

@@ -3,18 +3,22 @@
 <?php include 'loginModal.php'; ?>
 
 <section class="s-organizational max-[700px]:px-[12px] max-[800px]:mt-[5rem] mt-[8rem]">
-            <div class="c-container-pages">
-                <div class="a-section-marquee-box">
-                    <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در تـولیـد و عرضه
+    <div class="c-container-pages">
+        <div class="a-section-marquee-box">
+            <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در
+                تـولیـد و عرضه
                 پـوشـاک مـردانه، افتخـار دارد که خـدمات ویــژه‌ای در زمینه فــروش ســازمــانی به شـــــرکت‌ها،
                 ادارات و نهادهای خصوصی و دولتی ارائه دهد. </h2>
-            <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در تـولیـد و عرضه
+            <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در
+                تـولیـد و عرضه
                 پـوشـاک مـردانه، افتخـار دارد که خـدمات ویــژه‌ای در زمینه فــروش ســازمــانی به شـــــرکت‌ها،
                 ادارات و نهادهای خصوصی و دولتی ارائه دهد. </h2>
-            <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در تـولیـد و عرضه
+            <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در
+                تـولیـد و عرضه
                 پـوشـاک مـردانه، افتخـار دارد که خـدمات ویــژه‌ای در زمینه فــروش ســازمــانی به شـــــرکت‌ها،
                 ادارات و نهادهای خصوصی و دولتی ارائه دهد. </h2>
-            <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در تـولیـد و عرضه
+            <h2 class="marquee-text max-[600px]:text-[13px]">پـوشـاک مردانـه ایکات با بیش از 35 سال سابقـه درخـشان در
+                تـولیـد و عرضه
                 پـوشـاک مـردانه، افتخـار دارد که خـدمات ویــژه‌ای در زمینه فــروش ســازمــانی به شـــــرکت‌ها،
                 ادارات و نهادهای خصوصی و دولتی ارائه دهد. </h2>
         </div>
@@ -63,18 +67,22 @@
                     <h3 class="font-bold">ویژگی‌ها و مزایای ایکات کارت:</h3>
                 </div>
                 <ul class="options">
-                    <li class="text-justify mt-[4px] text-[15px]">مبالغ دلخواه و مشخص: شرکت‌ها می‌توانند مبلغ کارت‌های اعتباری را به دلخواه و بر
+                    <li class="text-justify mt-[4px] text-[15px]">مبالغ دلخواه و مشخص: شرکت‌ها می‌توانند مبلغ کارت‌های
+                        اعتباری را به دلخواه و بر
                         اساس نیاز و تعداد کارکنان خود تعیین کنند.
                     </li>
-                    <li class="text-justify mt-[4px] text-[15px]">خرید آسان و سریع: پرسنل شرکت می‌توانند از فروشگاه‌های منتخب ایکات، محصولات مختلف را به راحتی و
+                    <li class="text-justify mt-[4px] text-[15px]">خرید آسان و سریع: پرسنل شرکت می‌توانند از فروشگاه‌های
+                        منتخب ایکات، محصولات مختلف را به راحتی و
                         با استفاده از کارت‌های
                         اعتباری خود خریداری کنند.
                     </li>
-                    <li class="text-justify mt-[4px] text-[15px]">مدیریت آسان: ایکات کارت به شرکت‌ها این امکان را می‌دهد که به‌صورت متمرکز و بدون نیاز به پرداخت
+                    <li class="text-justify mt-[4px] text-[15px]">مدیریت آسان: ایکات کارت به شرکت‌ها این امکان را می‌دهد
+                        که به‌صورت متمرکز و بدون نیاز به پرداخت
                         نقدی، فرآیند خرید کالا و
                         خدمات را برای کارکنان خود مدیریت کنند.
                     </li>
-                    <li class="text-justify mt-[4px] text-[15px]">امنیت بالا: کارت‌های اعتباری ایکات از سیستم‌های امن برای انجام تراکنش‌ها برخوردارند تا فرآیند
+                    <li class="text-justify mt-[4px] text-[15px]">امنیت بالا: کارت‌های اعتباری ایکات از سیستم‌های امن
+                        برای انجام تراکنش‌ها برخوردارند تا فرآیند
                         خرید را با خیالی آسوده انجام دهید.
                     </li>
 
@@ -172,7 +180,8 @@
 
         </div>
         <div class="customers w-full flex flex-col items-center">
-            <h3 class="text-[17px] mb-[2.5rem] max-[900px]:text-[15px] font-bold">مورد اعتماد بیش از 1000 شرکت، سازمان، موسسه و بانک</h3>
+            <h3 class="text-[17px] mb-[2.5rem] max-[900px]:text-[15px] font-bold">مورد اعتماد بیش از 1000 شرکت، سازمان،
+                موسسه و بانک</h3>
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide">
@@ -228,15 +237,18 @@
 <section class="p-box-organizational py-[5rem] my-[3rem] w-full">
     <div class="c-container-pages">
         <div class="w-full flex flex-col items-center">
-            <h2 class="text-white text-[24px] max-[900px]:text-[15px] my-[2rem] font-bold">کیفیت، استایل، راحتی در یک بسته‌ی سازمانی</h2>
-            <p class="text-white max-[900px]:text-[13px] max-[900px]:w-[90%] leading-[24px] w-1/2 text-justify">برای ایجاد اطمینان و تسهیل در فرآیند خرید، پوشاک ایکات فرصتی فراهم کرده است تــــا سازمان‌ها
+            <h2 class="text-white text-[24px] max-[900px]:text-[15px] my-[2rem] font-bold">کیفیت، استایل، راحتی در یک
+                بسته‌ی سازمانی</h2>
+            <p class="text-white max-[900px]:text-[13px] max-[900px]:w-[90%] leading-[24px] w-1/2 text-justify">برای
+                ایجاد اطمینان و تسهیل در فرآیند خرید، پوشاک ایکات فرصتی فراهم کرده است تــــا سازمان‌ها
                 بتوانند از طریق دفتر مرکزی و فروشگاه اینترنتی ما به‌صورت مستقیم، بــه تمـــامی محصولات ایکات
                 دسترسی داشته باشند و به آسانی انتخاب کنند. شما می‌توانید با ارتباط با مشاوران فروش سازمانی
                 ما، از میان انواع پارچه‌های باکیفیت موجود، انتخاب‌های خود را سفارشی‌ســــازی کنید و از تسهیلات
                 ویژه خرید سازمانی بهره‌مند شوید. این تسهیلات به شما کمـک می‌کند تا تـجربه خــــریدی ارزشمند و
                 منحصربه‌فرد داشته باشید که کاملاً با نیازهای سازمان شما همخوانی دارد.</p>
             <img class="w-[170px] my-[3rem]" src="assets/images/orgdescmn.png">
-            <p class="text-white max-[900px]:text-[14px] max-[900px]:px-[10px] leading-[28px] text-center text-[16px]">برای کسب اطلاعات بیشتر و دریافت مشاوره، با واحد فــروش سازمانی تماس بگیرید
+            <p class="text-white max-[900px]:text-[14px] max-[900px]:px-[10px] leading-[28px] text-center text-[16px]">
+                برای کسب اطلاعات بیشتر و دریافت مشاوره، با واحد فــروش سازمانی تماس بگیرید
                 <br>
                 نشانی: تهران، بلوار میرداماد، نبش خیابان کازرون جنوبی، ساختمان ایکات پلاک 202
                 <br>
@@ -247,26 +259,48 @@
 <section class="s-form">
     <div class="c-container-pages">
         <div class="w-full flex justify-center">
-            <div class="w-[70%] sm:h-[800px] 2xl:h-[1100px] max-[800px]:w-full flex justify-center">
-                <div class="form-wizard">
-                    <div class="steps">
+            <div class="w-[70%] sm:h-[800px] 2xl:h-[1100px] max-[800px]:w-full max-[900px]:px-[12px] flex justify-center">
+                <div class="form-wizard  max-[900px]:overflow-hidden">
+                   <div class="w-full max-[900px]:hidden">
+                       <div class="steps">
+                           <span class="formtt relative top-[5px] text-base-two">فرم ثبت درخواست مشاوره</span>
+                           <ul style="padding: 0 !important;background: #646464 !important;margin-top: 0 !important;"
+                               class="tabs">
+                               <li class="active active-tab max-[800px]:text-[13px]">
+                                   <span class="hidden">1</span>
+                                   مشخصات شرکت/سازمان
+                               </li>
+                               <li class="max-[800px]:text-[13px]">
+                                   <span class="hidden">2</span>
+                                   مشخصات سفارش
+                               </li>
 
-                        <span class="formtt relative top-[5px] text-base-two">فرم ثبت درخواست مشاوره</span>
-                        <ul style="padding: 0 !important;background: #646464 !important;margin-top: 0 !important;" class="tabs">
-                            <li class="active max-[800px]:text-[13px]">
-                                <span class="hidden">1</span>
-                                مشخصات شرکت/سازمان
-                            </li>
-                            <li class="max-[800px]:text-[13px]">
-                                <span  class="hidden">2</span>
-                                مشخصات سفارش
-                            </li>
+                               <li class="max-[800px]:text-[13px]">
+                                   <span class="hidden">3</span>
+                                   مشخصات مسئول خرید/درخواست کننده
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+                    <div class="w-full min-[901px]:hidden">
+                        <div class="steps">
+                            <span style="border-radius: 50px 50px 0 0" class="text-white w-full flex items-center justify-center bg-[#161D25] py-[6px]  text-[14px]"> درخواست مشاوره</span>
+                            <ul class="tabs">
+                                <li class="active active-tab max-[800px]:text-[13px] li-first">
+                                    <span class="hidden">1</span>
+                                    متقاضی
+                                </li>
+                                <li class="max-[800px]:text-[13px] li-first">
+                                    <span class="hidden">2</span>
+                                    سازمان
+                                </li>
 
-                            <li class="max-[800px]:text-[13px]">
-                                <span  class="hidden">3</span>
-                                مشخصات مسئول خرید/درخواست کننده
-                            </li>
-                        </ul>
+                                <li class="max-[800px]:text-[13px] li-last">
+                                    <span class="hidden">3</span>
+                                    درخواست
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="myContainer">
                         <div class="form-container active flipInX">
@@ -293,8 +327,12 @@
                                         <textarea></textarea>
                                     </div>
                                     <div class="w-full form-group rtyp form-group-btn">
-                                        <button class="btn btn-primary next flex items-center justify-center relative" type="button">ادامه
-                                            <svg class="absolute rotate-180  left-[20px]" fill="#fff" width="20" height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                                        <button class="btn btn-primary next flex items-center justify-center relative"
+                                                type="button">ادامه
+                                            <svg class="absolute rotate-180  left-[20px]" fill="#fff" width="20"
+                                                 height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                                            </svg>
 
                                         </button>
                                     </div>
@@ -303,14 +341,13 @@
                         </div>
                         <div class="form-container tb2">
                             <form>
-
                                 <ul class="tabs tabs-radio-button max-[800px]:flex max-[800px]:items-center">
-                                    <li class="active-tab">محصول سفارشی</li>
+                                    <li>محصول سفارشی</li>
                                     <li>ایکارت کارت</li>
                                 </ul>
 
                                 <div class="tabs-content">
-                                    <div class="datadfkk" style="display: block;">
+                                    <div class="datadfkk">
                                         <div class="flex justify-center flex-wrap fgbx">
                                             <div class="w-[50%] max-[800px]:w-full form-groups">
                       <span class="form-group">
@@ -385,7 +422,8 @@
                           <label for="frfr15">سایر موارد </label>
                         </span>
                                                     <label>عنوان محصول </label>
-                                                    <input type="text" name="frfr2" class="nmms" placeholder="کلاه افتاب گیر ">
+                                                    <input type="text" name="frfr2" class="nmms"
+                                                           placeholder="کلاه افتاب گیر ">
                                                     <input type="text" name="frfr2" class="nmmf" placeholder="50">
                                                     <label>عدد </label>
                                                 </div>
@@ -402,22 +440,28 @@
                                                     <span>انتخاب عکس :</span>
                                                     <div class="flex justify-center flex-wrap">
                                                         <div class="px-[12px] max-[800px]:w-full w-[50%]">
-                                                            <p class="max-[800px]:text-[14px] max-[800px]:text-center">تصویر محصول یا رنگ مورد نظر
+                                                            <p class="max-[800px]:text-[14px] max-[800px]:text-center">
+                                                                تصویر محصول یا رنگ مورد نظر
                                                                 <br>
                                                                 فرمت تصویر jpg یا png حد اکثر یک مگابایت
                                                             </p>
 
                                                             <div class="formsds">
-                                                                <div class="file-upload-wrapper" data-text="هیچ فایلی انتخاب نشده است ...">
-                                                                    <input name="file-upload-field" type="file" class="file-upload-field" value="انتهاب تصویر ">
+                                                                <div class="file-upload-wrapper"
+                                                                     data-text="هیچ فایلی انتخاب نشده است ...">
+                                                                    <input name="file-upload-field" type="file"
+                                                                           class="file-upload-field"
+                                                                           value="انتهاب تصویر ">
                                                                 </div>
                                                             </div>
 
 
                                                         </div>
                                                         <div class="px-[12px] max-[800px]:mt-[1rem] max-[800px]:w-full w-[50%]">
-                                                            <p class="max-[800px]:text-[14px]"><b>کاربرگرامی : </b><br>در صورت تمایل میتوانید نمونه رنگ یا
-                                                                نمونه محصول خود را آپلود کنید . همکاران ما پس از بررسی با
+                                                            <p class="max-[800px]:text-[14px]"><b>کاربرگرامی : </b><br>در
+                                                                صورت تمایل میتوانید نمونه رنگ یا
+                                                                نمونه محصول خود را آپلود کنید . همکاران ما پس از بررسی
+                                                                با
                                                                 شما تماس خواهند گرفت </p>
                                                         </div>
                                                     </div>
@@ -433,11 +477,16 @@
                                                     <p class="text-justify leading-[26px]">
                                                         <b>توضیحات </b>
                                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                                                        استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
-                                                        ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                                                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی
-                                                        در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را
-                                                        می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                                                        استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                                                        در
+                                                        ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                                                        نیاز و
+                                                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای
+                                                        زیادی
+                                                        در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان
+                                                        را
+                                                        می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
+                                                        علی
                                                         الخصوص طراحان خلاقی
                                                     </p>
                                                 </div>
@@ -457,13 +506,21 @@
                                 </div>
 
                                 <div class="form-group mt-[17px] form-group-btn rtyp">
-                                    <button class="btn btn-primary next flex items-center justify-center relative" type="button">ادامه
-                                        <svg class="absolute rotate-180  left-[20px]" fill="#fff" width="20" height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                                    <button class="btn btn-primary next flex items-center justify-center relative"
+                                            type="button">ادامه
+                                        <svg class="absolute rotate-180  left-[20px]" fill="#fff" width="20" height="20"
+                                             viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                                        </svg>
 
                                     </button>
-                                    <button type="button" class="btn btn-default flex relative justify-center items-center back">
+                                    <button type="button"
+                                            class="btn btn-default flex relative justify-center items-center back">
                                         برگشت
-                                        <svg class="absolute top-[18px] right-[20px]" fill="#fff" width="20" height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                                        <svg class="absolute top-[18px] right-[20px]" fill="#fff" width="20" height="20"
+                                             viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                                        </svg>
 
                                     </button>
                                 </div>
@@ -493,14 +550,22 @@
                                         <textarea></textarea>
                                     </div>
                                     <div class="w-full form-group rtyp form-group-btn">
-                                        <button class="btn btn-primary relative flex items-center justify-center next btts" type="button">ثبت درخواست
+                                        <button class="btn btn-primary relative flex items-center justify-center next btts"
+                                                type="button">ثبت درخواست
 
-                                            <svg class="absolute rotate-180  left-[20px]" fill="#8a8a8a" width="20" height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                                            <svg class="absolute rotate-180  left-[20px]" fill="#8a8a8a" width="20"
+                                                 height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                                            </svg>
 
                                         </button>
-                                        <button type="button" class="btn btn-default flex relative justify-center items-center back">
+                                        <button type="button"
+                                                class="btn btn-default flex relative justify-center items-center back">
                                             برگشت
-                                            <svg class="absolute right-[20px]" fill="#fff" width="20" height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+                                            <svg class="absolute right-[20px]" fill="#fff" width="20" height="20"
+                                                 viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                                            </svg>
 
                                         </button>
                                     </div>
@@ -556,14 +621,12 @@
 <script type="text/javascript">
     $(".formsds").on("change", ".file-upload-field", function () {
         $(this).parent(".file-upload-wrapper").attr("data-text", $(this).val().replace(/.*(\/|\\)/, ''));
-    })
-    ;
+    });
 
     var activeIndex = $('.active-tab').index(),
         $contentlis = $('.tabs-content .datadfkk'),
         $tabslis = $('.tabs li');
 
-    // Show content of active tab on loads
     $contentlis.eq(activeIndex).show();
 
     $('.tabs').on('click', 'li', function (e) {
@@ -608,8 +671,14 @@
         $(".myContainer .form-container").removeClass("active flipInX");
         $(".myContainer .form-container:nth-of-type(" + stepVal + ")").addClass("active flipInX");
     });
+    $('.li-last').click(function (){
+        $('.tabs').css('background' , '#fb923c')
+    })
+    $('.li-first').click(function (){
+        $('.tabs').css('background' , '#f5f5f5')
+    })
 </script>
-<?php include 'script-header.php';?>
+<?php include 'script-header.php'; ?>
 </body>
 </html>
 
