@@ -868,7 +868,7 @@
                                 <li><span class="next-pg"><a href="#">صفحه بعد </a></span></li>
                             </ul>
                         </div>
-                        <div id="descmore">
+                        <div class="flex flex-col items-center" id="descmore">
                             <div class="article article-text">
                                 <p>مشتریان فروشگاه می‏‏‌توانند با حق انتخابی بسیار بالا و با دریافت اطلاعاتی کامل برای
                                     انتخاب درست کالای مورد نظر خود، وب سایت ایکات را بررسی کنند و با حداکثر اطمینان
@@ -883,9 +883,15 @@
                                     با حداکثر اطمینان کالای خود را انتخاب و خرید کنند. همواره بهترین انتخاب و بهترین
                                     خدمات، شایسته مشتریان فروشگاه است.</p>
                             </div>
-                            <button class="show-more-text ">بیشتر</button>
-                            <button class="less-more-text ">کمتر</button>
+                            <button class="show-more-text gap-[4px] flex items-center ">
+                                بیشتر
+                                <img class="scale-[0.9]" src="assets/images/Icons/arrow-down.svg" alt="">
+                            </button>
+                            <button class="less-more-text gap-[4px] flex items-center ">کمتر
+                                <img class="scale-[0.9] rotate-[180deg]" src="assets/images/Icons/arrow-down.svg" alt="">
+                            </button>
                         </div>
+
                     </div>
                 </div>
             </div>

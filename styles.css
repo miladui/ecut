@@ -3267,155 +3267,6 @@ footer {
 .s-list-product, .s-list-product-landing {
 
 
-/*    @mixin appearance($value: auto) {*/
-/*        -webkit-appearance: $ value;*/
-/*        -moz-appearance: $ value;*/
-/*        appearance: $ value;*/
-/*    }*/
-
-/*    @mixin focus {*/
-/*        @supports selector(:focus-visible) {*/
-/*            &:focus-visible {*/
-/*                @content;*/
-/*            }*/
-/*        }*/
-
-/*        @supports not selector(:focus-visible) {*/
-/*            &:focus {*/
-/*                @content;*/
-/*            }*/
-/*        }*/
-/*    }*/
-
-/*Range slider . range-slider {*/
-/* $ range-slider-height: 24 px;*/
-/*    $ range-slider-track-height: 4px;*/
-/*    $ range-slider-thumb-size: 24px;*/
-/*    $ range-slider-color: #000;*/
-
-/*    --range-slider-value-low-fallback: calc(var(--range-slider-value-low, 0) * 1%);*/
-/*    --range-slider-value-high-fallback: calc(var(--range-slider-value-high, 100) * 1%);*/
-/*    --range-slider-thumb-size: #{$range-slider-thumb-size};*/
-/*    --range-slider-thumb-radius: calc(var(--range-slider-thumb-size) / 2);*/
-
-/*    @media (max-width: 500px) {*/
-/*        --range-slider-thumb-size: #{$range-slider-thumb-size * 1.5};*/
-/*    }*/
-
-/*    position: relative;*/
-/*    width: 100%;*/
-/*    height: $ range-slider-height;*/
-
-/*    &::before {*/
-/*        content: "";*/
-/*        position: absolute;*/
-/*        top: 50%;*/
-/*        left: 0;*/
-/*        width: 100%;*/
-/*        height: $ range-slider-track-height;*/
-/*        margin-top: $ range-slider-track-height / -2;*/
-/*        border-radius: 100vmax;*/
-/*        background-color: #ebebeb;*/
-/*        background-image: linear-gradient(*/
-/*        to right,*/
-/*        transparent var(--range-slider-value-low-fallback),*/
-/*        $ range-slider-color var(--range-slider-value-low-fallback),*/
-/*        $ range-slider-color var(--range-slider-value-high-fallback),*/
-/*        transparent var(--range-slider-value-high-fallback)*/
-/*        );*/
-/*        pointer-events: none;*/
-/*    }*/
-
-/*/ / Only used to display current values & __display {*/
-/*    pointer-events: none;*/
-
-/*    &::before,*/
-/*    &::after {*/
-/*    / / Offset used to compensate for thumb position in range slider $ offset: calc(var(--range-slider-thumb-radius) * calc(- 0.02 * var(--pos) + 1));*/
-
-/*        content: attr(data-span);*/
-/*        position: absolute;*/
-/*        color: $ range-slider-color;*/
-/*        font-size: 1.5rem;*/
-/*        font-family: sans-serif;*/
-/*        white-space: nowrap;*/
-/*        transform: translateX(-50%) translateX($ offset);*/
-/*        z-index: -1;*/
-/*    }*/
-
-/*    &::before {*/
-/*        --pos: var(--range-slider-value-low);*/
-
-/*        content: attr(data-low);*/
-/*        bottom: 100%;*/
-/*        margin-bottom: calc(var(--range-slider-thumb-size) / 4);*/
-/*        left: var(--range-slider-value-low-fallback);*/
-/*    }*/
-
-/*    &::after {*/
-/*        --pos: var(--range-slider-value-high);*/
-
-/*        content: attr(data-high);*/
-/*        top: 100%;*/
-/*        margin-top: calc(var(--range-slider-thumb-size) / 4);*/
-/*        left: var(--range-slider-value-high-fallback);*/
-/*    }*/
-/*}*/
-
-/*    & __input {*/
-/*        @include appearance(none);*/
-
-/*        display: block;*/
-/*        position: absolute;*/
-/*        left: 0;*/
-/*        top: 50%;*/
-/*        width: 100%;*/
-/*        margin: 0;*/
-/*        padding: 0;*/
-/*        transform: translateY(-50%);*/
-/*        background-color: transparent;*/
-/*        pointer-events: none;*/
-
-/*        @include focus {*/
-/*            outline: none;*/
-
-/*            @include input-range-thumb {*/
-/*                outline: 2px solid blue;*/
-/*                outline-offset: 2px;*/
-/*            }*/
-/*        }*/
-
-/*        &:active {*/
-/*            @include input-range-thumb {*/
-/*                transform: scale(1.3);*/
-/*                cursor: grabbing;*/
-/*            }*/
-/*        }*/
-
-/*        @include input-range-track {*/
-/*            @include appearance(none);*/
-
-/*            background-color: transparent;*/
-/*            border-radius: 0;*/
-/*        }*/
-
-/*        @include input-range-thumb {*/
-/*            @include appearance(none);*/
-
-/*            pointer-events: all;*/
-/*            position: relative;*/
-/*            width: var(--range-slider-thumb-size);*/
-/*            height: var(--range-slider-thumb-size);*/
-/*            background-color: $ range-slider-color;*/
-/*            border-radius: 50%;*/
-/*            border: none;*/
-/*            box-shadow: none;*/
-/*            cursor: grab;*/
-/*            transition: transform 300ms cubic-bezier(0.47, 1.64, 0.41, 0.8);*/
-/*        }*/
-/*    }*/
-/*}*/
-
     .col-2-custom {
 
     }
@@ -4245,7 +4096,7 @@ footer {
             display: inline-block;
             margin-bottom: .5rem;
             font-family: 'IRANYekanXMedium';
-            color: var(--color2);
+            color: var(--base-color);
         }
 
         .cutsom-checkbox-row input[type="checkbox"] + label::before {
@@ -4287,7 +4138,6 @@ footer {
             color: #3bb6b6;
             content: "";
             cursor: pointer;
-            content: '';
             display: block;
             position: absolute;
             top: 2px;
@@ -9247,7 +9097,102 @@ li:hover + #overlay {
             }
         }
     }
+    .nmbcl {
+        color: #7C7C7C !important;
+        font-family: 'IRANYekanXMedium';
+        position: relative;
+        padding-right: 23px;
+        font-size: 14px !important;
+        &:before{
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border-radius: 10px;
+            background: #7C7C7C;
+            right: 6px;
+            top: 6px;
+        }
+    }
 
+    .cutsom-checkbox-row input[type="checkbox"] {
+        margin: 0;
+        opacity: 0;
+    }
+
+    .cutsom-checkbox-row {
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"] + label {
+        padding-right: 17px;
+        display: inline-block;
+        margin-bottom: .5rem;
+        font-family: 'IRANYekanXMedium';
+        color: var(--base-color);
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"] + label::before {
+        border-color: #12283d;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px;
+        content: "";
+        cursor: pointer;
+        display: inline-block;
+        height: 23px;
+        right: 0;
+        position: absolute;
+        transition: 0.3s linear all;
+        width: 23px;
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"] + label::before {
+        border-radius: 0;
+        transform: scale(1);
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"]:checked + label::before {
+        border-style: dotted;
+        transition: 0.3s linear all;
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"]:checked + label::before {
+        border-style: solid;
+        background: #12283d;
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"]:checked + label::after {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"]:checked + label::after {
+        color: #3bb6b6;
+        content: "";
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 2px;
+        right: 8px;
+        width: 6px;
+        height: 14px;
+        border: solid #ffffff;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"] + label::after {
+        transform: scale(2);
+        opacity: 0;
+    }
+
+    .cutsom-checkbox-row input[type="checkbox"] + label::after {
+        content: "";
+        transform: scale(0);
+        transition: 0.3s linear all;
+    }
 }
 
 /*special-products*/
