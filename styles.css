@@ -545,12 +545,15 @@ body {
             transform: rotate(180deg);
         }
     }
-    .basket-button{
+
+    .basket-button {
         cursor: pointer;
-        svg{
+
+        svg {
             fill: white;
             transition: var(--ease);
-            &:hover{
+
+            &:hover {
                 fill: var(--base-color-two);
             }
         }
@@ -2066,17 +2069,19 @@ footer {
 
         ul li:nth-child(1) {
             z-index: 3;
-            width: 28%;
+            width: 48%;
+
         }
 
         ul li:nth-child(2) {
             z-index: 2;
-            width: 24%;
+            width: 28%;
         }
 
         ul li:nth-child(3) {
             z-index: 1;
-            width: 48%;
+            width: 24%;
+
             box-shadow: none;
             text-align: center;
         }
@@ -6401,6 +6406,7 @@ footer {
             width: 100% !important;
         }
     }
+
     .s-form {
         & .steps {
             ul li.active:nth-child(2):after, ul li.active:nth-child(3):after {
@@ -6408,20 +6414,24 @@ footer {
                 right: -65px !important;
             }
         }
+
         .tabs li.active-tab:after {
             display: flex !important;
             background: var(--base-color-two) !important;
         }
     }
+
     .s-form {
         & .steps {
             .tabs {
                 display: flex;
                 margin: 0 0 2rem 0 !important;
                 background: #F5F5F5;
-                .li-last{
+
+                .li-last {
                     border-radius: 0 !important;
                 }
+
                 li {
                     color: var(--dark);
                     background: #F5F5F5;
@@ -9441,17 +9451,23 @@ li:hover + #overlay {
     }
 }
 
-.row-address{
-    .col-details{
-        input{
+.row-address {
+    .col-details {
+        input {
             outline: none;
-            &::placeholder{
+
+            &::placeholder {
                 font-size: 13px;
             }
         }
-        select{
+
+        select {
             outline: none;
         }
 
+        textarea {
+            outline: none;
+            resize: none;
+        }
     }
 }

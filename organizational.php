@@ -268,16 +268,16 @@
                                class="tabs">
                                <li class="active active-tab max-[800px]:text-[13px]">
                                    <span class="hidden">1</span>
-                                   مشخصات شرکت/سازمان
+                                   مشخصات مسئول خرید/درخواست کننده
                                </li>
                                <li class="max-[800px]:text-[13px]">
                                    <span class="hidden">2</span>
-                                   مشخصات سفارش
+                                   مشخصات شرکت/سازمان
                                </li>
 
                                <li class="max-[800px]:text-[13px]">
                                    <span class="hidden">3</span>
-                                   مشخصات مسئول خرید/درخواست کننده
+                                   مشخصات سفارش
                                </li>
                            </ul>
                        </div>
@@ -303,7 +303,53 @@
                         </div>
                     </div>
                     <div class="myContainer">
-                        <div class="form-container active flipInX">
+                        <div class="form-container active">
+                            <form>
+                                <div class="flex justify-center flex-wrap">
+                                    <div class="w-[50%] max-[800px]:w-full frnf">
+                                        <label>نام و نام خانوادگی :</label>
+                                        <input type="text" name="name" class="frmt">
+                                    </div>
+                                    <div class="w-[50%] max-[800px]:w-full frnf">
+                                        <label>شماره همراه </label>
+                                        <input type="text" name="subject" class="frmt">
+                                    </div>
+                                    <div class="w-[50%] max-[800px]:w-full frnf">
+                                        <label>آدرس ایمیل :</label>
+                                        <input type="email" name="mail" class="frmt">
+                                    </div>
+                                    <div class="w-[50%] max-[800px]:w-full frnf">
+                                        <label>شماره ثابت :</label>
+                                        <input type="number" name="phone" class="frmt">
+                                    </div>
+                                    <div class="w-full frnf">
+                                        <label>توضیحات : </label>
+                                        <textarea></textarea>
+                                    </div>
+                                    <div class="w-full form-group rtyp form-group-btn">
+                                        <button class="btn btn-primary relative flex items-center justify-center next btts"
+                                                type="button">ثبت درخواست
+
+                                            <svg class="absolute rotate-180  left-[20px]" fill="#8a8a8a" width="20"
+                                                 height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                                            </svg>
+
+                                        </button>
+                                        <button type="button"
+                                                class="btn btn-default flex relative justify-center items-center back">
+                                            برگشت
+                                            <svg class="absolute right-[20px]" fill="#fff" width="20" height="20"
+                                                 viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
+                                            </svg>
+
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="form-container  flipInX">
                             <form>
                                 <div class="flex justify-center flex-wrap">
                                     <div class="w-[50%] max-[800px]:w-full frnf">
@@ -437,7 +483,7 @@
                                             </div>
                                             <div class="w-full frffg">
                                                 <div class="frns">
-                                                    <span>انتخاب عکس :</span>
+<!--                                                    <span class="relative">انتخاب عکس :</span>-->
                                                     <div class="flex justify-center flex-wrap">
                                                         <div class="px-[12px] max-[800px]:w-full w-[50%]">
                                                             <p class="max-[800px]:text-[14px] max-[800px]:text-center">
@@ -469,7 +515,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="datadfkk">
                                         <div class="flex max-[900px]:w-full justify-center max-[900px]:flex-col gap-[1.2rem]">
                                             <div class="w-[57%] max-[900px]:w-full">
@@ -523,52 +568,6 @@
                                         </svg>
 
                                     </button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="form-container">
-                            <form>
-                                <div class="flex justify-center flex-wrap">
-                                    <div class="w-[50%] max-[800px]:w-full frnf">
-                                        <label>نام و نام خانوادگی :</label>
-                                        <input type="text" name="name" class="frmt">
-                                    </div>
-                                    <div class="w-[50%] max-[800px]:w-full frnf">
-                                        <label>شماره همراه </label>
-                                        <input type="text" name="subject" class="frmt">
-                                    </div>
-                                    <div class="w-[50%] max-[800px]:w-full frnf">
-                                        <label>آدرس ایمیل :</label>
-                                        <input type="email" name="mail" class="frmt">
-                                    </div>
-                                    <div class="w-[50%] max-[800px]:w-full frnf">
-                                        <label>شماره ثابت :</label>
-                                        <input type="number" name="phone" class="frmt">
-                                    </div>
-                                    <div class="w-full frnf">
-                                        <label>توضیحات : </label>
-                                        <textarea></textarea>
-                                    </div>
-                                    <div class="w-full form-group rtyp form-group-btn">
-                                        <button class="btn btn-primary relative flex items-center justify-center next btts"
-                                                type="button">ثبت درخواست
-
-                                            <svg class="absolute rotate-180  left-[20px]" fill="#8a8a8a" width="20"
-                                                 height="20" viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
-                                            </svg>
-
-                                        </button>
-                                        <button type="button"
-                                                class="btn btn-default flex relative justify-center items-center back">
-                                            برگشت
-                                            <svg class="absolute right-[20px]" fill="#fff" width="20" height="20"
-                                                 viewBox="-96 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/>
-                                            </svg>
-
-                                        </button>
-                                    </div>
                                 </div>
                             </form>
                         </div>

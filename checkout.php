@@ -391,7 +391,7 @@
         <div class="row-address w-full grid grid-cols-2">
             <div class="col-map border-l-[1px] border-[#000] w-full h-[full] flex flex-col items-start">
                 <div class="top h-[10vh] border-b-[1px] border-[#000] w-full flex items-center justify-center">
-                    <span class="w-full text-[14px] text-center text-[#ccc] pt-[12px]">جستجوی مکان مورد نظر روی نقشه</span>
+                    <span class="w-full text-[14px] text-center text-[#00000090] pt-[12px]">جستجوی مکان مورد نظر روی نقشه</span>
                 </div>
                 <div class="bottom w-full h-[90vh]">
                     <iframe class="w-full h-full"
@@ -408,37 +408,77 @@
                     <div class="invalid-row flex w-full font-bold justify-center text-[15px] text-red-500">نام و مشخصات
                         معتبر خود را وارد کنید
                     </div>
-                    <form class="form px-[2rem] mt-[1.5rem] gap-[2rem] w-full flex items-start justify-between"
+                    <form class="form overflow-y-auto px-[2rem] min-[2000px]:mt-[5rem] max-[1999px]:pb-[2rem] mt-[2rem] gap-[3rem] w-full flex items-start justify-between"
                           action="">
                         <div class="start w-1/3">
                             <div class="inp flex flex-col items-center gap-[5px]">
-                                <label class="text-[15px]" for="">نام و نام خانوادگی <span
+                                <label class="text-[16px]" for="">نام و نام خانوادگی <span
                                             class="text-red-500 relative top-[2px]">*</span></label>
                                 <input class="text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]"
                                        type="text" placeholder="نام خود را وارد کنید">
                             </div>
                             <div class="select flex mt-[2rem] flex-col items-center gap-[5px]">
-                                <label class="text-[15px]" for=""> استان <span class="text-red-500 relative top-[2px]">*</span></label>
-                                <select class="bg-[#f4f4f4] text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]" name="" id="">
+                                <label class="text-[16px]" for=""> استان <span
+                                            class="text-red-500 relative top-[2px]">*</span></label>
+                                <select class="bg-[#f4f4f4] text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]"
+                                        name="" id="">
                                     <option selected disabled value="">انتخاب استان</option>
-                                    <option  value="">تهران</option>
-                                    <option  value="">تهران</option>
-                                    <option  value="">تهران</option>
-                                    <option  value="">تهران</option>
+                                    <option value="">تهران</option>
+                                    <option value="">تهران</option>
+                                    <option value="">تهران</option>
+                                    <option value="">تهران</option>
                                 </select>
                             </div>
                             <div class="select flex mt-[2rem] flex-col items-center gap-[5px]">
-                                <label class="text-[15px]" for=""> شهر <span class="text-red-500 relative top-[2px]">*</span></label>
-                                <select class="bg-[#f4f4f4] text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]" name="" id="">
+                                <label class="text-[16px]" for=""> شهر <span
+                                            class="text-red-500 relative top-[2px]">*</span></label>
+                                <select class="bg-[#f4f4f4] text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]"
+                                        name="" id="">
                                     <option selected disabled value="">انتخاب شهر</option>
-                                    <option  value="">تهران</option>
-                                    <option  value="">تهران</option>
-                                    <option  value="">تهران</option>
-                                    <option  value="">تهران</option>
+                                    <option value="">تهران</option>
+                                    <option value="">تهران</option>
+                                    <option value="">تهران</option>
+                                    <option value="">تهران</option>
                                 </select>
                             </div>
+                            <div class="inp flex mt-[2rem] flex-col items-center gap-[5px]">
+                                <label class="text-[16px]" for="">کد پستی <span
+                                            class="text-red-500 relative top-[2px]">*</span></label>
+                                <input class="text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]"
+                                       type="text" placeholder="کد پستی مقصد">
+                            </div>
+                            <div class="inp flex mt-[2rem] flex-col items-center gap-[5px]">
+                                <label class="text-[16px]" for="">
+                                    شماره همراه<span
+                                            class="text-red-500 relative top-[2px]">*</span></label>
+                                <input class="text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]"
+                                       type="text" placeholder="شماره معتبر">
+                            </div>
+                            <div class="inp flex mt-[2rem] flex-col items-center gap-[5px]">
+                                <label class="text-[16px]" for="">تلفن ثابت
+                                    <span class="text-red-500 relative top-[2px]">*</span></label>
+                                <input class="text-center w-full text-[14px] h-[45px] rounded-[5px] border-[1px] border-[#777777]"
+                                       type="text" placeholder="اختیاری">
+                            </div>
+
                         </div>
-                        <div class="end w-1/3"></div>
+                        <div class="end w-2/3">
+                            <div class="textarea flex w-full flex-col items-center gap-[5px]">
+                                <label class="text-[16px]" for="">نشانی پستی <span
+                                            class="text-red-500 relative top-[2px]">*</span></label>
+                                <textarea placeholder="نشانی پستی را بصورت دقیق وارد کنید"
+                                          class="text-center p-[1rem] w-full text-[14px] h-[205px] rounded-[5px] border-[1px] border-[#fb923c]"
+                                          name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="textarea    mt-[2rem] flex w-full flex-col items-center gap-[5px]">
+                                <label class="text-[16px]" for="">یادداشت</label>
+                                <textarea
+                                        class="text-center p-[1rem] w-full text-[14px] h-[205px] rounded-[5px] border-[1px] border-[#fb923c]"
+                                        name="" id="" cols="30" rows="10"
+                                        placeholder="هر نکته‌ای که در رساندن محصول مفید باشد"></textarea>
+                            </div>
+                            <button class="btn-base-two btn-submit-form h-[45px] mt-[3.7rem] w-full">ثبت آدرس</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -554,4 +594,21 @@
         })
         // address-modal
     })
+</script>
+<script>
+    $(document).ready(function () {
+        $('.invalid-row').hide();
+
+        $('.btn-submit-form').click(function () {
+            let emptyInputs = $('.form input').filter(function() {
+                return $(this).val().trim() === '';
+            });
+
+            if (emptyInputs.length > 0) {
+                $('.invalid-row').show();
+            } else {
+                $('.invalid-row').show();
+            }
+        });
+    });
 </script>

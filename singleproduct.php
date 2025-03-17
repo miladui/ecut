@@ -94,23 +94,23 @@
                 </div>
                 <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
                     <button class="btn-size en-num  bg-base-color text-white grid pt-[0.8px] w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                        50
-                    </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">48
-                    </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">50
-                    </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">52
-                    </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">54
-                    </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">56
+                        60
                     </button>
                     <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">58
                     </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">60
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">56
                     </button>
-                    <button class="btn-size en-num w-[35px] grid pt-[0.8px]  h-[22px] rounded-[5px] text-[14px]">62
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">54
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">52
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">52
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">48
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px] h-[22px] rounded-[5px] text-[14px]">46
+                    </button>
+                    <button class="btn-size en-num w-[35px] grid pt-[0.8px]  h-[22px] rounded-[5px] text-[14px]">44
                     </button>
                 </div>
                 <div class="w-full flex items-center justify-between mt-[2rem]">
