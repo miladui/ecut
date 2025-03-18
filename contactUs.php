@@ -136,18 +136,16 @@
                     <div class="row-social-media">
                         <span>شبکات اجتماعی</span>
                         <div class="social">
-                            <div class="container-fluid">
-                                <ul>
-                                    <li class="telegram"><a href="#"><i class="ecut-telegram"></i></a></li>
-                                    <li class="instagram"><a href="#"><i class="ecut-instagram"></i></a></li>
-                                    <li class="aparat"><a href="#"><i class="ecut-aparat"></i></a></li>
-                                    <li class="youtube"><a href="#"><i class="ecut-youtube"></i></a></li>
-                                    <li class="pintres"><a href="#"><i class="ecut-pintres"></i></a></li>
-                                    <li class="facebook"><a href="#"><i class="ecut-facebook"></i></a></li>
-                                    <li class="x"><a href="#"><i class="ecut-x"></i></a></li>
-                                    <li class="linkedin"><a href="#"><i class="ecut-linkedin"></i></a></li>
-                                </ul>
-                            </div>
+                            <ul class="relative min-[901px]:top-[4px]">
+                                <li class="telegram"><a href="#"><i class="ecut-telegram"></i></a></li>
+                                <li class="instagram"><a href="#"><i class="ecut-instagram"></i></a></li>
+                                <li class="aparat"><a href="#"><i class="ecut-aparat"></i></a></li>
+                                <li class="youtube"><a href="#"><i class="ecut-youtube"></i></a></li>
+                                <li class="pintres"><a href="#"><i class="ecut-pintres"></i></a></li>
+                                <li class="facebook"><a href="#"><i class="ecut-facebook"></i></a></li>
+                                <li class="x"><a href="#"><i class="ecut-x"></i></a></li>
+                                <li class="linkedin"><a href="#"><i class="ecut-linkedin"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

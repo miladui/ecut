@@ -257,32 +257,26 @@
                                         </div>
                                         <div class="acc-content">
                                             <div class="size mt-[1rem] flex items-center justify-end w-full gap-[6px]">
-                                                <button class="btn-size border-[1px] border-[#000] en-num  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] en-num pt-[1.6px]  bg-base-color text-white w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    56
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    54
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    52
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    52
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    48
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    46
                                                 </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
-                                                </button>
-                                                <button class="btn-size border-[1px] border-[#000] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
-                                                    50
+                                                <button class="btn-size border-[1px] border-[#000] pt-[1.6px] en-num w-[35px] h-[22px] rounded-[5px] text-[14px]">
+                                                    44
                                                 </button>
                                             </div>
 
