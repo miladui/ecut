@@ -95,8 +95,13 @@
                    </p>
                </div>
                <div class="w-full flex justify-center">
-                   <button class="show-more-text ">بیشتر</button>
-                   <button class="less-more-text ">کمتر</button>
+                   <button class="show-more-text gap-[4px] flex items-center ">
+                       بیشتر
+                       <img class="scale-[0.9]" src="assets/images/Icons/arrow-down.svg" alt="">
+                   </button>
+                   <button class="less-more-text gap-[4px] flex items-center ">کمتر
+                       <img class="scale-[0.9] rotate-[180deg]" src="assets/images/Icons/arrow-down.svg" alt="">
+                   </button>
                </div>
            </div>
         </div>

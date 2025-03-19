@@ -30,11 +30,11 @@
 <!-- menu mobile -->
 <div class="open_menu">
     <div class="menu-content">
-        <div class="menu-btn menu-btn-close">
-            <svg id="Icons" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"
-                 fill='#DE1F0D'>
-                <path d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z"/>
+        <div  class="menu-btn menu-btn-close">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#fff"></path>
             </svg>
+
         </div>
         <div class="logomobile w-full flex justify-center">
             <img src="assets/images/logo.png">

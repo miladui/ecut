@@ -53,6 +53,37 @@
         </div>
     </div>
     <!--banner 1/3-->
+    
+    <!--banner 1/3-->
+    <div class="row-two banner-one-third h-[95vh] w-full relative">
+        <div class="w-full p-banner-one-third  h-full">
+            <div class="gallery-item  h-full">
+                <img src="assets/images/new-imges/baneer02.jpg" alt="">
+            </div>
+            <div class="gallery-item h-full">
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-->
+
+    <!--banner 1/3-img-->
+    <div class="row-two banner-one-third h-[95vh] w-full relative">
+        <div class="w-full p-banner-one-third  h-full">
+            <div class="gallery-item  h-full">
+                <video autoplay="" muted="" loop="true" playsinline="">
+                    <source src="https://ecut.shop/uploads/media/testui/Lavasoon-H.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item h-full">
+                <img src="assets/images/4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-img-->
+    
 
     <!--banner 1/3-reverse-->
     <div class="row-two banner-one-third-reverse h-[95vh] w-full relative">
@@ -71,6 +102,37 @@
     </div>
     <!--banner 1/3-reverse-->
 
+    <!--banner 1/3-reverse-->
+    <div class="row-two banner-one-third-reverse h-[95vh] w-full relative">
+        <div class="w-full p-banner-one-third  h-full">
+            <div class="gallery-item  h-full">
+                <img src="assets/images/new-imges/single-coat-02.png" alt="">
+            </div>
+            <div class="gallery-item h-full">
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-reverse-->
+
+    <!--banner 1/3-reverse-img-->
+    <div class="row-two banner-one-third-reverse h-[95vh] w-full relative">
+        <div class="w-full p-banner-one-third  h-full">
+            <div class="gallery-item  h-full">
+                <video autoplay="" muted="" loop="true" playsinline="">
+                    <source src="https://ecut.shop/uploads/media/testui/Lavasoon-H.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item h-full">
+                <img src="assets/images/new-imges/baneer02.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-reverse-img-->
+    
+
     <!--quarter-->
     <div class="row-two quarter h-[95vh] w-full relative">
         <div class="w-full p-quarter  h-full">
@@ -87,6 +149,21 @@
         </div>
     </div>
     <!--quarter-->
+    <!--quarter-->
+    <div class="row-two quarter h-[95vh] w-full relative">
+        <div class="w-full p-quarter  h-full">
+            <div class="gallery-item  h-full">
+                <video autoplay="" muted="" loop="true" playsinline="">
+                    <source src="https://ecut.shop/uploads/media/testui/Lavasoon-H.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item h-full">
+                <img src="assets/images/new-imges/Shirt-02.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--quarter-->
+    
 
     <!--quarter-reverse-->
     <div class="row-two quarter-reverse h-[95vh] w-full relative">
@@ -100,6 +177,21 @@
                 <p>
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </p>
+            </div>
+        </div>
+    </div>
+    <!--quarter-reverse-->
+
+    <!--quarter-reverse-->
+    <div class="row-two quarter-reverse h-[95vh] w-full relative">
+        <div class="w-full p-quarter-reverse  h-full">
+            <div class="gallery-item  h-full">
+                <video autoplay="" muted="" loop="true" playsinline="">
+                    <source src="https://ecut.shop/uploads/media/testui/Lavasoon-H.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item h-full">
+                <img src="assets/images/new-imges/baneer02.jpg" alt="">
             </div>
         </div>
     </div>
@@ -142,25 +234,89 @@
 
     <!--banner 1/3-->
     <div class="row-two max-[900px]:h-auto w-full relative ">
-        <div class="grid grid-cols-1 h-[100vh] w-full ">
-            <div class="gallery-item h-[33vh]  w-full">
-                <img src="assets/images/banner-mobi.jpg" alt="">
+        <div class="grid grid-cols-1  w-full ">
+            <div class="gallery-item   w-full">
+                <img src="assets/images/new-imges/baneer04.jpg" alt="">
             </div>
-            <div class="gallery-item h-[67vh] w-full">
+            <div class="gallery-item w-full">
                 <img src="assets/images/banner-mobi2.jpg" alt="">
             </div>
         </div>
     </div>
     <!--banner 1/3-->
 
+    <!--banner 1/3-->
+    <div class="row-two max-[900px]:h-auto w-full relative ">
+        <div class="grid grid-cols-1  w-full ">
+            <div class="gallery-item   w-full">
+                <video autoplay="" muted="" loop="true" playsinline="">
+                    <source src="https://ecut.shop/uploads/media/testui/Lavasoon-H.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item w-full">
+                <img src="assets/images/banner-mobi2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-->
+
+    <!--banner 1/3-text-->
+    <div class="row-two max-[900px]:h-auto w-full relative ">
+        <div class="grid grid-cols-1  w-full ">
+            <div class="gallery-item   w-full">
+                <video autoplay="" muted="" loop="true" playsinline="">
+                    <source src="https://ecut.shop/uploads/media/testui/Lavasoon-H.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item bg-white flex items-center justify-center p-[1.5rem] h-[500px] w-full">
+                <p class="text-justify text-[14px] leading-[24px]">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-text-->
+
+    <!--banner 1/3-text-->
+    <div class="row-two max-[900px]:h-auto w-full relative ">
+        <div class="grid grid-cols-1  w-full ">
+            <div class="gallery-item   w-full">
+                <img src="assets/images/new-imges/baneer04.jpg" alt="">
+            </div>
+            <div class="gallery-item bg-white flex items-center justify-center p-[1.5rem] h-[500px] w-full">
+                <p class="text-justify text-[14px] leading-[24px]">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-text-->
+
+    <!--banner 1/3-text-->
+    <div class="row-two max-[900px]:h-auto w-full relative ">
+        <div class="grid grid-cols-1  w-full ">
+            <div class="gallery-item bg-white flex items-center justify-center p-[1.5rem] h-[300px] w-full">
+                <p class="text-justify text-[14px] leading-[24px]">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </p>
+            </div>
+            <div class="gallery-item   w-full">
+                <img src="assets/images/new-imges/Shirt-01.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--banner 1/3-text-->
+
     <!--banner 1/3-reverse-->
-    <div class="row-two max-[900px]:h-auto w-full relative">
-        <div class="grid grid-cols-1 h-[100vh] w-full ">
-            <div class="gallery-item h-[67vh] overflow-hidden w-full">
+    <div class="row-two max-[900px]:h-auto mt-[2rem] w-full relative">
+        <div class="grid grid-cols-1  w-full ">
+            <div class="gallery-item  overflow-hidden w-full">
                 <img class="h-full" src="assets/images/banner-mobi2.jpg" alt="">
             </div>
-            <div class="gallery-item h-[33vh] overflow-hidden  w-full">
-                <img src="assets/images/banner-mobi.jpg" alt="">
+            <div class="gallery-item  overflow-hidden  w-full">
+                <video autoplay="" muted="" loop="true" playsinline="">
+                    <source src="https://ecut.shop/uploads/media/testui/Lavasoon-H.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>

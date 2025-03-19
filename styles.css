@@ -5642,14 +5642,9 @@ footer {
 }
 
 .menu-content .menu-btn svg {
-    width: 20px;
-    height: auto;
     position: absolute;
     left: 20px;
-    fill: #263238;
     top: 45px;
-    background: #fff;
-    padding: 4px;
     top: 20px;
 }
 
@@ -9281,6 +9276,52 @@ li:hover + #overlay {
                 border-image: unset !important;
                 scale: 0.99;
             }
+        }
+    }
+}
+.thumbnail-product-s {
+    .p-img {
+        position: relative;
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to top, #C2B067, #C2B067) 1;
+    }
+
+    .p-img:before {
+        content: "";
+        position: absolute;
+        width: calc(100% + 6px);
+        height: calc(100% + 6px);
+        top: calc(3px / -1);
+        left: calc(3px / -1);
+        background: linear-gradient(to right, #C2B067 0%, #C2B067 100%), linear-gradient(to top, #C2B067 50%, transparent 50%), linear-gradient(to top, #C2B067 50%, transparent 50%), linear-gradient(to right, #C2B067 0%, #C2B067 100%), linear-gradient(to left, #C2B067 0%, #C2B067 100%);
+        background-size: 100% 2px, 2px 200%, 2px 200%, 0% 2px, 0% 2px;
+        background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+        background-repeat: no-repeat, no-repeat;
+        transition: transform 0.2s ease-in-out, background-position 0.2s ease-in-out, background-size 0.2s ease-in-out;
+        transform: scaleX(0) scaleY(1) rotate(180deg);
+        transition-delay: 0.4s, 0.2s, 0s;
+    }
+
+    .p-img:hover:before {
+        background-size: 200% 2px, 2px 400%, 2px 400%, 55% 2px, 55% 2px;
+        background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+        transform: scaleX(1) scaleY(1) rotate(180deg);
+        transition-delay: 0s, 0.2s, 0.4s;
+    }
+
+    .p-img {
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to top, var(--base-color-two), var(--base-color)) 1;
+    }
+
+    &:hover {
+        .p-img {
+            border-width: unset !important;
+            border-style: unset !important;
+            border-image: unset !important;
+            scale: 0.99;
         }
     }
 }

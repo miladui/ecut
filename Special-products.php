@@ -757,7 +757,6 @@
 
                                 </div>
                             </div>
-
                         </div>
                         <!--mobile-->
                         <div class="pagination">
