@@ -322,6 +322,61 @@
                     </div>
 
                 </div>
+                <div class="product-search product-search-s relative w-full flex flex-col items-center h-[400px]">
+                    <div class="box-one absolute top-0 w-full">
+                        <img id="main-image-5-sm" class="w-full border-img object-cover h-[180px]"
+                             src="https://media.ecut.shop/product/PJA/PJA1156125/search/single-coat-01.jpg">
+                        <div class="w-full gap-[12px] flex items-center mt-[12px] justify-center">
+                            <h3 class="en-num text-[14px]">کت تک مدل PSU1153332 </h3>
+                            <button class="btn-favorite">
+                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M10.7585 1.68716C10.4341 1.52308 10.3036 1.40748 10.1544 1.28815L9.85979 1.05321L8.84174 0.534866C7.99896 0.195516 7.15618 0.0351644 6.34696 0.0351644C5.03058 0.0351644 3.80743 0.445367 2.78938 1.13898C1.77133 1.84752 0.943467 2.83946 0.473598 4.00294C0.160352 4.74131 0 5.55426 0 6.41195C0 9.24235 1.72658 10.8981 3.71793 12.785L4.88514 13.9075C6.73106 15.7534 8.57697 17.5844 10.4042 19.4452C10.6429 19.6951 10.7585 19.7995 11.0829 19.7846C11.3962 19.7846 12.8095 18.2631 13.6075 17.4352L20.3684 10.6482C21.7855 8.94775 22.1994 7.10557 21.916 5.43493C21.7408 4.34229 21.2522 3.32425 20.5735 2.47028C19.8799 1.61258 18.9812 0.918965 17.9632 0.490117C16.4118 -0.173666 14.5659 -0.218416 12.7797 0.698947L12.2502 0.978631C12.0712 1.08305 11.9705 1.16882 11.8661 1.25831C11.702 1.39256 11.5416 1.538 11.2321 1.68716L10.9934 1.82141L10.7585 1.68716ZM3.99761 1.99668C5.0455 1.40748 6.16796 1.27323 7.21584 1.46342C8.35322 1.68716 9.4011 2.29128 10.2439 3.14898C10.9375 3.88734 11.3365 3.53308 11.9108 3.01473C12.6939 2.32111 13.712 1.40748 15.6026 1.40748C16.2217 1.40748 16.8407 1.55291 17.415 1.77293C18.0825 2.04143 18.6717 2.42553 19.0856 2.77979C19.645 3.2795 20.0291 3.88361 20.264 4.55112C20.5027 5.19999 20.6071 5.90852 20.6071 6.64689C20.6071 8.72774 18.8358 10.4096 17.2099 11.9609L15.4833 13.6576C14.0961 15.0747 11.7057 17.5098 11.2769 17.7895L10.9972 17.9797L10.7138 17.7895C10.2588 17.48 6.36187 13.5383 4.31086 11.4724L3.23314 10.3797C2.61038 9.7607 2.15543 9.25727 1.84591 8.63824C1.5364 8.0192 1.37232 7.31067 1.37232 6.30754C1.37232 5.37526 1.62217 4.53621 2.06593 3.81276C2.52461 3.07439 3.1884 2.45536 4.00134 1.99668H3.99761Z"
+                                          fill="black"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="w-full price flex justify-center mt-[8px]">
+                            <h4 class="font-bold">165,000,000 ریال</h4>
+                        </div>
+                    </div>
+                    <div class="box-two absolute top-0 w-full">
+                        <button class="btn-favorite absolute z-10 right-[10px] top-[10px]">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M10.7585 1.68716C10.4341 1.52308 10.3036 1.40748 10.1544 1.28815L9.85979 1.05321L8.84174 0.534866C7.99896 0.195516 7.15618 0.0351644 6.34696 0.0351644C5.03058 0.0351644 3.80743 0.445367 2.78938 1.13898C1.77133 1.84752 0.943467 2.83946 0.473598 4.00294C0.160352 4.74131 0 5.55426 0 6.41195C0 9.24235 1.72658 10.8981 3.71793 12.785L4.88514 13.9075C6.73106 15.7534 8.57697 17.5844 10.4042 19.4452C10.6429 19.6951 10.7585 19.7995 11.0829 19.7846C11.3962 19.7846 12.8095 18.2631 13.6075 17.4352L20.3684 10.6482C21.7855 8.94775 22.1994 7.10557 21.916 5.43493C21.7408 4.34229 21.2522 3.32425 20.5735 2.47028C19.8799 1.61258 18.9812 0.918965 17.9632 0.490117C16.4118 -0.173666 14.5659 -0.218416 12.7797 0.698947L12.2502 0.978631C12.0712 1.08305 11.9705 1.16882 11.8661 1.25831C11.702 1.39256 11.5416 1.538 11.2321 1.68716L10.9934 1.82141L10.7585 1.68716ZM3.99761 1.99668C5.0455 1.40748 6.16796 1.27323 7.21584 1.46342C8.35322 1.68716 9.4011 2.29128 10.2439 3.14898C10.9375 3.88734 11.3365 3.53308 11.9108 3.01473C12.6939 2.32111 13.712 1.40748 15.6026 1.40748C16.2217 1.40748 16.8407 1.55291 17.415 1.77293C18.0825 2.04143 18.6717 2.42553 19.0856 2.77979C19.645 3.2795 20.0291 3.88361 20.264 4.55112C20.5027 5.19999 20.6071 5.90852 20.6071 6.64689C20.6071 8.72774 18.8358 10.4096 17.2099 11.9609L15.4833 13.6576C14.0961 15.0747 11.7057 17.5098 11.2769 17.7895L10.9972 17.9797L10.7138 17.7895C10.2588 17.48 6.36187 13.5383 4.31086 11.4724L3.23314 10.3797C2.61038 9.7607 2.15543 9.25727 1.84591 8.63824C1.5364 8.0192 1.37232 7.31067 1.37232 6.30754C1.37232 5.37526 1.62217 4.53621 2.06593 3.81276C2.52461 3.07439 3.1884 2.45536 4.00134 1.99668H3.99761Z"
+                                      fill="black"/>
+                            </svg>
+                        </button>
+                        <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
+                            <img id="main-image-5" class="w-full h-full main-image-1 border-img" src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
+                            <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
+                                <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
+                                    165,000,000 ریال
+                                </div>
+                                <div class="discount h-full text-[12px] flex items-center justify-center w-[30%] bg-[#fb923c] text-[#fff]">
+                                    <span class="text-[12px] text-one-promo text-[#fff]"> تخفیف دار</span>
+                                    <span class="text-[16px] text-two-promo text-[#fff]">25%</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="colors flex mt-[10px] w-full items-center gap-[12px]">
+                            <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
+                                  data-image2="https://media.ecut.shop/product/PJA/PJA1156125/search/single-coat-01.jpg"
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-5', this.dataset.image , this);changeImage('main-image-5-sm', this.dataset.image2 , this)">
+                                     <img class="w-full h-full" src="assets/images/color5.jpg"
+                                          alt="">
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
             </div>
             <div class="left-mobi pb-[2rem] w-full grid grid-cols-2 px-[12px] gap-[1rem] list-product-search min-[901px]:hidden">
                 <div class="product-search relative w-full flex flex-col items-center h-[300px]">
@@ -493,7 +548,39 @@
                         </div>
                     </div>
                 </div>
+                <div class="product-search product-search-s relative w-full flex flex-col items-center h-[300px]">
+                    <div class="box-fix absolute top-0 w-full">
+                        <button class="btn-favorite absolute z-10 left-[10px] top-[10px]">
+                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M10.7585 1.68716C10.4341 1.52308 10.3036 1.40748 10.1544 1.28815L9.85979 1.05321L8.84174 0.534866C7.99896 0.195516 7.15618 0.0351644 6.34696 0.0351644C5.03058 0.0351644 3.80743 0.445367 2.78938 1.13898C1.77133 1.84752 0.943467 2.83946 0.473598 4.00294C0.160352 4.74131 0 5.55426 0 6.41195C0 9.24235 1.72658 10.8981 3.71793 12.785L4.88514 13.9075C6.73106 15.7534 8.57697 17.5844 10.4042 19.4452C10.6429 19.6951 10.7585 19.7995 11.0829 19.7846C11.3962 19.7846 12.8095 18.2631 13.6075 17.4352L20.3684 10.6482C21.7855 8.94775 22.1994 7.10557 21.916 5.43493C21.7408 4.34229 21.2522 3.32425 20.5735 2.47028C19.8799 1.61258 18.9812 0.918965 17.9632 0.490117C16.4118 -0.173666 14.5659 -0.218416 12.7797 0.698947L12.2502 0.978631C12.0712 1.08305 11.9705 1.16882 11.8661 1.25831C11.702 1.39256 11.5416 1.538 11.2321 1.68716L10.9934 1.82141L10.7585 1.68716ZM3.99761 1.99668C5.0455 1.40748 6.16796 1.27323 7.21584 1.46342C8.35322 1.68716 9.4011 2.29128 10.2439 3.14898C10.9375 3.88734 11.3365 3.53308 11.9108 3.01473C12.6939 2.32111 13.712 1.40748 15.6026 1.40748C16.2217 1.40748 16.8407 1.55291 17.415 1.77293C18.0825 2.04143 18.6717 2.42553 19.0856 2.77979C19.645 3.2795 20.0291 3.88361 20.264 4.55112C20.5027 5.19999 20.6071 5.90852 20.6071 6.64689C20.6071 8.72774 18.8358 10.4096 17.2099 11.9609L15.4833 13.6576C14.0961 15.0747 11.7057 17.5098 11.2769 17.7895L10.9972 17.9797L10.7138 17.7895C10.2588 17.48 6.36187 13.5383 4.31086 11.4724L3.23314 10.3797C2.61038 9.7607 2.15543 9.25727 1.84591 8.63824C1.5364 8.0192 1.37232 7.31067 1.37232 6.30754C1.37232 5.37526 1.62217 4.53621 2.06593 3.81276C2.52461 3.07439 3.1884 2.45536 4.00134 1.99668H3.99761Z"
+                                      fill="black"/>
+                            </svg>
+                        </button>
+                        <a href="./singleproduct.php" class="img w-full z0 relative">
+                            <img width="100%" id="main-image-5-mobi" class=" main-image-1 border-img"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
+                            <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
+                                <div class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
+                                    <span class="text-[11px] text-[#000]">تی شرت 1698</span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="w-full flex mt-3 items-center justify-between">
+                            <div class="colors flex  items-center gap-[12px]">
+                            <span data-image="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
+                                  class="color-option w-[17px] h-[17px] flex items-center justify-center"
+                                  onclick="changeImage('main-image-5-mobi', this.dataset.image , this);changeImage('main-image-1-sm', this.dataset.image , this)">
+                                     <img class="w-full h-full" src="assets/images/color5.jpg"
+                                          alt="">
+                            </span>
 
+                            </div>
+                            <strong class="text-[14px]"> 165,000,000 ریال</strong>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

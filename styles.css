@@ -9479,3 +9479,9 @@ li:hover + #overlay {
         }
     }
 }
+
+.product-search-s{
+    .border-img{
+        border: 1px solid var(--base-color-two) !important;
+    }
+}
