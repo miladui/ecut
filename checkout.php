@@ -385,15 +385,15 @@
         </div>
     </div>
 </div>
-<div class="p-modal-address  flex items-start pt-[2rem] justify-center fixed z-[9999] right-0 top-0 h-[100vh] w-full">
+<div class="p-modal-address max-[900px]:overflow-y-auto  flex items-start pt-[2rem] justify-center fixed z-[9999] right-0 top-0 h-[100vh] w-full">
     <div class="bg-dark-fix absolute w-full h-full right-0 top-0 z-[-1px] bg-[#00000099]"></div>
-    <div class="modal-address w-full absolute top-0 z-[10px] h-[100vh] bg-white flex flex-col items-center justify-start">
-        <div class="row-address w-full grid grid-cols-2">
+    <div class="modal-address w-full absolute top-0 z-[10px] max-[900px]:h-auto h-[100vh] bg-white flex flex-col items-center justify-start">
+        <div class="row-address max-[900px]:grid-cols-1 w-full grid grid-cols-2">
             <div class="col-map border-l-[1px] border-[#000] w-full h-[full] flex flex-col items-start">
-                <div class="top h-[10vh] border-b-[1px] border-[#000] w-full flex items-center justify-center">
-                    <span class="w-full text-[14px] text-center text-[#00000090] pt-[12px]">جستجوی مکان مورد نظر روی نقشه</span>
+                <div class="top max-[900px]:h-[50px] h-[10vh] border-b-[1px] border-[#000] w-full flex items-center justify-center">
+                    <span class="w-full text-[14px] text-center max-[900px]:pt-0 text-[#00000090] pt-[12px]">جستجوی مکان مورد نظر روی نقشه</span>
                 </div>
-                <div class="bottom w-full h-[90vh]">
+                <div class="bottom w-full max-[900px]:h-[40vh] h-[90vh]">
                     <iframe class="w-full h-full"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.637503204209!2d51.43061927559551!3d35.759713572562035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e069f765661e5%3A0x171db066b87b3816!2sEcut!5e0!3m2!1sen!2snl!4v1742192840659!5m2!1sen!2snl"
                             style="border:0;" allowfullscreen="" loading="lazy"
@@ -401,16 +401,16 @@
                 </div>
             </div>
             <div class="col-details  w-full h-[full] flex flex-col items-start">
-                <div class="top h-[10vh] border-b-[1px] border-[#000] w-full flex items-center justify-center">
+                <div class="top max-[900px]:h-[50px] h-[10vh] border-b-[1px] border-[#000] w-full flex items-center justify-center">
                     <h3 class="w-full text-[16px] text-center text-[#000]">جزییات آدرس</h3>
                 </div>
-                <div class="bottom flex mt-[10px] flex-col w-full  h-[90vh]">
+                <div class="bottom max-[900px]:h-auto flex mt-[10px] flex-col w-full  h-[90vh]">
                     <div class="invalid-row flex w-full font-bold justify-center text-[15px] text-red-500">نام و مشخصات
                         معتبر خود را وارد کنید
                     </div>
-                    <form class="form overflow-y-auto px-[2rem] min-[2000px]:mt-[5rem] max-[1999px]:pb-[2rem] mt-[2rem] gap-[3rem] w-full flex items-start justify-between"
+                    <form class="form overflow-y-auto px-[2rem] min-[2000px]:mt-[5rem] max-[1999px]:pb-[2rem] mt-[2rem] gap-[3rem] w-full flex max-[900px]:flex-col items-start justify-between"
                           action="">
-                        <div class="start w-1/3">
+                        <div class="start max-[900px]:w-full w-1/3">
                             <div class="inp flex flex-col items-center gap-[5px]">
                                 <label class="text-[16px]" for="">نام و نام خانوادگی <span
                                             class="text-red-500 relative top-[2px]">*</span></label>
@@ -462,7 +462,7 @@
                             </div>
 
                         </div>
-                        <div class="end w-2/3">
+                        <div class="end max-[900px]:w-full max-[900px]:pb-[2rem] w-2/3">
                             <div class="textarea flex w-full flex-col items-center gap-[5px]">
                                 <label class="text-[16px]" for="">نشانی پستی <span
                                             class="text-red-500 relative top-[2px]">*</span></label>

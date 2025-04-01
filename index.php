@@ -807,7 +807,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="copyright">
+                            <div class="copyright min-[900px]:h-[70px]">
                                 <p>کلیه حقوق محصولات و محتوای این وبگاه متعلق به ایکات است</p>
                             </div>
                         </footer>
