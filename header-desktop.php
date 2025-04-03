@@ -13,7 +13,7 @@
 <body class="body">
 <div id="overlay" class="hidden fixed inset-0 z-10 bg-black opacity-50"></div>
 <!--search-modal-->
-<div  class="search-modal">
+<div class="search-modal">
     <div class="p-search-modal w-full px-[1rem] h-full flex flex-col items-center">
         <div class="row-top h-[60px] py-[8px] border-[#7777] border-b-[1px] w-full justify-between flex items-center">
             <div class="buttons h-[80%] w-[5%] max-[600px]:w-[18%] flex items-center justify-center gap-[12px] border-[#7777] border-l-[1px]">
@@ -60,7 +60,8 @@
             <div class="left pb-[1rem] w-[75%] max-[1699px]:grid-cols-4 max-[900px]:hidden grid min-[1700px]:grid-cols-5 gap-[1rem] max-[900px]:gap-[12px] min-[1800px]:gap-[3rem] list-product-search">
                 <div class="product-search relative  flex flex-col items-center h-[400px]">
                     <div class="box-one absolute top-0 w-full">
-                        <img id="main-image-1-sm" class="w-full h-[180px] object-cover" src="https://media.ecut.shop/product/PJA/PJA1156130/search/single-coat-01.jpg">
+                        <img id="main-image-1-sm" class="w-full h-[180px] object-cover"
+                             src="https://media.ecut.shop/product/PJA/PJA1156130/search/single-coat-01.jpg">
                         <div class="w-full gap-[12px] flex items-center mt-[12px] justify-center">
                             <h3 class="en-num text-[14px]">کت تک مدل PSU1153332 </h3>
                             <button class="btn-favorite">
@@ -86,7 +87,8 @@
                             </svg>
                         </button>
                         <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
-                            <img id="main-image-1" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg">
+                            <img id="main-image-1" class="w-full h-full main-image-1"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] text-[#777]  flex items-center justify-center w-full bg-[#ffffff8f] ">
                                     165,000,000 ریال
@@ -135,7 +137,8 @@
                             </svg>
                         </button>
                         <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
-                            <img id="main-image-2" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg">
+                            <img id="main-image-2" class="w-full h-full main-image-1"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
                                     165,000,000 ریال
@@ -189,7 +192,8 @@
                             </svg>
                         </button>
                         <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
-                            <img id="main-image-3" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg">
+                            <img id="main-image-3" class="w-full h-full main-image-1"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
                                     165,000,000 ریال
@@ -242,7 +246,8 @@
                             </svg>
                         </button>
                         <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
-                            <img id="main-image-4" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg">
+                            <img id="main-image-4" class="w-full h-full main-image-1"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
                                     165,000,000 ریال
@@ -296,7 +301,8 @@
                             </svg>
                         </button>
                         <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
-                            <img id="main-image-5" class="w-full h-full main-image-1" src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
+                            <img id="main-image-5" class="w-full h-full main-image-1"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
                                     165,000,000 ریال
@@ -351,7 +357,8 @@
                             </svg>
                         </button>
                         <a href="./singleproduct.php" class="img w-full z0 relative h-[320px]">
-                            <img id="main-image-5" class="w-full h-full main-image-1 border-img" src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
+                            <img id="main-image-5" class="w-full h-full main-image-1 border-img"
+                                 src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg">
                             <div class="absolute h-[37px] w-full flex items-center justify-between right-0 bottom-0">
                                 <div class="price h-full text-[16px] flex items-center justify-center w-[70%] bg-[#ffffff8f] text-[#777]">
                                     165,000,000 ریال
@@ -591,12 +598,26 @@
 <!--subscribe-modal-->
 <div class="p-subscribe-modal">
     <div class="subscribe-modal p-[1rem] flex flex-col items-center">
-        <div class="row-close-subscribe w-full flex justify-end">
-            <i class=" btn-close-subscribe text-red-400 text-[22px] cursor-pointer">
-                <svg  width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
-                </svg>
-            </i>
+        <div class="top border-b-[1px] pb-[8px] border-[#ccc] flex w-full items-center justify-between">
+            <h3 class="title text-[16px] font-bold">خبرنامه</h3>
+            <div class="row-close-subscribe">
+                <i class=" btn-close-subscribe text-red-400 text-[22px] cursor-pointer">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                              fill="#777777"></path>
+                    </svg>
+                </i>
+            </div>
+        </div>
+        <div class="bottom mt-[1rem] px-[14px] w-full flex flex-col items-center">
+            <h3 class="w-[73%] max-[800px]:w-auto pb-[12px] text-[16px] max-[900px]:text-[14px] font-bold border-b-[1px] text-center border-[#000]">
+                ثبت شماره جدید جهت عضویت در خبرنامه</h3>
+            <form class="w-[73%] mt-[1rem] flex flex-col items-center max-[900px]:w-full" action="">
+                <label class="text-[14px]" for="">لطفا شماره تلفن همراه خود را وارد کنید.</label>
+                <input class="border-[1px]  mt-[1rem] border-[#ccc] rounded-[6px]  text-center w-full h-[45px]"
+                       type="text" placeholder="شماره همراه">
+                <button class="w-full mt-[1.5rem] btn-base h-[45px]">ارسال</button>
+            </form>
         </div>
     </div>
 </div>
@@ -607,7 +628,7 @@
         <div class="w-full px-[5%] max-[1400px]:px-[2%]">
             <div class="p-header flex items-center justify-between h-[85px] w-full mx-auto">
                 <ul class="links pt-[20px] h-full w-[40%] p-0 flex items-center">
-                    <li><a  href="./index.php"
+                    <li><a href="./index.php"
                            class="link header-link flex indexPage items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">صفحه
                             اصلی </a>
                     </li>
@@ -615,7 +636,7 @@
                         class="h-full li-mega-menu flex items-center">
                         <div
                                 class="link p-link-underMenu h-[90px] flex items-center text-white text-[12px] max-[1400px]:text-[11px] h-full px-[8px] mx-[4px]">
-                            <a   class="header-link">
+                            <a class="header-link">
                                 <span>محصولات</span>
                             </a>
                             <div class="underMenu-box">
@@ -649,50 +670,63 @@
 
                                         </div>
                                         <div category-slider="casual" class="col-links w-[120px]">
-                                            <a href="./list-product.php" category-slider="product-1" class="title-link   text-black  text-[13px] font-bold">
+                                            <a href="./list-product.php" category-slider="product-1"
+                                               class="title-link   text-black  text-[13px] font-bold">
                                                 <span class="w-[120px] h-[30px]">کالای فصلی</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-2" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-2"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-3" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-3"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-4" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-4"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-5" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-5"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-6" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-6"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
 
                                         </div>
                                         <div category-slider="shoe" class="col-links w-[120px]">
-                                            <a href="./list-product.php" category-slider="product-7" class="title-link   text-black  text-[13px] font-bold">
+                                            <a href="./list-product.php" category-slider="product-7"
+                                               class="title-link   text-black  text-[13px] font-bold">
                                                 <span class="w-[120px] h-[30px]">اکسسوری</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-8" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-8"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-9" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-9"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-10" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-10"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-11" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-11"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
-                                            <a href="./list-product.php" category-slider="product-12" class="text-link text-black  text-[12px]">
+                                            <a href="./list-product.php" category-slider="product-12"
+                                               class="text-link text-black  text-[12px]">
                                                 <span class="w-[100px] h-[30px]">کــــــلاسیک</span>
                                             </a>
 
                                         </div>
                                         <div category-slider="seasonal" class="col-links  h-full w-[120px]">
                                             <div class="accordion accordion--open w-[120px]">
-                                                <h4 category-slider="product-13" class=" flex items-center justify-between title-link  text-black  text-[13px] font-bold">
+                                                <h4 category-slider="product-13"
+                                                    class=" flex items-center justify-between title-link  text-black  text-[13px] font-bold">
                                                     کفش
                                                 </h4>
                                                 <div class="acc-container">
@@ -792,7 +826,8 @@
 
                                         </div>
                                         <div category-slider="sports" class="col-links w-[120px]">
-                                            <a href="./list-product.php" class="title-link   text-black  text-[13px] font-bold">
+                                            <a href="./list-product.php"
+                                               class="title-link   text-black  text-[13px] font-bold">
                                                 <span class="w-[120px] h-[30px]">کــــــژوال</span>
                                             </a>
                                             <a href="./list-product.php" class="text-link text-black  text-[12px]">
@@ -934,18 +969,18 @@
                                                             src="assets/images/head-item/5.jpg" alt="">
                                                 </div>
                                             </div>
-<!--                                            <div class="swiper-pagination-c"></div>-->
+                                            <!--                                            <div class="swiper-pagination-c"></div>-->
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li><a  href="./storeB.php"
+                    <li><a href="./storeB.php"
                            class="link header-link storePage flex  items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]"
                         >فروشگاه </a>
                     </li>
-                    <li><a  href="./organizational.php"
+                    <li><a href="./organizational.php"
                            class="link header-link organizationalPage flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">فروش
                             سازمانی </a></li>
                     <li><a onclick="window.location.replace('contactUs.php')" href="#"
@@ -953,37 +988,47 @@
                             با
                             ما </a>
                     </li>
-                    <li><a  href="./about-us.php"
+                    <li><a href="./about-us.php"
                            class="link header-link aboutUsPage flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">درباره
                             ما </a></li>
                     <li><a href="./list-product-landing.php"
-                           class="link header-link aboutUsPage  flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">تک سایزها
+                           class="link header-link aboutUsPage  flex items-center text-white text-[12px] max-[1400px]:text-[11px] px-[8px] mx-[4px]">تک
+                            سایزها
                         </a></li>
                 </ul>
                 <a href="./index.php" class="logo-header w-[20%] flex justify-center">
-                    <img width="100" id="logoHeader" src="https://ecut.shop/uploads/setting/img-logo-154771900376273.png">
+                    <img width="100" id="logoHeader"
+                         src="https://ecut.shop/uploads/setting/img-logo-154771900376273.png">
                 </a>
                 <div class="end-header h-full pt-[20px] gap-[20px] flex items-center w-[40%] justify-end">
-                    <a  href="./special-products.php"
-                           class="link header-link special-product-link flex items-center text-white text-[12px] px-[8px] mx-[4px]">
-                        <svg class="ml-[6px]" width="15" height="20" viewBox="0 0 83 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a href="./special-products.php"
+                       class="link header-link special-product-link flex items-center text-white text-[12px] px-[8px] mx-[4px]">
+                        <svg class="ml-[6px]" width="15" height="20" viewBox="0 0 83 110" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
                             <g id="Layer_x0020_1">
-                                <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M35.3499 0.541538C31.1686 1.4931 28.4389 4.01439 27.338 7.79633C25.1223 14.2663 26.6434 20.948 29.9565 26.7373C23.0108 33.9157 18.826 46.4631 23.24 55.8815C10.5294 60.9171 1.96882 73.4263 0.249754 86.8003C-1.53529 99.8061 6.37239 110.357 19.9929 109.679C32.068 108.71 42.6325 101.532 51.2312 93.4543C55.482 89.2799 59.4202 84.7374 62.8757 79.8858C65.72 74.3292 60.3718 70.7765 55.2702 76.5241C48.3071 84.3658 42.2088 92.8291 31.9083 96.6527C16.7701 101.244 9.73759 89.332 15.2212 76.4407C17.9544 70.016 21.3161 66.491 27.1539 63.8933C27.9596 63.5356 28.1333 64.4594 28.8626 65.4283C32.3702 70.0785 36.8328 73.0686 42.5977 73.9924C49.8247 75.4753 56.6628 68.0851 54.1832 61.1984C51.2972 52.3148 38.847 49.1719 30.7761 52.2836C29.519 47.0569 31.9639 40.2467 35.5548 36.3501C45.9976 52.5579 67.5988 47.6994 77.9062 33.9608C80.7505 30.5539 82.6397 26.706 82.9627 22.2121C83.2648 18.0065 81.7333 14.5927 78.316 12.1166C67.0327 4.44502 49.3906 10.6093 39.5625 18.3573C36.9231 13.0264 40.5869 7.04619 44.9002 5.18127C43.9417 2.08348 40.2987 0.354004 37.0967 0.354004C36.4925 0.354004 35.9021 0.416515 35.3499 0.541538ZM41.278 30.863C47.807 24.9036 57.0031 19.736 65.9943 22.2781C69.8284 23.254 71.6447 27.5638 68.856 31.0054C65.1088 35.6312 59.6008 37.9094 54.3568 37.9094C49.0017 37.9094 43.9209 35.534 41.278 30.863ZM34.6102 60.1461C38.5067 59.8579 42.5665 59.3474 45.8518 61.7124C47.2444 62.7785 47.3625 65.0394 45.3968 65.529C44.9627 65.6367 44.5217 65.6888 44.0702 65.6888C40.5522 65.6888 36.7321 62.5841 34.6102 60.1461Z" fill="#fb923c"/>
+                                <path id="Vector" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M35.3499 0.541538C31.1686 1.4931 28.4389 4.01439 27.338 7.79633C25.1223 14.2663 26.6434 20.948 29.9565 26.7373C23.0108 33.9157 18.826 46.4631 23.24 55.8815C10.5294 60.9171 1.96882 73.4263 0.249754 86.8003C-1.53529 99.8061 6.37239 110.357 19.9929 109.679C32.068 108.71 42.6325 101.532 51.2312 93.4543C55.482 89.2799 59.4202 84.7374 62.8757 79.8858C65.72 74.3292 60.3718 70.7765 55.2702 76.5241C48.3071 84.3658 42.2088 92.8291 31.9083 96.6527C16.7701 101.244 9.73759 89.332 15.2212 76.4407C17.9544 70.016 21.3161 66.491 27.1539 63.8933C27.9596 63.5356 28.1333 64.4594 28.8626 65.4283C32.3702 70.0785 36.8328 73.0686 42.5977 73.9924C49.8247 75.4753 56.6628 68.0851 54.1832 61.1984C51.2972 52.3148 38.847 49.1719 30.7761 52.2836C29.519 47.0569 31.9639 40.2467 35.5548 36.3501C45.9976 52.5579 67.5988 47.6994 77.9062 33.9608C80.7505 30.5539 82.6397 26.706 82.9627 22.2121C83.2648 18.0065 81.7333 14.5927 78.316 12.1166C67.0327 4.44502 49.3906 10.6093 39.5625 18.3573C36.9231 13.0264 40.5869 7.04619 44.9002 5.18127C43.9417 2.08348 40.2987 0.354004 37.0967 0.354004C36.4925 0.354004 35.9021 0.416515 35.3499 0.541538ZM41.278 30.863C47.807 24.9036 57.0031 19.736 65.9943 22.2781C69.8284 23.254 71.6447 27.5638 68.856 31.0054C65.1088 35.6312 59.6008 37.9094 54.3568 37.9094C49.0017 37.9094 43.9209 35.534 41.278 30.863ZM34.6102 60.1461C38.5067 59.8579 42.5665 59.3474 45.8518 61.7124C47.2444 62.7785 47.3625 65.0394 45.3968 65.529C44.9627 65.6367 44.5217 65.6888 44.0702 65.6888C40.5522 65.6888 36.7321 62.5841 34.6102 60.1461Z"
+                                      fill="#fb923c"/>
                             </g>
                         </svg>
-                            اکسکلوسیو
-                        </a>
+                        اکسکلوسیو
+                    </a>
                     <button class="btn-search">
                         <i class="fa fa-search text-white"></i>
                     </button>
-                    <div  class="link-auth relative flex items-center openMenuProfile h-full">
+                    <div class="link-auth relative flex items-center openMenuProfile h-full">
                         <a href="#" class="text-[12px] text-profile text-white">پروفایل</a>
                         <ul class="menu-profile  p-[10px] w-[180px] absolute right-0 top-[64px] h-auto bg-white">
-                            <li class="h-[30px] w-full flex items-center justify-start border-b-[1px] border-[#d4d4d4]"><a class="text-[14px] text-base-color" href="">جزییات حساب</a></li>
-                            <li class="h-[30px] w-full flex items-center justify-start"><a class="text-[14px] text-base-color" href="">سفارشات آنلاین</a></li>
-                            <li class="h-[30px] w-full flex items-center justify-start"><a class="text-[14px] text-base-color" href="">علاقه مندی ها</a></li>
-                            <li class="h-[30px] w-full flex items-center justify-start border-b-[1px] border-[#d4d4d4]"><a class="text-[14px] text-base-color" href="">رفتن به پنل ادمین</a></li>
-                            <li class="h-[30px] w-full flex items-center justify-start"><a class="text-[14px] text-base-color" href="">خروح سریع</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start border-b-[1px] border-[#d4d4d4]">
+                                <a class="text-[14px] text-base-color" href="">جزییات حساب</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start"><a
+                                        class="text-[14px] text-base-color" href="">سفارشات آنلاین</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start"><a
+                                        class="text-[14px] text-base-color" href="">علاقه مندی ها</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start border-b-[1px] border-[#d4d4d4]">
+                                <a class="text-[14px] text-base-color" href="">رفتن به پنل ادمین</a></li>
+                            <li class="h-[30px] w-full flex items-center justify-start"><a
+                                        class="text-[14px] text-base-color" href="">خروح سریع</a></li>
                         </ul>
                     </div>
                     <a href="#" class="link-auth flex items-center openModal">
@@ -993,13 +1038,16 @@
                     </a>
 
                     <div class="cart basket-button  relative">
-                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="28" height="33" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="28" height="33"
+                             version="1.1"
+                             style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
                              viewBox="0 0 121 166.36"
                              xmlns:xlink="http://www.w3.org/1999/xlink"
                              xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
                             <g id="Layer_x0020_1">
                                 <metadata id="CorelCorpID_0Corel-Layer"/>
-                                <path id="cart.svg" class="fil0" d="M96.34 59.86c-0.93,18.33 -15.38,32.89 -33.08,32.89 -17.69,0 -32.15,-14.56 -33.07,-32.89l6.5 0c0.43,7.13 3.35,13.53 7.84,18.25 4.8,5.03 11.43,8.14 18.73,8.14 7.31,0 13.93,-3.11 18.73,-8.14 4.49,-4.72 7.41,-11.12 7.84,-18.25l6.51 0zm-90.43 -20.01l3.72 0 -0.27 -0.56 -9.81 -25.65 33.31 -12.89 12.61 32.99 53.55 -25.37 15.03 31.48 6.5 0 0 127.26 -114.64 0 0 -127.26zm11.66 0l21.99 0 -0.05 -0.3 -11.17 -29.01 -19.13 7.36 8.36 21.95 0 0zm32.57 0l55.44 0 -10.21 -21.44 -45.23 21.44zm63.92 6.49l-101.66 0 0 114.28 101.66 0 0 -114.28z"/>
+                                <path id="cart.svg" class="fil0"
+                                      d="M96.34 59.86c-0.93,18.33 -15.38,32.89 -33.08,32.89 -17.69,0 -32.15,-14.56 -33.07,-32.89l6.5 0c0.43,7.13 3.35,13.53 7.84,18.25 4.8,5.03 11.43,8.14 18.73,8.14 7.31,0 13.93,-3.11 18.73,-8.14 4.49,-4.72 7.41,-11.12 7.84,-18.25l6.51 0zm-90.43 -20.01l3.72 0 -0.27 -0.56 -9.81 -25.65 33.31 -12.89 12.61 32.99 53.55 -25.37 15.03 31.48 6.5 0 0 127.26 -114.64 0 0 -127.26zm11.66 0l21.99 0 -0.05 -0.3 -11.17 -29.01 -19.13 7.36 8.36 21.95 0 0zm32.57 0l55.44 0 -10.21 -21.44 -45.23 21.44zm63.92 6.49l-101.66 0 0 114.28 101.66 0 0 -114.28z"/>
                             </g>
 </svg>
                         <span class="count absolute cart bottom-[0px] bg-base-color-two w-[17px] pt-[4px] text-[11px] left-[-4px] text-white h-[17px] rounded-[50%] flex items-center justify-center">0</span>
@@ -1018,7 +1066,8 @@
             <h6 class="text-[15px] text-[#646464] font-bold"> پیش نمایش سبد خرید </h6>
             <button class="close-modal-ecut">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z" fill="#777777"></path>
+                    <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
+                          fill="#777777"></path>
                 </svg>
             </button>
         </div>
@@ -1026,7 +1075,8 @@
             <div class="items-basket p-[1rem] flex flex-col overflow-y-auto items-center h-[90%]">
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
                     <div class="img rounded-[8px] overflow-hidden w-[30%] relative">
-                        <img class="w-full" src="https://media.ecut.shop/product/XJA/XJA1156095/cover/single-coat-01.jpg" alt="">
+                        <img class="w-full"
+                             src="https://media.ecut.shop/product/XJA/XJA1156095/cover/single-coat-01.jpg" alt="">
                         <button class="absolute right-[6px] top-[6px] w-[32px] h-[32px] flex items-center justify-center bg-white rounded-[50%]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0000"
                                  class="bi bi-trash" viewBox="0 0 16 16">
@@ -1053,7 +1103,8 @@
                 </div>
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
                     <div class="img rounded-[8px] overflow-hidden w-[30%] relative">
-                        <img class="w-full" src="https://media.ecut.shop/product/XSH/XSH1153997/cover/shoes-01.jpg" alt="">
+                        <img class="w-full" src="https://media.ecut.shop/product/XSH/XSH1153997/cover/shoes-01.jpg"
+                             alt="">
                         <button class="absolute right-[6px] top-[6px] w-[32px] h-[32px] flex items-center justify-center bg-white rounded-[50%]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0000"
                                  class="bi bi-trash" viewBox="0 0 16 16">
@@ -1080,7 +1131,8 @@
                 </div>
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
                     <div class="img rounded-[8px] overflow-hidden w-[30%] relative">
-                        <img class="w-full" src="https://media.ecut.shop/product/XJA/XJA1156103/cover/single-coat-01.jpg" alt="">
+                        <img class="w-full"
+                             src="https://media.ecut.shop/product/XJA/XJA1156103/cover/single-coat-01.jpg" alt="">
                         <button class="absolute right-[6px] top-[6px] w-[32px] h-[32px] flex items-center justify-center bg-white rounded-[50%]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0000"
                                  class="bi bi-trash" viewBox="0 0 16 16">
@@ -1107,7 +1159,8 @@
                 </div>
                 <div class="item-basket py-3 border-b-[1px] border-[#cccccc99] gap-[12px] flex items-center justify-start w-full">
                     <div class="img rounded-[8px] overflow-hidden w-[30%] relative">
-                        <img class="w-full" src="https://media.ecut.shop/product/PMT/PMT1157073/cover/rain_clothes_01.jpg" alt="">
+                        <img class="w-full"
+                             src="https://media.ecut.shop/product/PMT/PMT1157073/cover/rain_clothes_01.jpg" alt="">
                         <button class="absolute right-[6px] top-[6px] w-[32px] h-[32px] flex items-center justify-center bg-white rounded-[50%]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ff0000"
                                  class="bi bi-trash" viewBox="0 0 16 16">
@@ -1170,7 +1223,7 @@
         </div>
         <div class="w-full mt-3 px-[1rem] grid grid-cols-2 gap-[10px]">
             <button class="btn-base w-full">سبد خرید</button>
-            <a  href="./checkout.php"  class="btn-base flex items-center justify-center w-full">تسویه حساب</a>
+            <a href="./checkout.php" class="btn-base flex items-center justify-center w-full">تسویه حساب</a>
         </div>
     </div>
 </div>
