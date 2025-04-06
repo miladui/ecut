@@ -9486,3 +9486,9 @@ li:hover + #overlay {
         border: 1px solid var(--base-color-two) !important;
     }
 }
+
+.s-cart{
+    .box-route-active{
+        border-radius: 0 0 8px 8px;
+    }
+}
