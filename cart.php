@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<section class="s-cart mt-[3rem]">
+<section class="s-cart mt-[3rem] max-[900px]:mx-[12px]">
     <div class="c-container">
         <div class="p-cart flex flex-col items-center w-full">
             <a class="logo" href="">
@@ -20,7 +20,7 @@
 
             </a>
             <div class="bg-base-color box-route-active h-[110px] mt-[1rem] w-full flex items-center justify-center">
-                <div class="pages w-[57%] pb-[1rem] flex items-start justify-center">
+                <div class="pages w-[57%] max-[900px]:w-[95%] pb-[1rem] flex items-start justify-center">
                     <div class="page-active ml-[5px] flex flex-col relative items-center">
                         <div class="circle w-[22px] h-[22px] rounded-[50%] bg-base-color-two flex items-center justify-center p-[4px]">
                             <div class="circle-two rounded-[50%] bg-white w-[9px] h-[9px]"></div>
@@ -44,9 +44,9 @@
                 </div>
 
             </div>
-            <div class="main-cart mt-[2rem] w-full flex items-start justify-between">
-                <div class="products-cart w-[56%] flex items-start justify-between">
-                    <div class="product-cart w-[29%] flex flex-col items-center">
+            <div class="main-cart mt-[2rem] w-full flex items-start justify-between max-[900px]:flex-col">
+                <div class="products-cart w-[56%] flex items-start justify-between max-[900px]:w-full max-[900px]:flex-col">
+                    <div class="product-cart w-[29%] max-[900px]:w-full flex flex-col items-center">
                         <div class="p-img rounded-[4px] overflow-hidden w-full relative">
                             <img class="w-full" src="assets/images/2.jpg" alt="">
                             <div class="close-product absolute left-[1px] top-[1px]">
@@ -91,7 +91,7 @@
                             تنها 2 عدد در انبار باقی مانده است
                         </span>
                     </div>
-                    <div class="product-cart w-[29%] flex flex-col items-center">
+                    <div class="product-cart w-[29%] max-[900px]:w-full max-[900px]:mt-[1rem] flex flex-col items-center">
                         <div class="p-img rounded-[4px] overflow-hidden w-full relative">
                             <img class="w-full" src="assets/images/new-imges/Shirt-01.jpg" alt="">
                             <div class="close-product absolute left-[1px] top-[1px]">
@@ -136,7 +136,7 @@
                             تنها 2 عدد در انبار باقی مانده است
                         </span>
                     </div>
-                    <div class="product-cart w-[29%] flex flex-col items-center">
+                    <div class="product-cart w-[29%] max-[900px]:w-full max-[900px]:mt-[1rem] flex flex-col items-center">
                         <div class="p-img rounded-[4px] overflow-hidden w-full relative">
                             <img class="w-full" src="assets/images/new-imges/single-coat-01.jpg" alt="">
                             <div class="close-product absolute left-[1px] top-[1px]">
@@ -180,7 +180,7 @@
                     </div>
 
                 </div>
-                <div class="detail-cart w-[40%] bg-[#F2F2F2] rounded-[8px] h-auto overflow-hidden flex flex-col items-center">
+                <div class="detail-cart max-[900px]:w-full w-[40%] max-[900px]:mt-[1rem] bg-[#F2F2F2] rounded-[8px] h-auto overflow-hidden flex flex-col items-center">
                     <div class="title w-full h-[50px] flex items-center justify-center bg-[#777777]">
                         <span class="font-bold text-white text-[16px]">مجموع سبد خرید شما</span>
                     </div>
