@@ -331,8 +331,9 @@
 
 <div class="p-modal-checkout-one ecut-cart flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
     <div class="bg-dark-fix absolute w-full h-full right-0 top-0 z-[-1px] bg-[#00000099]"></div>
-    <div class="modal-one w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
-        <div class="row-close-modal flex items-center justify-end w-full">
+    <div class="modal-one w-[45%] relative z-[10px] h-[70vh] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
+        <div class="row-close-modal flex border-b-[1px] border-[#ccc] py-[10px] items-center justify-between w-full">
+            <h1 class="font-bold">ایکات کارت</h1>
             <button class="close-modal-one">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
@@ -340,13 +341,56 @@
                 </svg>
             </button>
         </div>
-        <h1>ایکات کارت</h1>
+        <div class="w-full flex flex-col items-center">
+            <div class="top mt-[1rem] w-full flex items-end justify-between">
+                <div class="inp flex flex-col items-start gap-[7px] w-[26%]">
+                    <label class="text-[14px]" for="">بارکد کارت :</label>
+                    <input class="rounded-[3px] w-full h-[40px] text-center border-[1px] border-[#ccc]" type="text">
+                </div>
+                <div class="inp flex flex-col items-start gap-[7px] w-[26%]">
+                    <label class="text-[14px]" for="">رمز کارت :</label>
+                    <input class="rounded-[3px] w-full h-[40px] text-center border-[1px] border-[#ccc]" type="text">
+                </div>
+                <div class="inp flex flex-col items-start gap-[7px] w-[26%]">
+                    <label class="text-[14px]" for="">استعلام :</label>
+                    <div class="rounded-[3px] w-full overflow-hidden h-[40px] text-center border-[1px] border-[#ccc] flex items-center">
+                        <div class="count rounded-[4px] w-[15%] flex flex-col">
+                            <button class="increase border-b-[1px] border-[#ccc] w-full h-[20px] bg-base-color text-white flex items-center justify-center text-[14px]">
+                                +
+                            </button>
+                            <button class="decrease w-full h-[20px] bg-base-color text-white flex items-center justify-center text-[14px]">
+                                -
+                            </button>
+                        </div>
+                        <div class="view-price w-[85%] flex items-center justify-center h-full">
+                            <strong class="text-[14px] strong">20000000</strong>
+                            <small class="text-[13px] mr-2">تومان</small>
+                        </div>
+                    </div>
+                </div>
+                <button style="height: 40px !important;" class="btn-base add-row-ecutCart text-[14px] w-[15%]">اضافه
+                    کردن
+                </button>
+            </div>
+            <div class="bottom mt-[1rem] w-full flex flex-col items-center">
+                <div class="title rounded-[4px] overflow-hidden bg-base-color h-[50px] w-full flex items-center">
+                    <span class="w-[14%] border-l-[1px] border-white h-full flex items-center justify-center text-white text-[14px]">ردیف</span>
+                    <span class="w-[28%] border-l-[1px] border-white h-full flex items-center justify-center text-white text-[14px]">بارکد کارت</span>
+                    <span class="w-[28%] border-l-[1px] border-white h-full flex items-center justify-center text-white text-[14px]">مبلغ</span>
+                    <span class="w-[28%]  h-full flex items-center justify-center text-white text-[14px]">زمان ثبت کارت</span>
+                </div>
+                <div class="detail w-full rounded-[4px] overflow-y-auto border-[1px] border-[#ccc] max-[1700px]:h-[280px] h-[400px] mt-[8px]">
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="p-modal-checkout-two Validity flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
     <div class="bg-dark-fix absolute w-full h-full right-0 top-0 z-[-1px] bg-[#00000099]"></div>
     <div class="modal-two w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
-        <div class="row-close-modal flex items-center justify-end w-full">
+        <div class="row-close-modal flex border-b-[1px] border-[#ccc] py-[10px] items-center justify-between w-full">
+            <h1 class="font-bold">اعتبار</h1>
             <button class="close-modal-two">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
@@ -354,7 +398,7 @@
                 </svg>
             </button>
         </div>
-        <h1>اعتبار</h1>
+
     </div>
 </div>
 <div class="p-modal-checkout-three wallet flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
@@ -491,6 +535,7 @@
 <?php include 'script-header.php'; ?>
 
 <script>
+
     function toggleSwitch(element) {
         element.classList.toggle('active');
         const isActive = element.classList.contains('active');
@@ -600,7 +645,7 @@
         $('.invalid-row').hide();
 
         $('.btn-submit-form').click(function () {
-            let emptyInputs = $('.form input').filter(function() {
+            let emptyInputs = $('.form input').filter(function () {
                 return $(this).val().trim() === '';
             });
 
@@ -611,4 +656,60 @@
             }
         });
     });
+
+
+    const addButton = document.querySelector('.add-row-ecutCart');
+    const detailSection = document.querySelector('.detail');
+
+    function createDetailCard() {
+        const existingCards = detailSection.getElementsByClassName('detail-card').length;
+
+        const card = document.createElement('div');
+        card.className = 'detail-card h-[45px] bg-[#f2f2f2] border-b-[1px] border-[#ccc] w-full flex items-center';
+
+        const barcodeInput = document.querySelector('.inp:first-child input');
+        const amountSection = document.querySelector('.view-price strong');
+
+        card.innerHTML = `
+        <span class="w-[14%]  h-full flex items-center border-l-[1px] border-[#ccc] justify-center text-[#000] text-[16px]">${existingCards + 1}</span>
+        <span class="w-[28%]  h-full flex items-center border-l-[1px] border-[#ccc] justify-center text-[#333] text-[14px]">${barcodeInput.value || '456879632517878'}</span>
+        <div class="w-[28%]  h-full flex items-center border-l-[1px] border-[#ccc] justify-center text-[#333] text-[14px]">
+            <strong class="text-[16px]">13,000,000</strong>
+            <small class="mr-[8px] text-[14px]">تومان</small>
+        </div>
+        <span class="w-[28%]  h-full flex items-center  justify-center text-[#333] text-[14px]">20 / 01 / 1404</span>
+    `;
+
+        return card;
+    }
+
+    addButton.addEventListener('click', function () {
+        const newCard = createDetailCard();
+        detailSection.appendChild(newCard);
+    });
+
+    let priceI = 20000000
+    let priceStrong = document.querySelector('.strong')
+    let increasePrice = document.querySelector('.increase')
+    let decreasePrice = document.querySelector('.decrease')
+    function updateDisplay() {
+        priceStrong.innerHTML = priceI.toLocaleString('fa-IR')
+    }
+
+    increasePrice.addEventListener('click' , function (){
+        if (priceI >= 20000000) {
+            return;
+        }
+        priceI = priceI + 1000000
+        updateDisplay()
+    })
+    decreasePrice.addEventListener('click' , function (){
+        if (priceI <= 1000000) {
+            return;
+        }
+        priceI = priceI - 1000000
+        updateDisplay()
+    })
+    priceStrong.innerHTML = priceI
+
 </script>

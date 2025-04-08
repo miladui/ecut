@@ -107,6 +107,7 @@
 </svg>
                             </div>
                             <div class="box-options border-[1px] border-[#ccc] flex flex-col items-start gap-[8px] w-full p-[8px] rounded-[10px] absolute bottom-[30px] right-0 bg-white z-[10]">
+                                <div class="option cursor-pointer text-[14px]">حالت پیشفرض</div>
                                 <div class="option cursor-pointer text-[14px]">قیمت از زیاد به کم</div>
                                 <div class="option cursor-pointer text-[14px]">قیمت از کم به زیاد</div>
                                 <div class="option cursor-pointer text-[14px]">پرفروش ترین ها</div>
