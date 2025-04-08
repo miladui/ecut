@@ -1219,7 +1219,6 @@
                             </div>
                         </div>
                         <!--mobile-->
-
                         <div class="pagination">
                             <ul>
                                 <li><span class="prev-pg"><a href="#">صفحه  قبل </a></span></li>
