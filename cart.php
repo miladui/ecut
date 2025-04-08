@@ -6,7 +6,7 @@
 <section class="s-cart mt-[3rem] max-[900px]:mx-[12px]">
     <div class="c-container">
         <div class="p-cart flex flex-col items-center w-full">
-            <a class="logo" href="">
+            <a class="logo" href="./index.php">
                 <svg width="150" height="60" viewBox="0 0 194 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M37.8077 40.1366V30.0704H9.99893V10.0405H37.0954V0H0V70.207H37.0954V60.1665H9.99893V40.1366H37.8077Z"
                           fill="#F97316"/>
@@ -23,21 +23,21 @@
                 <div class="pages w-[57%] max-[900px]:w-[95%] pb-[1rem] flex items-start justify-center">
                     <div class="page-active ml-[5px] flex flex-col relative items-center">
                         <div class="circle w-[22px] h-[22px] rounded-[50%] bg-base-color-two flex items-center justify-center p-[4px]">
-                            <div class="circle-two rounded-[50%] bg-white w-[9px] h-[9px]"></div>
+                            <div class="circle-two rounded-[50%] bg-white w-[10px] h-[10px]"></div>
                         </div>
                         <span class="text-white text-[13px] font-bold  absolute w-[100px] text-center top-[30px]">سبد خرید</span>
                     </div>
                     <div class="border-active w-[35%] border-t-[1px] border-white relative top-[11px]"></div>
                     <div class="page-deActive mx-[5px] relative flex flex-col justify-center items-center">
                         <div class="circle w-[22px] h-[22px] rounded-[50%] border-[1px] border-[#fb923c] flex items-center justify-center p-[4px]">
-                            <div class="circle-two rounded-[50%] bg-white w-[9px] h-[9px]"></div>
+                            <div class="circle-two relative rounded-[50%]   bg-white w-[10px] h-[10px]"></div>
                         </div>
                         <span class="text-white  text-[13px] absolute w-[170px] text-center top-[30px]">نشانی و نحوه ارسال</span>
                     </div>
                     <div class="border-active w-[35%] border-t-[1px] border-white relative top-[11px]"></div>
                     <div class="page-deActive mr-[5px] relative flex flex-col justify-center items-center">
                         <div class="circle w-[22px] h-[22px] rounded-[50%] border-[1px] border-[#fb923c] flex items-center justify-center p-[4px]">
-                            <div class="circle-two rounded-[50%] bg-white w-[9px] h-[9px]"></div>
+                            <div class="circle-two rounded-[50%] bg-white w-[10px] h-[10px]"></div>
                         </div>
                         <span class="text-white  text-[13px] absolute w-[100px] text-center top-[30px]">پرداخت</span>
                     </div>
@@ -178,7 +178,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="detail-cart max-[900px]:w-full w-[40%] max-[900px]:mt-[1rem] bg-[#F2F2F2] rounded-[8px] h-auto overflow-hidden flex flex-col items-center">
                     <div class="title w-full h-[50px] flex items-center justify-center bg-[#777777]">

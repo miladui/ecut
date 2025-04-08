@@ -568,7 +568,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="w-full flex items-center justify-center mt-[1rem] gap-[12px]">

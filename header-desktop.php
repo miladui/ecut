@@ -1222,7 +1222,7 @@
             </div>
         </div>
         <div class="w-full mt-3 px-[1rem] grid grid-cols-2 gap-[10px]">
-            <button class="btn-base w-full">سبد خرید</button>
+            <a href="./cart.php" class="btn-base flex items-center justify-center w-full">سبد خرید</a>
             <a href="./checkout.php" class="btn-base flex items-center justify-center w-full">تسویه حساب</a>
         </div>
     </div>

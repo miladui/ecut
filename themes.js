@@ -1,4 +1,3 @@
-
 $('[data-megamenu]:not([data-megamenu=""])').each(function () {
     let navLink = this;
     let target = $(navLink).attr('data-megamenu');
@@ -122,8 +121,6 @@ $(document).ready(function () {
         $('.search-modal').fadeOut()
     })
 })
-
-
 
 
 $(document).ready(function () {
@@ -568,4 +565,14 @@ $(document).ready(function () {
         $('.p-box-login').fadeOut()
         $('.p-box-login').removeClass('active-login')
     })
+})
+
+
+$(document).ready(function () {
+    let colorS = $('.thumbnail-product-mobi .colors span')
+    if (colorS.length > 2) {
+        $('.color-more').removeClass('hide')
+    } else if (colorS.length < 2) {
+        $('.color-more').addClass('hide')
+    }
 })
