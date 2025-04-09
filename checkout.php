@@ -329,9 +329,9 @@
     </div>
 </section>
 
-<div class="p-modal-checkout-one ecut-cart flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
+<div style="z-index: 9999;" class="p-modal-checkout-one ecut-cart flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
     <div class="bg-dark-fix absolute w-full h-full right-0 top-0 z-[-1px] bg-[#00000099]"></div>
-    <div class="modal-one w-[45%] relative z-[10px] h-[70vh] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
+    <div class="modal-one w-[45%] max-[900px]:w-[98%] max-[900px]:h-[95vh] relative z-[10px] h-[80vh] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
         <div class="row-close-modal flex border-b-[1px] border-[#ccc] py-[10px] items-center justify-between w-full">
             <h1 class="font-bold">ایکات کارت</h1>
             <button class="close-modal-one">
@@ -343,15 +343,15 @@
         </div>
         <div class="w-full flex flex-col items-center">
             <div class="top mt-[1rem] w-full flex items-end justify-between">
-                <div class="inp flex flex-col items-start gap-[7px] w-[26%]">
+                <div class="inp flex flex-col items-start gap-[7px] w-[23%]">
                     <label class="text-[14px]" for="">بارکد کارت :</label>
                     <input class="rounded-[3px] w-full h-[40px] text-center border-[1px] border-[#ccc]" type="text">
                 </div>
-                <div class="inp flex flex-col items-start gap-[7px] w-[26%]">
+                <div class="inp flex flex-col items-start gap-[7px] w-[23%]">
                     <label class="text-[14px]" for="">رمز کارت :</label>
                     <input class="rounded-[3px] w-full h-[40px] text-center border-[1px] border-[#ccc]" type="text">
                 </div>
-                <div class="inp flex flex-col items-start gap-[7px] w-[26%]">
+                <div class="inp flex flex-col items-start gap-[7px] w-[31%]">
                     <label class="text-[14px]" for="">استعلام :</label>
                     <div class="rounded-[3px] w-full overflow-hidden h-[40px] text-center border-[1px] border-[#ccc] flex items-center">
                         <div class="count rounded-[4px] w-[15%] flex flex-col">
@@ -368,8 +368,11 @@
                         </div>
                     </div>
                 </div>
-                <button style="height: 40px !important;" class="btn-base add-row-ecutCart text-[14px] w-[15%]">اضافه
+                <button style="height: 40px !important;" class="btn-base max-[900px]:hidden add-row-ecutCart text-[14px] w-[15%]">اضافه
                     کردن
+                </button>
+                <button style="height: 40px !important;" class="btn-base min-[901px]:hidden add-row-ecutCart text-[14px] w-[15%]">اضافه
+
                 </button>
             </div>
             <div class="bottom mt-[1rem] w-full flex flex-col items-center">
@@ -379,16 +382,24 @@
                     <span class="w-[28%] border-l-[1px] border-white h-full flex items-center justify-center text-white text-[14px]">مبلغ</span>
                     <span class="w-[28%]  h-full flex items-center justify-center text-white text-[14px]">زمان ثبت کارت</span>
                 </div>
-                <div class="detail w-full rounded-[4px] overflow-y-auto border-[1px] border-[#ccc] max-[1700px]:h-[280px] h-[400px] mt-[8px]">
+                <div class="detail w-full rounded-[4px] overflow-y-auto border-[1px] border-[#ccc] max-[1700px]:h-[240px] h-[330px] mt-[8px]">
 
                 </div>
             </div>
+            <div class="w-full rounded-[8px] mt-[12px] bg-[#ccc] h-[40px] px-[1rem] flex justify-between items-center">
+                <span class="text-[14px] font-bold">مبلغ کل اعمال شده :</span>
+                <div class="price flex  items-center gap-[4px]">
+                    <strong>200,000,000</strong>
+                    <span>تومان</span>
+                </div>
+            </div>
+            <button style="height: 40px !important;" class="btn-base-two w-[100px] mt-[12px] h-[45px]">ثبت</button>
         </div>
     </div>
 </div>
-<div class="p-modal-checkout-two Validity flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
+<div style="z-index: 9999;"  class="p-modal-checkout-two Validity flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
     <div class="bg-dark-fix absolute w-full h-full right-0 top-0 z-[-1px] bg-[#00000099]"></div>
-    <div class="modal-two w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
+    <div class="modal-two w-[30%] max-[900px]:w-[95%] relative z-[10px] h-auto rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
         <div class="row-close-modal flex border-b-[1px] border-[#ccc] py-[10px] items-center justify-between w-full">
             <h1 class="font-bold">اعتبار</h1>
             <button class="close-modal-two">
@@ -398,13 +409,43 @@
                 </svg>
             </button>
         </div>
+        <div class="w-full mt-[1rem] flex items-center justify-start">
+            <span class="text-[14px] relative top-[1px]">اعتبار شما :</span>
+            <div class="flex mr-[5px] items-center text-[14px] gap-[4px]">
+                <strong class="text-[14px] text-base">10,000,000</strong>
+                <span class="text-[14px] text-base">تومان</span>
+            </div>
+        </div>
+        <div class="w-full border-[1px] py-[2rem] bg-[#f2f2f2] border-[#ccc] rounded-[8px] mt-[1rem] flex items-center gap-[1rem] justify-center">
+            <h3 class="text-[15px]">مبلغ :</h3>
+            <div class="inp flex  items-center gap-[7px] w-1/2">
+                <div class="count   flex flex-col">
+                    <button class="increase border-b-[1px] border-[#ccc]  h-[22px] w-[22px] bg-base-color text-white flex items-center justify-center text-[14px]">
+                        +
+                    </button>
+                    <button class="decrease  h-[22px] w-[22px] bg-base-color text-white flex items-center justify-center text-[14px]">
+                        -
+                    </button>
+                </div>
+                <div class="rounded-[3px] w-full overflow-hidden h-[45px] text-center border-[1px] border-[#ccc] flex items-center">
+                    <div class="view-price w-[100%] flex items-center justify-center h-full">
+                        <strong class="text-[14px] strong">20000000</strong>
+                        <small class="text-[13px] mr-2">تومان</small>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-base">اعمال</button>
+
+        </div>
+        <button class="btn-base-two w-[100px] mt-[1rem] h-[45px]">ثبت</button>
 
     </div>
 </div>
-<div class="p-modal-checkout-three wallet flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
+<div style="z-index: 9999;"  class="p-modal-checkout-three wallet flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
     <div class="bg-dark-fix absolute w-full h-full right-0 top-0 z-[-1px] bg-[#00000099]"></div>
-    <div class="modal-three w-[30%] relative z-[10px] h-[500px] rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
-        <div class="row-close-modal flex items-center justify-end w-full">
+    <div class="modal-three w-[30%] max-[900px]:w-[95%] relative z-[10px] h-auto rounded-[10px] bg-white p-[1rem] flex flex-col items-center justify-start">
+        <div class="row-close-modal flex items-center justify-between border-b-[1px] border-[#ccc] py-[10px] w-full">
+            <h1>کیف پول</h1>
             <button class="close-modal-three">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M15.9986 0H13.2986H4.69831H1.9983C0.896949 0 0 0.896949 0 2.00136V4.70136V13.3993V16.0017C0 17.1031 0.896949 18 2.00136 18H4.69831H13.3993H15.9986C17.1031 18 18 17.1031 18 15.9986V13.3017V4.70136V2.00136C18 0.896949 17.1031 0 15.9986 0ZM12.6 14.0003L9 10.4003L5.4 14.0003L3.99966 12.6L7.59966 9L3.99966 5.4L5.4 3.99966L9 7.59966L12.6 3.99966L14.0003 5.4L10.4003 9L14.0003 12.6L12.6 14.0003Z"
@@ -412,7 +453,35 @@
                 </svg>
             </button>
         </div>
-        <h1>کیف پول</h1>
+        <div class="w-full mt-[1rem] flex items-center justify-start">
+            <span class="text-[14px] relative top-[1px]">اعتبار کیف پول شما :</span>
+            <div class="flex mr-[5px] items-center text-[14px] gap-[4px]">
+                <strong class="text-[14px] text-base">10,000,000</strong>
+                <span class="text-[14px] text-base">تومان</span>
+            </div>
+        </div>
+        <div class="w-full border-[1px] py-[2rem] bg-[#f2f2f2] border-[#ccc] rounded-[8px] mt-[1rem] flex items-center gap-[1rem] justify-center">
+            <h3 class="text-[15px]">مبلغ :</h3>
+            <div class="inp flex  items-center gap-[7px] w-1/2">
+                <div class="count   flex flex-col">
+                    <button class="increase border-b-[1px] border-[#ccc]  h-[22px] w-[22px] bg-base-color text-white flex items-center justify-center text-[14px]">
+                        +
+                    </button>
+                    <button class="decrease  h-[22px] w-[22px] bg-base-color text-white flex items-center justify-center text-[14px]">
+                        -
+                    </button>
+                </div>
+                <div class="rounded-[3px] w-full overflow-hidden h-[45px] text-center border-[1px] border-[#ccc] flex items-center">
+                    <div class="view-price w-[100%] flex items-center justify-center h-full">
+                        <strong class="text-[14px] strong">20000000</strong>
+                        <small class="text-[13px] mr-2">تومان</small>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-base">اعمال</button>
+
+        </div>
+        <button class="btn-base-two w-[100px] mt-[1rem] h-[45px]">ثبت</button>
     </div>
 </div>
 <div class="p-modal-checkout-four discount flex items-center justify-center fixed right-0 top-0 h-[100vh] w-full">
