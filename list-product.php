@@ -355,6 +355,204 @@
                          style="width: calc(100% - 0px); transition: width 0.3s;">
                         <div class="w-full list-product-items mb-[2rem] grid gap-[1rem] max-[800px]:grid-cols-2 max-[900px]:hidden max-[900px]:grid-cols-2 grid-cols-3">
                             <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
+                                <!--p1-->
+                                <div class="w-full tab-content flex flex-col items-center justify-center relative tab-p1">
+                                    <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                       href="./singleproduct.php">
+                                        <img id="img-five" class="w-full h-full img-main fade object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-01.jpg"
+                                             alt="">
+                                        <img class="w-full h-full img-hover object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156125/cover/single-coat-02.jpg"
+                                             alt="">
+                                    </a>
+                                    <div class="w-full flex mt-[1rem] items-center justify-between">
+                                        <span class="text-[14px]  text">تی شرت 1698</span>
+                                        <strong class="text-[14px] price">1,385,300 تومان</strong>
+                                    </div>
+                                </div>
+                                <!--p2-->
+                                <div style="display: none"
+                                     class="w-full tab-content flex flex-col items-center justify-center relative tab-p2">
+                                    <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                       href="./singleproduct.php">
+                                        <img id="img-five" class="w-full h-full img-main fade object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
+                                             alt="">
+                                        <img class="w-full h-full img-hover object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
+                                             alt="">
+                                    </a>
+                                    <div class="w-full flex mt-[1rem] items-center justify-between">
+                                        <span class="text-[14px]  text">تی شرت2 1698</span>
+                                        <strong class="text-[14px] price">1,285,300 تومان</strong>
+                                    </div>
+                                </div>
+                                <!--p3-->
+                                <div style="display: none"
+                                     class="w-full tab-content flex flex-col items-center justify-center relative tab-p3">
+                                    <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                       href="./singleproduct.php">
+                                        <img id="img-five" class="w-full h-full img-main fade object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-01.jpg"
+                                             alt="">
+                                        <img class="w-full h-full img-hover object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156129/cover/single-coat-02.jpg"
+                                             alt="">
+                                    </a>
+                                    <div class="w-full flex mt-[1rem] items-center justify-between">
+                                        <span class="text-[14px]  text">تی شرت3 1698</span>
+                                        <strong class="text-[14px] price">1,585,300 تومان</strong>
+                                    </div>
+                                </div>
+                                <!--p4-->
+                                <div style="display: none"
+                                     class="w-full tab-content flex flex-col items-center justify-center relative tab-p4">
+                                    <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                       href="./singleproduct.php">
+                                        <img id="img-five" class="w-full h-full img-main fade object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-01.jpg"
+                                             alt="">
+                                        <img class="w-full h-full img-hover object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
+                                             alt="">
+                                    </a>
+                                    <div class="w-full flex mt-[1rem] items-center justify-between">
+                                        <span class="text-[14px]  text">تی شرت4 1698</span>
+                                        <strong class="text-[14px] price">1,985,300 تومان</strong>
+                                    </div>
+                                </div>
+                                <!--p5-->
+                                <div style="display: none"
+                                     class="w-full tab-content flex flex-col items-center justify-center relative tab-p5">
+                                    <a class="w-full p-img h-[90vh] max-[800px]:h-[395px] relative"
+                                       href="./singleproduct.php">
+                                        <img id="img-five" class="w-full h-full img-main fade object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-01.jpg"
+                                             alt="">
+                                        <img class="w-full h-full img-hover object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156127/cover/single-coat-02.jpg"
+                                             alt="">
+                                    </a>
+                                    <div class="w-full flex mt-[1rem] items-center justify-between">
+                                        <span class="text-[14px]  text">تی شرت5 1698</span>
+                                        <strong class="text-[14px] price">2,385,300 تومان</strong>
+                                    </div>
+                                </div>
+
+                                <div class="row-tools-product mt-[8px] w-full flex items-center justify-between">
+                                    <div class="colors tab-buttons flex items-center gap-[6px]">
+                                        <span onclick="showTab('tab-p1');" class="color-option w-[17px] h-[17px]">
+                                                <img class="w-full h-full" src="assets/images/color5.jpg" alt="">
+                                            </span>
+                                        <span onclick="showTab('tab-p2');" class="color-option w-[17px] h-[17px]">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
+                                        <span onclick="showTab('tab-p3');" class="color-option w-[17px] h-[17px]">
+                                                        <img class="w-full h-full" src="assets/images/color2.jpg"
+                                                             alt="">
+                                                    </span>
+                                        <span onclick="showTab('tab-p4');" class="color-option w-[17px] h-[17px]">
+                                                 <img class="w-full h-full" src="assets/images/color3.jpg" alt="">
+                                             </span>
+                                        <span onclick="showTab('tab-p5');" class="color-option w-[17px] h-[17px]">
+                                                <img class="w-full h-full" src="assets/images/color4.jpg" alt="">
+                                            </span>
+                                    </div>
+
+
+                                    <div class="flex items-center gap-[1rem]">
+                                        <div class="discount py-[1px]  bg-base-color-two w-[70px] flex justify-center">
+                                            <span class="text text-white text-[12px]">تخفیف دار</span>
+                                            <span class="number text-white text-[12px]">25%</span>
+                                        </div>
+                                        <div class="tab-content tab-p1">
+                                            <div class="favorite cursor-pointer">
+                                                <svg fill="#000000" height="23" width="23" version="1.1" id="Layer_1"
+                                                     xmlns="http://www.w3.org/2000/svg"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                     viewBox="0 0 455 455" xml:space="preserve">
+<path d="M326.632,10.346c-38.733,0-74.991,17.537-99.132,46.92c-24.141-29.384-60.398-46.92-99.132-46.92
+	C57.586,10.346,0,67.931,0,138.714c0,55.426,33.05,119.535,98.23,190.546c50.161,54.647,104.728,96.959,120.257,108.626l9.01,6.769
+	l9.01-6.768c15.529-11.667,70.098-53.978,120.26-108.625C421.949,258.251,455,194.141,455,138.714
+	C455,67.931,397.414,10.346,326.632,10.346z M334.666,308.974c-41.259,44.948-85.648,81.283-107.169,98.029
+	c-21.52-16.746-65.907-53.082-107.166-98.03C61.236,244.592,30,185.717,30,138.714c0-54.24,44.128-98.368,98.368-98.368
+	c35.694,0,68.652,19.454,86.013,50.771l13.119,23.666l13.119-23.666c17.36-31.316,50.318-50.771,86.013-50.771
+	c54.24,0,98.368,44.127,98.368,98.368C425,185.719,393.763,244.594,334.666,308.974z"/>
+</svg>
+                                            </div>
+                                        </div>
+                                        <div style="display: none" class="tab-content tab-p2">
+                                            <div class="favorite cursor-pointer">
+                                                <svg fill="#000000" height="23" width="23" version="1.1" id="Layer_1"
+                                                     xmlns="http://www.w3.org/2000/svg"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                     viewBox="0 0 455 455" xml:space="preserve">
+<path d="M326.632,10.346c-38.733,0-74.991,17.537-99.132,46.92c-24.141-29.384-60.398-46.92-99.132-46.92
+	C57.586,10.346,0,67.931,0,138.714c0,55.426,33.05,119.535,98.23,190.546c50.161,54.647,104.728,96.959,120.257,108.626l9.01,6.769
+	l9.01-6.768c15.529-11.667,70.098-53.978,120.26-108.625C421.949,258.251,455,194.141,455,138.714
+	C455,67.931,397.414,10.346,326.632,10.346z M334.666,308.974c-41.259,44.948-85.648,81.283-107.169,98.029
+	c-21.52-16.746-65.907-53.082-107.166-98.03C61.236,244.592,30,185.717,30,138.714c0-54.24,44.128-98.368,98.368-98.368
+	c35.694,0,68.652,19.454,86.013,50.771l13.119,23.666l13.119-23.666c17.36-31.316,50.318-50.771,86.013-50.771
+	c54.24,0,98.368,44.127,98.368,98.368C425,185.719,393.763,244.594,334.666,308.974z"/>
+</svg>
+                                            </div>
+                                        </div>
+                                        <div style="display: none" class="tab-content tab-p3">
+                                            <div class="favorite cursor-pointer">
+                                                <svg fill="#000000" height="23" width="23" version="1.1" id="Layer_1"
+                                                     xmlns="http://www.w3.org/2000/svg"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                     viewBox="0 0 455 455" xml:space="preserve">
+<path d="M326.632,10.346c-38.733,0-74.991,17.537-99.132,46.92c-24.141-29.384-60.398-46.92-99.132-46.92
+	C57.586,10.346,0,67.931,0,138.714c0,55.426,33.05,119.535,98.23,190.546c50.161,54.647,104.728,96.959,120.257,108.626l9.01,6.769
+	l9.01-6.768c15.529-11.667,70.098-53.978,120.26-108.625C421.949,258.251,455,194.141,455,138.714
+	C455,67.931,397.414,10.346,326.632,10.346z M334.666,308.974c-41.259,44.948-85.648,81.283-107.169,98.029
+	c-21.52-16.746-65.907-53.082-107.166-98.03C61.236,244.592,30,185.717,30,138.714c0-54.24,44.128-98.368,98.368-98.368
+	c35.694,0,68.652,19.454,86.013,50.771l13.119,23.666l13.119-23.666c17.36-31.316,50.318-50.771,86.013-50.771
+	c54.24,0,98.368,44.127,98.368,98.368C425,185.719,393.763,244.594,334.666,308.974z"/>
+</svg>
+                                            </div>
+                                        </div>
+                                        <div style="display: none" class="tab-content tab-p4">
+                                            <div class="favorite cursor-pointer">
+                                                <svg fill="#000000" height="23" width="23" version="1.1" id="Layer_1"
+                                                     xmlns="http://www.w3.org/2000/svg"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                     viewBox="0 0 455 455" xml:space="preserve">
+<path d="M326.632,10.346c-38.733,0-74.991,17.537-99.132,46.92c-24.141-29.384-60.398-46.92-99.132-46.92
+	C57.586,10.346,0,67.931,0,138.714c0,55.426,33.05,119.535,98.23,190.546c50.161,54.647,104.728,96.959,120.257,108.626l9.01,6.769
+	l9.01-6.768c15.529-11.667,70.098-53.978,120.26-108.625C421.949,258.251,455,194.141,455,138.714
+	C455,67.931,397.414,10.346,326.632,10.346z M334.666,308.974c-41.259,44.948-85.648,81.283-107.169,98.029
+	c-21.52-16.746-65.907-53.082-107.166-98.03C61.236,244.592,30,185.717,30,138.714c0-54.24,44.128-98.368,98.368-98.368
+	c35.694,0,68.652,19.454,86.013,50.771l13.119,23.666l13.119-23.666c17.36-31.316,50.318-50.771,86.013-50.771
+	c54.24,0,98.368,44.127,98.368,98.368C425,185.719,393.763,244.594,334.666,308.974z"/>
+</svg>
+                                            </div>
+                                        </div>
+                                        <div style="display: none" class="tab-content tab-p5">
+                                            <div class="favorite cursor-pointer">
+                                                <svg fill="#000000" height="23" width="23" version="1.1" id="Layer_1"
+                                                     xmlns="http://www.w3.org/2000/svg"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                     viewBox="0 0 455 455" xml:space="preserve">
+<path d="M326.632,10.346c-38.733,0-74.991,17.537-99.132,46.92c-24.141-29.384-60.398-46.92-99.132-46.92
+	C57.586,10.346,0,67.931,0,138.714c0,55.426,33.05,119.535,98.23,190.546c50.161,54.647,104.728,96.959,120.257,108.626l9.01,6.769
+	l9.01-6.768c15.529-11.667,70.098-53.978,120.26-108.625C421.949,258.251,455,194.141,455,138.714
+	C455,67.931,397.414,10.346,326.632,10.346z M334.666,308.974c-41.259,44.948-85.648,81.283-107.169,98.029
+	c-21.52-16.746-65.907-53.082-107.166-98.03C61.236,244.592,30,185.717,30,138.714c0-54.24,44.128-98.368,98.368-98.368
+	c35.694,0,68.652,19.454,86.013,50.771l13.119,23.666l13.119-23.666c17.36-31.316,50.318-50.771,86.013-50.771
+	c54.24,0,98.368,44.127,98.368,98.368C425,185.719,393.763,244.594,334.666,308.974z"/>
+</svg>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="thumbnail-product relative w-full flex flex-col items-center justify-center">
                                 <a class="w-full p-img h-[90vh]  relative" href="./singleproduct.php">
                                     <img id="img-one" class="w-full h-full img-main fade object-cover"
                                          src="https://media.ecut.shop/product/XSU/XSU1156218/cover/suit-01.jpg"
@@ -862,9 +1060,95 @@
 
                                 </div>
                             </div>
+
                         </div>
                         <!--mobile-->
                         <div class="w-full list-product-items mb-[2rem] grid gap-[1rem] max-[800px]:grid-cols-2 min-[901px]:hidden max-[900px]:grid-cols-2 grid-cols-3">
+                            <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
+                                <div class="tab-content tab-p1 w-full relative w-full flex flex-col items-center justify-center">
+                                    <a class="w-full p-img h-[32vh] overflow-hidden  relative" href="./singleproduct.php">
+                                        <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
+                                            <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 viewBox="0 0 455 455" xml:space="preserve">
+<path d="M326.632,10.346c-38.733,0-74.991,17.537-99.132,46.92c-24.141-29.384-60.398-46.92-99.132-46.92
+	C57.586,10.346,0,67.931,0,138.714c0,55.426,33.05,119.535,98.23,190.546c50.161,54.647,104.728,96.959,120.257,108.626l9.01,6.769
+	l9.01-6.768c15.529-11.667,70.098-53.978,120.26-108.625C421.949,258.251,455,194.141,455,138.714
+	C455,67.931,397.414,10.346,326.632,10.346z M334.666,308.974c-41.259,44.948-85.648,81.283-107.169,98.029
+	c-21.52-16.746-65.907-53.082-107.166-98.03C61.236,244.592,30,185.717,30,138.714c0-54.24,44.128-98.368,98.368-98.368
+	c35.694,0,68.652,19.454,86.013,50.771l13.119,23.666l13.119-23.666c17.36-31.316,50.318-50.771,86.013-50.771
+	c54.24,0,98.368,44.127,98.368,98.368C425,185.719,393.763,244.594,334.666,308.974z"/>
+</svg>
+                                        </div>
+                                        <div class="discount absolute">
+                                            <h6 class="text-[#fff]">25%</h6>
+                                        </div>
+                                        <img id="img-t2" class="w-full h-full img-main fade object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-01.jpg"
+                                             alt="">
+                                        <img id="img-t2-hover" class="w-full h-full img-hover object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
+                                             alt="">
+
+                                        <span class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
+                                     <span class="text-[12px] text-white">تی شرت 1698</span>
+                                    </span>
+                                    </a>
+                                </div>
+                                <div style="display: none" class="tab-content tab-p2 w-full relative w-full flex flex-col items-center justify-center">
+                                    <a class="w-full p-img h-[32vh] overflow-hidden  relative" href="./singleproduct.php">
+                                        <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
+                                            <svg fill="#000000" height="20" width="20" version="1.1" id="Layer_1"
+                                                 xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 viewBox="0 0 455 455" xml:space="preserve">
+<path d="M326.632,10.346c-38.733,0-74.991,17.537-99.132,46.92c-24.141-29.384-60.398-46.92-99.132-46.92
+	C57.586,10.346,0,67.931,0,138.714c0,55.426,33.05,119.535,98.23,190.546c50.161,54.647,104.728,96.959,120.257,108.626l9.01,6.769
+	l9.01-6.768c15.529-11.667,70.098-53.978,120.26-108.625C421.949,258.251,455,194.141,455,138.714
+	C455,67.931,397.414,10.346,326.632,10.346z M334.666,308.974c-41.259,44.948-85.648,81.283-107.169,98.029
+	c-21.52-16.746-65.907-53.082-107.166-98.03C61.236,244.592,30,185.717,30,138.714c0-54.24,44.128-98.368,98.368-98.368
+	c35.694,0,68.652,19.454,86.013,50.771l13.119,23.666l13.119-23.666c17.36-31.316,50.318-50.771,86.013-50.771
+	c54.24,0,98.368,44.127,98.368,98.368C425,185.719,393.763,244.594,334.666,308.974z"/>
+</svg>
+                                        </div>
+                                        <div class="discount absolute">
+                                            <h6 class="text-[#fff]">25%</h6>
+                                        </div>
+                                        <img id="img-t2" class="w-full h-full img-main fade object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156128/cover/single-coat-02.jpg"
+                                             alt="">
+                                        <img id="img-t2-hover" class="w-full h-full img-hover object-cover"
+                                             src="https://media.ecut.shop/product/PJA/PJA1156130/cover/single-coat-02.jpg"
+                                             alt="">
+
+                                        <span class="title-mobi absolute bottom-0 right-0 w-full h-[30px]  text-[#000] bg-[#cccccc90] flex items-center justify-center">
+                                     <span class="text-[12px] text-white">تی شرت 1698</span>
+                                    </span>
+                                    </a>
+                                </div>
+                                <div class="row-tools-product-list mt-[8px] w-full flex items-center justify-between">
+                                    <div class="colors flex items-center tab-buttons justify-center gap-[6px]">
+                                        <span onclick="showTab('tab-p1');" class="color-option w-[17px] h-[17px]">
+                                                <img class="w-full h-full" src="assets/images/color5.jpg" alt="">
+                                            </span>
+                                        <span onclick="showTab('tab-p2');" class="color-option w-[17px] h-[17px]">
+                                                <img class="w-full h-full" src="assets/images/Fabric%20color.jpg"
+                                                     alt="">
+                                            </span>
+                                        <span class="color-option w-[17px] border-[1px] border-[#646464] text-[8px] text-[#646464] flex items-center justify-center h-[17px]"
+                                              onclick="changeImage('img-t2', this.dataset.image ,this) ; changeImage('img-t2-hover', this.dataset.image2 ,this)">
+                                              3+
+                                             </span>
+                                    </div>
+                                    <div class="tab-content tab-p1">
+                                        <strong class="text-[12px] price">1,385,300 تومان</strong>
+                                    </div>
+                                    <div style="display: none" class="tab-content tab-p2">
+                                        <strong class="text-[12px] price">1,685,300 تومان</strong>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="thumbnail-product thumbnail-product-mobi relative w-full flex flex-col items-center justify-center">
                                 <a class="w-full p-img h-[32vh] overflow-hidden  relative" href="./singleproduct.php">
                                     <div class="favorite absolute z-10 left-[8px] top-[8px] cursor-pointer">
@@ -1211,9 +1495,9 @@
                                                 <img class="w-full h-full" src="assets/images/color4.jpg" alt="">
                                             </span>
                                         <div class="color-more w-[17px] border-[1px] border-[#646464] text-[8px] text-[#646464] flex items-center justify-center h-[17px]"
-                                              onclick="changeImage('img-t2', this.dataset.image ,this) ; changeImage('img-t2-hover', this.dataset.image2 ,this)">
-                                              3+
-                                             </div>
+                                             onclick="changeImage('img-t2', this.dataset.image ,this) ; changeImage('img-t2-hover', this.dataset.image2 ,this)">
+                                            3+
+                                        </div>
                                     </div>
                                     <strong class="text-[12px] price">1,385,300 تومان</strong>
                                 </div>
@@ -1440,5 +1724,16 @@
             });
         }
     }
+
     updateMoreButtonVisibility();
+
+
+    function showTab(tabId) {
+        $('.row-main-product .list-products .thumbnail-product .tab-content').hide();
+        $('.' + tabId).show();
+
+        $('.row-main-product .list-products .thumbnail-product .colors span').removeClass('active-color-thumbnail');
+        $(event.target).addClass('active-color-thumbnail');
+    }
+
 </script>

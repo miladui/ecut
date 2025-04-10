@@ -9495,3 +9495,8 @@ li:hover + #overlay {
 .hide{
     display: none !important;
 }
+
+.active-color-thumbnail{
+    border: 1px solid var(--base-color) !important;
+    padding: 2px !important;
+}
